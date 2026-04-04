@@ -1,0 +1,1 @@
+Jangan pake yang bdf+ karena file EEG yang SUL corrupted labelnya.

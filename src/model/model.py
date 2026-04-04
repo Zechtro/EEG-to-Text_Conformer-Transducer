@@ -17,13 +17,16 @@ from joiner import JointNetwork
 class ConformerTransducer(nn.Module):
     def __init__(self, config):
         super().__init__()
+        encoder_dropout = config.get('encoder_dropout', 0.1)
+        decoder_dropout = config.get('decoder_dropout', 0.1)
+        
         self.encoder = Conformer(
             input_dim=config['input_dim'], d_model=config['encoder_dim'],
-            num_heads=4, num_layers=8, conv_kernel_size=31, dropout=0.1
+            num_heads=4, num_layers=8, conv_kernel_size=31, dropout=encoder_dropout
         )
         self.decoder = LSTMDecoder(
             vocab_size=config['vocab_size'], embedding_dim=256,
-            hidden_dim=config['decoder_dim'], num_layers=1, dropout=0.1
+            hidden_dim=config['decoder_dim'], num_layers=1, dropout=decoder_dropout
         )
         self.joiner = JointNetwork(
             vocab_size=config['vocab_size'], encoder_dim=config['encoder_dim'],

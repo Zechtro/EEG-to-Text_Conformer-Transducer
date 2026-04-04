@@ -1,0 +1,25 @@
+id,subject,gender,sentence,prediction,cer
+14_DAM,DAM,male,silakan beri tahu saya nama lengkap anda,silakan beri tahu saya nama lengkap anda,0.0
+40_DAM,DAM,male,ada banyak hal yang ingin kami bicarakan,kamu terlihat luar biasa,0.75
+14_RAN,RAN,male,boleh saya minta tolong,kita bisa melakukannya besok,0.9565217391304348
+40_RAN,RAN,male,dulu kami sering mengobrol,saya tidak berpikir demikian,0.8461538461538461
+84_MAR,MAR,male,jam berapa perpustakaan tutup,selamat sore nona ada yang bisa dibantu,1.0689655172413792
+54_MAR,MAR,male,tolong kabari saya kapan saja,saya tidak berpikir demikian,0.896551724137931
+84_NAU,NAU,male,kita bisa melakukannya besok,kita bisa melakukannya besok,0.0
+54_NAU,NAU,male,selamat sore nona ada yang bisa dibantu,selamat sore nona ada yang bisa dibantu,0.0
+84_FAR,FAR,female,bagaimana perkembangan bisnis anda,selamat sore nona ada yang bisa dibantu,0.7941176470588235
+54_FAR,FAR,female,mengapa kamu marah,kita bisa melakukannya besok,1.2777777777777777
+84_EVE,EVE,female,jam berapa perpustakaan tutup,saya tidak berpikir demikian,0.7931034482758621
+54_EVE,EVE,female,tolong kabari saya kapan saja,kita bisa melakukannya besok,0.8620689655172413
+34_KEN,KEN,female,saya setuju dengan semua kebijakannya,kita bisa melakukannya besok,0.7837837837837838
+4_KEN,KEN,female,kamu terlihat luar biasa,kamu terlihat luar biasa,0.0
+84_RET,RET,female,saya akan datang agak telat nanti,saya tidak berpikir demikian,0.696969696969697
+54_RET,RET,female,saya tidak berpikir demikian,saya tidak berpikir demikian,0.0
+14_ERI,ERI,male,penjelasan anda tidak meyakinkan bagi saya,selamat sore nona ada yang bisa dibantu,0.7380952380952381
+40_ERI,ERI,male,apakah ada restoran jepang di sekitar sini,selamat sore nona ada yang bisa dibantu,0.7142857142857143
+84_BEL,BEL,female,maaf telah mengganggu anda,kita bisa melakukannya besok,0.8076923076923077
+54_BEL,BEL,female,dia membuat kesabaran saya habis,saya tidak berpikir demikian,0.8125
+84_LIA,LIA,female,sudah lama tidak bertemu,saya tidak berpikir demikian,0.7916666666666666
+54_LIA,LIA,female,sudah berapa lama anda seperti ini,kita bisa melakukannya besok,0.7058823529411765
+84_SUL,SUL,male,maaf telah mengganggu anda,selamat sore nona ada yang bisa dibantu,1.0769230769230769
+54_SUL,SUL,male,dia membuat kesabaran saya habis,kita bisa melakukannya besok,0.65625

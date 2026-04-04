@@ -1,0 +1,13 @@
+id,subject,gender,sentence,prediction,cer
+14_DAM,DAM,male,silakan beri tahu saya nama lengkap anda,l  esdk ,0.85
+14_RAN,RAN,male,boleh saya minta tolong,l  es,0.8695652173913043
+84_MAR,MAR,male,jam berapa perpustakaan tutup,l  esd,0.8620689655172413
+84_NAU,NAU,male,kita bisa melakukannya besok,l  es,0.8571428571428571
+84_FAR,FAR,female,bagaimana perkembangan bisnis anda,l  esd,0.8823529411764706
+84_EVE,EVE,female,jam berapa perpustakaan tutup,r u ,0.8620689655172413
+34_KEN,KEN,female,saya setuju dengan semua kebijakannya,l  es,0.8918918918918919
+84_RET,RET,female,saya akan datang agak telat nanti,r u ,0.9393939393939394
+14_ERI,ERI,male,penjelasan anda tidak meyakinkan bagi saya,l  esd,0.8809523809523809
+84_BEL,BEL,female,maaf telah mengganggu anda,l  es,0.8846153846153846
+84_LIA,LIA,female,sudah lama tidak bertemu,r u ,0.9166666666666666
+84_SUL,SUL,male,maaf telah mengganggu anda,l  esd,0.8461538461538461

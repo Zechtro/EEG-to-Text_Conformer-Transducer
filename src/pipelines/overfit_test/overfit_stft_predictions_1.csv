@@ -1,0 +1,13 @@
+id,subject,gender,sentence,prediction,cer
+14_DAM,DAM,male,silakan beri tahu saya nama lengkap anda,silakan beri tahu saya nama lengkap anda,0.0
+14_RAN,RAN,male,boleh saya minta tolong,boleh saya minta tolong,0.0
+84_MAR,MAR,male,jam berapa perpustakaan tutup,jam berapa perpustakaan tutup,0.0
+84_NAU,NAU,male,kita bisa melakukannya besok,kita bisa melakukannya besok,0.0
+84_FAR,FAR,female,bagaimana perkembangan bisnis anda,bagaimana perkembangan bisnis anda,0.0
+84_EVE,EVE,female,jam berapa perpustakaan tutup,jam berapa perpustakaan tutup,0.0
+34_KEN,KEN,female,saya setuju dengan semua kebijakannya,saya setuju dengan semua kebijakannya,0.0
+84_RET,RET,female,saya akan datang agak telat nanti,saya akan datang agak telat nanti,0.0
+14_ERI,ERI,male,penjelasan anda tidak meyakinkan bagi saya,penjelasan anda tidak meyakinkan bagi saya,0.0
+84_BEL,BEL,female,maaf telah mengganggu anda,maaf telah mengganggu anda,0.0
+84_LIA,LIA,female,sudah lama tidak bertemu,sudah lama tidak bertemu,0.0
+84_SUL,SUL,male,maaf telah mengganggu anda,maaf telah mengganggu anda,0.0

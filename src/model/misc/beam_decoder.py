@@ -55,4 +55,4 @@ class BeamDecoder:
         best_ids, _ = beams[0]
         # Remove blanks and shift back for IndoGPT
         final_ids = [i - 1 for i in best_ids if i > 0]
-        return self.tokenizer.decode(final_ids)
+        return self.tokenizer.int_to_text(final_ids)

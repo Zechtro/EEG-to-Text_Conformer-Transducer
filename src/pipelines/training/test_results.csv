@@ -1,0 +1,206 @@
+id,subject,gender,target_sentence,predicted_sentence,cer
+2_DAM,DAM,male,anda benar benar kakek yang murah hati,saya tidak bi,0.8108108108108109
+14_DAM,DAM,male,silakan beri tahu saya nama lengkap anda,saya tida,0.825
+21_DAM,DAM,male,selamat sore ada yang bisa saya bantu,saya tid,0.8378378378378378
+22_DAM,DAM,male,apakah anda sudah makan siang,saya tid,0.8275862068965517
+35_DAM,DAM,male,dia bukan orang yang penting,saya t,0.8214285714285714
+44_DAM,DAM,male,sekarang waktunya tidur,saya ti,0.6956521739130435
+49_DAM,DAM,male,kita semua pernah melakukan kesalahan itulah hidup,saya tida,0.86
+50_DAM,DAM,male,pekerjaan tidak selesai tepat waktu,saya ti,0.8571428571428571
+1_RAN,RAN,male,saya harap anda bisa mengerti,saya t,0.7931034482758621
+3_RAN,RAN,male,saya punya nomornya di sini,saya t,0.8148148148148148
+4_RAN,RAN,male,mengapa kamu marah,saya t,0.8333333333333334
+5_RAN,RAN,male,berapa suhu tubuhmu kemarin,saya t,0.8518518518518519
+9_RAN,RAN,male,wajahmu terlihat sangat pucat,saya ti,0.8275862068965517
+22_RAN,RAN,male,apa pekerjaan anda,saya ,0.8333333333333334
+31_RAN,RAN,male,kami akan segera menyelesaikan masalahnya,saya tid,0.8780487804878049
+38_RAN,RAN,male,apakah sepeda itu milikmu,saya ,0.88
+39_RAN,RAN,male,kamu baik sekali,saya t,0.8125
+42_RAN,RAN,male,kami berkenalan melalui internet,saya t,0.875
+50_RAN,RAN,male,halo apa kabar,saya ,0.7857142857142857
+3_MAR,MAR,male,bagaimana kabarmu belakangan ini,saya t,0.90625
+6_MAR,MAR,male,aku merindukanmu kawan,saya ti,0.9090909090909091
+7_MAR,MAR,male,jangan percaya padanya dia seorang penipu,saya ti,0.8780487804878049
+22_MAR,MAR,male,tersesat butuh bantuan,saya ,0.8636363636363636
+31_MAR,MAR,male,steak anda tidak begitu segar,saya ,0.8620689655172413
+35_MAR,MAR,male,dia hanya mencintai uangnya,saya t,0.8148148148148148
+50_MAR,MAR,male,anda boleh pergi,saya t,0.875
+52_MAR,MAR,male,apakah anda membutuhkan bantuan,saya ,0.9032258064516129
+61_MAR,MAR,male,saya tidak sengaja menumpahkan tinta,saya ,0.8611111111111112
+62_MAR,MAR,male,selamat datang di kantor kami,saya t,0.8275862068965517
+67_MAR,MAR,male,mari kita bicara,saya,0.875
+70_MAR,MAR,male,dia benar benar menyalahkan saya,saya ,0.8709677419354839
+75_MAR,MAR,male,terima kasih telah menghubungi kami mohon tunggu sebentar,saya ti,0.9122807017543859
+88_MAR,MAR,male,ini terlalu sulit baginya,saya,0.84
+89_MAR,MAR,male,akan segera saya telepon,saya,0.8333333333333334
+90_MAR,MAR,male,saya bukan orang yang seperti itu,saya ,0.8484848484848485
+91_MAR,MAR,male,sepertinya kamu sedang flu,saya ,0.8461538461538461
+92_MAR,MAR,male,berharap bisa bertemu kembali,saya ,0.896551724137931
+2_NAU,NAU,male,maaf saya terlambat,saya t,0.6842105263157895
+6_NAU,NAU,male,dia adalah pahlawan di kota ini,saya t,0.8709677419354839
+13_NAU,NAU,male,apa yang kita makan untuk makan siang,saya t,0.8648648648648649
+15_NAU,NAU,male,sebaiknya kita sarapan sekarang,saya ,0.8387096774193549
+18_NAU,NAU,male,sayur sayurannya sangat segar,saya t,0.7857142857142857
+36_NAU,NAU,male,dia membuatku merinding,saya ,0.8695652173913043
+42_NAU,NAU,male,kami berjanji untuk bertemu di perpustakaan,saya ti,0.8837209302325582
+44_NAU,NAU,male,sepertinya saya tidak setuju dengan pendapat anda,saya ti,0.8571428571428571
+52_NAU,NAU,male,anda benar benar kakek yang murah hati,saya ti,0.8378378378378378
+64_NAU,NAU,male,silakan beri tahu saya nama lengkap anda,saya t,0.875
+71_NAU,NAU,male,selamat sore ada yang bisa saya bantu,saya ,0.8648648648648649
+72_NAU,NAU,male,apakah anda sudah makan siang,saya t,0.8620689655172413
+85_NAU,NAU,male,dia bukan orang yang penting,saya ,0.8571428571428571
+94_NAU,NAU,male,sekarang waktunya tidur,saya ,0.782608695652174
+99_NAU,NAU,male,kita semua pernah melakukan kesalahan itulah hidup,saya ti,0.88
+100_NAU,NAU,male,pekerjaan tidak selesai tepat waktu,saya t,0.8571428571428571
+2_FAR,FAR,female,anda benar benar kakek yang murah hati,saya ti,0.8378378378378378
+14_FAR,FAR,female,silakan beri tahu saya nama lengkap anda,saya ti,0.875
+21_FAR,FAR,female,selamat sore ada yang bisa saya bantu,saya t,0.8378378378378378
+22_FAR,FAR,female,apakah anda sudah makan siang,saya t,0.8620689655172413
+35_FAR,FAR,female,dia bukan orang yang penting,saya t,0.8214285714285714
+44_FAR,FAR,female,sekarang waktunya tidur,saya ,0.782608695652174
+49_FAR,FAR,female,kita semua pernah melakukan kesalahan itulah hidup,saya ti,0.88
+50_FAR,FAR,female,pekerjaan tidak selesai tepat waktu,saya ti,0.8571428571428571
+51_FAR,FAR,female,saya harap anda bisa mengerti,saya t,0.7931034482758621
+53_FAR,FAR,female,saya punya nomornya di sini,saya t,0.8148148148148148
+54_FAR,FAR,female,mengapa kamu marah,saya t,0.8333333333333334
+55_FAR,FAR,female,berapa suhu tubuhmu kemarin,saya t,0.8518518518518519
+59_FAR,FAR,female,wajahmu terlihat sangat pucat,saya ti,0.8275862068965517
+72_FAR,FAR,female,apa pekerjaan anda,saya t,0.8333333333333334
+81_FAR,FAR,female,kami akan segera menyelesaikan masalahnya,saya t,0.8780487804878049
+88_FAR,FAR,female,apakah sepeda itu milikmu,saya t,0.84
+89_FAR,FAR,female,kamu baik sekali,saya t,0.8125
+92_FAR,FAR,female,kami berkenalan melalui internet,saya ti,0.875
+100_FAR,FAR,female,halo apa kabar,saya t,0.7857142857142857
+3_EVE,EVE,female,bagaimana kabarmu belakangan ini,saya t,0.90625
+6_EVE,EVE,female,aku merindukanmu kawan,saya ti,0.9090909090909091
+7_EVE,EVE,female,jangan percaya padanya dia seorang penipu,saya tid,0.8780487804878049
+22_EVE,EVE,female,tersesat butuh bantuan,saya t,0.8181818181818182
+31_EVE,EVE,female,steak anda tidak begitu segar,saya t,0.8275862068965517
+35_EVE,EVE,female,dia hanya mencintai uangnya,saya t,0.8148148148148148
+50_EVE,EVE,female,anda boleh pergi,saya t,0.875
+52_EVE,EVE,female,apakah anda membutuhkan bantuan,saya t,0.8709677419354839
+61_EVE,EVE,female,saya tidak sengaja menumpahkan tinta,saya ,0.8611111111111112
+62_EVE,EVE,female,selamat datang di kantor kami,saya ,0.8620689655172413
+67_EVE,EVE,female,mari kita bicara,saya ,0.8125
+70_EVE,EVE,female,dia benar benar menyalahkan saya,saya t,0.8709677419354839
+75_EVE,EVE,female,terima kasih telah menghubungi kami mohon tunggu sebentar,saya tid,0.9122807017543859
+88_EVE,EVE,female,ini terlalu sulit baginya,saya ,0.88
+89_EVE,EVE,female,akan segera saya telepon,saya ,0.7916666666666666
+90_EVE,EVE,female,saya bukan orang yang seperti itu,saya ,0.8484848484848485
+91_EVE,EVE,female,sepertinya kamu sedang flu,saya ,0.8461538461538461
+92_EVE,EVE,female,berharap bisa bertemu kembali,saya t,0.8620689655172413
+52_KEN,KEN,female,maaf saya terlambat,saya ti,0.6842105263157895
+56_KEN,KEN,female,dia adalah pahlawan di kota ini,saya ti,0.8387096774193549
+63_KEN,KEN,female,apa yang kita makan untuk makan siang,saya t,0.8648648648648649
+65_KEN,KEN,female,sebaiknya kita sarapan sekarang,saya tid,0.8064516129032258
+68_KEN,KEN,female,sayur sayurannya sangat segar,saya t,0.7857142857142857
+86_KEN,KEN,female,dia membuatku merinding,saya ti,0.8260869565217391
+92_KEN,KEN,female,kami berjanji untuk bertemu di perpustakaan,saya ti,0.8837209302325582
+94_KEN,KEN,female,sepertinya saya tidak setuju dengan pendapat anda,saya ti,0.8571428571428571
+1_RET,RET,female,saya harap anda bisa mengerti,saya ,0.8275862068965517
+3_RET,RET,female,saya punya nomornya di sini,saya ,0.8148148148148148
+4_RET,RET,female,mengapa kamu marah,saya,0.8888888888888888
+5_RET,RET,female,berapa suhu tubuhmu kemarin,saya ,0.8888888888888888
+9_RET,RET,female,wajahmu terlihat sangat pucat,saya ,0.8620689655172413
+22_RET,RET,female,apa pekerjaan anda,saya ,0.8333333333333334
+31_RET,RET,female,kami akan segera menyelesaikan masalahnya,saya t,0.8780487804878049
+38_RET,RET,female,apakah sepeda itu milikmu,saya t,0.84
+39_RET,RET,female,kamu baik sekali,saya,0.875
+42_RET,RET,female,kami berkenalan melalui internet,saya ,0.90625
+50_RET,RET,female,halo apa kabar,saya ,0.7857142857142857
+53_RET,RET,female,bagaimana kabarmu belakangan ini,saya ,0.90625
+56_RET,RET,female,aku merindukanmu kawan,saya ,0.9090909090909091
+57_RET,RET,female,jangan percaya padanya dia seorang penipu,saya ti,0.8780487804878049
+72_RET,RET,female,tersesat butuh bantuan,saya t,0.8181818181818182
+81_RET,RET,female,steak anda tidak begitu segar,saya ,0.8620689655172413
+85_RET,RET,female,dia hanya mencintai uangnya,saya ,0.8518518518518519
+100_RET,RET,female,anda boleh pergi,saya ,0.875
+2_ERI,ERI,male,selamat datang ada yang bisa saya bantu,saya ti,0.8461538461538461
+3_ERI,ERI,male,boleh minta tolong,saya ,0.8888888888888888
+8_ERI,ERI,male,sudah waktunya tidur,saya t,0.7
+10_ERI,ERI,male,kita pernah bertemu tahun lalu,saya t,0.8666666666666667
+14_ERI,ERI,male,penjelasan anda tidak meyakinkan bagi saya,saya ti,0.8571428571428571
+15_ERI,ERI,male,mari ikut saya ke kantor untuk bicara lebih lanjut,saya ti,0.86
+20_ERI,ERI,male,lain kali pasti akan lebih baik,saya ,0.8709677419354839
+21_ERI,ERI,male,dia sangat tidak bisa diandalkan,saya t,0.84375
+24_ERI,ERI,male,mau tambah nasi lagi,saya t,0.85
+27_ERI,ERI,male,profesor itu memberikan kesan yang mendalam,saya ti,0.8837209302325582
+44_ERI,ERI,male,berikan mikrofonnya kepada dia,saya t,0.8666666666666667
+46_ERI,ERI,male,kami akan merapikan dokumen besok,saya t,0.9090909090909091
+4_BEL,BEL,female,saya tidak ingin membuat anda khawatir,saya ti,0.8157894736842105
+7_BEL,BEL,female,hari ini hari apa,saya ti,0.8235294117647058
+9_BEL,BEL,female,liburan musim dingin akan segera tiba,saya ti,0.8378378378378378
+10_BEL,BEL,female,ingin membungkus sisa makanan,saya ti,0.896551724137931
+14_BEL,BEL,female,makan malam hampir siap,saya ti,0.8260869565217391
+16_BEL,BEL,female,makan malam sudah siap,saya ,0.8636363636363636
+20_BEL,BEL,female,apakah kamu ingin pergi ke restoran ini,saya ti,0.8717948717948718
+29_BEL,BEL,female,bagaimana kalau kita pergi menjenguk teman,saya tid,0.8809523809523809
+31_BEL,BEL,female,bantuan anda sangat tepat waktu,saya t,0.8387096774193549
+40_BEL,BEL,female,saya akan bantu mengetikkan untuk anda,saya ti,0.8157894736842105
+44_BEL,BEL,female,dia tidak mengatakannya di telepon,saya t,0.8529411764705882
+45_BEL,BEL,female,sudah larut saya harus mengejar kereta,saya tid,0.868421052631579
+46_BEL,BEL,female,minta jus tomat juga,saya t,0.85
+49_BEL,BEL,female,kalian mau pergi makan siang di mana,saya ti,0.8888888888888888
+51_BEL,BEL,female,dia adalah teman sekamar saya,saya t,0.8620689655172413
+60_BEL,BEL,female,apa rencanamu untuk masa depan,saya t,0.8666666666666667
+64_BEL,BEL,female,dia adalah laki laki yang pemalu,saya t,0.8709677419354839
+67_BEL,BEL,female,saya rasa kita akan bekerja sama dengan baik,saya t,0.8636363636363636
+73_BEL,BEL,female,penelitian anda sangat luar biasa,saya t,0.8787878787878788
+86_BEL,BEL,female,sepertinya anda berjalan ke arah yang berlawanan,saya ti,0.8958333333333334
+88_BEL,BEL,female,saya menerima pujian ini dengan rendah hati,saya ti,0.8372093023255814
+90_BEL,BEL,female,bolehkah saya meminjam mobilmu besok,saya t,0.8611111111111112
+2_LIA,LIA,female,kita harus melihat bagaimana keadaannya,saya ti,0.8717948717948718
+14_LIA,LIA,female,apakah kamu sudah siap,saya ,0.8636363636363636
+20_LIA,LIA,female,saya ingin steak dengan tingkat kematangan medium,saya ti,0.8571428571428571
+28_LIA,LIA,female,terima kasih atas jamuannya,saya ,0.8518518518518519
+36_LIA,LIA,female,menurutku dia sangat cerdas,saya t,0.8518518518518519
+42_LIA,LIA,female,mohon tunggu beberapa menit,saya t,0.8518518518518519
+44_LIA,LIA,female,saya datang ke sini untuk menemui anda,saya t,0.8421052631578947
+46_LIA,LIA,female,kamu terlalu ragu ragu dalam bertindak,saya ti,0.8648648648648649
+57_LIA,LIA,female,membantu orang lain membawakan barang,saya ti,0.8918918918918919
+58_LIA,LIA,female,maaf menelepon semalam ini,saya t,0.8461538461538461
+59_LIA,LIA,female,bolehkah saya memesan makanan sekarang,saya tid,0.868421052631579
+60_LIA,LIA,female,pidato di pemakaman itu sangat mengharukan,saya ti,0.9047619047619048
+67_LIA,LIA,female,anda benar benar sangat perhatian,saya tid,0.8125
+74_LIA,LIA,female,teman saya adalah seorang pengacara,saya ti,0.8571428571428571
+81_LIA,LIA,female,kamu pergi duluan kita bertemu di taman,saya tid,0.8717948717948718
+83_LIA,LIA,female,dia tidak tahu bagaimana menghadapi kenyataan,saya ti,0.8888888888888888
+87_LIA,LIA,female,terima kasih banyak atas undangannya,saya ti,0.8333333333333334
+89_LIA,LIA,female,kemampuan memasakmu sangat bagus,saya ti,0.875
+93_LIA,LIA,female,di mana alamat anda,saya t,0.7894736842105263
+97_LIA,LIA,female,apa yang sedang kamu lakukan sekarang,saya t,0.8918918918918919
+100_LIA,LIA,female,kami sudah tidak bertemu selama beberapa tahun,saya ti,0.8913043478260869
+4_SUL,SUL,male,saya tidak ingin membuat anda khawatir,saya ti,0.8157894736842105
+7_SUL,SUL,male,hari ini hari apa,saya t,0.8235294117647058
+9_SUL,SUL,male,liburan musim dingin akan segera tiba,saya ti,0.8378378378378378
+10_SUL,SUL,male,ingin membungkus sisa makanan,saya ti,0.896551724137931
+14_SUL,SUL,male,makan malam hampir siap,saya ti,0.8260869565217391
+16_SUL,SUL,male,makan malam sudah siap,saya t,0.8636363636363636
+20_SUL,SUL,male,apakah kamu ingin pergi ke restoran ini,saya ti,0.8717948717948718
+29_SUL,SUL,male,bagaimana kalau kita pergi menjenguk teman,saya ti,0.8809523809523809
+31_SUL,SUL,male,bantuan anda sangat tepat waktu,saya ti,0.8387096774193549
+40_SUL,SUL,male,saya akan bantu mengetikkan untuk anda,saya t,0.8421052631578947
+44_SUL,SUL,male,dia tidak mengatakannya di telepon,saya ti,0.8529411764705882
+45_SUL,SUL,male,sudah larut saya harus mengejar kereta,saya tid,0.868421052631579
+46_SUL,SUL,male,minta jus tomat juga,saya ti,0.85
+49_SUL,SUL,male,kalian mau pergi makan siang di mana,saya ti,0.8888888888888888
+51_SUL,SUL,male,dia adalah teman sekamar saya,saya ,0.8620689655172413
+60_SUL,SUL,male,apa rencanamu untuk masa depan,saya t,0.8666666666666667
+64_SUL,SUL,male,dia adalah laki laki yang pemalu,saya ti,0.8709677419354839
+67_SUL,SUL,male,saya rasa kita akan bekerja sama dengan baik,saya ti,0.8409090909090909
+73_SUL,SUL,male,penelitian anda sangat luar biasa,saya ti,0.8484848484848485
+86_SUL,SUL,male,sepertinya anda berjalan ke arah yang berlawanan,saya ti,0.8958333333333334
+88_SUL,SUL,male,saya menerima pujian ini dengan rendah hati,saya ti,0.8372093023255814
+90_SUL,SUL,male,bolehkah saya meminjam mobilmu besok,saya ti,0.8333333333333334
+2_KEN,KEN,female,selamat datang ada yang bisa saya bantu,saya ,0.8717948717948718
+3_KEN,KEN,female,boleh minta tolong,saya ti,0.8333333333333334
+8_KEN,KEN,female,sudah waktunya tidur,saya ti,0.65
+10_KEN,KEN,female,kita pernah bertemu tahun lalu,saya ,0.9
+14_KEN,KEN,female,penjelasan anda tidak meyakinkan bagi saya,saya t,0.8809523809523809
+15_KEN,KEN,female,mari ikut saya ke kantor untuk bicara lebih lanjut,saya t,0.88
+20_KEN,KEN,female,lain kali pasti akan lebih baik,saya ti,0.8387096774193549
+21_KEN,KEN,female,dia sangat tidak bisa diandalkan,saya ti,0.8125
+24_KEN,KEN,female,mau tambah nasi lagi,saya t,0.85
+27_KEN,KEN,female,profesor itu memberikan kesan yang mendalam,saya ,0.8837209302325582
+44_KEN,KEN,female,berikan mikrofonnya kepada dia,saya ti,0.8333333333333334
+46_KEN,KEN,female,kami akan merapikan dokumen besok,saya tid,0.8484848484848485

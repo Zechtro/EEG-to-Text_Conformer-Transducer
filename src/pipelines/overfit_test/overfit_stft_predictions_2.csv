@@ -1,0 +1,25 @@
+id,subject,gender,sentence,prediction,cer
+14_DAM,DAM,male,silakan beri tahu saya nama lengkap anda,mengapa kamu marah,0.775
+40_DAM,DAM,male,ada banyak hal yang ingin kami bicarakan,ada banyak hal yang ingin kami bicarakan,0.0
+14_RAN,RAN,male,boleh saya minta tolong,saya setuju dengan semua kebijakannya,1.3043478260869565
+40_RAN,RAN,male,dulu kami sering mengobrol,tolong kabari saya kapan saja,0.8461538461538461
+84_MAR,MAR,male,jam berapa perpustakaan tutup,saya tidak berpikir demikian,0.7931034482758621
+54_MAR,MAR,male,tolong kabari saya kapan saja,tolong kabari saya kapan saja,0.0
+84_NAU,NAU,male,kita bisa melakukannya besok,kita bisa melakukannya besok,0.0
+54_NAU,NAU,male,selamat sore nona ada yang bisa dibantu,jam berapa perpustakaan tutup,0.7948717948717948
+84_FAR,FAR,female,bagaimana perkembangan bisnis anda,maaf telah mengganggu anda,0.6470588235294118
+54_FAR,FAR,female,mengapa kamu marah,mengapa kamu marah,0.0
+84_EVE,EVE,female,jam berapa perpustakaan tutup,saya tidak berpikir demikian,0.7931034482758621
+54_EVE,EVE,female,tolong kabari saya kapan saja,tolong kabari saya kapan saja,0.0
+34_KEN,KEN,female,saya setuju dengan semua kebijakannya,selamat sore nona ada yang bisa dibantu,0.7837837837837838
+4_KEN,KEN,female,kamu terlihat luar biasa,kamu terlihat luar biasa,0.0
+84_RET,RET,female,saya akan datang agak telat nanti,dia membuat kesabaran saya habis,0.7575757575757576
+54_RET,RET,female,saya tidak berpikir demikian,saya akan datang agak telat nanti,0.8214285714285714
+14_ERI,ERI,male,penjelasan anda tidak meyakinkan bagi saya,maaf telah mengganggu anda,0.6904761904761905
+40_ERI,ERI,male,apakah ada restoran jepang di sekitar sini,sudah berapa lama anda seperti ini,0.6428571428571429
+84_BEL,BEL,female,maaf telah mengganggu anda,maaf telah mengganggu anda,0.0
+54_BEL,BEL,female,dia membuat kesabaran saya habis,tolong kabari saya kapan saja,0.71875
+84_LIA,LIA,female,sudah lama tidak bertemu,tolong kabari saya kapan saja,0.9583333333333334
+54_LIA,LIA,female,sudah berapa lama anda seperti ini,sudah berapa lama anda seperti ini,0.0
+84_SUL,SUL,male,maaf telah mengganggu anda,maaf telah mengganggu anda,0.0
+54_SUL,SUL,male,dia membuat kesabaran saya habis,tolong kabari saya kapan saja,0.71875
