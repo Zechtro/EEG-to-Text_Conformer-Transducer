@@ -1,0 +1,206 @@
+id,subject,gender,sentence,prediction,cer
+2_DAM,DAM,male,anda benar benar kakek yang murah hati,saya sangat senang,0.7631578947368421
+14_DAM,DAM,male,silakan beri tahu saya nama lengkap anda,saya sangat senang,0.7
+21_DAM,DAM,male,selamat sore ada yang bisa saya bantu,saya sangat senang,0.6756756756756757
+22_DAM,DAM,male,apakah anda sudah makan siang,saya sangat senang,0.6551724137931034
+35_DAM,DAM,male,dia bukan orang yang penting,saya sangat senang,0.5714285714285714
+44_DAM,DAM,male,sekarang waktunya tidur,saya sangat senang,0.7391304347826086
+49_DAM,DAM,male,kita semua pernah melakukan kesalahan itulah hidup,saya sangat senang,0.8
+50_DAM,DAM,male,pekerjaan tidak selesai tepat waktu,saya sangat senang,0.7714285714285715
+1_RAN,RAN,male,saya harap anda bisa mengerti,saya sangat senang,0.6206896551724138
+3_RAN,RAN,male,saya punya nomornya di sini,saya sangat senang,0.6296296296296297
+4_RAN,RAN,male,mengapa kamu marah,saya sangat senang,0.8333333333333334
+5_RAN,RAN,male,berapa suhu tubuhmu kemarin,saya sangat senang,0.7037037037037037
+9_RAN,RAN,male,wajahmu terlihat sangat pucat,saya sangat senang,0.6551724137931034
+22_RAN,RAN,male,apa pekerjaan anda,saya sangat senang,0.7777777777777778
+31_RAN,RAN,male,kami akan segera menyelesaikan masalahnya,saya sangat senang,0.7317073170731707
+38_RAN,RAN,male,apakah sepeda itu milikmu,saya sangat senang,0.72
+39_RAN,RAN,male,kamu baik sekali,saya sangat senang,0.6875
+42_RAN,RAN,male,kami berkenalan melalui internet,saya sangat senang,0.75
+50_RAN,RAN,male,halo apa kabar,saya sangat senang,0.8571428571428571
+3_MAR,MAR,male,bagaimana kabarmu belakangan ini,saya sangat senang,0.6875
+6_MAR,MAR,male,aku merindukanmu kawan,saya sangat senang,0.7727272727272727
+7_MAR,MAR,male,jangan percaya padanya dia seorang penipu,saya sangat senang,0.6829268292682927
+22_MAR,MAR,male,tersesat butuh bantuan,saya sangat senang,0.7272727272727273
+31_MAR,MAR,male,steak anda tidak begitu segar,saya sangat senang,0.6551724137931034
+35_MAR,MAR,male,dia hanya mencintai uangnya,saya sangat senang,0.6666666666666666
+50_MAR,MAR,male,anda boleh pergi,saya sangat senang,0.875
+52_MAR,MAR,male,apakah anda membutuhkan bantuan,saya sangat senang,0.7096774193548387
+61_MAR,MAR,male,saya tidak sengaja menumpahkan tinta,saya sangat senang,0.6111111111111112
+62_MAR,MAR,male,selamat datang di kantor kami,saya sangat senang,0.6551724137931034
+67_MAR,MAR,male,mari kita bicara,saya sangat senang,0.8125
+70_MAR,MAR,male,dia benar benar menyalahkan saya,saya sangat senang,0.71875
+75_MAR,MAR,male,terima kasih telah menghubungi kami mohon tunggu sebentar,saya sangat senang,0.7894736842105263
+88_MAR,MAR,male,ini terlalu sulit baginya,saya sangat senang,0.8
+89_MAR,MAR,male,akan segera saya telepon,saya sangat senang,0.7083333333333334
+90_MAR,MAR,male,saya bukan orang yang seperti itu,saya sangat senang,0.6363636363636364
+91_MAR,MAR,male,sepertinya kamu sedang flu,saya sangat senang,0.6538461538461539
+92_MAR,MAR,male,berharap bisa bertemu kembali,saya sangat senang,0.6896551724137931
+2_NAU,NAU,male,maaf saya terlambat,saya sangat senang,0.6842105263157895
+6_NAU,NAU,male,dia adalah pahlawan di kota ini,saya sangat senang,0.7419354838709677
+13_NAU,NAU,male,apa yang kita makan untuk makan siang,saya sangat senang,0.6756756756756757
+15_NAU,NAU,male,sebaiknya kita sarapan sekarang,saya sangat senang,0.5483870967741935
+18_NAU,NAU,male,sayur sayurannya sangat segar,saya sangat senang,0.5172413793103449
+36_NAU,NAU,male,dia membuatku merinding,saya sangat senang,0.6521739130434783
+42_NAU,NAU,male,kami berjanji untuk bertemu di perpustakaan,saya sangat senang,0.813953488372093
+44_NAU,NAU,male,sepertinya saya tidak setuju dengan pendapat anda,saya sangat senang,0.7142857142857143
+52_NAU,NAU,male,anda benar benar kakek yang murah hati,saya sangat senang,0.7631578947368421
+64_NAU,NAU,male,silakan beri tahu saya nama lengkap anda,saya sangat senang,0.7
+71_NAU,NAU,male,selamat sore ada yang bisa saya bantu,saya sangat senang,0.6756756756756757
+72_NAU,NAU,male,apakah anda sudah makan siang,saya sangat senang,0.6551724137931034
+85_NAU,NAU,male,dia bukan orang yang penting,saya sangat senang,0.5714285714285714
+94_NAU,NAU,male,sekarang waktunya tidur,saya sangat senang,0.7391304347826086
+99_NAU,NAU,male,kita semua pernah melakukan kesalahan itulah hidup,saya sangat senang,0.8
+100_NAU,NAU,male,pekerjaan tidak selesai tepat waktu,saya sangat senang,0.7714285714285715
+2_FAR,FAR,female,anda benar benar kakek yang murah hati,saya sangat senang,0.7631578947368421
+14_FAR,FAR,female,silakan beri tahu saya nama lengkap anda,saya sangat senang,0.7
+21_FAR,FAR,female,selamat sore ada yang bisa saya bantu,saya sangat senang,0.6756756756756757
+22_FAR,FAR,female,apakah anda sudah makan siang,saya sangat senang,0.6551724137931034
+35_FAR,FAR,female,dia bukan orang yang penting,saya sangat senang,0.5714285714285714
+44_FAR,FAR,female,sekarang waktunya tidur,saya sangat senang,0.7391304347826086
+49_FAR,FAR,female,kita semua pernah melakukan kesalahan itulah hidup,saya sangat senang,0.8
+50_FAR,FAR,female,pekerjaan tidak selesai tepat waktu,saya sangat senang,0.7714285714285715
+51_FAR,FAR,female,saya harap anda bisa mengerti,saya sangat senang,0.6206896551724138
+53_FAR,FAR,female,saya punya nomornya di sini,saya sangat senang,0.6296296296296297
+54_FAR,FAR,female,mengapa kamu marah,saya sangat senang,0.8333333333333334
+55_FAR,FAR,female,berapa suhu tubuhmu kemarin,saya sangat senang,0.7037037037037037
+59_FAR,FAR,female,wajahmu terlihat sangat pucat,saya sangat senang,0.6551724137931034
+72_FAR,FAR,female,apa pekerjaan anda,saya sangat senang,0.7777777777777778
+81_FAR,FAR,female,kami akan segera menyelesaikan masalahnya,saya sangat senang,0.7317073170731707
+88_FAR,FAR,female,apakah sepeda itu milikmu,saya sangat senang,0.72
+89_FAR,FAR,female,kamu baik sekali,saya sangat senang,0.6875
+92_FAR,FAR,female,kami berkenalan melalui internet,saya sangat senang,0.75
+100_FAR,FAR,female,halo apa kabar,saya sangat senang,0.8571428571428571
+3_EVE,EVE,female,bagaimana kabarmu belakangan ini,saya sangat senang,0.6875
+6_EVE,EVE,female,aku merindukanmu kawan,saya sangat senang,0.7727272727272727
+7_EVE,EVE,female,jangan percaya padanya dia seorang penipu,saya sangat senang,0.6829268292682927
+22_EVE,EVE,female,tersesat butuh bantuan,saya sangat senang,0.7272727272727273
+31_EVE,EVE,female,steak anda tidak begitu segar,saya sangat senang,0.6551724137931034
+35_EVE,EVE,female,dia hanya mencintai uangnya,saya sangat senang,0.6666666666666666
+50_EVE,EVE,female,anda boleh pergi,saya sangat senang,0.875
+52_EVE,EVE,female,apakah anda membutuhkan bantuan,saya sangat senang,0.7096774193548387
+61_EVE,EVE,female,saya tidak sengaja menumpahkan tinta,saya sangat senang,0.6111111111111112
+62_EVE,EVE,female,selamat datang di kantor kami,saya sangat senang,0.6551724137931034
+67_EVE,EVE,female,mari kita bicara,saya sangat senang,0.8125
+70_EVE,EVE,female,dia benar benar menyalahkan saya,saya sangat senang,0.71875
+75_EVE,EVE,female,terima kasih telah menghubungi kami mohon tunggu sebentar,saya sangat senang,0.7894736842105263
+88_EVE,EVE,female,ini terlalu sulit baginya,saya sangat senang,0.8
+89_EVE,EVE,female,akan segera saya telepon,saya sangat senang,0.7083333333333334
+90_EVE,EVE,female,saya bukan orang yang seperti itu,saya sangat senang,0.6363636363636364
+91_EVE,EVE,female,sepertinya kamu sedang flu,saya sangat senang,0.6538461538461539
+92_EVE,EVE,female,berharap bisa bertemu kembali,saya sangat senang,0.6896551724137931
+52_KEN,KEN,female,maaf saya terlambat,saya sangat senang,0.6842105263157895
+56_KEN,KEN,female,dia adalah pahlawan di kota ini,saya sangat senang,0.7419354838709677
+63_KEN,KEN,female,apa yang kita makan untuk makan siang,saya sangat senang,0.6756756756756757
+65_KEN,KEN,female,sebaiknya kita sarapan sekarang,saya sangat senang,0.5483870967741935
+68_KEN,KEN,female,sayur sayurannya sangat segar,saya sangat senang,0.5172413793103449
+86_KEN,KEN,female,dia membuatku merinding,saya sangat senang,0.6521739130434783
+92_KEN,KEN,female,kami berjanji untuk bertemu di perpustakaan,saya sangat senang,0.813953488372093
+94_KEN,KEN,female,sepertinya saya tidak setuju dengan pendapat anda,saya sangat senang,0.7142857142857143
+1_RET,RET,female,saya harap anda bisa mengerti,saya sangat senang,0.6206896551724138
+3_RET,RET,female,saya punya nomornya di sini,saya sangat senang,0.6296296296296297
+4_RET,RET,female,mengapa kamu marah,saya sangat senang,0.8333333333333334
+5_RET,RET,female,berapa suhu tubuhmu kemarin,saya sangat senang,0.7037037037037037
+9_RET,RET,female,wajahmu terlihat sangat pucat,saya sangat senang,0.6551724137931034
+22_RET,RET,female,apa pekerjaan anda,saya sangat senang,0.7777777777777778
+31_RET,RET,female,kami akan segera menyelesaikan masalahnya,saya sangat senang,0.7317073170731707
+38_RET,RET,female,apakah sepeda itu milikmu,saya sangat senang,0.72
+39_RET,RET,female,kamu baik sekali,saya sangat senang,0.6875
+42_RET,RET,female,kami berkenalan melalui internet,saya sangat senang,0.75
+50_RET,RET,female,halo apa kabar,saya sangat senang,0.8571428571428571
+53_RET,RET,female,bagaimana kabarmu belakangan ini,saya sangat senang,0.6875
+56_RET,RET,female,aku merindukanmu kawan,saya sangat senang,0.7727272727272727
+57_RET,RET,female,jangan percaya padanya dia seorang penipu,saya sangat senang,0.6829268292682927
+72_RET,RET,female,tersesat butuh bantuan,saya sangat senang,0.7272727272727273
+81_RET,RET,female,steak anda tidak begitu segar,saya sangat senang,0.6551724137931034
+85_RET,RET,female,dia hanya mencintai uangnya,saya sangat senang,0.6666666666666666
+100_RET,RET,female,anda boleh pergi,saya sangat senang,0.875
+2_ERI,ERI,male,selamat datang ada yang bisa saya bantu,saya sangat senang,0.6923076923076923
+3_ERI,ERI,male,boleh minta tolong,saya sangat senang,0.7222222222222222
+8_ERI,ERI,male,sudah waktunya tidur,saya sangat senang,0.75
+10_ERI,ERI,male,kita pernah bertemu tahun lalu,saya sangat senang,0.7666666666666667
+14_ERI,ERI,male,penjelasan anda tidak meyakinkan bagi saya,saya sangat senang,0.7142857142857143
+15_ERI,ERI,male,mari ikut saya ke kantor untuk bicara lebih lanjut,saya sangat senang,0.76
+20_ERI,ERI,male,lain kali pasti akan lebih baik,saya sangat senang,0.7419354838709677
+21_ERI,ERI,male,dia sangat tidak bisa diandalkan,saya sangat senang,0.65625
+24_ERI,ERI,male,mau tambah nasi lagi,saya sangat senang,0.7
+27_ERI,ERI,male,profesor itu memberikan kesan yang mendalam,saya sangat senang,0.7441860465116279
+44_ERI,ERI,male,berikan mikrofonnya kepada dia,saya sangat senang,0.8
+46_ERI,ERI,male,kami akan merapikan dokumen besok,saya sangat senang,0.7575757575757576
+4_BEL,BEL,female,saya tidak ingin membuat anda khawatir,saya sangat senang,0.6842105263157895
+7_BEL,BEL,female,hari ini hari apa,saya sangat senang,0.8235294117647058
+9_BEL,BEL,female,liburan musim dingin akan segera tiba,saya sangat senang,0.7297297297297297
+10_BEL,BEL,female,ingin membungkus sisa makanan,saya sangat senang,0.7586206896551724
+14_BEL,BEL,female,makan malam hampir siap,saya sangat senang,0.7391304347826086
+16_BEL,BEL,female,makan malam sudah siap,saya sangat senang,0.6818181818181818
+20_BEL,BEL,female,apakah kamu ingin pergi ke restoran ini,saya sangat senang,0.7435897435897436
+29_BEL,BEL,female,bagaimana kalau kita pergi menjenguk teman,saya sangat senang,0.7380952380952381
+31_BEL,BEL,female,bantuan anda sangat tepat waktu,saya sangat senang,0.6129032258064516
+40_BEL,BEL,female,saya akan bantu mengetikkan untuk anda,saya sangat senang,0.631578947368421
+44_BEL,BEL,female,dia tidak mengatakannya di telepon,saya sangat senang,0.7352941176470589
+45_BEL,BEL,female,sudah larut saya harus mengejar kereta,saya sangat senang,0.7105263157894737
+46_BEL,BEL,female,minta jus tomat juga,saya sangat senang,0.75
+49_BEL,BEL,female,kalian mau pergi makan siang di mana,saya sangat senang,0.6944444444444444
+51_BEL,BEL,female,dia adalah teman sekamar saya,saya sangat senang,0.7241379310344828
+60_BEL,BEL,female,apa rencanamu untuk masa depan,saya sangat senang,0.7
+64_BEL,BEL,female,dia adalah laki laki yang pemalu,saya sangat senang,0.75
+67_BEL,BEL,female,saya rasa kita akan bekerja sama dengan baik,saya sangat senang,0.6818181818181818
+73_BEL,BEL,female,penelitian anda sangat luar biasa,saya sangat senang,0.6666666666666666
+86_BEL,BEL,female,sepertinya anda berjalan ke arah yang berlawanan,saya sangat senang,0.7708333333333334
+88_BEL,BEL,female,saya menerima pujian ini dengan rendah hati,saya sangat senang,0.6976744186046512
+90_BEL,BEL,female,bolehkah saya meminjam mobilmu besok,saya sangat senang,0.7777777777777778
+2_LIA,LIA,female,kita harus melihat bagaimana keadaannya,saya sangat senang,0.7435897435897436
+14_LIA,LIA,female,apakah kamu sudah siap,saya sangat senang,0.7272727272727273
+20_LIA,LIA,female,saya ingin steak dengan tingkat kematangan medium,saya sangat senang,0.673469387755102
+28_LIA,LIA,female,terima kasih atas jamuannya,saya sangat senang,0.7037037037037037
+36_LIA,LIA,female,menurutku dia sangat cerdas,saya sangat senang,0.6296296296296297
+42_LIA,LIA,female,mohon tunggu beberapa menit,saya sangat senang,0.7407407407407407
+44_LIA,LIA,female,saya datang ke sini untuk menemui anda,saya sangat senang,0.631578947368421
+46_LIA,LIA,female,kamu terlalu ragu ragu dalam bertindak,saya sangat senang,0.7631578947368421
+57_LIA,LIA,female,membantu orang lain membawakan barang,saya sangat senang,0.6756756756756757
+58_LIA,LIA,female,maaf menelepon semalam ini,saya sangat senang,0.6923076923076923
+59_LIA,LIA,female,bolehkah saya memesan makanan sekarang,saya sangat senang,0.6052631578947368
+60_LIA,LIA,female,pidato di pemakaman itu sangat mengharukan,saya sangat senang,0.6904761904761905
+67_LIA,LIA,female,anda benar benar sangat perhatian,saya sangat senang,0.6363636363636364
+74_LIA,LIA,female,teman saya adalah seorang pengacara,saya sangat senang,0.6571428571428571
+81_LIA,LIA,female,kamu pergi duluan kita bertemu di taman,saya sangat senang,0.7948717948717948
+83_LIA,LIA,female,dia tidak tahu bagaimana menghadapi kenyataan,saya sangat senang,0.7555555555555555
+87_LIA,LIA,female,terima kasih banyak atas undangannya,saya sangat senang,0.6666666666666666
+89_LIA,LIA,female,kemampuan memasakmu sangat bagus,saya sangat senang,0.71875
+93_LIA,LIA,female,di mana alamat anda,saya sangat senang,0.7368421052631579
+97_LIA,LIA,female,apa yang sedang kamu lakukan sekarang,saya sangat senang,0.5945945945945946
+100_LIA,LIA,female,kami sudah tidak bertemu selama beberapa tahun,saya sangat senang,0.782608695652174
+4_SUL,SUL,male,saya tidak ingin membuat anda khawatir,saya sangat senang,0.6842105263157895
+7_SUL,SUL,male,hari ini hari apa,saya sangat senang,0.8235294117647058
+9_SUL,SUL,male,liburan musim dingin akan segera tiba,saya sangat senang,0.7297297297297297
+10_SUL,SUL,male,ingin membungkus sisa makanan,saya sangat senang,0.7586206896551724
+14_SUL,SUL,male,makan malam hampir siap,saya sangat senang,0.7391304347826086
+16_SUL,SUL,male,makan malam sudah siap,saya sangat senang,0.6818181818181818
+20_SUL,SUL,male,apakah kamu ingin pergi ke restoran ini,saya sangat senang,0.7435897435897436
+29_SUL,SUL,male,bagaimana kalau kita pergi menjenguk teman,saya sangat senang,0.7380952380952381
+31_SUL,SUL,male,bantuan anda sangat tepat waktu,saya sangat senang,0.6129032258064516
+40_SUL,SUL,male,saya akan bantu mengetikkan untuk anda,saya sangat senang,0.631578947368421
+44_SUL,SUL,male,dia tidak mengatakannya di telepon,saya sangat senang,0.7352941176470589
+45_SUL,SUL,male,sudah larut saya harus mengejar kereta,saya sangat senang,0.7105263157894737
+46_SUL,SUL,male,minta jus tomat juga,saya sangat senang,0.75
+49_SUL,SUL,male,kalian mau pergi makan siang di mana,saya sangat senang,0.6944444444444444
+51_SUL,SUL,male,dia adalah teman sekamar saya,saya sangat senang,0.7241379310344828
+60_SUL,SUL,male,apa rencanamu untuk masa depan,saya sangat senang,0.7
+64_SUL,SUL,male,dia adalah laki laki yang pemalu,saya sangat senang,0.75
+67_SUL,SUL,male,saya rasa kita akan bekerja sama dengan baik,saya sangat senang,0.6818181818181818
+73_SUL,SUL,male,penelitian anda sangat luar biasa,saya sangat senang,0.6666666666666666
+86_SUL,SUL,male,sepertinya anda berjalan ke arah yang berlawanan,saya sangat senang,0.7708333333333334
+88_SUL,SUL,male,saya menerima pujian ini dengan rendah hati,saya sangat senang,0.6976744186046512
+90_SUL,SUL,male,bolehkah saya meminjam mobilmu besok,saya sangat senang,0.7777777777777778
+2_KEN,KEN,female,selamat datang ada yang bisa saya bantu,saya sangat senang,0.6923076923076923
+3_KEN,KEN,female,boleh minta tolong,saya sangat senang,0.7222222222222222
+8_KEN,KEN,female,sudah waktunya tidur,saya sangat senang,0.75
+10_KEN,KEN,female,kita pernah bertemu tahun lalu,saya sangat senang,0.7666666666666667
+14_KEN,KEN,female,penjelasan anda tidak meyakinkan bagi saya,saya sangat senang,0.7142857142857143
+15_KEN,KEN,female,mari ikut saya ke kantor untuk bicara lebih lanjut,saya sangat senang,0.76
+20_KEN,KEN,female,lain kali pasti akan lebih baik,saya sangat senang,0.7419354838709677
+21_KEN,KEN,female,dia sangat tidak bisa diandalkan,saya sangat senang,0.65625
+24_KEN,KEN,female,mau tambah nasi lagi,saya sangat senang,0.7
+27_KEN,KEN,female,profesor itu memberikan kesan yang mendalam,saya sangat senang,0.7441860465116279
+44_KEN,KEN,female,berikan mikrofonnya kepada dia,saya sangat senang,0.8
+46_KEN,KEN,female,kami akan merapikan dokumen besok,saya sangat senang,0.7575757575757576

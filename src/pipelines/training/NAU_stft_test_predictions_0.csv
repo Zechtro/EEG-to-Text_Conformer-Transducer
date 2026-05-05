@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_NAU,NAU,male,maaf saya terlambat,kami akan segera sampai,0.7368421052631579
+3_NAU,NAU,male,biar saya bantu ganti baterainya,kami akan segera sampai,0.71875
+15_NAU,NAU,male,sebaiknya kita sarapan sekarang,kami akan segera sampai,0.7096774193548387
+21_NAU,NAU,male,kamu tampak penuh energi hari ini,kami akan segera sampai,0.6060606060606061
+22_NAU,NAU,male,setelah makan saya merasa sangat kenyang,kami akan segera sampai,0.65
+24_NAU,NAU,male,saya sedang terburu buru sampai jumpa,kami akan segera sampai,0.6216216216216216
+30_NAU,NAU,male,benar benar tidak bisa dipercaya,kami akan segera sampai,0.78125
+38_NAU,NAU,male,bagaimana harimu hari ini,kami akan segera sampai,0.72
+52_NAU,NAU,male,anda benar benar kakek yang murah hati,kami akan segera sampai,0.7105263157894737
+53_NAU,NAU,male,cobalah besok pagi,kami akan segera sampai,0.8888888888888888
+61_NAU,NAU,male,tolong segera pergi dari sini,kami akan segera sampai,0.7586206896551724
+64_NAU,NAU,male,silakan beri tahu saya nama lengkap anda,kami akan segera sampai,0.7
+72_NAU,NAU,male,apakah anda sudah makan siang,kami akan segera sampai,0.7586206896551724
+75_NAU,NAU,male,kamu benar benar menjadi lebih sehat,kami akan segera sampai,0.6944444444444444
+83_NAU,NAU,male,saya tidak punya waktu luang sama sekali,kami akan segera sampai,0.675
+85_NAU,NAU,male,dia bukan orang yang penting,kami akan segera sampai,0.75
+87_NAU,NAU,male,apa yang bisa kami lakukan untuk anda,kami akan segera sampai,0.7297297297297297
+88_NAU,NAU,male,kita akan bertemu lagi,kami akan segera sampai,0.5454545454545454
+92_NAU,NAU,male,saya bukan seorang penjahat,kami akan segera sampai,0.5925925925925926
+93_NAU,NAU,male,waktu berjalan begitu cepat,kami akan segera sampai,0.6296296296296297

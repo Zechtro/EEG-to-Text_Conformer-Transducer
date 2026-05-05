@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB1,SUB1,male,maaf saya terlambat,maaf saya ada orang baik,0.5789473684210527
+3_SUB1,SUB1,male,biar saya bantu ganti baterainya,saya akan pergi berenang sore ini,0.8125
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang,saya rasa pekerjaan,0.6129032258064516
+21_SUB1,SUB1,male,kamu tampak penuh energi hari ini,ada yang bisa saya bantu,0.7878787878787878
+22_SUB1,SUB1,male,setelah makan saya merasa sangat kenyang,sayur baik,0.825
+24_SUB1,SUB1,male,saya sedang terburu buru sampai jumpa,aku akan minta maaf itu,0.7567567567567568
+30_SUB1,SUB1,male,benar benar tidak bisa dipercaya,biar saya bantu,0.71875
+38_SUB1,SUB1,male,bagaimana harimu hari ini,senang bertidur,0.76
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati,separ,0.9210526315789473
+53_SUB1,SUB1,male,cobalah besok pagi,saya cukup baik,0.7222222222222222
+61_SUB1,SUB1,male,tolong segera pergi dari sini,biar saya bantu,0.8275862068965517
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda,saya sangat senang bertemu dengan anda lagi,0.725
+72_SUB1,SUB1,male,apakah anda sudah makan siang,saya benar benar minta maaf,0.6896551724137931
+75_SUB1,SUB1,male,kamu benar benar menjadi lebih sehat,nafsu makan saya cukup baik,0.7777777777777778
+83_SUB1,SUB1,male,saya tidak punya waktu luang sama sekali,kami asakan mengajarimu,0.725
+85_SUB1,SUB1,male,dia bukan orang yang penting,anda ingin menelepon,0.75
+87_SUB1,SUB1,male,apa yang bisa kami lakukan untuk anda,senang bertemu dengan anda lagi,0.6756756756756757
+88_SUB1,SUB1,male,kita akan bertemu lagi,aku akan mengajarimu,0.6818181818181818
+92_SUB1,SUB1,male,saya bukan seorang penjahat,senang bertemu dengan anda lagi,0.7777777777777778
+93_SUB1,SUB1,male,waktu berjalan begitu cepat,sayur saya bantu,0.7037037037037037

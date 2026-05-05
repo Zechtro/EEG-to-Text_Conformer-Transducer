@@ -1,40 +1,6 @@
 import torch
 import torch.nn as nn
 from transformers import GPT2Model
-
-# class IndoGPTDecoder(nn.Module):
-#     def __init__(self, model_name_or_path="indobenchmark/indogpt", joint_dim=320):
-#         super().__init__()
-#         # Changed: use_safetensors=False because indogpt doesn't have a native safetensors version.
-#         # Added: low_cpu_mem_usage=True for more efficient loading.
-#         self.gpt = GPT2Model.from_pretrained(
-#             model_name_or_path, 
-#             use_safetensors=False,
-#             low_cpu_mem_usage=True
-#         )
-        
-#         # Skip bagian ini kalo modelnya mau ikut di train
-#         for param in self.gpt.parameters():
-#             param.requires_grad = False
-            
-#         self.output_proj = nn.Linear(self.gpt.config.n_embd, joint_dim)
-
-#     def forward(self, y, hidden=None):
-#         """
-#         Args:
-#             y: (Batch, U) sequence of label IDs (shifted by +1 for RNN-T blank).
-#             hidden: Not used for GPT models, but kept for Transducer interface compatibility.
-#         """
-#         # Shift back: RNN-T label 1 -> GPT index 0. 
-#         # Label 0 in RNN-T is Blank, which GPT shouldn't see as a token.
-#         y_for_gpt = (y - 1).clamp(min=0).long() 
-        
-#         gpt_out = self.gpt(input_ids=y_for_gpt).last_hidden_state
-        
-#         # Project GPT's n_embd (768) to Joint dimension (320)
-#         return self.output_proj(gpt_out), hidden
-
-
 class IndoGPTDecoder(nn.Module):
     def __init__(self, model_name_or_path="indobenchmark/indogpt", joint_dim=320, context_size=None):
         super().__init__()

@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB1,SUB1,male,maaf saya terlambat, dia terkena serangan jantung tadi,1.368421052631579
+3_SUB1,SUB1,male,biar saya bantu ganti baterainya, selamat sore ada yang bisa dibantu,0.8125
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang, apakah ada yang menelepon,0.7419354838709677
+21_SUB1,SUB1,male,kamu tampak penuh energi hari ini, selamat sore ada yang bisa dibantu,0.8484848484848485
+22_SUB1,SUB1,male,setelah makan saya merasa sangat kenyang, kamu pantas mendapatkan orang yang lebih baik,0.875
+24_SUB1,SUB1,male,saya sedang terburu buru sampai jumpa, bagaimana kabar ibumu,0.7297297297297297
+30_SUB1,SUB1,male,benar benar tidak bisa dipercaya, hari ini ingin makan,0.75
+38_SUB1,SUB1,male,bagaimana harimu hari ini, maaf saya telah menunda,0.84
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati, tolong beri saya lihat,0.6842105263157895
+53_SUB1,SUB1,male,cobalah besok pagi, mohon tunggu sebentar,1.1111111111111112
+61_SUB1,SUB1,male,tolong segera pergi dari sini, saya tidak setuju dengan pendapat anda,1.0
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda, selamat sore ada yang bisa dibantu,0.65
+72_SUB1,SUB1,male,apakah anda sudah makan siang, hari ini ingin makan,0.6551724137931034
+75_SUB1,SUB1,male,kamu benar benar menjadi lebih sehat, mohon tunggu sebentar,0.7777777777777778
+83_SUB1,SUB1,male,saya tidak punya waktu luang sama sekali, selamat sore ada yang bisa dibantu,0.7
+85_SUB1,SUB1,male,dia bukan orang yang penting, menurutku masakan tiongkok,0.8214285714285714
+87_SUB1,SUB1,male,apa yang bisa kami lakukan untuk anda, hari ini harus bekerja,0.7027027027027027
+88_SUB1,SUB1,male,kita akan bertemu lagi, selamat sore ada yang bisa dibantu,1.2727272727272727
+92_SUB1,SUB1,male,saya bukan seorang penjahat, sekarang waktunya,0.7037037037037037
+93_SUB1,SUB1,male,waktu berjalan begitu cepat, mohon tunggu sebentar,0.8518518518518519

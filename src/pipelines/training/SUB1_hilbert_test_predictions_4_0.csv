@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB1,SUB1,male,maaf saya terlambat,saya tidak akan mengajari,0.9473684210526315
+3_SUB1,SUB1,male,biar saya bantu ganti baterainya,anda bisa menakanya,0.65625
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang,hari ini ingin makan apa,0.7096774193548387
+21_SUB1,SUB1,male,kamu tampak penuh energi hari ini,dia tidak mendapat baik,0.696969696969697
+22_SUB1,SUB1,male,setelah makan saya merasa sangat kenyang,dia terkena saja,0.8
+24_SUB1,SUB1,male,saya sedang terburu buru sampai jumpa,saya tidak mengari,0.7027027027027027
+30_SUB1,SUB1,male,benar benar tidak bisa dipercaya,kami akan telepon,0.8125
+38_SUB1,SUB1,male,bagaimana harimu hari ini,mari kepadanya,0.8
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati,dia adalah selamat sore ada yang bisa saya bantu,0.8157894736842105
+53_SUB1,SUB1,male,cobalah besok pagi,selamat sore ada yang bisa dibantu,1.4444444444444444
+61_SUB1,SUB1,male,tolong segera pergi dari sini,dia adalah menangkur,0.8620689655172413
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda,selamat sore ada yang menelepon,0.575
+72_SUB1,SUB1,male,apakah anda sudah makan siang,senang sengar,0.7931034482758621
+75_SUB1,SUB1,male,kamu benar benar menjadi lebih sehat,dia akan segera sampai,0.7777777777777778
+83_SUB1,SUB1,male,saya tidak punya waktu luang sama sekali,saya tidak sengaja menalnya,0.55
+85_SUB1,SUB1,male,dia bukan orang yang penting,dia adalah selamat sore nona apa,0.7857142857142857
+87_SUB1,SUB1,male,apa yang bisa kami lakukan untuk anda,dia adalah selamat sore anda lama,0.7567567567567568
+88_SUB1,SUB1,male,kita akan bertemu lagi,aku akan selesai makan,0.6363636363636364
+92_SUB1,SUB1,male,saya bukan seorang penjahat,anda bisa datang,0.7037037037037037
+93_SUB1,SUB1,male,waktu berjalan begitu cepat,saya tidak apakan segera sampai,0.7407407407407407

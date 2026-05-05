@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB1,SUB1,male,maaf saya terlambat,menurut saya dia sangat luar biasa,1.2105263157894737
+3_SUB1,SUB1,male,biar saya bantu ganti baterainya,s             ,0.6875
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang,sayur sayurannya sangat segar,0.6774193548387096
+21_SUB1,SUB1,male,kamu tampak penuh energi hari ini,dia sangat luar biasa,0.7575757575757576
+22_SUB1,SUB1,male,setelah makan saya merasa sangat kenyang,kami akan segera sampai,0.65
+24_SUB1,SUB1,male,saya sedang terburu buru sampai jumpa,kami akan segera sampai,0.6216216216216216
+30_SUB1,SUB1,male,benar benar tidak bisa dipercaya,kami akan segera sampai,0.78125
+38_SUB1,SUB1,male,bagaimana harimu hari ini,menurutku sebaiknya kamu minta maaf,1.12
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati,anda bisa mencetaknya,0.631578947368421
+53_SUB1,SUB1,male,cobalah besok pagi,sepertinya,0.8888888888888888
+61_SUB1,SUB1,male,tolong segera pergi dari sini,silakan nikmati perjalanan anda,0.8275862068965517
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda,saya punya,0.8
+72_SUB1,SUB1,male,apakah anda sudah makan siang,kami akan segera sampai,0.7586206896551724
+75_SUB1,SUB1,male,kamu benar benar menjadi lebih sehat,anda bisa mencetaknya,0.6944444444444444
+83_SUB1,SUB1,male,saya tidak punya waktu luang sama sekali,kami akan segera sampai,0.675
+85_SUB1,SUB1,male,dia bukan orang yang penting,anda bisa membantu anda,0.75
+87_SUB1,SUB1,male,apa yang bisa kami lakukan untuk anda,sampaikan salam saya,0.7027027027027027
+88_SUB1,SUB1,male,kita akan bertemu lagi,kamu terlihat,0.7272727272727273
+92_SUB1,SUB1,male,saya bukan seorang penjahat,sayur sayurannya sangat segar,0.7037037037037037
+93_SUB1,SUB1,male,waktu berjalan begitu cepat,biar saya bantu,0.7407407407407407

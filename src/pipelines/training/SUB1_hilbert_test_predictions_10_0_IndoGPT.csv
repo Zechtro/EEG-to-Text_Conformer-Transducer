@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB1,SUB1,male,maaf saya terlambat, halo ada yang bisa saya bantu,1.0526315789473684
+3_SUB1,SUB1,male,biar saya bantu ganti baterainya, pekerjaan tidak selesai tepat waktu,0.90625
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang, saya tidak akan minta maaf,0.6774193548387096
+21_SUB1,SUB1,male,kamu tampak penuh energi hari ini, halo ada yang bisa saya bantu,0.7575757575757576
+22_SUB1,SUB1,male,setelah makan saya merasa sangat kenyang, sepertinya saya tidak setuju dengan pendapat anda,0.8
+24_SUB1,SUB1,male,saya sedang terburu buru sampai jumpa, sekarang waktunya tidur,0.7567567567567568
+30_SUB1,SUB1,male,benar benar tidak bisa dipercaya, sekarang waktunya tidur,0.6875
+38_SUB1,SUB1,male,bagaimana harimu hari ini, ada banyak hal yang ingin kami bicarakan,1.08
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati, biar saya bantu bukakan pintunya,0.6842105263157895
+53_SUB1,SUB1,male,cobalah besok pagi, saya tidak sengaja menabrak saat sedang parkir,2.111111111111111
+61_SUB1,SUB1,male,tolong segera pergi dari sini, biar saya bantu,0.7931034482758621
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda, saya tidak bisa memotong pembicaraannya,0.775
+72_SUB1,SUB1,male,apakah anda sudah makan siang, tidurlah lebih awal malam ini,0.7241379310344828
+75_SUB1,SUB1,male,kamu benar benar menjadi lebih sehat, pekerjaan tidak selesai tepat waktu,0.75
+83_SUB1,SUB1,male,saya tidak punya waktu luang sama sekali, sayur sayurannya sangat segar,0.65
+85_SUB1,SUB1,male,dia bukan orang yang penting, saya tidak bisa memotong pembicaraannya,1.0
+87_SUB1,SUB1,male,apa yang bisa kami lakukan untuk anda, tidurlah lebih awal malam ini,0.7837837837837838
+88_SUB1,SUB1,male,kita akan bertemu lagi, hari ini ingin makan,0.8636363636363636
+92_SUB1,SUB1,male,saya bukan seorang penjahat, sepertinya saya tidak setuju dengan pendapat anda,1.1851851851851851
+93_SUB1,SUB1,male,waktu berjalan begitu cepat, sekarang waktunya tidur,0.8148148148148148

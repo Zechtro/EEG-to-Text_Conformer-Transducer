@@ -1,0 +1,206 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB2,SUB2,male,anda benar benar kakek yang murah hati, anda,0.8947368421052632
+14_SUB2,SUB2,male,silakan beri tahu saya nama lengkap anda, anda,0.875
+21_SUB2,SUB2,male,selamat sore ada yang bisa saya bantu, anda,0.8918918918918919
+22_SUB2,SUB2,male,apakah anda sudah makan siang, anda,0.8275862068965517
+35_SUB2,SUB2,male,dia bukan orang yang penting, anda,0.8571428571428571
+44_SUB2,SUB2,male,sekarang waktunya tidur, anda,0.8260869565217391
+49_SUB2,SUB2,male,kita semua pernah melakukan kesalahan itulah hidup, anda,0.92
+50_SUB2,SUB2,male,pekerjaan tidak selesai tepat waktu, anda,0.8857142857142857
+1_SUB3,SUB3,male,saya harap anda bisa mengerti, anda,0.8275862068965517
+3_SUB3,SUB3,male,saya punya nomornya di sini, anda,0.8518518518518519
+4_SUB3,SUB3,male,mengapa kamu marah, anda,0.8333333333333334
+5_SUB3,SUB3,male,berapa suhu tubuhmu kemarin, anda,0.9259259259259259
+9_SUB3,SUB3,male,wajahmu terlihat sangat pucat, anda,0.8620689655172413
+22_SUB3,SUB3,male,apa pekerjaan anda, anda,0.7222222222222222
+31_SUB3,SUB3,male,kami akan segera menyelesaikan masalahnya, anda,0.9024390243902439
+38_SUB3,SUB3,male,apakah sepeda itu milikmu, anda,0.88
+39_SUB3,SUB3,male,kamu baik sekali, anda,0.8125
+42_SUB3,SUB3,male,kami berkenalan melalui internet, anda,0.875
+50_SUB3,SUB3,male,halo apa kabar, anda,0.7857142857142857
+3_SUB4,SUB4,male,bagaimana kabarmu belakangan ini, anda,0.875
+6_SUB4,SUB4,male,aku merindukanmu kawan, anda,0.8181818181818182
+7_SUB4,SUB4,male,jangan percaya padanya dia seorang penipu, anda,0.8780487804878049
+22_SUB4,SUB4,male,tersesat butuh bantuan, anda,0.8181818181818182
+31_SUB4,SUB4,male,steak anda tidak begitu segar, anda,0.8275862068965517
+35_SUB4,SUB4,male,dia hanya mencintai uangnya, anda,0.8518518518518519
+50_SUB4,SUB4,male,anda boleh pergi, anda,0.8125
+52_SUB4,SUB4,male,apakah anda membutuhkan bantuan, anda,0.8387096774193549
+61_SUB4,SUB4,male,saya tidak sengaja menumpahkan tinta, anda,0.8888888888888888
+62_SUB4,SUB4,male,selamat datang di kantor kami, anda,0.8275862068965517
+67_SUB4,SUB4,male,mari kita bicara, anda,0.8125
+70_SUB4,SUB4,male,dia benar benar menyalahkan saya, anda,0.875
+75_SUB4,SUB4,male,terima kasih telah menghubungi kami mohon tunggu sebentar, anda,0.9298245614035088
+88_SUB4,SUB4,male,ini terlalu sulit baginya, anda,0.84
+89_SUB4,SUB4,male,akan segera saya telepon, anda,0.875
+90_SUB4,SUB4,male,saya bukan orang yang seperti itu, anda,0.8787878787878788
+91_SUB4,SUB4,male,sepertinya kamu sedang flu, anda,0.8461538461538461
+92_SUB4,SUB4,male,berharap bisa bertemu kembali, anda,0.896551724137931
+2_SUB1,SUB1,male,maaf saya terlambat, anda,0.8421052631578947
+6_SUB1,SUB1,male,dia adalah pahlawan di kota ini, anda,0.8387096774193549
+13_SUB1,SUB1,male,apa yang kita makan untuk makan siang, anda,0.8918918918918919
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang, anda,0.8709677419354839
+18_SUB1,SUB1,male,sayur sayurannya sangat segar, anda,0.8620689655172413
+36_SUB1,SUB1,male,dia membuatku merinding, anda,0.8260869565217391
+42_SUB1,SUB1,male,kami berjanji untuk bertemu di perpustakaan, anda,0.8837209302325582
+44_SUB1,SUB1,male,sepertinya saya tidak setuju dengan pendapat anda, anda,0.8979591836734694
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati, anda,0.8947368421052632
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda, anda,0.875
+71_SUB1,SUB1,male,selamat sore ada yang bisa saya bantu, anda,0.8918918918918919
+72_SUB1,SUB1,male,apakah anda sudah makan siang, anda,0.8275862068965517
+85_SUB1,SUB1,male,dia bukan orang yang penting, anda,0.8571428571428571
+94_SUB1,SUB1,male,sekarang waktunya tidur, anda,0.8260869565217391
+99_SUB1,SUB1,male,kita semua pernah melakukan kesalahan itulah hidup, anda,0.92
+100_SUB1,SUB1,male,pekerjaan tidak selesai tepat waktu, anda,0.8857142857142857
+2_SUB7,SUB7,female,anda benar benar kakek yang murah hati, anda,0.8947368421052632
+14_SUB7,SUB7,female,silakan beri tahu saya nama lengkap anda, anda,0.875
+21_SUB7,SUB7,female,selamat sore ada yang bisa saya bantu, anda,0.8918918918918919
+22_SUB7,SUB7,female,apakah anda sudah makan siang, anda,0.8275862068965517
+35_SUB7,SUB7,female,dia bukan orang yang penting, anda,0.8571428571428571
+44_SUB7,SUB7,female,sekarang waktunya tidur, anda,0.8260869565217391
+49_SUB7,SUB7,female,kita semua pernah melakukan kesalahan itulah hidup, anda,0.92
+50_SUB7,SUB7,female,pekerjaan tidak selesai tepat waktu, anda,0.8857142857142857
+51_SUB7,SUB7,female,saya harap anda bisa mengerti, anda,0.8275862068965517
+53_SUB7,SUB7,female,saya punya nomornya di sini, anda,0.8518518518518519
+54_SUB7,SUB7,female,mengapa kamu marah, anda,0.8333333333333334
+55_SUB7,SUB7,female,berapa suhu tubuhmu kemarin, anda,0.9259259259259259
+59_SUB7,SUB7,female,wajahmu terlihat sangat pucat, anda,0.8620689655172413
+72_SUB7,SUB7,female,apa pekerjaan anda, anda,0.7222222222222222
+81_SUB7,SUB7,female,kami akan segera menyelesaikan masalahnya, anda,0.9024390243902439
+88_SUB7,SUB7,female,apakah sepeda itu milikmu, anda,0.88
+89_SUB7,SUB7,female,kamu baik sekali, anda,0.8125
+92_SUB7,SUB7,female,kami berkenalan melalui internet, anda,0.875
+100_SUB7,SUB7,female,halo apa kabar, anda,0.7857142857142857
+3_SUB9,SUB9,female,bagaimana kabarmu belakangan ini, anda,0.875
+6_SUB9,SUB9,female,aku merindukanmu kawan, anda,0.8181818181818182
+7_SUB9,SUB9,female,jangan percaya padanya dia seorang penipu, anda,0.8780487804878049
+22_SUB9,SUB9,female,tersesat butuh bantuan, anda,0.8181818181818182
+31_SUB9,SUB9,female,steak anda tidak begitu segar, anda,0.8275862068965517
+35_SUB9,SUB9,female,dia hanya mencintai uangnya, anda,0.8518518518518519
+50_SUB9,SUB9,female,anda boleh pergi, anda,0.8125
+52_SUB9,SUB9,female,apakah anda membutuhkan bantuan, anda,0.8387096774193549
+61_SUB9,SUB9,female,saya tidak sengaja menumpahkan tinta, anda,0.8888888888888888
+62_SUB9,SUB9,female,selamat datang di kantor kami, anda,0.8275862068965517
+67_SUB9,SUB9,female,mari kita bicara, anda,0.8125
+70_SUB9,SUB9,female,dia benar benar menyalahkan saya, anda,0.875
+75_SUB9,SUB9,female,terima kasih telah menghubungi kami mohon tunggu sebentar, anda,0.9298245614035088
+88_SUB9,SUB9,female,ini terlalu sulit baginya, anda,0.84
+89_SUB9,SUB9,female,akan segera saya telepon, anda,0.875
+90_SUB9,SUB9,female,saya bukan orang yang seperti itu, anda,0.8787878787878788
+91_SUB9,SUB9,female,sepertinya kamu sedang flu, anda,0.8461538461538461
+92_SUB9,SUB9,female,berharap bisa bertemu kembali, anda,0.896551724137931
+52_SUB10,SUB10,female,maaf saya terlambat, anda,0.8421052631578947
+56_SUB10,SUB10,female,dia adalah pahlawan di kota ini, anda,0.8387096774193549
+63_SUB10,SUB10,female,apa yang kita makan untuk makan siang, anda,0.8918918918918919
+65_SUB10,SUB10,female,sebaiknya kita sarapan sekarang, anda,0.8709677419354839
+68_SUB10,SUB10,female,sayur sayurannya sangat segar, anda,0.8620689655172413
+86_SUB10,SUB10,female,dia membuatku merinding, anda,0.8260869565217391
+92_SUB10,SUB10,female,kami berjanji untuk bertemu di perpustakaan, anda,0.8837209302325582
+94_SUB10,SUB10,female,sepertinya saya tidak setuju dengan pendapat anda, anda,0.8979591836734694
+1_SUB12,SUB12,female,saya harap anda bisa mengerti, anda,0.8275862068965517
+3_SUB12,SUB12,female,saya punya nomornya di sini, anda,0.8518518518518519
+4_SUB12,SUB12,female,mengapa kamu marah, anda,0.8333333333333334
+5_SUB12,SUB12,female,berapa suhu tubuhmu kemarin, anda,0.9259259259259259
+9_SUB12,SUB12,female,wajahmu terlihat sangat pucat, anda,0.8620689655172413
+22_SUB12,SUB12,female,apa pekerjaan anda, anda,0.7222222222222222
+31_SUB12,SUB12,female,kami akan segera menyelesaikan masalahnya, anda,0.9024390243902439
+38_SUB12,SUB12,female,apakah sepeda itu milikmu, anda,0.88
+39_SUB12,SUB12,female,kamu baik sekali, anda,0.8125
+42_SUB12,SUB12,female,kami berkenalan melalui internet, anda,0.875
+50_SUB12,SUB12,female,halo apa kabar, anda,0.7857142857142857
+53_SUB12,SUB12,female,bagaimana kabarmu belakangan ini, anda,0.875
+56_SUB12,SUB12,female,aku merindukanmu kawan, anda,0.8181818181818182
+57_SUB12,SUB12,female,jangan percaya padanya dia seorang penipu, anda,0.8780487804878049
+72_SUB12,SUB12,female,tersesat butuh bantuan, anda,0.8181818181818182
+81_SUB12,SUB12,female,steak anda tidak begitu segar, anda,0.8275862068965517
+85_SUB12,SUB12,female,dia hanya mencintai uangnya, anda,0.8518518518518519
+100_SUB12,SUB12,female,anda boleh pergi, anda,0.8125
+2_SUB5,SUB5,male,selamat datang ada yang bisa saya bantu, anda,0.8717948717948718
+3_SUB5,SUB5,male,boleh minta tolong, anda,0.8333333333333334
+8_SUB5,SUB5,male,sudah waktunya tidur, anda,0.8
+10_SUB5,SUB5,male,kita pernah bertemu tahun lalu, anda,0.8666666666666667
+14_SUB5,SUB5,male,penjelasan anda tidak meyakinkan bagi saya, anda,0.8809523809523809
+15_SUB5,SUB5,male,mari ikut saya ke kantor untuk bicara lebih lanjut, anda,0.92
+20_SUB5,SUB5,male,lain kali pasti akan lebih baik, anda,0.8709677419354839
+21_SUB5,SUB5,male,dia sangat tidak bisa diandalkan, anda,0.84375
+24_SUB5,SUB5,male,mau tambah nasi lagi, anda,0.8
+27_SUB5,SUB5,male,profesor itu memberikan kesan yang mendalam, anda,0.8837209302325582
+44_SUB5,SUB5,male,berikan mikrofonnya kepada dia, anda,0.8666666666666667
+46_SUB5,SUB5,male,kami akan merapikan dokumen besok, anda,0.8787878787878788
+4_SUB11,SUB11,female,saya tidak ingin membuat anda khawatir, anda,0.868421052631579
+7_SUB11,SUB11,female,hari ini hari apa, anda,0.8235294117647058
+9_SUB11,SUB11,female,liburan musim dingin akan segera tiba, anda,0.8918918918918919
+10_SUB11,SUB11,female,ingin membungkus sisa makanan, anda,0.896551724137931
+14_SUB11,SUB11,female,makan malam hampir siap, anda,0.8695652173913043
+16_SUB11,SUB11,female,makan malam sudah siap, anda,0.8181818181818182
+20_SUB11,SUB11,female,apakah kamu ingin pergi ke restoran ini, anda,0.8974358974358975
+29_SUB11,SUB11,female,bagaimana kalau kita pergi menjenguk teman, anda,0.9047619047619048
+31_SUB11,SUB11,female,bantuan anda sangat tepat waktu, anda,0.8387096774193549
+40_SUB11,SUB11,female,saya akan bantu mengetikkan untuk anda, anda,0.868421052631579
+44_SUB11,SUB11,female,dia tidak mengatakannya di telepon, anda,0.8823529411764706
+45_SUB11,SUB11,female,sudah larut saya harus mengejar kereta, anda,0.8947368421052632
+46_SUB11,SUB11,female,minta jus tomat juga, anda,0.85
+49_SUB11,SUB11,female,kalian mau pergi makan siang di mana, anda,0.8611111111111112
+51_SUB11,SUB11,female,dia adalah teman sekamar saya, anda,0.8620689655172413
+60_SUB11,SUB11,female,apa rencanamu untuk masa depan, anda,0.8333333333333334
+64_SUB11,SUB11,female,dia adalah laki laki yang pemalu, anda,0.875
+67_SUB11,SUB11,female,saya rasa kita akan bekerja sama dengan baik, anda,0.8863636363636364
+73_SUB11,SUB11,female,penelitian anda sangat luar biasa, anda,0.8484848484848485
+86_SUB11,SUB11,female,sepertinya anda berjalan ke arah yang berlawanan, anda,0.8958333333333334
+88_SUB11,SUB11,female,saya menerima pujian ini dengan rendah hati, anda,0.8837209302325582
+90_SUB11,SUB11,female,bolehkah saya meminjam mobilmu besok, anda,0.8888888888888888
+2_SUB6,SUB6,female,kita harus melihat bagaimana keadaannya, anda,0.8717948717948718
+14_SUB6,SUB6,female,apakah kamu sudah siap, anda,0.8181818181818182
+20_SUB6,SUB6,female,saya ingin steak dengan tingkat kematangan medium, anda,0.9183673469387755
+28_SUB6,SUB6,female,terima kasih atas jamuannya, anda,0.8518518518518519
+36_SUB6,SUB6,female,menurutku dia sangat cerdas, anda,0.8148148148148148
+42_SUB6,SUB6,female,mohon tunggu beberapa menit, anda,0.8888888888888888
+44_SUB6,SUB6,female,saya datang ke sini untuk menemui anda, anda,0.868421052631579
+46_SUB6,SUB6,female,kamu terlalu ragu ragu dalam bertindak, anda,0.868421052631579
+57_SUB6,SUB6,female,membantu orang lain membawakan barang, anda,0.8918918918918919
+58_SUB6,SUB6,female,maaf menelepon semalam ini, anda,0.8846153846153846
+59_SUB6,SUB6,female,bolehkah saya memesan makanan sekarang, anda,0.8947368421052632
+60_SUB6,SUB6,female,pidato di pemakaman itu sangat mengharukan, anda,0.9047619047619048
+67_SUB6,SUB6,female,anda benar benar sangat perhatian, anda,0.8787878787878788
+74_SUB6,SUB6,female,teman saya adalah seorang pengacara, anda,0.8857142857142857
+81_SUB6,SUB6,female,kamu pergi duluan kita bertemu di taman, anda,0.8717948717948718
+83_SUB6,SUB6,female,dia tidak tahu bagaimana menghadapi kenyataan, anda,0.8888888888888888
+87_SUB6,SUB6,female,terima kasih banyak atas undangannya, anda,0.8611111111111112
+89_SUB6,SUB6,female,kemampuan memasakmu sangat bagus, anda,0.875
+93_SUB6,SUB6,female,di mana alamat anda, anda,0.7368421052631579
+97_SUB6,SUB6,female,apa yang sedang kamu lakukan sekarang, anda,0.8648648648648649
+100_SUB6,SUB6,female,kami sudah tidak bertemu selama beberapa tahun, anda,0.9130434782608695
+4_SUB8,SUB8,male,saya tidak ingin membuat anda khawatir, anda,0.868421052631579
+7_SUB8,SUB8,male,hari ini hari apa, anda,0.8235294117647058
+9_SUB8,SUB8,male,liburan musim dingin akan segera tiba, anda,0.8918918918918919
+10_SUB8,SUB8,male,ingin membungkus sisa makanan, anda,0.896551724137931
+14_SUB8,SUB8,male,makan malam hampir siap, anda,0.8695652173913043
+16_SUB8,SUB8,male,makan malam sudah siap, anda,0.8181818181818182
+20_SUB8,SUB8,male,apakah kamu ingin pergi ke restoran ini, anda,0.8974358974358975
+29_SUB8,SUB8,male,bagaimana kalau kita pergi menjenguk teman, anda,0.9047619047619048
+31_SUB8,SUB8,male,bantuan anda sangat tepat waktu, anda,0.8387096774193549
+40_SUB8,SUB8,male,saya akan bantu mengetikkan untuk anda, anda,0.868421052631579
+44_SUB8,SUB8,male,dia tidak mengatakannya di telepon, anda,0.8823529411764706
+45_SUB8,SUB8,male,sudah larut saya harus mengejar kereta, anda,0.8947368421052632
+46_SUB8,SUB8,male,minta jus tomat juga, anda,0.85
+49_SUB8,SUB8,male,kalian mau pergi makan siang di mana, anda,0.8611111111111112
+51_SUB8,SUB8,male,dia adalah teman sekamar saya, anda,0.8620689655172413
+60_SUB8,SUB8,male,apa rencanamu untuk masa depan, anda,0.8333333333333334
+64_SUB8,SUB8,male,dia adalah laki laki yang pemalu, anda,0.875
+67_SUB8,SUB8,male,saya rasa kita akan bekerja sama dengan baik, anda,0.8863636363636364
+73_SUB8,SUB8,male,penelitian anda sangat luar biasa, anda,0.8484848484848485
+86_SUB8,SUB8,male,sepertinya anda berjalan ke arah yang berlawanan, anda,0.8958333333333334
+88_SUB8,SUB8,male,saya menerima pujian ini dengan rendah hati, anda,0.8837209302325582
+90_SUB8,SUB8,male,bolehkah saya meminjam mobilmu besok, anda,0.8888888888888888
+2_SUB10,SUB10,female,selamat datang ada yang bisa saya bantu, anda,0.8717948717948718
+3_SUB10,SUB10,female,boleh minta tolong, anda,0.8333333333333334
+8_SUB10,SUB10,female,sudah waktunya tidur, anda,0.8
+10_SUB10,SUB10,female,kita pernah bertemu tahun lalu, anda,0.8666666666666667
+14_SUB10,SUB10,female,penjelasan anda tidak meyakinkan bagi saya, anda,0.8809523809523809
+15_SUB10,SUB10,female,mari ikut saya ke kantor untuk bicara lebih lanjut, anda,0.92
+20_SUB10,SUB10,female,lain kali pasti akan lebih baik, anda,0.8709677419354839
+21_SUB10,SUB10,female,dia sangat tidak bisa diandalkan, anda,0.84375
+24_SUB10,SUB10,female,mau tambah nasi lagi, anda,0.8
+27_SUB10,SUB10,female,profesor itu memberikan kesan yang mendalam, anda,0.8837209302325582
+44_SUB10,SUB10,female,berikan mikrofonnya kepada dia, anda,0.8666666666666667
+46_SUB10,SUB10,female,kami akan merapikan dokumen besok, anda,0.8787878787878788

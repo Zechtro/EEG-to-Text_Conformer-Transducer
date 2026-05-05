@@ -1,0 +1,206 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB2,SUB2,male,anda benar benar kakek yang murah hati,kamu akan membantu,0.7631578947368421
+14_SUB2,SUB2,male,silakan beri tahu saya nama lengkap anda,kamu akan membantu,0.725
+21_SUB2,SUB2,male,selamat sore ada yang bisa saya bantu,kamu akan membantu,0.6756756756756757
+22_SUB2,SUB2,male,apakah anda sudah makan siang,kamu akan membantu,0.7241379310344828
+35_SUB2,SUB2,male,dia bukan orang yang penting,kamu akan,0.7857142857142857
+44_SUB2,SUB2,male,sekarang waktunya tidur,kamu akan membantu,0.782608695652174
+49_SUB2,SUB2,male,kita semua pernah melakukan kesalahan itulah hidup,kamu akan membantu,0.7
+50_SUB2,SUB2,male,pekerjaan tidak selesai tepat waktu,kamu akan membantu,0.6857142857142857
+1_SUB3,SUB3,male,saya harap anda bisa mengerti,kamu akan,0.8275862068965517
+3_SUB3,SUB3,male,saya punya nomornya di sini,kamu akan membantu,0.7777777777777778
+4_SUB3,SUB3,male,mengapa kamu marah,kamu akan,0.6111111111111112
+5_SUB3,SUB3,male,berapa suhu tubuhmu kemarin,kamu akan,0.7777777777777778
+9_SUB3,SUB3,male,wajahmu terlihat sangat pucat,kamu akan membantu,0.7241379310344828
+22_SUB3,SUB3,male,apa pekerjaan anda,kamu akan,0.7777777777777778
+31_SUB3,SUB3,male,kami akan segera menyelesaikan masalahnya,kamu akan membantu,0.6585365853658537
+38_SUB3,SUB3,male,apakah sepeda itu milikmu,kamu akan,0.8
+39_SUB3,SUB3,male,kamu baik sekali,kamu akan,0.5
+42_SUB3,SUB3,male,kami berkenalan melalui internet,kamu akan,0.78125
+50_SUB3,SUB3,male,halo apa kabar,kamu akan,0.6428571428571429
+3_SUB4,SUB4,male,bagaimana kabarmu belakangan ini,kamu akan,0.71875
+6_SUB4,SUB4,male,aku merindukanmu kawan,kamu akan membantu,0.7272727272727273
+7_SUB4,SUB4,male,jangan percaya padanya dia seorang penipu,kamu akan membantu,0.7560975609756098
+22_SUB4,SUB4,male,tersesat butuh bantuan,kamu akan,0.7272727272727273
+31_SUB4,SUB4,male,steak anda tidak begitu segar,kamu akan,0.7931034482758621
+35_SUB4,SUB4,male,dia hanya mencintai uangnya,kamu akan,0.8148148148148148
+50_SUB4,SUB4,male,anda boleh pergi,kamu akan,0.875
+52_SUB4,SUB4,male,apakah anda membutuhkan bantuan,kamu akan,0.7419354838709677
+61_SUB4,SUB4,male,saya tidak sengaja menumpahkan tinta,kamu akan,0.7777777777777778
+62_SUB4,SUB4,male,selamat datang di kantor kami,kamu akan,0.7586206896551724
+67_SUB4,SUB4,male,mari kita bicara,kamu akan,0.75
+70_SUB4,SUB4,male,dia benar benar menyalahkan saya,kamu akan,0.8125
+75_SUB4,SUB4,male,terima kasih telah menghubungi kami mohon tunggu sebentar,kamu akan membantu,0.7894736842105263
+88_SUB4,SUB4,male,ini terlalu sulit baginya,kamu akan,0.8
+89_SUB4,SUB4,male,akan segera saya telepon,kamu akan,0.75
+90_SUB4,SUB4,male,saya bukan orang yang seperti itu,kamu akan,0.8181818181818182
+91_SUB4,SUB4,male,sepertinya kamu sedang flu,kamu akan,0.7307692307692307
+92_SUB4,SUB4,male,berharap bisa bertemu kembali,kamu akan,0.8275862068965517
+2_SUB1,SUB1,male,maaf saya terlambat,kamu akan,0.7894736842105263
+6_SUB1,SUB1,male,dia adalah pahlawan di kota ini,kamu akan,0.8064516129032258
+13_SUB1,SUB1,male,apa yang kita makan untuk makan siang,kamu akan,0.7567567567567568
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang,kamu akan,0.7741935483870968
+18_SUB1,SUB1,male,sayur sayurannya sangat segar,kamu akan,0.7931034482758621
+36_SUB1,SUB1,male,dia membuatku merinding,kamu akan,0.782608695652174
+42_SUB1,SUB1,male,kami berjanji untuk bertemu di perpustakaan,kamu akan membantu,0.7674418604651163
+44_SUB1,SUB1,male,sepertinya saya tidak setuju dengan pendapat anda,kamu akan membantu,0.7959183673469388
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati,kamu akan membantu,0.7631578947368421
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda,kamu akan,0.8
+71_SUB1,SUB1,male,selamat sore ada yang bisa saya bantu,kamu akan,0.8378378378378378
+72_SUB1,SUB1,male,apakah anda sudah makan siang,kamu akan,0.7241379310344828
+85_SUB1,SUB1,male,dia bukan orang yang penting,kamu akan,0.7857142857142857
+94_SUB1,SUB1,male,sekarang waktunya tidur,kamu akan,0.7391304347826086
+99_SUB1,SUB1,male,kita semua pernah melakukan kesalahan itulah hidup,kamu akan membantu,0.7
+100_SUB1,SUB1,male,pekerjaan tidak selesai tepat waktu,kamu akan,0.8285714285714286
+2_SUB7,SUB7,female,anda benar benar kakek yang murah hati,kamu akan membantu,0.7631578947368421
+14_SUB7,SUB7,female,silakan beri tahu saya nama lengkap anda,kamu akan membantu,0.725
+21_SUB7,SUB7,female,selamat sore ada yang bisa saya bantu,kamu akan,0.8378378378378378
+22_SUB7,SUB7,female,apakah anda sudah makan siang,kamu akan membantu,0.7241379310344828
+35_SUB7,SUB7,female,dia bukan orang yang penting,kamu akan,0.7857142857142857
+44_SUB7,SUB7,female,sekarang waktunya tidur,kamu akan,0.7391304347826086
+49_SUB7,SUB7,female,kita semua pernah melakukan kesalahan itulah hidup,kamu akan membantu,0.7
+50_SUB7,SUB7,female,pekerjaan tidak selesai tepat waktu,kamu akan membantu,0.6857142857142857
+51_SUB7,SUB7,female,saya harap anda bisa mengerti,kamu akan,0.8275862068965517
+53_SUB7,SUB7,female,saya punya nomornya di sini,kamu akan,0.8148148148148148
+54_SUB7,SUB7,female,mengapa kamu marah,kamu akan,0.6111111111111112
+55_SUB7,SUB7,female,berapa suhu tubuhmu kemarin,kamu akan membantu,0.7777777777777778
+59_SUB7,SUB7,female,wajahmu terlihat sangat pucat,kamu akan membantu,0.7241379310344828
+72_SUB7,SUB7,female,apa pekerjaan anda,kamu akan membantu,0.7777777777777778
+81_SUB7,SUB7,female,kami akan segera menyelesaikan masalahnya,kamu akan,0.8048780487804879
+88_SUB7,SUB7,female,apakah sepeda itu milikmu,kamu akan,0.8
+89_SUB7,SUB7,female,kamu baik sekali,kamu akan,0.5
+92_SUB7,SUB7,female,kami berkenalan melalui internet,kamu akan membantu,0.625
+100_SUB7,SUB7,female,halo apa kabar,kamu akan membantu,0.7857142857142857
+3_SUB9,SUB9,female,bagaimana kabarmu belakangan ini,kamu akan,0.71875
+6_SUB9,SUB9,female,aku merindukanmu kawan,kamu akan membantu,0.7272727272727273
+7_SUB9,SUB9,female,jangan percaya padanya dia seorang penipu,kamu akan membantu,0.7560975609756098
+22_SUB9,SUB9,female,tersesat butuh bantuan,kamu akan,0.7272727272727273
+31_SUB9,SUB9,female,steak anda tidak begitu segar,kamu akan,0.7931034482758621
+35_SUB9,SUB9,female,dia hanya mencintai uangnya,kamu akan,0.8148148148148148
+50_SUB9,SUB9,female,anda boleh pergi,kamu akan,0.875
+52_SUB9,SUB9,female,apakah anda membutuhkan bantuan,kamu akan,0.7419354838709677
+61_SUB9,SUB9,female,saya tidak sengaja menumpahkan tinta,kamu akan,0.7777777777777778
+62_SUB9,SUB9,female,selamat datang di kantor kami,kamu akan,0.7586206896551724
+67_SUB9,SUB9,female,mari kita bicara,kamu akan,0.75
+70_SUB9,SUB9,female,dia benar benar menyalahkan saya,kamu akan,0.8125
+75_SUB9,SUB9,female,terima kasih telah menghubungi kami mohon tunggu sebentar,kamu akan membantu,0.7894736842105263
+88_SUB9,SUB9,female,ini terlalu sulit baginya,kamu akan,0.8
+89_SUB9,SUB9,female,akan segera saya telepon,kamu akan,0.75
+90_SUB9,SUB9,female,saya bukan orang yang seperti itu,kamu akan,0.8181818181818182
+91_SUB9,SUB9,female,sepertinya kamu sedang flu,kamu akan,0.7307692307692307
+92_SUB9,SUB9,female,berharap bisa bertemu kembali,kamu akan,0.8275862068965517
+52_SUB10,SUB10,female,maaf saya terlambat,kamu akan membantu,0.631578947368421
+56_SUB10,SUB10,female,dia adalah pahlawan di kota ini,kamu akan membantu,0.7741935483870968
+63_SUB10,SUB10,female,apa yang kita makan untuk makan siang,kamu akan,0.7567567567567568
+65_SUB10,SUB10,female,sebaiknya kita sarapan sekarang,kamu akan membantu,0.7096774193548387
+68_SUB10,SUB10,female,sayur sayurannya sangat segar,kamu akan,0.7931034482758621
+86_SUB10,SUB10,female,dia membuatku merinding,kamu akan membantu,0.7391304347826086
+92_SUB10,SUB10,female,kami berjanji untuk bertemu di perpustakaan,kamu akan membantu,0.7674418604651163
+94_SUB10,SUB10,female,sepertinya saya tidak setuju dengan pendapat anda,kamu akan membantu,0.7959183673469388
+1_SUB12,SUB12,female,saya harap anda bisa mengerti,kamu akan,0.8275862068965517
+3_SUB12,SUB12,female,saya punya nomornya di sini,kamu akan,0.8148148148148148
+4_SUB12,SUB12,female,mengapa kamu marah,kamu akan,0.6111111111111112
+5_SUB12,SUB12,female,berapa suhu tubuhmu kemarin,kamu akan,0.7777777777777778
+9_SUB12,SUB12,female,wajahmu terlihat sangat pucat,kamu akan,0.7586206896551724
+22_SUB12,SUB12,female,apa pekerjaan anda,kamu akan,0.7777777777777778
+31_SUB12,SUB12,female,kami akan segera menyelesaikan masalahnya,kamu akan membantu,0.6585365853658537
+38_SUB12,SUB12,female,apakah sepeda itu milikmu,kamu akan,0.8
+39_SUB12,SUB12,female,kamu baik sekali,kamu akan,0.5
+42_SUB12,SUB12,female,kami berkenalan melalui internet,kamu akan,0.78125
+50_SUB12,SUB12,female,halo apa kabar,kamu akan,0.6428571428571429
+53_SUB12,SUB12,female,bagaimana kabarmu belakangan ini,kamu akan,0.71875
+56_SUB12,SUB12,female,aku merindukanmu kawan,kamu akan,0.6363636363636364
+57_SUB12,SUB12,female,jangan percaya padanya dia seorang penipu,kamu akan membantu,0.7560975609756098
+72_SUB12,SUB12,female,tersesat butuh bantuan,kamu akan,0.7272727272727273
+81_SUB12,SUB12,female,steak anda tidak begitu segar,kamu akan,0.7931034482758621
+85_SUB12,SUB12,female,dia hanya mencintai uangnya,kamu akan,0.8148148148148148
+100_SUB12,SUB12,female,anda boleh pergi,kamu akan,0.875
+2_SUB5,SUB5,male,selamat datang ada yang bisa saya bantu,kamu akan membantu,0.6923076923076923
+3_SUB5,SUB5,male,boleh minta tolong,kamu akan,0.8333333333333334
+8_SUB5,SUB5,male,sudah waktunya tidur,kamu akan,0.8
+10_SUB5,SUB5,male,kita pernah bertemu tahun lalu,kamu akan,0.7666666666666667
+14_SUB5,SUB5,male,penjelasan anda tidak meyakinkan bagi saya,kamu akan membantu,0.7857142857142857
+15_SUB5,SUB5,male,mari ikut saya ke kantor untuk bicara lebih lanjut,kamu akan membantu,0.76
+20_SUB5,SUB5,male,lain kali pasti akan lebih baik,kamu akan,0.7741935483870968
+21_SUB5,SUB5,male,dia sangat tidak bisa diandalkan,kamu akan,0.8125
+24_SUB5,SUB5,male,mau tambah nasi lagi,kamu akan,0.75
+27_SUB5,SUB5,male,profesor itu memberikan kesan yang mendalam,kamu akan membantu,0.7674418604651163
+44_SUB5,SUB5,male,berikan mikrofonnya kepada dia,kamu akan,0.8
+46_SUB5,SUB5,male,kami akan merapikan dokumen besok,kamu akan,0.7575757575757576
+4_SUB11,SUB11,female,saya tidak ingin membuat anda khawatir,kamu akan membantu,0.6578947368421053
+7_SUB11,SUB11,female,hari ini hari apa,kamu akan membantu,0.8823529411764706
+9_SUB11,SUB11,female,liburan musim dingin akan segera tiba,kamu akan membantu,0.6756756756756757
+10_SUB11,SUB11,female,ingin membungkus sisa makanan,kamu akan membantu,0.7586206896551724
+14_SUB11,SUB11,female,makan malam hampir siap,kamu akan membantu,0.7391304347826086
+16_SUB11,SUB11,female,makan malam sudah siap,kamu akan,0.7272727272727273
+20_SUB11,SUB11,female,apakah kamu ingin pergi ke restoran ini,kamu akan membantu,0.7435897435897436
+29_SUB11,SUB11,female,bagaimana kalau kita pergi menjenguk teman,kamu akan membantu,0.7380952380952381
+31_SUB11,SUB11,female,bantuan anda sangat tepat waktu,kamu akan,0.8064516129032258
+40_SUB11,SUB11,female,saya akan bantu mengetikkan untuk anda,kamu akan membantu,0.6578947368421053
+44_SUB11,SUB11,female,dia tidak mengatakannya di telepon,kamu akan membantu,0.7941176470588235
+45_SUB11,SUB11,female,sudah larut saya harus mengejar kereta,kamu akan membantu,0.7368421052631579
+46_SUB11,SUB11,female,minta jus tomat juga,kamu akan membantu,0.85
+49_SUB11,SUB11,female,kalian mau pergi makan siang di mana,kamu akan membantu,0.6944444444444444
+51_SUB11,SUB11,female,dia adalah teman sekamar saya,kamu akan,0.8275862068965517
+60_SUB11,SUB11,female,apa rencanamu untuk masa depan,kamu akan,0.7666666666666667
+64_SUB11,SUB11,female,dia adalah laki laki yang pemalu,kamu akan,0.8125
+67_SUB11,SUB11,female,saya rasa kita akan bekerja sama dengan baik,kamu akan,0.8636363636363636
+73_SUB11,SUB11,female,penelitian anda sangat luar biasa,kamu akan,0.8787878787878788
+86_SUB11,SUB11,female,sepertinya anda berjalan ke arah yang berlawanan,kamu akan membantu,0.7916666666666666
+88_SUB11,SUB11,female,saya menerima pujian ini dengan rendah hati,kamu akan membantu,0.7674418604651163
+90_SUB11,SUB11,female,bolehkah saya meminjam mobilmu besok,kamu akan,0.8611111111111112
+2_SUB6,SUB6,female,kita harus melihat bagaimana keadaannya,kamu akan membantu,0.717948717948718
+14_SUB6,SUB6,female,apakah kamu sudah siap,kamu akan,0.6818181818181818
+20_SUB6,SUB6,female,saya ingin steak dengan tingkat kematangan medium,kamu akan membantu,0.7551020408163265
+28_SUB6,SUB6,female,terima kasih atas jamuannya,kamu akan,0.7777777777777778
+36_SUB6,SUB6,female,menurutku dia sangat cerdas,kamu akan,0.8148148148148148
+42_SUB6,SUB6,female,mohon tunggu beberapa menit,kamu akan membantu,0.8148148148148148
+44_SUB6,SUB6,female,saya datang ke sini untuk menemui anda,kamu akan membantu,0.7105263157894737
+46_SUB6,SUB6,female,kamu terlalu ragu ragu dalam bertindak,kamu akan membantu,0.7105263157894737
+57_SUB6,SUB6,female,membantu orang lain membawakan barang,kamu akan membantu,0.6486486486486487
+58_SUB6,SUB6,female,maaf menelepon semalam ini,kamu akan,0.7692307692307693
+59_SUB6,SUB6,female,bolehkah saya memesan makanan sekarang,kamu akan membantu,0.7105263157894737
+60_SUB6,SUB6,female,pidato di pemakaman itu sangat mengharukan,kamu akan membantu,0.7380952380952381
+67_SUB6,SUB6,female,anda benar benar sangat perhatian,kamu akan membantu,0.7575757575757576
+74_SUB6,SUB6,female,teman saya adalah seorang pengacara,kamu akan membantu,0.7714285714285715
+81_SUB6,SUB6,female,kamu pergi duluan kita bertemu di taman,kamu akan membantu,0.717948717948718
+83_SUB6,SUB6,female,dia tidak tahu bagaimana menghadapi kenyataan,kamu akan membantu,0.7111111111111111
+87_SUB6,SUB6,female,terima kasih banyak atas undangannya,kamu akan membantu,0.75
+89_SUB6,SUB6,female,kemampuan memasakmu sangat bagus,kamu akan membantu,0.625
+93_SUB6,SUB6,female,di mana alamat anda,kamu akan membantu,0.6842105263157895
+97_SUB6,SUB6,female,apa yang sedang kamu lakukan sekarang,kamu akan membantu,0.6756756756756757
+100_SUB6,SUB6,female,kami sudah tidak bertemu selama beberapa tahun,kamu akan membantu,0.6956521739130435
+4_SUB8,SUB8,male,saya tidak ingin membuat anda khawatir,kamu akan membantu,0.6578947368421053
+7_SUB8,SUB8,male,hari ini hari apa,kamu akan,0.7647058823529411
+9_SUB8,SUB8,male,liburan musim dingin akan segera tiba,kamu akan membantu,0.6756756756756757
+10_SUB8,SUB8,male,ingin membungkus sisa makanan,kamu akan membantu,0.7586206896551724
+14_SUB8,SUB8,male,makan malam hampir siap,kamu akan membantu,0.7391304347826086
+16_SUB8,SUB8,male,makan malam sudah siap,kamu akan,0.7272727272727273
+20_SUB8,SUB8,male,apakah kamu ingin pergi ke restoran ini,kamu akan membantu,0.7435897435897436
+29_SUB8,SUB8,male,bagaimana kalau kita pergi menjenguk teman,kamu akan membantu,0.7380952380952381
+31_SUB8,SUB8,male,bantuan anda sangat tepat waktu,kamu akan membantu,0.6451612903225806
+40_SUB8,SUB8,male,saya akan bantu mengetikkan untuk anda,kamu akan membantu,0.6578947368421053
+44_SUB8,SUB8,male,dia tidak mengatakannya di telepon,kamu akan membantu,0.7941176470588235
+45_SUB8,SUB8,male,sudah larut saya harus mengejar kereta,kamu akan membantu,0.7368421052631579
+46_SUB8,SUB8,male,minta jus tomat juga,kamu akan membantu,0.85
+49_SUB8,SUB8,male,kalian mau pergi makan siang di mana,kamu akan membantu,0.6944444444444444
+51_SUB8,SUB8,male,dia adalah teman sekamar saya,kamu akan,0.8275862068965517
+60_SUB8,SUB8,male,apa rencanamu untuk masa depan,kamu akan,0.7666666666666667
+64_SUB8,SUB8,male,dia adalah laki laki yang pemalu,kamu akan membantu,0.71875
+67_SUB8,SUB8,male,saya rasa kita akan bekerja sama dengan baik,kamu akan membantu,0.75
+73_SUB8,SUB8,male,penelitian anda sangat luar biasa,kamu akan membantu,0.7878787878787878
+86_SUB8,SUB8,male,sepertinya anda berjalan ke arah yang berlawanan,kamu akan membantu,0.7916666666666666
+88_SUB8,SUB8,male,saya menerima pujian ini dengan rendah hati,kamu akan membantu,0.7674418604651163
+90_SUB8,SUB8,male,bolehkah saya meminjam mobilmu besok,kamu akan membantu,0.75
+2_SUB10,SUB10,female,selamat datang ada yang bisa saya bantu,kamu akan,0.8461538461538461
+3_SUB10,SUB10,female,boleh minta tolong,kamu akan membantu,0.9444444444444444
+8_SUB10,SUB10,female,sudah waktunya tidur,kamu akan membantu,0.85
+10_SUB10,SUB10,female,kita pernah bertemu tahun lalu,kamu akan,0.7666666666666667
+14_SUB10,SUB10,female,penjelasan anda tidak meyakinkan bagi saya,kamu akan,0.8571428571428571
+15_SUB10,SUB10,female,mari ikut saya ke kantor untuk bicara lebih lanjut,kamu akan,0.86
+20_SUB10,SUB10,female,lain kali pasti akan lebih baik,kamu akan membantu,0.6774193548387096
+21_SUB10,SUB10,female,dia sangat tidak bisa diandalkan,kamu akan membantu,0.8125
+24_SUB10,SUB10,female,mau tambah nasi lagi,kamu akan,0.75
+27_SUB10,SUB10,female,profesor itu memberikan kesan yang mendalam,kamu akan,0.8604651162790697
+44_SUB10,SUB10,female,berikan mikrofonnya kepada dia,kamu akan membantu,0.7666666666666667
+46_SUB10,SUB10,female,kami akan merapikan dokumen besok,kamu akan membantu,0.5757575757575758

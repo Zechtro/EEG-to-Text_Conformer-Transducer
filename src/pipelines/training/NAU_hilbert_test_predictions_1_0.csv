@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_NAU,NAU,male,maaf saya terlambat,saya tidak sengaja menanda,0.9473684210526315
+3_NAU,NAU,male,biar saya bantu ganti baterainya,saya tidak sengaja menanda,0.65625
+15_NAU,NAU,male,sebaiknya kita sarapan sekarang,saya tidak sengaja,0.6451612903225806
+21_NAU,NAU,male,kamu tampak penuh energi hari ini,saya tidak sengaja,0.696969696969697
+22_NAU,NAU,male,setelah makan saya merasa sangat kenyang,saya tidak sengaja menanda,0.65
+24_NAU,NAU,male,saya sedang terburu buru sampai jumpa,saya tidak sengaja,0.6756756756756757
+30_NAU,NAU,male,benar benar tidak bisa dipercaya,saya tidak sengaja menanda,0.65625
+38_NAU,NAU,male,bagaimana harimu hari ini,saya tidak sengaja,0.84
+52_NAU,NAU,male,anda benar benar kakek yang murah hati,saya tidak sengaja menanda,0.6842105263157895
+53_NAU,NAU,male,cobalah besok pagi,saya tidak sengaja,0.8333333333333334
+61_NAU,NAU,male,tolong segera pergi dari sini,saya tidak sengaja menanda,0.8275862068965517
+64_NAU,NAU,male,silakan beri tahu saya nama lengkap anda,saya tidak sengaja menanda,0.575
+72_NAU,NAU,male,apakah anda sudah makan siang,saya tidak sengaja menanda,0.6551724137931034
+75_NAU,NAU,male,kamu benar benar menjadi lebih sehat,saya tidak sengaja menanda,0.6944444444444444
+83_NAU,NAU,male,saya tidak punya waktu luang sama sekali,saya tidak sengaja,0.625
+85_NAU,NAU,male,dia bukan orang yang penting,saya,0.8928571428571429
+87_NAU,NAU,male,apa yang bisa kami lakukan untuk anda,saya tidak sengaja menanda,0.6216216216216216
+88_NAU,NAU,male,kita akan bertemu lagi,saya tidak sengaja,0.7727272727272727
+92_NAU,NAU,male,saya bukan seorang penjahat,saya tidak sengaja,0.5185185185185185
+93_NAU,NAU,male,waktu berjalan begitu cepat,saya tidak sengaja menanda,0.7777777777777778

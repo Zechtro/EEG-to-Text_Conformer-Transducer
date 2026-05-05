@@ -1,0 +1,25 @@
+id,subject,gender,sentence,prediction,cer
+14_DAM,DAM,male,silakan beri tahu saya nama lengkap anda,nn,0.95
+40_DAM,DAM,male,ada banyak hal yang ingin kami bicarakan,nn,0.95
+14_RAN,RAN,male,boleh saya minta tolong,nn,0.9130434782608695
+40_RAN,RAN,male,dulu kami sering mengobrol,nn,0.9230769230769231
+84_MAR,MAR,male,jam berapa perpustakaan tutup,nn,0.9655172413793104
+54_MAR,MAR,male,tolong kabari saya kapan saja,nn,0.9310344827586207
+84_NAU,NAU,male,kita bisa melakukannya besok,nn,0.9285714285714286
+54_NAU,NAU,male,selamat sore nona ada yang bisa dibantu,nn,0.9487179487179487
+84_FAR,FAR,female,bagaimana perkembangan bisnis anda,nn,0.9411764705882353
+54_FAR,FAR,female,mengapa kamu marah,nn,0.9444444444444444
+84_EVE,EVE,female,jam berapa perpustakaan tutup,nn,0.9655172413793104
+54_EVE,EVE,female,tolong kabari saya kapan saja,nn,0.9310344827586207
+34_KEN,KEN,female,saya setuju dengan semua kebijakannya,nn,0.9459459459459459
+4_KEN,KEN,female,kamu terlihat luar biasa,nn,1.0
+84_RET,RET,female,saya akan datang agak telat nanti,nn,0.9393939393939394
+54_RET,RET,female,saya tidak berpikir demikian,nn,0.9642857142857143
+14_ERI,ERI,male,penjelasan anda tidak meyakinkan bagi saya,nn,0.9523809523809523
+40_ERI,ERI,male,apakah ada restoran jepang di sekitar sini,nn,0.9523809523809523
+84_BEL,BEL,female,maaf telah mengganggu anda,nn,0.9230769230769231
+54_BEL,BEL,female,dia membuat kesabaran saya habis,nn,0.96875
+84_LIA,LIA,female,sudah lama tidak bertemu,nn,1.0
+54_LIA,LIA,female,sudah berapa lama anda seperti ini,nn,0.9411764705882353
+84_SUL,SUL,male,maaf telah mengganggu anda,nn,0.9230769230769231
+54_SUL,SUL,male,dia membuat kesabaran saya habis,nn,0.96875

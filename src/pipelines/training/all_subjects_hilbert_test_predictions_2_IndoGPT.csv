@@ -1,0 +1,206 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB2,SUB2,male,anda benar benar kakek yang murah hati,saya ingin makan sesuatu,0.6842105263157895
+14_SUB2,SUB2,male,silakan beri tahu saya nama lengkap anda,saya ingin makan sesuatu,0.7
+21_SUB2,SUB2,male,selamat sore ada yang bisa saya bantu,saya ingin makan sesuatu,0.6486486486486487
+22_SUB2,SUB2,male,apakah anda sudah makan siang,saya ingin makan sesuatu,0.6206896551724138
+35_SUB2,SUB2,male,dia bukan orang yang penting,saya ingin makan sesuatu,0.7142857142857143
+44_SUB2,SUB2,male,sekarang waktunya tidur,saya ingin makan sesuatu,0.7391304347826086
+49_SUB2,SUB2,male,kita semua pernah melakukan kesalahan itulah hidup,saya ingin makan sesuatu,0.7
+50_SUB2,SUB2,male,pekerjaan tidak selesai tepat waktu,dia sangat cantik,0.7428571428571429
+1_SUB3,SUB3,male,saya harap anda bisa mengerti,saya ingin makan sesuatu,0.6551724137931034
+3_SUB3,SUB3,male,saya punya nomornya di sini,saya ingin makan sesuatu,0.6666666666666666
+4_SUB3,SUB3,male,mengapa kamu marah,dia sangat cantik,0.8333333333333334
+5_SUB3,SUB3,male,berapa suhu tubuhmu kemarin,saya ingin makan sesuatu,0.8148148148148148
+9_SUB3,SUB3,male,wajahmu terlihat sangat pucat,saya ingin makan sesuatu,0.7241379310344828
+22_SUB3,SUB3,male,apa pekerjaan anda,saya ingin makan sesuatu,0.8888888888888888
+31_SUB3,SUB3,male,kami akan segera menyelesaikan masalahnya,saya ingin makan sesuatu,0.6829268292682927
+38_SUB3,SUB3,male,apakah sepeda itu milikmu,saya ingin makan sesuatu,0.84
+39_SUB3,SUB3,male,kamu baik sekali,saya ingin makan sesuatu,1.0
+42_SUB3,SUB3,male,kami berkenalan melalui internet,saya ingin makan sesuatu,0.71875
+50_SUB3,SUB3,male,halo apa kabar,saya ingin makan sesuatu,1.2857142857142858
+3_SUB4,SUB4,male,bagaimana kabarmu belakangan ini,saya ingin makan sesuatu,0.75
+6_SUB4,SUB4,male,aku merindukanmu kawan,saya ingin makan sesuatu,0.7727272727272727
+7_SUB4,SUB4,male,jangan percaya padanya dia seorang penipu,saya ingin makan sesuatu,0.7073170731707317
+22_SUB4,SUB4,male,tersesat butuh bantuan,saya ingin makan sesuatu,0.9090909090909091
+31_SUB4,SUB4,male,steak anda tidak begitu segar,saya ingin makan sesuatu,0.7241379310344828
+35_SUB4,SUB4,male,dia hanya mencintai uangnya,saya ingin makan sesuatu,0.7777777777777778
+50_SUB4,SUB4,male,anda boleh pergi,saya ingin makan sesuatu,1.1875
+52_SUB4,SUB4,male,apakah anda membutuhkan bantuan,saya ingin makan sesuatu,0.6774193548387096
+61_SUB4,SUB4,male,saya tidak sengaja menumpahkan tinta,saya ingin makan sesuatu,0.6111111111111112
+62_SUB4,SUB4,male,selamat datang di kantor kami,saya ingin makan sesuatu,0.6551724137931034
+67_SUB4,SUB4,male,mari kita bicara,dia adalah orang yang luar biasa,1.5
+70_SUB4,SUB4,male,dia benar benar menyalahkan saya,dia sangat cantik,0.71875
+75_SUB4,SUB4,male,terima kasih telah menghubungi kami mohon tunggu sebentar,saya ingin makan sesuatu,0.7719298245614035
+88_SUB4,SUB4,male,ini terlalu sulit baginya,saya ingin makan sesuatu,0.92
+89_SUB4,SUB4,male,akan segera saya telepon,saya ingin makan sesuatu,0.7083333333333334
+90_SUB4,SUB4,male,saya bukan orang yang seperti itu,saya ingin makan sesuatu,0.5454545454545454
+91_SUB4,SUB4,male,sepertinya kamu sedang flu,saya ingin makan sesuatu,0.7307692307692307
+92_SUB4,SUB4,male,berharap bisa bertemu kembali,dia sangat cantik,0.7931034482758621
+2_SUB1,SUB1,male,maaf saya terlambat,saya ingin makan sesuatu,0.9473684210526315
+6_SUB1,SUB1,male,dia adalah pahlawan di kota ini,saya ingin makan sesuatu,0.7741935483870968
+13_SUB1,SUB1,male,apa yang kita makan untuk makan siang,saya ingin makan sesuatu,0.6216216216216216
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang,dia sangat cantik,0.7419354838709677
+18_SUB1,SUB1,male,sayur sayurannya sangat segar,saya ingin makan sesuatu,0.6551724137931034
+36_SUB1,SUB1,male,dia membuatku merinding,dia sangat cantik,0.6086956521739131
+42_SUB1,SUB1,male,kami berjanji untuk bertemu di perpustakaan,saya ingin makan sesuatu,0.7441860465116279
+44_SUB1,SUB1,male,sepertinya saya tidak setuju dengan pendapat anda,saya ingin makan sesuatu,0.7346938775510204
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati,saya ingin makan sesuatu,0.6842105263157895
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda,saya ingin makan sesuatu,0.7
+71_SUB1,SUB1,male,selamat sore ada yang bisa saya bantu,saya ingin makan sesuatu,0.6486486486486487
+72_SUB1,SUB1,male,apakah anda sudah makan siang,saya ingin makan sesuatu,0.6206896551724138
+85_SUB1,SUB1,male,dia bukan orang yang penting,dia sangat cantik,0.5714285714285714
+94_SUB1,SUB1,male,sekarang waktunya tidur,saya ingin makan sesuatu,0.7391304347826086
+99_SUB1,SUB1,male,kita semua pernah melakukan kesalahan itulah hidup,saya ingin makan sesuatu,0.7
+100_SUB1,SUB1,male,pekerjaan tidak selesai tepat waktu,saya ingin makan sesuatu,0.7428571428571429
+2_SUB7,SUB7,female,anda benar benar kakek yang murah hati,saya ingin makan sesuatu,0.6842105263157895
+14_SUB7,SUB7,female,silakan beri tahu saya nama lengkap anda,saya ingin makan sesuatu,0.7
+21_SUB7,SUB7,female,selamat sore ada yang bisa saya bantu,saya ingin makan sesuatu,0.6486486486486487
+22_SUB7,SUB7,female,apakah anda sudah makan siang,saya ingin makan sesuatu,0.6206896551724138
+35_SUB7,SUB7,female,dia bukan orang yang penting,saya ingin makan sesuatu,0.7142857142857143
+44_SUB7,SUB7,female,sekarang waktunya tidur,saya ingin makan sesuatu,0.7391304347826086
+49_SUB7,SUB7,female,kita semua pernah melakukan kesalahan itulah hidup,saya ingin makan sesuatu,0.7
+50_SUB7,SUB7,female,pekerjaan tidak selesai tepat waktu,saya ingin makan sesuatu,0.7428571428571429
+51_SUB7,SUB7,female,saya harap anda bisa mengerti,saya ingin makan sesuatu,0.6551724137931034
+53_SUB7,SUB7,female,saya punya nomornya di sini,saya ingin makan sesuatu,0.6666666666666666
+54_SUB7,SUB7,female,mengapa kamu marah,saya ingin makan sesuatu,1.0555555555555556
+55_SUB7,SUB7,female,berapa suhu tubuhmu kemarin,saya ingin makan sesuatu,0.8148148148148148
+59_SUB7,SUB7,female,wajahmu terlihat sangat pucat,saya ingin makan sesuatu,0.7241379310344828
+72_SUB7,SUB7,female,apa pekerjaan anda,saya ingin makan sesuatu,0.8888888888888888
+81_SUB7,SUB7,female,kami akan segera menyelesaikan masalahnya,saya ingin makan sesuatu,0.6829268292682927
+88_SUB7,SUB7,female,apakah sepeda itu milikmu,saya ingin makan sesuatu,0.84
+89_SUB7,SUB7,female,kamu baik sekali,saya ingin makan sesuatu,1.0
+92_SUB7,SUB7,female,kami berkenalan melalui internet,saya ingin makan sesuatu,0.71875
+100_SUB7,SUB7,female,halo apa kabar,saya ingin makan sesuatu,1.2857142857142858
+3_SUB9,SUB9,female,bagaimana kabarmu belakangan ini,saya ingin makan sesuatu,0.75
+6_SUB9,SUB9,female,aku merindukanmu kawan,saya ingin makan sesuatu,0.7727272727272727
+7_SUB9,SUB9,female,jangan percaya padanya dia seorang penipu,saya ingin makan sesuatu,0.7073170731707317
+22_SUB9,SUB9,female,tersesat butuh bantuan,saya ingin makan sesuatu,0.9090909090909091
+31_SUB9,SUB9,female,steak anda tidak begitu segar,saya ingin makan sesuatu,0.7241379310344828
+35_SUB9,SUB9,female,dia hanya mencintai uangnya,saya ingin makan sesuatu,0.7777777777777778
+50_SUB9,SUB9,female,anda boleh pergi,saya ingin makan sesuatu,1.1875
+52_SUB9,SUB9,female,apakah anda membutuhkan bantuan,saya ingin makan sesuatu,0.6774193548387096
+61_SUB9,SUB9,female,saya tidak sengaja menumpahkan tinta,saya ingin makan sesuatu,0.6111111111111112
+62_SUB9,SUB9,female,selamat datang di kantor kami,dia sangat cantik,0.6551724137931034
+67_SUB9,SUB9,female,mari kita bicara,dia sangat cantik,0.9375
+70_SUB9,SUB9,female,dia benar benar menyalahkan saya,dia sangat cantik,0.71875
+75_SUB9,SUB9,female,terima kasih telah menghubungi kami mohon tunggu sebentar,saya ingin makan sesuatu,0.7719298245614035
+88_SUB9,SUB9,female,ini terlalu sulit baginya,dia sangat cantik,0.76
+89_SUB9,SUB9,female,akan segera saya telepon,saya ingin makan sesuatu,0.7083333333333334
+90_SUB9,SUB9,female,saya bukan orang yang seperti itu,saya ingin makan sesuatu,0.5454545454545454
+91_SUB9,SUB9,female,sepertinya kamu sedang flu,dia sangat cantik,0.7692307692307693
+92_SUB9,SUB9,female,berharap bisa bertemu kembali,saya ingin makan sesuatu,0.7586206896551724
+52_SUB10,SUB10,female,maaf saya terlambat,saya ingin makan sesuatu,0.9473684210526315
+56_SUB10,SUB10,female,dia adalah pahlawan di kota ini,saya ingin makan sesuatu,0.7741935483870968
+63_SUB10,SUB10,female,apa yang kita makan untuk makan siang,saya ingin makan sesuatu,0.6216216216216216
+65_SUB10,SUB10,female,sebaiknya kita sarapan sekarang,saya ingin makan sesuatu,0.5806451612903226
+68_SUB10,SUB10,female,sayur sayurannya sangat segar,saya ingin makan sesuatu,0.6551724137931034
+86_SUB10,SUB10,female,dia membuatku merinding,saya ingin makan sesuatu,0.9130434782608695
+92_SUB10,SUB10,female,kami berjanji untuk bertemu di perpustakaan,saya ingin makan sesuatu,0.7441860465116279
+94_SUB10,SUB10,female,sepertinya saya tidak setuju dengan pendapat anda,saya ingin makan sesuatu,0.7346938775510204
+1_SUB12,SUB12,female,saya harap anda bisa mengerti,dia sangat cantik,0.7241379310344828
+3_SUB12,SUB12,female,saya punya nomornya di sini,saya ingin makan sesuatu,0.6666666666666666
+4_SUB12,SUB12,female,mengapa kamu marah,saya ingin makan sesuatu,1.0555555555555556
+5_SUB12,SUB12,female,berapa suhu tubuhmu kemarin,saya ingin makan sesuatu,0.8148148148148148
+9_SUB12,SUB12,female,wajahmu terlihat sangat pucat,saya ingin makan sesuatu,0.7241379310344828
+22_SUB12,SUB12,female,apa pekerjaan anda,saya ingin makan sesuatu,0.8888888888888888
+31_SUB12,SUB12,female,kami akan segera menyelesaikan masalahnya,saya ingin makan sesuatu,0.6829268292682927
+38_SUB12,SUB12,female,apakah sepeda itu milikmu,saya ingin makan sesuatu,0.84
+39_SUB12,SUB12,female,kamu baik sekali,saya ingin makan sesuatu,1.0
+42_SUB12,SUB12,female,kami berkenalan melalui internet,saya ingin makan sesuatu,0.71875
+50_SUB12,SUB12,female,halo apa kabar,saya ingin makan sesuatu,1.2857142857142858
+53_SUB12,SUB12,female,bagaimana kabarmu belakangan ini,saya ingin makan sesuatu,0.75
+56_SUB12,SUB12,female,aku merindukanmu kawan,saya ingin makan sesuatu,0.7727272727272727
+57_SUB12,SUB12,female,jangan percaya padanya dia seorang penipu,saya ingin makan sesuatu,0.7073170731707317
+72_SUB12,SUB12,female,tersesat butuh bantuan,dia sangat cantik,0.6818181818181818
+81_SUB12,SUB12,female,steak anda tidak begitu segar,saya ingin makan sesuatu,0.7241379310344828
+85_SUB12,SUB12,female,dia hanya mencintai uangnya,saya ingin makan sesuatu,0.7777777777777778
+100_SUB12,SUB12,female,anda boleh pergi,saya ingin makan sesuatu,1.1875
+2_SUB5,SUB5,male,selamat datang ada yang bisa saya bantu,saya ingin makan sesuatu,0.6153846153846154
+3_SUB5,SUB5,male,boleh minta tolong,saya ingin makan sesuatu,1.1111111111111112
+8_SUB5,SUB5,male,sudah waktunya tidur,saya ingin makan sesuatu,0.95
+10_SUB5,SUB5,male,kita pernah bertemu tahun lalu,saya ingin makan sesuatu,0.7666666666666667
+14_SUB5,SUB5,male,penjelasan anda tidak meyakinkan bagi saya,saya ingin makan sesuatu,0.6904761904761905
+15_SUB5,SUB5,male,mari ikut saya ke kantor untuk bicara lebih lanjut,saya ingin makan sesuatu,0.74
+20_SUB5,SUB5,male,lain kali pasti akan lebih baik,saya ingin makan sesuatu,0.6774193548387096
+21_SUB5,SUB5,male,dia sangat tidak bisa diandalkan,saya ingin makan sesuatu,0.75
+24_SUB5,SUB5,male,mau tambah nasi lagi,saya ingin makan sesuatu,0.9
+27_SUB5,SUB5,male,profesor itu memberikan kesan yang mendalam,saya ingin makan sesuatu,0.7441860465116279
+44_SUB5,SUB5,male,berikan mikrofonnya kepada dia,saya ingin makan sesuatu,0.8
+46_SUB5,SUB5,male,kami akan merapikan dokumen besok,dia sangat cantik,0.7575757575757576
+4_SUB11,SUB11,female,saya tidak ingin membuat anda khawatir,saya ingin makan sesuatu,0.5263157894736842
+7_SUB11,SUB11,female,hari ini hari apa,saya ingin makan sesuatu,0.8823529411764706
+9_SUB11,SUB11,female,liburan musim dingin akan segera tiba,saya ingin makan sesuatu,0.5675675675675675
+10_SUB11,SUB11,female,ingin membungkus sisa makanan,saya ingin makan sesuatu,0.7586206896551724
+14_SUB11,SUB11,female,makan malam hampir siap,saya ingin makan sesuatu,0.782608695652174
+16_SUB11,SUB11,female,makan malam sudah siap,saya ingin makan sesuatu,0.7727272727272727
+20_SUB11,SUB11,female,apakah kamu ingin pergi ke restoran ini,saya ingin makan sesuatu,0.6666666666666666
+29_SUB11,SUB11,female,bagaimana kalau kita pergi menjenguk teman,saya ingin makan sesuatu,0.7619047619047619
+31_SUB11,SUB11,female,bantuan anda sangat tepat waktu,saya ingin makan sesuatu,0.6451612903225806
+40_SUB11,SUB11,female,saya akan bantu mengetikkan untuk anda,saya ingin makan sesuatu,0.6052631578947368
+44_SUB11,SUB11,female,dia tidak mengatakannya di telepon,saya ingin makan sesuatu,0.7352941176470589
+45_SUB11,SUB11,female,sudah larut saya harus mengejar kereta,saya ingin makan sesuatu,0.7368421052631579
+46_SUB11,SUB11,female,minta jus tomat juga,saya ingin makan sesuatu,0.95
+49_SUB11,SUB11,female,kalian mau pergi makan siang di mana,saya ingin makan sesuatu,0.6388888888888888
+51_SUB11,SUB11,female,dia adalah teman sekamar saya,saya ingin makan sesuatu,0.7241379310344828
+60_SUB11,SUB11,female,apa rencanamu untuk masa depan,saya ingin makan sesuatu,0.7333333333333333
+64_SUB11,SUB11,female,dia adalah laki laki yang pemalu,saya ingin makan sesuatu,0.65625
+67_SUB11,SUB11,female,saya rasa kita akan bekerja sama dengan baik,saya ingin makan sesuatu,0.6818181818181818
+73_SUB11,SUB11,female,penelitian anda sangat luar biasa,dia sangat cantik,0.6363636363636364
+86_SUB11,SUB11,female,sepertinya anda berjalan ke arah yang berlawanan,saya ingin makan sesuatu,0.7291666666666666
+88_SUB11,SUB11,female,saya menerima pujian ini dengan rendah hati,saya ingin makan sesuatu,0.627906976744186
+90_SUB11,SUB11,female,bolehkah saya meminjam mobilmu besok,saya ingin makan sesuatu,0.7222222222222222
+2_SUB6,SUB6,female,kita harus melihat bagaimana keadaannya,saya ingin makan sesuatu,0.717948717948718
+14_SUB6,SUB6,female,apakah kamu sudah siap,saya ingin makan sesuatu,0.8181818181818182
+20_SUB6,SUB6,female,saya ingin steak dengan tingkat kematangan medium,saya ingin makan sesuatu,0.6122448979591837
+28_SUB6,SUB6,female,terima kasih atas jamuannya,dia sangat cantik,0.6666666666666666
+36_SUB6,SUB6,female,menurutku dia sangat cerdas,saya ingin makan sesuatu,0.7777777777777778
+42_SUB6,SUB6,female,mohon tunggu beberapa menit,saya ingin makan sesuatu,0.7777777777777778
+44_SUB6,SUB6,female,saya datang ke sini untuk menemui anda,dia sangat cantik,0.7631578947368421
+46_SUB6,SUB6,female,kamu terlalu ragu ragu dalam bertindak,saya ingin makan sesuatu,0.7631578947368421
+57_SUB6,SUB6,female,membantu orang lain membawakan barang,saya ingin makan sesuatu,0.6486486486486487
+58_SUB6,SUB6,female,maaf menelepon semalam ini,saya ingin makan sesuatu,0.7692307692307693
+59_SUB6,SUB6,female,bolehkah saya memesan makanan sekarang,saya ingin makan sesuatu,0.5789473684210527
+60_SUB6,SUB6,female,pidato di pemakaman itu sangat mengharukan,saya ingin makan sesuatu,0.7142857142857143
+67_SUB6,SUB6,female,anda benar benar sangat perhatian,saya ingin makan sesuatu,0.6666666666666666
+74_SUB6,SUB6,female,teman saya adalah seorang pengacara,saya ingin makan sesuatu,0.6857142857142857
+81_SUB6,SUB6,female,kamu pergi duluan kita bertemu di taman,saya ingin makan sesuatu,0.7435897435897436
+83_SUB6,SUB6,female,dia tidak tahu bagaimana menghadapi kenyataan,saya ingin makan sesuatu,0.6888888888888889
+87_SUB6,SUB6,female,terima kasih banyak atas undangannya,saya ingin makan sesuatu,0.7222222222222222
+89_SUB6,SUB6,female,kemampuan memasakmu sangat bagus,saya ingin makan sesuatu,0.6875
+93_SUB6,SUB6,female,di mana alamat anda,saya ingin makan sesuatu,1.0
+97_SUB6,SUB6,female,apa yang sedang kamu lakukan sekarang,dia sangat cantik,0.7027027027027027
+100_SUB6,SUB6,female,kami sudah tidak bertemu selama beberapa tahun,saya ingin makan sesuatu,0.7608695652173914
+4_SUB8,SUB8,male,saya tidak ingin membuat anda khawatir,saya ingin makan sesuatu,0.5263157894736842
+7_SUB8,SUB8,male,hari ini hari apa,saya ingin makan sesuatu,0.8823529411764706
+9_SUB8,SUB8,male,liburan musim dingin akan segera tiba,saya ingin makan sesuatu,0.5675675675675675
+10_SUB8,SUB8,male,ingin membungkus sisa makanan,saya ingin makan sesuatu,0.7586206896551724
+14_SUB8,SUB8,male,makan malam hampir siap,saya ingin makan sesuatu,0.782608695652174
+16_SUB8,SUB8,male,makan malam sudah siap,saya ingin makan sesuatu,0.7727272727272727
+20_SUB8,SUB8,male,apakah kamu ingin pergi ke restoran ini,saya ingin makan sesuatu,0.6666666666666666
+29_SUB8,SUB8,male,bagaimana kalau kita pergi menjenguk teman,saya ingin makan sesuatu,0.7619047619047619
+31_SUB8,SUB8,male,bantuan anda sangat tepat waktu,saya ingin makan sesuatu,0.6451612903225806
+40_SUB8,SUB8,male,saya akan bantu mengetikkan untuk anda,saya ingin makan sesuatu,0.6052631578947368
+44_SUB8,SUB8,male,dia tidak mengatakannya di telepon,saya ingin makan sesuatu,0.7352941176470589
+45_SUB8,SUB8,male,sudah larut saya harus mengejar kereta,saya ingin makan sesuatu,0.7368421052631579
+46_SUB8,SUB8,male,minta jus tomat juga,saya ingin makan sesuatu,0.95
+49_SUB8,SUB8,male,kalian mau pergi makan siang di mana,saya ingin makan sesuatu,0.6388888888888888
+51_SUB8,SUB8,male,dia adalah teman sekamar saya,dia sangat cantik,0.6896551724137931
+60_SUB8,SUB8,male,apa rencanamu untuk masa depan,saya ingin makan sesuatu,0.7333333333333333
+64_SUB8,SUB8,male,dia adalah laki laki yang pemalu,saya ingin makan sesuatu,0.65625
+67_SUB8,SUB8,male,saya rasa kita akan bekerja sama dengan baik,saya ingin makan sesuatu,0.6818181818181818
+73_SUB8,SUB8,male,penelitian anda sangat luar biasa,saya ingin makan sesuatu,0.7575757575757576
+86_SUB8,SUB8,male,sepertinya anda berjalan ke arah yang berlawanan,saya ingin makan sesuatu,0.7291666666666666
+88_SUB8,SUB8,male,saya menerima pujian ini dengan rendah hati,saya ingin makan sesuatu,0.627906976744186
+90_SUB8,SUB8,male,bolehkah saya meminjam mobilmu besok,saya ingin makan sesuatu,0.7222222222222222
+2_SUB10,SUB10,female,selamat datang ada yang bisa saya bantu,saya ingin makan sesuatu,0.6153846153846154
+3_SUB10,SUB10,female,boleh minta tolong,saya ingin makan sesuatu,1.1111111111111112
+8_SUB10,SUB10,female,sudah waktunya tidur,saya ingin makan sesuatu,0.95
+10_SUB10,SUB10,female,kita pernah bertemu tahun lalu,saya ingin makan sesuatu,0.7666666666666667
+14_SUB10,SUB10,female,penjelasan anda tidak meyakinkan bagi saya,saya ingin makan sesuatu,0.6904761904761905
+15_SUB10,SUB10,female,mari ikut saya ke kantor untuk bicara lebih lanjut,dia sangat cantik,0.8
+20_SUB10,SUB10,female,lain kali pasti akan lebih baik,saya ingin makan sesuatu,0.6774193548387096
+21_SUB10,SUB10,female,dia sangat tidak bisa diandalkan,saya ingin makan sesuatu,0.75
+24_SUB10,SUB10,female,mau tambah nasi lagi,saya ingin makan sesuatu,0.9
+27_SUB10,SUB10,female,profesor itu memberikan kesan yang mendalam,saya ingin makan sesuatu,0.7441860465116279
+44_SUB10,SUB10,female,berikan mikrofonnya kepada dia,saya ingin makan sesuatu,0.8
+46_SUB10,SUB10,female,kami akan merapikan dokumen besok,saya ingin makan sesuatu,0.696969696969697

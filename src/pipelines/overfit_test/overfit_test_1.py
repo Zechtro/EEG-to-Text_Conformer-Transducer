@@ -54,7 +54,7 @@ CONFIG = {
     
     # Training - Overfit test: should see loss → 0 quickly
     'batch_size': 24,
-    'num_epochs': 150,
+    'num_epochs': 3,
     'learning_rate': 1e-3,
     # 'weight_decay': 1e-5,
     'weight_decay': 0,
@@ -444,7 +444,7 @@ def train(model, train_loader, test_loader, tokenizer, config, device):
     history = {'train_loss': [], 'train_cer': [], 'test_loss': [], 'test_cer': []}
     
     # Path untuk menyimpan model terbaik
-    best_model_path = os.path.join(OUTPUT_DIR, 'overfit_stft_best_model_2.pt')
+    best_model_path = os.path.join(OUTPUT_DIR, 'overfit_stft_best_model_3.pt')
     best_cer = float('inf')
     
     print("\n[STEP 4] Training model...")
@@ -530,7 +530,7 @@ def predict_and_save_csv(model, test_loader, tokenizer, data, output_dir, device
     
     # Save to CSV
     predictions_df = pd.DataFrame(predictions_list)
-    csv_path = os.path.join(output_dir, 'overfit_stft_predictions_2.csv')
+    csv_path = os.path.join(output_dir, 'overfit_stft_predictions_3.csv')
     predictions_df.to_csv(csv_path, index=False)
     print(f"[SAVE] Predictions saved to {csv_path}")
     
@@ -585,7 +585,7 @@ def main():
     history, beam_decoder = train(model, train_loader, test_loader, tokenizer, CONFIG, DEVICE)
     
     # Save best model to file
-    # model_path = os.path.join(OUTPUT_DIR, 'overfit_stft_best_model_2.pt')
+    # model_path = os.path.join(OUTPUT_DIR, 'overfit_stft_best_model_3.pt')
     # torch.save(model.state_dict(), model_path)
     # print(f"[SAVE] Best model saved to {model_path}")
     
@@ -594,7 +594,7 @@ def main():
     
     # Save results
     print("\n[STEP 5] Save results...")
-    history_path = os.path.join(OUTPUT_DIR, 'overfit_stft_history_2.json')
+    history_path = os.path.join(OUTPUT_DIR, 'overfit_stft_history_3.json')
     with open(history_path, 'w') as f:
         json.dump(history, f, indent=2)
     print(f"[SAVE] History saved to {history_path}")
@@ -621,7 +621,7 @@ def main():
     axes[1].grid(True)
     
     plt.tight_layout()
-    plot_path = os.path.join(OUTPUT_DIR, 'overfit_stft_results_2.png')
+    plot_path = os.path.join(OUTPUT_DIR, 'overfit_stft_results_3.png')
     plt.savefig(plot_path, dpi=100, bbox_inches='tight')
     print(f"[SAVE] Plot saved to {plot_path}")
     
