@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB1,SUB1,male,maaf saya terlambat,akan mabang,0.7368421052631579
+3_SUB1,SUB1,male,biar saya bantu ganti baterainya,muam ala,0.84375
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang,satukan maangeka,0.6774193548387096
+21_SUB1,SUB1,male,kamu tampak penuh energi hari ini,sitan idan,0.7878787878787878
+22_SUB1,SUB1,male,setelah makan saya merasa sangat kenyang,saya bianan,0.775
+24_SUB1,SUB1,male,saya sedang terburu buru sampai jumpa,setang menari mer,0.7027027027027027
+30_SUB1,SUB1,male,benar benar tidak bisa dipercaya,seya suang,0.84375
+38_SUB1,SUB1,male,bagaimana harimu hari ini,saba inan,0.76
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati,samya intu samang ber,0.7105263157894737
+53_SUB1,SUB1,male,cobalah besok pagi,miant merlant yamu,0.8333333333333334
+61_SUB1,SUB1,male,tolong segera pergi dari sini,sotang manmang,0.7586206896551724
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda,salang saang ebunya merenya,0.7
+72_SUB1,SUB1,male,apakah anda sudah makan siang,sida mari,0.7586206896551724
+75_SUB1,SUB1,male,kamu benar benar menjadi lebih sehat,sadang saalak,0.8055555555555556
+83_SUB1,SUB1,male,saya tidak punya waktu luang sama sekali,kian ari pang,0.775
+85_SUB1,SUB1,male,dia bukan orang yang penting,pameru,0.9285714285714286
+87_SUB1,SUB1,male,apa yang bisa kami lakukan untuk anda,saya merang sayaka,0.7297297297297297
+88_SUB1,SUB1,male,kita akan bertemu lagi,siang nitu,0.7727272727272727
+92_SUB1,SUB1,male,saya bukan seorang penjahat,saang asert,0.7037037037037037
+93_SUB1,SUB1,male,waktu berjalan begitu cepat,yang denya,0.8148148148148148

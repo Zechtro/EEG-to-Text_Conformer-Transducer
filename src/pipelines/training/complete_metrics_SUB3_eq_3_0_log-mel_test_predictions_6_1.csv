@@ -1,0 +1,11 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+8_SUB3,SUB3,male,mereka adalah teman baik,besa tahu,79.1667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.4672
+11_SUB3,SUB3,male,dia memang benar benar pembuat masalah,kamu sedang,84.2105,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.8619
+15_SUB3,SUB3,male,mari kita makan di kantin saja,bayaimba sana,73.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.811
+19_SUB3,SUB3,male,kapan kamu bisa datang,dia ingin makan,68.1818,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,58.1105
+21_SUB3,SUB3,male,tapi semua hal baik pasti ada akhirnya,dia sengaja,84.2105,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.2811
+23_SUB3,SUB3,male,kamu seharusnya bicara dengannya,kami anda,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.1674
+29_SUB3,SUB3,male,saya sudah ada janji besok,baisa bantu saya sekemuang,80.7692,100.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,59.5897
+39_SUB3,SUB3,male,kamu baik sekali,mus pada perlahat,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.9328
+43_SUB3,SUB3,male,kamu adalah teman sejatiku,kamu sedang,69.2308,75.0,18.394,8.226,6.4027,5.5011,50.0,25.0,33.3333,55.7114
+50_SUB3,SUB3,male,halo apa kabar,bus anda,78.5714,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.6404

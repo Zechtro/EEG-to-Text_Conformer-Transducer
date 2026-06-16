@@ -1,0 +1,20 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB9,SUB9,female,tolong fotokopi laporan ini,saya tidak melakukan apa pun,0.8888888888888888
+3_SUB9,SUB9,female,bagaimana kabarmu belakangan ini,dia sangat cantik,0.75
+19_SUB9,SUB9,female,pintunya sudah dibuka,saya tidak sengaja,0.7142857142857143
+25_SUB9,SUB9,female,apakah ada yang ingin anda laporkan,dia adalah orang yang sangat serius,0.6571428571428571
+26_SUB9,SUB9,female,bolehkah saya berbicara dengan anda,dia sangat cantik,0.7714285714285715
+28_SUB9,SUB9,female,mari makan di luar malam ini,saya akan datang,0.6071428571428571
+36_SUB9,SUB9,female,aku akan mencintaimu selamanya,saya tidak melakukan apa pun,0.7666666666666667
+44_SUB9,SUB9,female,apakah anda tertarik dengan komputer,maaf apakah anda,0.75
+58_SUB9,SUB9,female,dia diculik di dalam mobil,saya suka mencoba,0.7692307692307693
+59_SUB9,SUB9,female,selamat pagi pak ada yang bisa saya bantu,dia sangat cantik,0.7560975609756098
+66_SUB9,SUB9,female,temanmu sangat cantik,dia sangat cantik,0.2857142857142857
+67_SUB9,SUB9,female,mari kita bicara,saya tidak sengaja,0.6875
+70_SUB9,SUB9,female,dia benar benar menyalahkan saya,dia sangat ketat,0.71875
+80_SUB9,SUB9,female,apakah anda baik baik saja pak,dia adalah orang yang sangat serius,0.8
+83_SUB9,SUB9,female,terima kasih atas pengertian anda,dia sangat cantik,0.696969696969697
+88_SUB9,SUB9,female,ini terlalu sulit baginya,saya tidak melakukan apa pun,0.92
+91_SUB9,SUB9,female,sepertinya kamu sedang flu,dia sangat cantik,0.7692307692307693
+94_SUB9,SUB9,female,senang berkenalan dengan anda,saya benar benar suka makanan,0.6896551724137931
+96_SUB9,SUB9,female,seperti apa penampilannya,saya suka makanan,0.72

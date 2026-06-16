@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB7,SUB7,female,anda benar benar kakek yang murah hati,saya ingin makan di kamar,71.0526,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.9922
+3_SUB7,SUB7,female,cobalah besok pagi,saya akan segera,77.7778,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,66.0387
+15_SUB7,SUB7,female,sampaikan salam saya untuk mereka,saya akan segera sampai,69.697,100.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,56.4862
+21_SUB7,SUB7,female,selamat sore ada yang bisa saya bantu,saya sangat senang,67.5676,100.0,8.7866,3.403,3.1926,2.995,33.3333,14.2857,20.0,37.4906
+22_SUB7,SUB7,female,apakah anda sudah makan siang,saya ingin makan,65.5172,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,67.8792
+24_SUB7,SUB7,female,kita harus memberitahunya,saya akan pergi,76.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,77.6538
+30_SUB7,SUB7,female,saya sangat sibuk hari ini butuh bantuan,saya akan segera pergi,72.5,85.7143,11.8092,4.3121,3.6208,3.7951,25.0,14.2857,18.1818,57.7175
+38_SUB7,SUB7,female,kita akan bertemu lagi,saya akan segera,54.5455,75.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,63.224
+52_SUB7,SUB7,female,ide idemu sangat kreatif,saya ingin makan di kamar,79.1667,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.9872
+53_SUB7,SUB7,female,saya punya nomornya di sini,saya akan segera sampai,62.963,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,52.5066
+61_SUB7,SUB7,female,dia memang benar benar pembuat masalah,saya akan segera,78.9474,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.7377
+64_SUB7,SUB7,female,boleh saya minta tolong,kamu baik,86.9565,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.5769
+72_SUB7,SUB7,female,apa pekerjaan anda,dia bukan orang yang penting,111.1111,166.6667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.5871
+75_SUB7,SUB7,female,ini surat undangan untuk anda,saya akan segera,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.5734
+83_SUB7,SUB7,female,mungkin kita akan mendapatkan inspirasi secara tidak sengaja,kami akan segera sampai,75.0,87.5,9.197,3.3583,2.8199,2.9556,25.0,12.5,16.6667,41.0246
+85_SUB7,SUB7,female,saya pikir anda sudah tahu,kami akan segera sampai,73.0769,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.2661
+87_SUB7,SUB7,female,kurangi makan roti dan kentang,kamu baik,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.3989
+88_SUB7,SUB7,female,apakah sepeda itu milikmu,saya ingin makan,72.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.1634
+92_SUB7,SUB7,female,kami berkenalan melalui internet,mari kita makan di luar,68.75,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.7145
+93_SUB7,SUB7,female,kamu adalah teman sejatiku,kamu bisa,73.0769,75.0,18.394,8.226,6.4027,5.5011,50.0,25.0,33.3333,48.6095

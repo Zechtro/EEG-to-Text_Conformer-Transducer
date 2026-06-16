@@ -1,0 +1,5 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+53_SUB12,SUB12,female,bagaimana kabarmu belakangan ini,dia adalah seorang ilmuwan yang luar biasa,93.75,175.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.4203
+69_SUB12,SUB12,female,pintunya sudah dibuka,anda boleh pergi,76.1905,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,61.6269
+85_SUB12,SUB12,female,dia hanya mencintai uangnya,saya tidak berpikir demikian,81.4815,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.4894
+94_SUB12,SUB12,female,apakah anda tertarik dengan komputer,anda boleh pergi,77.7778,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,44.8804

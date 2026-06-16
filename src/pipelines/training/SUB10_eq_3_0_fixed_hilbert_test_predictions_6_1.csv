@@ -1,0 +1,20 @@
+id,subject,gender,sentence,prediction,cer
+54_SUB10,SUB10,female,dia memakai topeng wajahnya tidak terlihat,layanan makan bertemu,0.7380952380952381
+55_SUB10,SUB10,female,halo ada yang bisa saya bantu,mari kita bisa,0.7241379310344828
+67_SUB10,SUB10,female,anda bisa mencetaknya,kami biasanya,0.6190476190476191
+74_SUB10,SUB10,female,saya sedang terburu buru sampai jumpa,semoga anda bersenang,0.7837837837837838
+75_SUB10,SUB10,female,silakan nikmati perjalanan anda,kamu terlihat luar biasa,0.7741935483870968
+77_SUB10,SUB10,female,bagaimana kabar ibumu sekarang,matanya kita makan,0.6333333333333333
+87_SUB10,SUB10,female,hari ini ingin makan apa,saya benar benar,0.75
+95_SUB10,SUB10,female,saya ingin lebih mengenalnya,maaf saya terlambat,0.7857142857142857
+10_SUB10,SUB10,female,kita pernah bertemu tahun lalu,maaf saya temu,0.7666666666666667
+12_SUB10,SUB10,female,anda seharusnya merasa malu,mari kita bicara,0.8148148148148148
+19_SUB10,SUB10,female,pilihan anda banyak sekali ya,maaf saya terlambat,0.6896551724137931
+20_SUB10,SUB10,female,lain kali pasti akan lebih baik,kamu terlihat luar biasa,0.6451612903225806
+23_SUB10,SUB10,female,saya tidak percaya penjelasan anda,maaf saya terlambat,0.6764705882352942
+31_SUB10,SUB10,female,apa yang anda lakukan di waktu luang,saya benar benar,0.8055555555555556
+34_SUB10,SUB10,female,saya setuju dengan semua kebijakannya,kita akan,0.8108108108108109
+38_SUB10,SUB10,female,kita pergi nanti saja,mari kita makan siang,0.7619047619047619
+42_SUB10,SUB10,female,apakah sarapan sudah siap,selamat datang kembali,0.76
+44_SUB10,SUB10,female,berikan mikrofonnya kepada dia,apakah kamu temu,0.8
+46_SUB10,SUB10,female,kami akan merapikan dokumen besok,kamu terlihat luar biasa,0.6363636363636364

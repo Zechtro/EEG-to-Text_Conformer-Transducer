@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB7,SUB7,female,anda benar benar kakek yang murah hati,saya ingin makan di kamar,0.7105263157894737
+3_SUB7,SUB7,female,cobalah besok pagi,saya akan segera,0.7777777777777778
+15_SUB7,SUB7,female,sampaikan salam saya untuk mereka,saya akan segera sampai,0.696969696969697
+21_SUB7,SUB7,female,selamat sore ada yang bisa saya bantu,saya sangat senang,0.6756756756756757
+22_SUB7,SUB7,female,apakah anda sudah makan siang,saya ingin makan,0.6551724137931034
+24_SUB7,SUB7,female,kita harus memberitahunya,saya akan pergi,0.76
+30_SUB7,SUB7,female,saya sangat sibuk hari ini butuh bantuan,saya akan segera pergi,0.725
+38_SUB7,SUB7,female,kita akan bertemu lagi,saya akan segera,0.5454545454545454
+52_SUB7,SUB7,female,ide idemu sangat kreatif,saya ingin makan di kamar,0.7916666666666666
+53_SUB7,SUB7,female,saya punya nomornya di sini,saya akan segera sampai,0.6296296296296297
+61_SUB7,SUB7,female,dia memang benar benar pembuat masalah,saya akan segera,0.7894736842105263
+64_SUB7,SUB7,female,boleh saya minta tolong,kamu baik,0.8695652173913043
+72_SUB7,SUB7,female,apa pekerjaan anda,dia bukan orang yang penting,1.1111111111111112
+75_SUB7,SUB7,female,ini surat undangan untuk anda,saya akan segera,0.7241379310344828
+83_SUB7,SUB7,female,mungkin kita akan mendapatkan inspirasi secara tidak sengaja,kami akan segera sampai,0.75
+85_SUB7,SUB7,female,saya pikir anda sudah tahu,kami akan segera sampai,0.7307692307692307
+87_SUB7,SUB7,female,kurangi makan roti dan kentang,kamu baik,0.8
+88_SUB7,SUB7,female,apakah sepeda itu milikmu,saya ingin makan,0.72
+92_SUB7,SUB7,female,kami berkenalan melalui internet,mari kita makan di luar,0.6875
+93_SUB7,SUB7,female,kamu adalah teman sejatiku,kamu bisa,0.7307692307692307

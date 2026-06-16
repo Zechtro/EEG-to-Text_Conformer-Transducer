@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB8,SUB8,male,saya butuh informasi anda,apakah kamu,0.8
+3_SUB8,SUB8,male,berharap bisa bertemu lagi di masa depan,apakah kamu,0.85
+15_SUB8,SUB8,male,apakah kamu tahu di mana bisa membelinya,apakah kamu,0.725
+21_SUB8,SUB8,male,dia selalu meludah sembarangan,saya tidak ingin anda,0.7
+22_SUB8,SUB8,male,cinta terkadang benar benar buta,apakah kamu,0.8125
+24_SUB8,SUB8,male,sudah siap mari kita mulai,saya tidak tahu,0.6538461538461539
+30_SUB8,SUB8,male,dia sudah punya pacar,saya tidak tahu,0.7619047619047619
+38_SUB8,SUB8,male,tapi saya sarankan anda mengakui kesalahan,apakah kamu,0.7857142857142857
+52_SUB8,SUB8,male,saya tersesat di dekat rumah anda,makan malam,0.7878787878787878
+53_SUB8,SUB8,male,bisa tolong bantu saya menyiram bunga,saya tidak tahu,0.7837837837837838
+61_SUB8,SUB8,male,semoga anda cepat sembuh,saya akan bantu,0.7083333333333334
+64_SUB8,SUB8,male,dia adalah laki laki yang pemalu,anda ingin,0.78125
+72_SUB8,SUB8,male,apakah anda memerlukan bantuan,saya tidak tahu,0.7
+75_SUB8,SUB8,male,saya mau masakan tiongkok terima kasih,saya akan bantu,0.6842105263157895
+83_SUB8,SUB8,male,dia akan merasa sangat senang,apakah kamu,0.7931034482758621
+85_SUB8,SUB8,male,tolong bantu ambilkan foto kami,saya tidak tahu,0.7741935483870968
+87_SUB8,SUB8,male,sebaiknya kita pergi sekarang,saya akan bantu,0.7241379310344828
+88_SUB8,SUB8,male,saya menerima pujian ini dengan rendah hati,saya tidak ingin pergi,0.6511627906976745
+92_SUB8,SUB8,male,kamu akan segera sembuh,saya akan bantu,0.6086956521739131
+93_SUB8,SUB8,male,saya akan tiba tepat waktu,apakah kamu,0.7307692307692307

@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB8,SUB8,male,saya butuh informasi anda,aku busan makan,64.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.3518
+3_SUB8,SUB8,male,berharap bisa bertemu lagi di masa depan,kuri apa,85.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.5436
+15_SUB8,SUB8,male,apakah kamu tahu di mana bisa membelinya,makan undangat dang berangkam,70.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,24.2358
+21_SUB8,SUB8,male,dia selalu meludah sembarangan,mai kemuan anda,70.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.8406
+22_SUB8,SUB8,male,cinta terkadang benar benar buta,kamu anda,81.25,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.5081
+24_SUB8,SUB8,male,sudah siap mari kita mulai,yar kangi,76.9231,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.6345
+30_SUB8,SUB8,male,dia sudah punya pacar,sebatu mendakan,76.1905,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.5867
+38_SUB8,SUB8,male,tapi saya sarankan anda mengakui kesalahan,barsa siang yagi,73.8095,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.0665
+52_SUB8,SUB8,male,saya tersesat di dekat rumah anda,semak tangin anda,69.697,83.3333,12.2626,4.7493,4.4557,4.1799,33.3333,16.6667,22.2222,48.8709
+53_SUB8,SUB8,male,bisa tolong bantu saya menyiram bunga,saya anda malan,72.973,83.3333,12.2626,4.7493,4.4557,4.1799,33.3333,16.6667,22.2222,38.1893
+61_SUB8,SUB8,male,semoga anda cepat sembuh,aku anda,79.1667,75.0,18.394,8.226,6.4027,5.5011,50.0,25.0,33.3333,49.2901
+64_SUB8,SUB8,male,dia adalah laki laki yang pemalu,dia akan sudan sekaman memuan,56.25,83.3333,16.3746,5.7893,4.6382,4.3989,20.0,16.6667,18.1818,45.067
+72_SUB8,SUB8,male,apakah anda memerlukan bantuan,kamu anda,73.3333,75.0,18.394,8.226,6.4027,5.5011,50.0,25.0,33.3333,50.5114
+75_SUB8,SUB8,male,saya mau masakan tiongkok terima kasih,kampa mendengan,78.9474,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.8142
+83_SUB8,SUB8,male,dia akan merasa sangat senang,saya tidak anda dengan,58.6207,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.22
+85_SUB8,SUB8,male,tolong bantu ambilkan foto kami,kamu anda siap,77.4194,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.5174
+87_SUB8,SUB8,male,sebaiknya kita pergi sekarang,aku anda,82.7586,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.4286
+88_SUB8,SUB8,male,saya menerima pujian ini dengan rendah hati,saya apah kamu,74.4186,85.7143,8.7866,3.403,3.1926,2.995,33.3333,14.2857,20.0,38.1147
+92_SUB8,SUB8,male,kamu akan segera sembuh,anda mebar,73.913,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.779
+93_SUB8,SUB8,male,saya akan tiba tepat waktu,mempak sepat,73.0769,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.3637

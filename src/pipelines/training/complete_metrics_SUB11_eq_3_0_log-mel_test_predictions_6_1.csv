@@ -1,0 +1,18 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+3_SUB11,SUB11,female,berharap bisa bertemu lagi di masa depan,bagai akan menyekalin,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.776
+5_SUB11,SUB11,female,kapan anda biasanya tidur,apa kita anda sekembu,68.0,100.0,25.0,9.1287,7.6653,8.0343,25.0,25.0,25.0,57.1819
+23_SUB11,SUB11,female,kunci pintunya ayo kita berangkat,sepertin adan membungku anda,78.7879,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.0448
+30_SUB11,SUB11,female,dia sudah punya pacar,makan anda,76.1905,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.8521
+35_SUB11,SUB11,female,apakah perasaanmu sudah lebih baik,sembun,91.1765,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.3299
+39_SUB11,SUB11,female,saya ada janji temu mohon tunggu sebentar,kami akan segiban,75.6098,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.9524
+51_SUB11,SUB11,female,dia adalah teman sekamar saya,makan siang dengan,75.8621,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.8144
+54_SUB11,SUB11,female,dia membuat kesabaran saya habis,saya mengaban,78.125,80.0,11.1565,4.9893,3.8835,3.3366,50.0,20.0,28.5714,55.7142
+60_SUB11,SUB11,female,apa rencanamu untuk masa depan,bita anda,83.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.6035
+75_SUB11,SUB11,female,saya mau masakan tiongkok terima kasih,bicara dengan benar kepat,73.6842,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.8543
+76_SUB11,SUB11,female,wasit sepertinya agak memihak,bagus sudah musak,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.2591
+83_SUB11,SUB11,female,dia akan merasa sangat senang,kami akan segera buta,65.5172,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,51.2018
+84_SUB11,SUB11,female,maaf telah mengganggu anda,kami akan segera apa,65.3846,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.9221
+87_SUB11,SUB11,female,sebaiknya kita pergi sekarang,bisa tempa,75.8621,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.3733
+91_SUB11,SUB11,female,tidak usah terima kasih,saya ingin bita,78.2609,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.4573
+95_SUB11,SUB11,female,kecewa dengan upaya anda,saya merisaha,79.1667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.5942
+96_SUB11,SUB11,female,kita harus saling membantu,bagilan tempa,73.0769,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.2065

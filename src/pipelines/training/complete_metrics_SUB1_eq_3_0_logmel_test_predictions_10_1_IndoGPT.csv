@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB1,SUB1,male,maaf saya terlambat,saya tidak akan minta maaf,94.7368,166.6667,40.0,10.0,7.1211,6.3894,40.0,66.6667,50.0,75.1853
+3_SUB1,SUB1,male,biar saya bantu ganti baterainya,saya tidak akan minta maaf,71.875,100.0,20.0,7.0711,5.6651,5.3728,20.0,20.0,20.0,52.5869
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang,senang bertemu dengan anda,74.1935,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.7366
+21_SUB1,SUB1,male,kamu tampak penuh energi hari ini,saya tidak akan minta maaf,72.7273,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.0231
+22_SUB1,SUB1,male,setelah makan saya merasa sangat kenyang,saya tidak akan minta maaf,70.0,100.0,16.3746,5.7893,4.6382,4.3989,20.0,16.6667,18.1818,42.9473
+24_SUB1,SUB1,male,saya sedang terburu buru sampai jumpa,selamat sore ada yang bisa saya bantu,72.973,116.6667,14.2857,4.8795,3.7469,3.3032,14.2857,16.6667,15.3846,33.9095
+30_SUB1,SUB1,male,benar benar tidak bisa dipercaya,saya tidak akan minta maaf,65.625,100.0,20.0,7.0711,5.6651,5.3728,20.0,20.0,20.0,55.5021
+38_SUB1,SUB1,male,bagaimana harimu hari ini,selamat sore ada yang bisa saya bantu,104.0,175.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.9375
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati,saya tidak akan minta maaf,65.7895,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.1015
+53_SUB1,SUB1,male,cobalah besok pagi,kamu terlihat luar biasa,111.1111,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.5241
+61_SUB1,SUB1,male,tolong segera pergi dari sini,selamat sore ada yang bisa saya bantu,86.2069,140.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.0864
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda,saya tidak akan minta maaf,65.0,100.0,13.4064,4.7399,3.7975,3.6015,20.0,14.2857,16.6667,58.6386
+72_SUB1,SUB1,male,apakah anda sudah makan siang,saya tidak akan minta maaf,65.5172,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.5708
+75_SUB1,SUB1,male,kamu benar benar menjadi lebih sehat,kami akan segera sampai,69.4444,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.5909
+83_SUB1,SUB1,male,saya tidak punya waktu luang sama sekali,teroris tidak menghargai kehidupan,77.5,85.7143,11.8092,4.3121,3.6208,3.7951,25.0,14.2857,18.1818,52.2464
+85_SUB1,SUB1,male,dia bukan orang yang penting,selamat sore ada yang bisa saya bantu,96.4286,120.0,14.2857,4.8795,3.7469,3.3032,14.2857,20.0,16.6667,23.6295
+87_SUB1,SUB1,male,apa yang bisa kami lakukan untuk anda,saya tidak akan minta maaf,59.4595,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.0675
+88_SUB1,SUB1,male,kita akan bertemu lagi,saya tidak akan minta maaf,77.2727,100.0,20.0,7.0711,5.6651,5.3728,20.0,25.0,22.2222,53.9342
+92_SUB1,SUB1,male,saya bukan seorang penjahat,saya tidak akan minta maaf,59.2593,100.0,20.0,7.0711,5.6651,5.3728,20.0,25.0,22.2222,64.705
+93_SUB1,SUB1,male,waktu berjalan begitu cepat,saya akan pergi,70.3704,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.8077

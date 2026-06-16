@@ -1,0 +1,20 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB9,SUB9,female,tolong fotokopi laporan ini,saya terlamu,0.8518518518518519
+3_SUB9,SUB9,female,bagaimana kabarmu belakangan ini,akan di sana,0.75
+19_SUB9,SUB9,female,pintunya sudah dibuka,kemua kamban,0.7619047619047619
+25_SUB9,SUB9,female,apakah ada yang ingin anda laporkan,saya tenar,0.8
+26_SUB9,SUB9,female,bolehkah saya berbicara dengan anda,saya terselahan,0.6857142857142857
+28_SUB9,SUB9,female,mari makan di luar malam ini,kami anda benar,0.6785714285714286
+36_SUB9,SUB9,female,aku akan mencintaimu selamanya,saya siapa kanda menuh,0.7666666666666667
+44_SUB9,SUB9,female,apakah anda tertarik dengan komputer,apakan apa husan,0.6944444444444444
+58_SUB9,SUB9,female,dia diculik di dalam mobil,kami buan,0.8461538461538461
+59_SUB9,SUB9,female,selamat pagi pak ada yang bisa saya bantu,kamu biasa,0.8048780487804879
+66_SUB9,SUB9,female,temanmu sangat cantik,dia anda bernapa,0.7142857142857143
+67_SUB9,SUB9,female,mari kita bicara,saya bertemu karesia,0.875
+70_SUB9,SUB9,female,dia benar benar menyalahkan saya,saya baik mengangkan,0.625
+80_SUB9,SUB9,female,apakah anda baik baik saja pak,kami sanga,0.7666666666666667
+83_SUB9,SUB9,female,terima kasih atas pengertian anda,siap apak ada menutkan,0.6363636363636364
+88_SUB9,SUB9,female,ini terlalu sulit baginya,maaf anda ketaria,0.76
+91_SUB9,SUB9,female,sepertinya kamu sedang flu,semang,0.7692307692307693
+94_SUB9,SUB9,female,senang berkenalan dengan anda,sedar buka,0.7586206896551724
+96_SUB9,SUB9,female,seperti apa penampilannya,apakah anda berkatam,0.76

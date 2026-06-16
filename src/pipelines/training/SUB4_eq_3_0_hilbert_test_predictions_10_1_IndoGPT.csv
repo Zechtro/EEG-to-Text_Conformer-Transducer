@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB4,SUB4,male,tolong fotokopi laporan ini,kapan kita akan berangkat,0.7777777777777778
+3_SUB4,SUB4,male,bagaimana kabarmu belakangan ini,anda terlihat sangat tertekan,0.875
+15_SUB4,SUB4,male,bagaimana kesehatanmu akhir akhir ini,mari makan sesuatu,0.7567567567567568
+21_SUB4,SUB4,male,maaf apakah sekarang sedang luang,dia adalah orang yang berpengetahuan,0.6363636363636364
+22_SUB4,SUB4,male,tersesat butuh bantuan,anda terlihat sangat kelelahan,0.9545454545454546
+24_SUB4,SUB4,male,saya melewatkan momen yang luar biasa,kami akan segera mengantarkannya ke atas,0.8108108108108109
+30_SUB4,SUB4,male,melakukan panggilan internasional,dia adalah orang yang berpengetahuan,0.7878787878787878
+38_SUB4,SUB4,male,hidangan apa ini,saya suka mencoba,0.9375
+52_SUB4,SUB4,male,apakah anda membutuhkan bantuan,aku akan mencintaimu selamanya,0.7419354838709677
+53_SUB4,SUB4,male,dia sangat ketat terhadap kami,aku mulai merasa lapar,0.7
+61_SUB4,SUB4,male,saya tidak sengaja menumpahkan tinta,mari makan sesuatu,0.7222222222222222
+64_SUB4,SUB4,male,saya ingin makan salad,selamat siang silakan duduk,0.6818181818181818
+72_SUB4,SUB4,male,jadwal saya sangat padat,saya akan menantikan kedatangan anda,1.0
+75_SUB4,SUB4,male,terima kasih telah menghubungi kami mohon tunggu sebentar,mari makan sesuatu,0.7894736842105263
+83_SUB4,SUB4,male,terima kasih atas pengertian anda,mari kita makan sesuatu,0.7272727272727273
+85_SUB4,SUB4,male,tentu saja boleh,anda bisa belajar banyak,1.0625
+87_SUB4,SUB4,male,berpamitan dengan teman di stasiun kereta,mari makan sesuatu,0.7317073170731707
+88_SUB4,SUB4,male,ini terlalu sulit baginya,saya harap anda beruntung,0.84
+92_SUB4,SUB4,male,berharap bisa bertemu kembali,pintunya sudah dibuka,0.8275862068965517
+93_SUB4,SUB4,male,apakah ruang rapat sudah siap,anda bisa belajar banyak hal,0.7241379310344828

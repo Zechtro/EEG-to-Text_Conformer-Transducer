@@ -1,0 +1,18 @@
+id,subject,gender,sentence,prediction,cer
+3_SUB11,SUB11,female,berharap bisa bertemu lagi di masa depan,bagai akan menyekalin,0.75
+5_SUB11,SUB11,female,kapan anda biasanya tidur,apa kita anda sekembu,0.68
+23_SUB11,SUB11,female,kunci pintunya ayo kita berangkat,sepertin adan membungku anda,0.7878787878787878
+30_SUB11,SUB11,female,dia sudah punya pacar,makan anda,0.7619047619047619
+35_SUB11,SUB11,female,apakah perasaanmu sudah lebih baik,sembun,0.9117647058823529
+39_SUB11,SUB11,female,saya ada janji temu mohon tunggu sebentar,kami akan segiban,0.7560975609756098
+51_SUB11,SUB11,female,dia adalah teman sekamar saya,makan siang dengan,0.7586206896551724
+54_SUB11,SUB11,female,dia membuat kesabaran saya habis,saya mengaban,0.78125
+60_SUB11,SUB11,female,apa rencanamu untuk masa depan,bita anda,0.8333333333333334
+75_SUB11,SUB11,female,saya mau masakan tiongkok terima kasih,bicara dengan benar kepat,0.7368421052631579
+76_SUB11,SUB11,female,wasit sepertinya agak memihak,bagus sudah musak,0.7241379310344828
+83_SUB11,SUB11,female,dia akan merasa sangat senang,kami akan segera buta,0.6551724137931034
+84_SUB11,SUB11,female,maaf telah mengganggu anda,kami akan segera apa,0.6538461538461539
+87_SUB11,SUB11,female,sebaiknya kita pergi sekarang,bisa tempa,0.7586206896551724
+91_SUB11,SUB11,female,tidak usah terima kasih,saya ingin bita,0.782608695652174
+95_SUB11,SUB11,female,kecewa dengan upaya anda,saya merisaha,0.7916666666666666
+96_SUB11,SUB11,female,kita harus saling membantu,bagilan tempa,0.7307692307692307

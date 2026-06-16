@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB1,SUB1,male,maaf saya terlambat,saya tidak akan minta maaf,0.9473684210526315
+3_SUB1,SUB1,male,biar saya bantu ganti baterainya,saya tidak akan minta maaf,0.71875
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang,senang bertemu dengan anda,0.7419354838709677
+21_SUB1,SUB1,male,kamu tampak penuh energi hari ini,saya tidak akan minta maaf,0.7272727272727273
+22_SUB1,SUB1,male,setelah makan saya merasa sangat kenyang,saya tidak akan minta maaf,0.7
+24_SUB1,SUB1,male,saya sedang terburu buru sampai jumpa,selamat sore ada yang bisa saya bantu,0.7297297297297297
+30_SUB1,SUB1,male,benar benar tidak bisa dipercaya,saya tidak akan minta maaf,0.65625
+38_SUB1,SUB1,male,bagaimana harimu hari ini,selamat sore ada yang bisa saya bantu,1.04
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati,saya tidak akan minta maaf,0.6578947368421053
+53_SUB1,SUB1,male,cobalah besok pagi,kamu terlihat luar biasa,1.1111111111111112
+61_SUB1,SUB1,male,tolong segera pergi dari sini,selamat sore ada yang bisa saya bantu,0.8620689655172413
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda,saya tidak akan minta maaf,0.65
+72_SUB1,SUB1,male,apakah anda sudah makan siang,saya tidak akan minta maaf,0.6551724137931034
+75_SUB1,SUB1,male,kamu benar benar menjadi lebih sehat,kami akan segera sampai,0.6944444444444444
+83_SUB1,SUB1,male,saya tidak punya waktu luang sama sekali,teroris tidak menghargai kehidupan,0.775
+85_SUB1,SUB1,male,dia bukan orang yang penting,selamat sore ada yang bisa saya bantu,0.9642857142857143
+87_SUB1,SUB1,male,apa yang bisa kami lakukan untuk anda,saya tidak akan minta maaf,0.5945945945945946
+88_SUB1,SUB1,male,kita akan bertemu lagi,saya tidak akan minta maaf,0.7727272727272727
+92_SUB1,SUB1,male,saya bukan seorang penjahat,saya tidak akan minta maaf,0.5925925925925926
+93_SUB1,SUB1,male,waktu berjalan begitu cepat,saya akan pergi,0.7037037037037037

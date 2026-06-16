@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB4,SUB4,male,tolong fotokopi laporan ini,saya terlami,0.8148148148148148
+3_SUB4,SUB4,male,bagaimana kabarmu belakangan ini,siak bura,0.8125
+15_SUB4,SUB4,male,bagaimana kesehatanmu akhir akhir ini,anda terlihat,0.8378378378378378
+21_SUB4,SUB4,male,maaf apakah sekarang sedang luang,supuhtkan di,0.7878787878787878
+22_SUB4,SUB4,male,tersesat butuh bantuan,anda bisa telah,0.7727272727272727
+24_SUB4,SUB4,male,saya melewatkan momen yang luar biasa,saya terlihat anda,0.6756756756756757
+30_SUB4,SUB4,male,melakukan panggilan internasional,akan membingatkan,0.696969696969697
+38_SUB4,SUB4,male,hidangan apa ini,kami akan suda,0.8125
+52_SUB4,SUB4,male,apakah anda membutuhkan bantuan,bakan pergi,0.8064516129032258
+53_SUB4,SUB4,male,dia sangat ketat terhadap kami,dia terlihat anda,0.7
+61_SUB4,SUB4,male,saya tidak sengaja menumpahkan tinta,saya telah membuntuk,0.6111111111111112
+64_SUB4,SUB4,male,saya ingin makan salad,maan kita akan,0.6363636363636364
+72_SUB4,SUB4,male,jadwal saya sangat padat,saya bukan anda,0.625
+75_SUB4,SUB4,male,terima kasih telah menghubungi kami mohon tunggu sebentar,perikan,0.8947368421052632
+83_SUB4,SUB4,male,terima kasih atas pengertian anda,kapan saya kami,0.8181818181818182
+85_SUB4,SUB4,male,tentu saja boleh,akan dukan anda,0.875
+87_SUB4,SUB4,male,berpamitan dengan teman di stasiun kereta,makan di bukan anda,0.7073170731707317
+88_SUB4,SUB4,male,ini terlalu sulit baginya,saya telahkan,0.76
+92_SUB4,SUB4,male,berharap bisa bertemu kembali,dia anda kami,0.7586206896551724
+93_SUB4,SUB4,male,apakah ruang rapat sudah siap,kamu akan,0.7931034482758621

@@ -1,0 +1,20 @@
+id,subject,gender,sentence,prediction,cer
+54_SUB10,SUB10,female,dia memakai topeng wajahnya tidak terlihat,kami biasa wantu,0.7857142857142857
+55_SUB10,SUB10,female,halo ada yang bisa saya bantu,kami biasa di,0.7241379310344828
+67_SUB10,SUB10,female,anda bisa mencetaknya,selamat datang kita masuk,1.0
+74_SUB10,SUB10,female,saya sedang terburu buru sampai jumpa,kami biasa hari ini,0.8108108108108109
+75_SUB10,SUB10,female,silakan nikmati perjalanan anda,kamu termuat,0.7741935483870968
+77_SUB10,SUB10,female,bagaimana kabar ibumu sekarang,saya tidak bisa dipercaya,0.7333333333333333
+87_SUB10,SUB10,female,hari ini ingin makan apa,saya menidakan sebelumnya,0.7916666666666666
+95_SUB10,SUB10,female,saya ingin lebih mengenalnya,selamat dia katang pernah menang,0.7857142857142857
+10_SUB10,SUB10,female,kita pernah bertemu tahun lalu,kamu harung pernah makan beberapa,0.7666666666666667
+12_SUB10,SUB10,female,anda seharusnya merasa malu,maan di kantin,0.8148148148148148
+19_SUB10,SUB10,female,pilihan anda banyak sekali ya,saya tidak bisa dipercaya,0.6896551724137931
+20_SUB10,SUB10,female,lain kali pasti akan lebih baik,sayura sangat luang,0.7419354838709677
+23_SUB10,SUB10,female,saya tidak percaya penjelasan anda,kami biasa sangat kenyang,0.7058823529411765
+31_SUB10,SUB10,female,apa yang anda lakukan di waktu luang,saya ingin mencara sangat,0.7222222222222222
+34_SUB10,SUB10,female,saya setuju dengan semua kebijakannya,kamu saya tekum,0.7837837837837838
+38_SUB10,SUB10,female,kita pergi nanti saja,saya temui,0.8095238095238095
+42_SUB10,SUB10,female,apakah sarapan sudah siap,saya pernah saya temui,0.68
+44_SUB10,SUB10,female,berikan mikrofonnya kepada dia,selamat datang ada yang bisa di,0.7666666666666667
+46_SUB10,SUB10,female,kami akan merapikan dokumen besok,kapan tibak,0.7575757575757576

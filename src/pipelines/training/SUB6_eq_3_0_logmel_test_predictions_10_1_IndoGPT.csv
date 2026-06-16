@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB6,SUB6,female,kita harus melihat bagaimana keadaannya,saya harus pergi sampaikan salam saya,0.5384615384615384
+3_SUB6,SUB6,female,mungkin keberuntungan akan membaik,saya harus pergi sampai jumpa,0.7941176470588235
+15_SUB6,SUB6,female,anda ingin ayam atau daging sapi,dia adalah orang yang bijaksana,0.75
+21_SUB6,SUB6,female,setiap hari hanyalah rutinitas biasa,dia adalah orang yang bijaksana,0.6944444444444444
+22_SUB6,SUB6,female,tentu saja tidak masalah,saya harus pergi sampai jumpa,1.0
+24_SUB6,SUB6,female,butuh bantuan apa,dia sudah berada di dalam penjara,1.411764705882353
+30_SUB6,SUB6,female,beberapa bulan terakhir ini kamu sangat sibuk,apa rencanamu,0.7777777777777778
+38_SUB6,SUB6,female,tolong bantu saya membersihkan dapur,dia adalah orang yang bijaksana,0.8333333333333334
+52_SUB6,SUB6,female,tolong isi penuh bensinnya terima kasih,aku ingin memasak makan malam,0.7692307692307693
+53_SUB6,SUB6,female,hubungi aku besok,saya ingin steak dengan tingkat kematangan,2.0
+61_SUB6,SUB6,female,makanan di sana lumayan enak,saya ingin steak dengan tingkat kematangan medium,1.1785714285714286
+64_SUB6,SUB6,female,apa yang bisa saya bantu,saya harus pergi sampaikan salam saya,1.0
+72_SUB6,SUB6,female,saya sangat menghargai saran anda,apa yang sedang kamu lakukan,0.6363636363636364
+75_SUB6,SUB6,female,mengapa kamu melakukan hal itu,saya tidak ingin bekerja sama dengannya,1.1
+83_SUB6,SUB6,female,dia tidak tahu bagaimana menghadapi kenyataan,aku ingin makan sesuatu,0.6666666666666666
+85_SUB6,SUB6,female,guru filsafat saya sangat humoris,aku tidak sengaja bertemu teman lama,0.8787878787878788
+87_SUB6,SUB6,female,terima kasih banyak atas undangannya,saya harus pergi sampai jumpa,0.7777777777777778
+88_SUB6,SUB6,female,kita bisa pensiun lebih awal,apa yang biasanya anda makan,0.7857142857142857
+92_SUB6,SUB6,female,saya akan membawakannya untuk anda besok,aku membawa keripik kentang,0.675
+93_SUB6,SUB6,female,di mana alamat anda,dia adalah orang yang bijaksana,1.0526315789473684

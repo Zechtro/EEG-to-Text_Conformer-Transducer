@@ -1,0 +1,5 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+53_SUB12,SUB12,female,bagaimana kabarmu belakangan ini,kami berdua terlan,71.875,100.0,0,0,0,0,0.0,0.0,0.0,44.8569
+69_SUB12,SUB12,female,pintunya sudah dibuka,anda boleh pergi,76.1905,100.0,0,0,0,0,0.0,0.0,0.0,61.6269
+85_SUB12,SUB12,female,dia hanya mencintai uangnya,saya tidak berpikir demikian,81.4815,100.0,0,0,0,0,0.0,0.0,0.0,54.4894
+94_SUB12,SUB12,female,apakah anda tertarik dengan komputer,kami berbeda,80.5556,100.0,0,0,0,0,0.0,0.0,0.0,37.8747

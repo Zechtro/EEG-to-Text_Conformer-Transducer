@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB1,SUB1,male,maaf saya terlambat,silakan datang,0.8421052631578947
+3_SUB1,SUB1,male,biar saya bantu ganti baterainya,saya tidak bisa minta maaf,0.71875
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang,saya tidak bisa minta maaf,0.6774193548387096
+21_SUB1,SUB1,male,kamu tampak penuh energi hari ini,saya tidak bisa minta maaf,0.7272727272727273
+22_SUB1,SUB1,male,setelah makan saya merasa sangat kenyang,kami akan segera sampai,0.65
+24_SUB1,SUB1,male,saya sedang terburu buru sampai jumpa,saya tidak bisa minta maaf,0.6486486486486487
+30_SUB1,SUB1,male,benar benar tidak bisa dipercaya,saya tidak bisa makan,0.53125
+38_SUB1,SUB1,male,bagaimana harimu hari ini,kami akan bertanggung jawab,0.84
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati,kami akan segera sampai,0.7105263157894737
+53_SUB1,SUB1,male,cobalah besok pagi,saya tidak bisa minta maaf,1.0555555555555556
+61_SUB1,SUB1,male,tolong segera pergi dari sini,saya tidak bisa minta maaf,0.896551724137931
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda,saya tidak bisa minta maaf,0.675
+72_SUB1,SUB1,male,apakah anda sudah makan siang,saya tidak bisa,0.7241379310344828
+75_SUB1,SUB1,male,kamu benar benar menjadi lebih sehat,kamu adalah orang yang humoris,0.7222222222222222
+83_SUB1,SUB1,male,saya tidak punya waktu luang sama sekali,kamu adalah orang yang humoris,0.7
+85_SUB1,SUB1,male,dia bukan orang yang penting,anda bisa mencetaknya,0.75
+87_SUB1,SUB1,male,apa yang bisa kami lakukan untuk anda,kamu adalah orang yang humoris,0.8108108108108109
+88_SUB1,SUB1,male,kita akan bertemu lagi,anda bisa mencetaknya,0.7727272727272727
+92_SUB1,SUB1,male,saya bukan seorang penjahat,dia tidak bisa,0.8148148148148148
+93_SUB1,SUB1,male,waktu berjalan begitu cepat,kami akan segera sampai,0.6296296296296297

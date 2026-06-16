@@ -1,0 +1,11 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+8_SUB3,SUB3,male,mereka adalah teman baik,bagaimana kamu,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.9732
+11_SUB3,SUB3,male,dia memang benar benar pembuat masalah,dia selalu senang,71.0526,83.3333,12.2626,4.7493,4.4557,4.1799,33.3333,16.6667,22.2222,66.4847
+15_SUB3,SUB3,male,mari kita makan di kantin saja,dia selalu senang,76.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.656
+19_SUB3,SUB3,male,kapan kamu bisa datang,dia selalu senang,68.1818,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,58.2652
+21_SUB3,SUB3,male,tapi semua hal baik pasti ada akhirnya,dia selalu senang,76.3158,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.0935
+23_SUB3,SUB3,male,kamu seharusnya bicara dengannya,bagaimana kamu,78.125,100.0,18.394,8.226,6.4027,5.5011,50.0,25.0,33.3333,58.8274
+29_SUB3,SUB3,male,saya sudah ada janji besok,dia selalu senang,76.9231,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.8476
+39_SUB3,SUB3,male,kamu baik sekali,dia selalu senang,68.75,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,63.9701
+43_SUB3,SUB3,male,kamu adalah teman sejatiku,dia selalu senang,69.2308,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,62.8945
+50_SUB3,SUB3,male,halo apa kabar,bagaimana kamu,64.2857,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.1476

@@ -1,0 +1,11 @@
+id,subject,gender,sentence,prediction,cer
+8_SUB5,SUB5,male,sudah waktunya tidur,kita pernah bertemu,0.85
+11_SUB5,SUB5,male,maaf kemarin saya tidak masuk kelas,apakah anda,0.8
+15_SUB5,SUB5,male,mari ikut saya ke kantor untuk bicara lebih lanjut,kamu,0.94
+19_SUB5,SUB5,male,pilihan anda banyak sekali ya,kamu,0.9310344827586207
+21_SUB5,SUB5,male,dia sangat tidak bisa diandalkan,saya ingin pergi,0.78125
+23_SUB5,SUB5,male,saya tidak percaya penjelasan anda,kita pernah bertemu,0.7058823529411765
+29_SUB5,SUB5,male,kami biasanya makan di kantin,saya menikmati waktu,0.6896551724137931
+39_SUB5,SUB5,male,semoga anda bersenang senang,kita pernah bertemu,0.75
+43_SUB5,SUB5,male,aku sedang menelepon teman,kamu,0.8846153846153846
+50_SUB5,SUB5,male,jangan percaya apa yang dia katakan,kita pernah bertemu,0.7714285714285715

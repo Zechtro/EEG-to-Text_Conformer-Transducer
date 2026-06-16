@@ -1,0 +1,11 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+8_SUB5,SUB5,male,sudah waktunya tidur,apakah akan terapi,70.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.2068
+11_SUB5,SUB5,male,maaf kemarin saya tidak masuk kelas,saya pernat saya,71.4286,83.3333,12.2626,4.7493,4.4557,4.1799,33.3333,16.6667,22.2222,53.3313
+15_SUB5,SUB5,male,mari ikut saya ke kantor untuk bicara lebih lanjut,dia sedang sehari,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.7188
+19_SUB5,SUB5,male,pilihan anda banyak sekali ya,saya pergi makan,79.3103,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.3396
+21_SUB5,SUB5,male,dia sangat tidak bisa diandalkan,matu diungu,81.25,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.8107
+23_SUB5,SUB5,male,saya tidak percaya penjelasan anda,selamat dia saya,73.5294,100.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,44.712
+29_SUB5,SUB5,male,kami biasanya makan di kantin,selah sayang,82.7586,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.7481
+39_SUB5,SUB5,male,semoga anda bersenang senang,kamu terlihat luar,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.7272
+43_SUB5,SUB5,male,aku sedang menelepon teman,kita salu,84.6154,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.1912
+50_SUB5,SUB5,male,jangan percaya apa yang dia katakan,kamu adatu,82.8571,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.533

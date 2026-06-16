@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB8,SUB8,male,saya butuh informasi anda,sampa intu anda,0.6
+3_SUB8,SUB8,male,berharap bisa bertemu lagi di masa depan,baralah kamu seria,0.725
+15_SUB8,SUB8,male,apakah kamu tahu di mana bisa membelinya,sampa akan semakan,0.725
+21_SUB8,SUB8,male,dia selalu meludah sembarangan,tidak anda,0.7666666666666667
+22_SUB8,SUB8,male,cinta terkadang benar benar buta,kebutu makan,0.875
+24_SUB8,SUB8,male,sudah siap mari kita mulai,sukan tamu,0.6923076923076923
+30_SUB8,SUB8,male,dia sudah punya pacar,bagus madan,0.7619047619047619
+38_SUB8,SUB8,male,tapi saya sarankan anda mengakui kesalahan,makan malan sepat,0.7619047619047619
+52_SUB8,SUB8,male,saya tersesat di dekat rumah anda,bantuan anda berjalan biak,0.7575757575757576
+53_SUB8,SUB8,male,bisa tolong bantu saya menyiram bunga,sama kamu habit,0.7837837837837838
+61_SUB8,SUB8,male,semoga anda cepat sembuh,ingin makan,0.8333333333333334
+64_SUB8,SUB8,male,dia adalah laki laki yang pemalu,saya tidak anda,0.6875
+72_SUB8,SUB8,male,apakah anda memerlukan bantuan,sampai akan sebentu,0.7
+75_SUB8,SUB8,male,saya mau masakan tiongkok terima kasih,aku temu banda,0.7894736842105263
+83_SUB8,SUB8,male,dia akan merasa sangat senang,kebatu sedia,0.7931034482758621
+85_SUB8,SUB8,male,tolong bantu ambilkan foto kami,makan segain,0.8064516129032258
+87_SUB8,SUB8,male,sebaiknya kita pergi sekarang,saya akan mengebungkan,0.6551724137931034
+88_SUB8,SUB8,male,saya menerima pujian ini dengan rendah hati,apakah separ,0.8372093023255814
+92_SUB8,SUB8,male,kamu akan segera sembuh,saya apa,0.8260869565217391
+93_SUB8,SUB8,male,saya akan tiba tepat waktu,semar karus,0.8076923076923077

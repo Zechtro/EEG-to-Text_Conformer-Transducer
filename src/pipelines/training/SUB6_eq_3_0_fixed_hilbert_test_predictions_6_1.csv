@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB6,SUB6,female,kita harus melihat bagaimana keadaannya,buntu kesalah,0.8461538461538461
+3_SUB6,SUB6,female,mungkin keberuntungan akan membaik,saya dang menambat,0.7647058823529411
+15_SUB6,SUB6,female,anda ingin ayam atau daging sapi,aku terlamban taku,0.75
+21_SUB6,SUB6,female,setiap hari hanyalah rutinitas biasa,bisakah anya menanya,0.6944444444444444
+22_SUB6,SUB6,female,tentu saja tidak masalah,saya ingin makan saya angi,0.8333333333333334
+24_SUB6,SUB6,female,butuh bantuan apa,saya dalan,0.7647058823529411
+30_SUB6,SUB6,female,beberapa bulan terakhir ini kamu sangat sibuk,saya yang senagan baru,0.7333333333333333
+38_SUB6,SUB6,female,tolong bantu saya membersihkan dapur,saya teman,0.75
+52_SUB6,SUB6,female,tolong isi penuh bensinnya terima kasih,saya ini,0.8461538461538461
+53_SUB6,SUB6,female,hubungi aku besok,bisakah anda,0.7647058823529411
+61_SUB6,SUB6,female,makanan di sana lumayan enak,kemalan sanya dalan,0.6071428571428571
+64_SUB6,SUB6,female,apa yang bisa saya bantu,saga ininya,0.75
+72_SUB6,SUB6,female,saya sangat menghargai saran anda,aku ingin kematan barang mengebara,0.696969696969697
+75_SUB6,SUB6,female,mengapa kamu melakukan hal itu,kemapan bergi kalu,0.6666666666666666
+83_SUB6,SUB6,female,dia tidak tahu bagaimana menghadapi kenyataan,apa menangin,0.7777777777777778
+85_SUB6,SUB6,female,guru filsafat saya sangat humoris,terima sangat bertikan,0.696969696969697
+87_SUB6,SUB6,female,terima kasih banyak atas undangannya,anda laku an,0.7777777777777778
+88_SUB6,SUB6,female,kita bisa pensiun lebih awal,dah laku,0.8571428571428571
+92_SUB6,SUB6,female,saya akan membawakannya untuk anda besok,beralu menar,0.85
+93_SUB6,SUB6,female,di mana alamat anda,saya dalang,0.6842105263157895

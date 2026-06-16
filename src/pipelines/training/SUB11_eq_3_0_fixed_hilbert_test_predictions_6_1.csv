@@ -1,0 +1,18 @@
+id,subject,gender,sentence,prediction,cer
+3_SUB11,SUB11,female,berharap bisa bertemu lagi di masa depan,saya tersesat mulai,0.75
+5_SUB11,SUB11,female,kapan anda biasanya tidur,saya apa,0.8
+23_SUB11,SUB11,female,kunci pintunya ayo kita berangkat,tidak tahu sembuh,0.8484848484848485
+30_SUB11,SUB11,female,dia sudah punya pacar,saya ingin tidak tahu dengan,1.0476190476190477
+35_SUB11,SUB11,female,apakah perasaanmu sudah lebih baik,terlihaba,0.7941176470588235
+39_SUB11,SUB11,female,saya ada janji temu mohon tunggu sebentar,bagu,0.926829268292683
+51_SUB11,SUB11,female,dia adalah teman sekamar saya,bantu sekali bertemu anda,0.7586206896551724
+54_SUB11,SUB11,female,dia membuat kesabaran saya habis,bantu mala,0.84375
+60_SUB11,SUB11,female,apa rencanamu untuk masa depan,kembuh,0.9
+75_SUB11,SUB11,female,saya mau masakan tiongkok terima kasih,saya tida kemu anda,0.6842105263157895
+76_SUB11,SUB11,female,wasit sepertinya agak memihak,saya ingin mulepok,0.7241379310344828
+83_SUB11,SUB11,female,dia akan merasa sangat senang,sudah semalap,0.8275862068965517
+84_SUB11,SUB11,female,maaf telah mengganggu anda,saya tidak tahu ingin makan apa,0.7692307692307693
+87_SUB11,SUB11,female,sebaiknya kita pergi sekarang,aku besat,0.7931034482758621
+91_SUB11,SUB11,female,tidak usah terima kasih,kamu benar besakan,0.7391304347826086
+95_SUB11,SUB11,female,kecewa dengan upaya anda,mana kalitu anda,0.6666666666666666
+96_SUB11,SUB11,female,kita harus saling membantu,sembuh,0.8461538461538461

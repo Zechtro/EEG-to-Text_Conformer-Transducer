@@ -1,0 +1,5 @@
+id,subject,gender,sentence,prediction,cer
+53_SUB12,SUB12,female,bagaimana kabarmu belakangan ini,kami berdua terlan,0.71875
+69_SUB12,SUB12,female,pintunya sudah dibuka,anda boleh pergi,0.7619047619047619
+85_SUB12,SUB12,female,dia hanya mencintai uangnya,saya tidak berpikir demikian,0.8148148148148148
+94_SUB12,SUB12,female,apakah anda tertarik dengan komputer,kami berbeda,0.8055555555555556

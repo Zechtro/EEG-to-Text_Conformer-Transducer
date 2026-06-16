@@ -1,0 +1,18 @@
+id,subject,gender,sentence,prediction,cer
+3_SUB11,SUB11,female,berharap bisa bertemu lagi di masa depan,saya tidak tahu,0.8
+5_SUB11,SUB11,female,kapan anda biasanya tidur,saya tidak tahu,0.68
+23_SUB11,SUB11,female,kunci pintunya ayo kita berangkat,teman sejati,0.8484848484848485
+30_SUB11,SUB11,female,dia sudah punya pacar,apakah kamu tahu,0.7142857142857143
+35_SUB11,SUB11,female,apakah perasaanmu sudah lebih baik,saya akan berusaha,0.7058823529411765
+39_SUB11,SUB11,female,saya ada janji temu mohon tunggu sebentar,apakah kamu tahu,0.7560975609756098
+51_SUB11,SUB11,female,dia adalah teman sekamar saya,apakah kamu tahu,0.6551724137931034
+54_SUB11,SUB11,female,dia membuat kesabaran saya habis,saya tidak tahu,0.78125
+60_SUB11,SUB11,female,apa rencanamu untuk masa depan,sudah larut,0.9
+75_SUB11,SUB11,female,saya mau masakan tiongkok terima kasih,apakah kamu tahu,0.7631578947368421
+76_SUB11,SUB11,female,wasit sepertinya agak memihak,apakah kamu tahu,0.7931034482758621
+83_SUB11,SUB11,female,dia akan merasa sangat senang,apakah kamu tahu,0.6896551724137931
+84_SUB11,SUB11,female,maaf telah mengganggu anda,saya tidak tahu,0.7307692307692307
+87_SUB11,SUB11,female,sebaiknya kita pergi sekarang,sudah siap,0.7931034482758621
+91_SUB11,SUB11,female,tidak usah terima kasih,apakah kamu tahu,0.6521739130434783
+95_SUB11,SUB11,female,kecewa dengan upaya anda,apakah kamu tahu,0.7916666666666666
+96_SUB11,SUB11,female,kita harus saling membantu,apakah kamu tahu,0.7307692307692307

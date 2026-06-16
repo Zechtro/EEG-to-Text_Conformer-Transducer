@@ -1,0 +1,190 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB1,SUB1,male,maaf saya terlambat,maaf membuat anda,0.631578947368421
+3_SUB1,SUB1,male,biar saya bantu ganti baterainya,maaf membuat anda,0.6875
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang,maaf membuat anda,0.8064516129032258
+21_SUB1,SUB1,male,kamu tampak penuh energi hari ini,maaf membuat anda,0.7878787878787878
+22_SUB1,SUB1,male,setelah makan saya merasa sangat kenyang,maaf membuat anda,0.725
+24_SUB1,SUB1,male,saya sedang terburu buru sampai jumpa,maaf membuat anda,0.7567567567567568
+30_SUB1,SUB1,male,benar benar tidak bisa dipercaya,maaf membuat anda,0.75
+38_SUB1,SUB1,male,bagaimana harimu hari ini,maaf membuat anda,0.76
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati,maaf membuat anda,0.7631578947368421
+53_SUB1,SUB1,male,cobalah besok pagi,maaf membuat anda,0.8333333333333334
+61_SUB1,SUB1,male,tolong segera pergi dari sini,maaf membuat anda,0.8275862068965517
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda,maaf membuat anda,0.725
+72_SUB1,SUB1,male,apakah anda sudah makan siang,maaf membuat anda,0.6896551724137931
+75_SUB1,SUB1,male,kamu benar benar menjadi lebih sehat,maaf membuat anda,0.75
+83_SUB1,SUB1,male,saya tidak punya waktu luang sama sekali,maaf membuat anda,0.775
+85_SUB1,SUB1,male,dia bukan orang yang penting,maaf teman saya sedang sakit,0.6785714285714286
+87_SUB1,SUB1,male,apa yang bisa kami lakukan untuk anda,maaf membuat anda,0.6756756756756757
+88_SUB1,SUB1,male,kita akan bertemu lagi,maaf teman saya sedang sakit,0.9090909090909091
+92_SUB1,SUB1,male,saya bukan seorang penjahat,maaf teman saya sedang sakit,0.7037037037037037
+93_SUB1,SUB1,male,waktu berjalan begitu cepat,maaf membuat anda,0.7407407407407407
+8_SUB2,SUB2,male,saya ingin makan siang di kamar,maaf membuat anda,0.7096774193548387
+11_SUB2,SUB2,male,tolong segera pergi dari sini,maaf membuat anda,0.8275862068965517
+15_SUB2,SUB2,male,sampaikan salam saya untuk mereka,maaf membuat anda,0.7272727272727273
+19_SUB2,SUB2,male,senang bisa membantu anda,maaf membuat anda,0.52
+21_SUB2,SUB2,male,selamat sore ada yang bisa saya bantu,maaf membuat anda,0.7567567567567568
+23_SUB2,SUB2,male,silakan tanya saya kapan saja,maaf membuat anda,0.7241379310344828
+29_SUB2,SUB2,male,menurutku masakan tiongkok sangat lezat,maaf membuat anda,0.7692307692307693
+39_SUB2,SUB2,male,menurutku sebaiknya kamu minta maaf,maaf membuat anda,0.8
+43_SUB2,SUB2,male,waktu berjalan begitu cepat,maaf membuat anda,0.7407407407407407
+50_SUB2,SUB2,male,pekerjaan tidak selesai tepat waktu,maaf membuat anda,0.7714285714285715
+8_SUB3,SUB3,male,mereka adalah teman baik,maaf membuat anda,0.75
+11_SUB3,SUB3,male,dia memang benar benar pembuat masalah,maaf membuat anda,0.6578947368421053
+15_SUB3,SUB3,male,mari kita makan di kantin saja,maaf membuat anda,0.7
+19_SUB3,SUB3,male,kapan kamu bisa datang,maaf membuat anda,0.6818181818181818
+21_SUB3,SUB3,male,tapi semua hal baik pasti ada akhirnya,maaf membuat anda,0.7105263157894737
+23_SUB3,SUB3,male,kamu seharusnya bicara dengannya,maaf membuat anda,0.71875
+29_SUB3,SUB3,male,saya sudah ada janji besok,maaf membuat anda,0.7692307692307693
+39_SUB3,SUB3,male,kamu baik sekali,maaf membuat anda,0.875
+43_SUB3,SUB3,male,kamu adalah teman sejatiku,maaf membuat anda,0.7307692307692307
+50_SUB3,SUB3,male,halo apa kabar,maaf membuat anda,0.9285714285714286
+2_SUB4,SUB4,male,tolong fotokopi laporan ini,maaf membuat anda,0.8518518518518519
+3_SUB4,SUB4,male,bagaimana kabarmu belakangan ini,maaf membuat anda,0.75
+15_SUB4,SUB4,male,bagaimana kesehatanmu akhir akhir ini,maaf membuat anda,0.7567567567567568
+21_SUB4,SUB4,male,maaf apakah sekarang sedang luang,maaf membuat anda,0.6666666666666666
+22_SUB4,SUB4,male,tersesat butuh bantuan,maaf membuat anda,0.7272727272727273
+24_SUB4,SUB4,male,saya melewatkan momen yang luar biasa,maaf membuat anda,0.7297297297297297
+30_SUB4,SUB4,male,melakukan panggilan internasional,maaf membuat anda,0.7575757575757576
+38_SUB4,SUB4,male,hidangan apa ini,maaf membuat anda,0.875
+52_SUB4,SUB4,male,apakah anda membutuhkan bantuan,maaf membuat anda,0.5806451612903226
+53_SUB4,SUB4,male,dia sangat ketat terhadap kami,maaf membuat anda,0.7666666666666667
+61_SUB4,SUB4,male,saya tidak sengaja menumpahkan tinta,maaf membuat anda,0.7222222222222222
+64_SUB4,SUB4,male,saya ingin makan salad,maaf membuat anda,0.7272727272727273
+72_SUB4,SUB4,male,jadwal saya sangat padat,maaf membuat anda,0.6666666666666666
+75_SUB4,SUB4,male,terima kasih telah menghubungi kami mohon tunggu sebentar,maaf membuat anda,0.7719298245614035
+83_SUB4,SUB4,male,terima kasih atas pengertian anda,maaf membuat anda,0.6666666666666666
+85_SUB4,SUB4,male,tentu saja boleh,maaf membuat anda,1.0
+87_SUB4,SUB4,male,berpamitan dengan teman di stasiun kereta,maaf membuat anda,0.7560975609756098
+88_SUB4,SUB4,male,ini terlalu sulit baginya,maaf membuat anda,0.72
+92_SUB4,SUB4,male,berharap bisa bertemu kembali,maaf membuat anda,0.7586206896551724
+93_SUB4,SUB4,male,apakah ruang rapat sudah siap,maaf membuat anda,0.7241379310344828
+8_SUB5,SUB5,male,sudah waktunya tidur,maaf membuat anda,0.75
+11_SUB5,SUB5,male,maaf kemarin saya tidak masuk kelas,maaf membuat anda,0.6571428571428571
+15_SUB5,SUB5,male,mari ikut saya ke kantor untuk bicara lebih lanjut,maaf membuat anda,0.8
+19_SUB5,SUB5,male,pilihan anda banyak sekali ya,maaf membuat anda,0.7586206896551724
+21_SUB5,SUB5,male,dia sangat tidak bisa diandalkan,maaf membuat anda,0.71875
+23_SUB5,SUB5,male,saya tidak percaya penjelasan anda,maaf membuat anda,0.7058823529411765
+29_SUB5,SUB5,male,kami biasanya makan di kantin,maaf membuat anda,0.7241379310344828
+39_SUB5,SUB5,male,semoga anda bersenang senang,maaf membuat anda,0.7142857142857143
+43_SUB5,SUB5,male,aku sedang menelepon teman,maaf membuat anda,0.7692307692307693
+50_SUB5,SUB5,male,jangan percaya apa yang dia katakan,maaf membuat anda,0.7142857142857143
+2_SUB6,SUB6,female,kita harus melihat bagaimana keadaannya,maaf membuat anda,0.6923076923076923
+3_SUB6,SUB6,female,mungkin keberuntungan akan membaik,maaf membuat anda,0.7352941176470589
+15_SUB6,SUB6,female,anda ingin ayam atau daging sapi,maaf membuat anda,0.75
+21_SUB6,SUB6,female,setiap hari hanyalah rutinitas biasa,maaf membuat anda,0.8055555555555556
+22_SUB6,SUB6,female,tentu saja tidak masalah,maaf membuat anda,0.7916666666666666
+24_SUB6,SUB6,female,butuh bantuan apa,maaf membuat anda,0.7058823529411765
+30_SUB6,SUB6,female,beberapa bulan terakhir ini kamu sangat sibuk,maaf membuat anda,0.8
+38_SUB6,SUB6,female,tolong bantu saya membersihkan dapur,maaf membuat anda,0.6944444444444444
+52_SUB6,SUB6,female,tolong isi penuh bensinnya terima kasih,maaf membuat anda,0.8205128205128205
+53_SUB6,SUB6,female,hubungi aku besok,maaf membuat anda,1.0
+61_SUB6,SUB6,female,makanan di sana lumayan enak,maaf membuat anda,0.7142857142857143
+64_SUB6,SUB6,female,apa yang bisa saya bantu,maaf membuat anda,0.7083333333333334
+72_SUB6,SUB6,female,saya sangat menghargai saran anda,maaf membuat anda,0.6666666666666666
+75_SUB6,SUB6,female,mengapa kamu melakukan hal itu,maaf membuat anda,0.6666666666666666
+83_SUB6,SUB6,female,dia tidak tahu bagaimana menghadapi kenyataan,maaf membuat anda,0.8
+85_SUB6,SUB6,female,guru filsafat saya sangat humoris,maaf membuat anda,0.7878787878787878
+87_SUB6,SUB6,female,terima kasih banyak atas undangannya,maaf membuat anda,0.7222222222222222
+88_SUB6,SUB6,female,kita bisa pensiun lebih awal,maaf membuat anda,0.7857142857142857
+92_SUB6,SUB6,female,saya akan membawakannya untuk anda besok,maaf membuat anda,0.65
+93_SUB6,SUB6,female,di mana alamat anda,maaf membuat anda,0.5263157894736842
+2_SUB7,SUB7,female,anda benar benar kakek yang murah hati,maaf membuat anda,0.7631578947368421
+3_SUB7,SUB7,female,cobalah besok pagi,maaf membuat anda,0.8333333333333334
+15_SUB7,SUB7,female,sampaikan salam saya untuk mereka,maaf membuat anda,0.7272727272727273
+21_SUB7,SUB7,female,selamat sore ada yang bisa saya bantu,maaf membuat anda,0.7567567567567568
+22_SUB7,SUB7,female,apakah anda sudah makan siang,maaf membuat anda,0.6896551724137931
+24_SUB7,SUB7,female,kita harus memberitahunya,maaf membuat anda,0.6
+30_SUB7,SUB7,female,saya sangat sibuk hari ini butuh bantuan,maaf membuat anda,0.75
+38_SUB7,SUB7,female,kita akan bertemu lagi,maaf membuat anda,0.7727272727272727
+52_SUB7,SUB7,female,ide idemu sangat kreatif,maaf membuat anda,0.75
+53_SUB7,SUB7,female,saya punya nomornya di sini,maaf membuat anda,0.7777777777777778
+61_SUB7,SUB7,female,dia memang benar benar pembuat masalah,maaf membuat anda,0.6578947368421053
+64_SUB7,SUB7,female,boleh saya minta tolong,maaf membuat anda,0.8260869565217391
+72_SUB7,SUB7,female,apa pekerjaan anda,maaf membuat anda,0.5555555555555556
+75_SUB7,SUB7,female,ini surat undangan untuk anda,maaf membuat anda,0.6896551724137931
+83_SUB7,SUB7,female,mungkin kita akan mendapatkan inspirasi secara tidak sengaja,maaf membuat anda,0.8
+85_SUB7,SUB7,female,saya pikir anda sudah tahu,maaf membuat anda,0.7692307692307693
+87_SUB7,SUB7,female,kurangi makan roti dan kentang,maaf membuat anda,0.7333333333333333
+88_SUB7,SUB7,female,apakah sepeda itu milikmu,maaf membuat anda,0.72
+92_SUB7,SUB7,female,kami berkenalan melalui internet,maaf membuat anda,0.71875
+93_SUB7,SUB7,female,kamu adalah teman sejatiku,maaf membuat anda,0.7307692307692307
+2_SUB8,SUB8,male,saya butuh informasi anda,maaf membuat anda,0.64
+3_SUB8,SUB8,male,berharap bisa bertemu lagi di masa depan,maaf membuat anda,0.75
+15_SUB8,SUB8,male,apakah kamu tahu di mana bisa membelinya,maaf membuat anda,0.75
+21_SUB8,SUB8,male,dia selalu meludah sembarangan,maaf membuat anda,0.6666666666666666
+22_SUB8,SUB8,male,cinta terkadang benar benar buta,maaf membuat anda,0.75
+24_SUB8,SUB8,male,sudah siap mari kita mulai,maaf membuat anda,0.7307692307692307
+30_SUB8,SUB8,male,dia sudah punya pacar,maaf membuat anda,0.8095238095238095
+38_SUB8,SUB8,male,tapi saya sarankan anda mengakui kesalahan,maaf membuat anda,0.7857142857142857
+52_SUB8,SUB8,male,saya tersesat di dekat rumah anda,maaf membuat anda,0.6666666666666666
+53_SUB8,SUB8,male,bisa tolong bantu saya menyiram bunga,maaf membuat anda,0.7567567567567568
+61_SUB8,SUB8,male,semoga anda cepat sembuh,maaf membuat anda,0.75
+64_SUB8,SUB8,male,dia adalah laki laki yang pemalu,maaf membuat anda,0.75
+72_SUB8,SUB8,male,apakah anda memerlukan bantuan,maaf membuat anda,0.6
+75_SUB8,SUB8,male,saya mau masakan tiongkok terima kasih,maaf membuat anda,0.7631578947368421
+83_SUB8,SUB8,male,dia akan merasa sangat senang,maaf membuat anda,0.6896551724137931
+85_SUB8,SUB8,male,tolong bantu ambilkan foto kami,maaf membuat anda,0.8064516129032258
+87_SUB8,SUB8,male,sebaiknya kita pergi sekarang,maaf membuat anda,0.8275862068965517
+88_SUB8,SUB8,male,saya menerima pujian ini dengan rendah hati,maaf membuat anda,0.7209302325581395
+92_SUB8,SUB8,male,kamu akan segera sembuh,maaf membuat anda,0.7391304347826086
+93_SUB8,SUB8,male,saya akan tiba tepat waktu,maaf membuat anda,0.7307692307692307
+2_SUB9,SUB9,female,tolong fotokopi laporan ini,maaf membuat anda,0.8518518518518519
+3_SUB9,SUB9,female,bagaimana kabarmu belakangan ini,maaf membuat anda,0.75
+19_SUB9,SUB9,female,pintunya sudah dibuka,maaf membuat anda,0.8095238095238095
+25_SUB9,SUB9,female,apakah ada yang ingin anda laporkan,maaf membuat anda,0.7428571428571429
+26_SUB9,SUB9,female,bolehkah saya berbicara dengan anda,maaf membuat anda,0.6857142857142857
+28_SUB9,SUB9,female,mari makan di luar malam ini,maaf membuat anda,0.7142857142857143
+36_SUB9,SUB9,female,aku akan mencintaimu selamanya,maaf membuat anda,0.6666666666666666
+44_SUB9,SUB9,female,apakah anda tertarik dengan komputer,maaf membuat anda,0.8055555555555556
+58_SUB9,SUB9,female,dia diculik di dalam mobil,maaf teman saya sedang sakit,0.8461538461538461
+59_SUB9,SUB9,female,selamat pagi pak ada yang bisa saya bantu,maaf membuat anda,0.7804878048780488
+66_SUB9,SUB9,female,temanmu sangat cantik,maaf membuat anda,0.6666666666666666
+67_SUB9,SUB9,female,mari kita bicara,maaf teman saya sedang sakit,1.3125
+70_SUB9,SUB9,female,dia benar benar menyalahkan saya,maaf membuat anda,0.71875
+80_SUB9,SUB9,female,apakah anda baik baik saja pak,maaf membuat anda,0.7333333333333333
+83_SUB9,SUB9,female,terima kasih atas pengertian anda,maaf membuat anda,0.6666666666666666
+88_SUB9,SUB9,female,ini terlalu sulit baginya,maaf membuat anda,0.72
+91_SUB9,SUB9,female,sepertinya kamu sedang flu,maaf membuat anda,0.8461538461538461
+94_SUB9,SUB9,female,senang berkenalan dengan anda,maaf membuat anda,0.6896551724137931
+96_SUB9,SUB9,female,seperti apa penampilannya,maaf membuat anda,0.76
+54_SUB10,SUB10,female,dia memakai topeng wajahnya tidak terlihat,maaf membuat anda,0.7380952380952381
+55_SUB10,SUB10,female,halo ada yang bisa saya bantu,maaf membuat anda,0.7241379310344828
+67_SUB10,SUB10,female,anda bisa mencetaknya,maaf membuat anda,0.7142857142857143
+74_SUB10,SUB10,female,saya sedang terburu buru sampai jumpa,maaf membuat anda,0.7567567567567568
+75_SUB10,SUB10,female,silakan nikmati perjalanan anda,maaf membuat anda,0.6451612903225806
+77_SUB10,SUB10,female,bagaimana kabar ibumu sekarang,maaf membuat anda,0.7666666666666667
+87_SUB10,SUB10,female,hari ini ingin makan apa,maaf membuat anda,0.75
+95_SUB10,SUB10,female,saya ingin lebih mengenalnya,maaf membuat anda,0.7142857142857143
+10_SUB10,SUB10,female,kita pernah bertemu tahun lalu,maaf membuat anda,0.7333333333333333
+12_SUB10,SUB10,female,anda seharusnya merasa malu,maaf membuat anda,0.7777777777777778
+19_SUB10,SUB10,female,pilihan anda banyak sekali ya,maaf membuat anda,0.7586206896551724
+20_SUB10,SUB10,female,lain kali pasti akan lebih baik,maaf membuat anda,0.7419354838709677
+23_SUB10,SUB10,female,saya tidak percaya penjelasan anda,maaf membuat anda,0.7058823529411765
+31_SUB10,SUB10,female,apa yang anda lakukan di waktu luang,maaf membuat anda,0.7777777777777778
+34_SUB10,SUB10,female,saya setuju dengan semua kebijakannya,maaf membuat anda,0.7567567567567568
+38_SUB10,SUB10,female,kita pergi nanti saja,maaf membuat anda,0.7142857142857143
+42_SUB10,SUB10,female,apakah sarapan sudah siap,maaf membuat anda,0.72
+44_SUB10,SUB10,female,berikan mikrofonnya kepada dia,maaf membuat anda,0.7666666666666667
+46_SUB10,SUB10,female,kami akan merapikan dokumen besok,maaf membuat anda,0.7272727272727273
+3_SUB11,SUB11,female,berharap bisa bertemu lagi di masa depan,maaf membuat anda,0.75
+5_SUB11,SUB11,female,kapan anda biasanya tidur,maaf membuat anda,0.72
+23_SUB11,SUB11,female,kunci pintunya ayo kita berangkat,maaf membuat anda,0.7575757575757576
+30_SUB11,SUB11,female,dia sudah punya pacar,maaf membuat anda,0.8095238095238095
+35_SUB11,SUB11,female,apakah perasaanmu sudah lebih baik,maaf membuat anda,0.7352941176470589
+39_SUB11,SUB11,female,saya ada janji temu mohon tunggu sebentar,maaf membuat anda,0.7804878048780488
+51_SUB11,SUB11,female,dia adalah teman sekamar saya,maaf membuat anda,0.7241379310344828
+54_SUB11,SUB11,female,dia membuat kesabaran saya habis,maaf membuat anda,0.625
+60_SUB11,SUB11,female,apa rencanamu untuk masa depan,maaf membuat anda,0.7
+75_SUB11,SUB11,female,saya mau masakan tiongkok terima kasih,maaf membuat anda,0.7631578947368421
+76_SUB11,SUB11,female,wasit sepertinya agak memihak,maaf membuat anda,0.7931034482758621
+83_SUB11,SUB11,female,dia akan merasa sangat senang,maaf membuat anda,0.6896551724137931
+84_SUB11,SUB11,female,maaf telah mengganggu anda,maaf membuat anda,0.5
+87_SUB11,SUB11,female,sebaiknya kita pergi sekarang,maaf membuat anda,0.8275862068965517
+91_SUB11,SUB11,female,tidak usah terima kasih,maaf teman saya sedang sakit,0.8260869565217391
+95_SUB11,SUB11,female,kecewa dengan upaya anda,maaf teman saya sedang sakit,0.8333333333333334
+96_SUB11,SUB11,female,kita harus saling membantu,maaf membuat anda,0.8076923076923077
+53_SUB12,SUB12,female,bagaimana kabarmu belakangan ini,maaf membuat anda,0.75
+69_SUB12,SUB12,female,pintunya sudah dibuka,maaf membuat anda,0.8095238095238095
+85_SUB12,SUB12,female,dia hanya mencintai uangnya,maaf teman saya sedang sakit,0.8148148148148148
+94_SUB12,SUB12,female,apakah anda tertarik dengan komputer,maaf membuat anda,0.8055555555555556

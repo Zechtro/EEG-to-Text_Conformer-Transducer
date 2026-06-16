@@ -1,0 +1,20 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB9,SUB9,female,tolong fotokopi laporan ini,saya tidak melakukan apa pun,88.8889,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.6614
+3_SUB9,SUB9,female,bagaimana kabarmu belakangan ini,dia sangat cantik,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.9325
+19_SUB9,SUB9,female,pintunya sudah dibuka,saya tidak sengaja,71.4286,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.9802
+25_SUB9,SUB9,female,apakah ada yang ingin anda laporkan,dia adalah orang yang sangat serius,65.7143,100.0,16.6667,5.7735,4.5068,4.0825,16.6667,16.6667,16.6667,40.3137
+26_SUB9,SUB9,female,bolehkah saya berbicara dengan anda,dia sangat cantik,77.1429,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.38
+28_SUB9,SUB9,female,mari makan di luar malam ini,saya akan datang,60.7143,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,63.2378
+36_SUB9,SUB9,female,aku akan mencintaimu selamanya,saya tidak melakukan apa pun,76.6667,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.7086
+44_SUB9,SUB9,female,apakah anda tertarik dengan komputer,maaf apakah anda,75.0,80.0,34.2278,29.6422,16.7117,12.3364,66.6667,40.0,50.0,59.1595
+58_SUB9,SUB9,female,dia diculik di dalam mobil,saya suka mencoba,76.9231,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.8733
+59_SUB9,SUB9,female,selamat pagi pak ada yang bisa saya bantu,dia sangat cantik,75.6098,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,24.9827
+66_SUB9,SUB9,female,temanmu sangat cantik,dia sangat cantik,28.5714,33.3333,66.6667,57.735,32.5499,24.0281,66.6667,66.6667,66.6667,90.8154
+67_SUB9,SUB9,female,mari kita bicara,saya tidak sengaja,68.75,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.8179
+70_SUB9,SUB9,female,dia benar benar menyalahkan saya,dia sangat ketat,71.875,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,63.5957
+80_SUB9,SUB9,female,apakah anda baik baik saja pak,dia adalah orang yang sangat serius,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.6724
+83_SUB9,SUB9,female,terima kasih atas pengertian anda,dia sangat cantik,69.697,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.0003
+88_SUB9,SUB9,female,ini terlalu sulit baginya,saya tidak melakukan apa pun,92.0,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.3275
+91_SUB9,SUB9,female,sepertinya kamu sedang flu,dia sangat cantik,76.9231,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,63.3314
+94_SUB9,SUB9,female,senang berkenalan dengan anda,saya benar benar suka makanan,68.9655,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.2681
+96_SUB9,SUB9,female,seperti apa penampilannya,saya suka makanan,72.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.463

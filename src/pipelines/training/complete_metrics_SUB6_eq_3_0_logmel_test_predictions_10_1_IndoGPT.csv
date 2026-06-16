@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB6,SUB6,female,kita harus melihat bagaimana keadaannya,saya harus pergi sampaikan salam saya,53.8462,100.0,16.6667,5.7735,4.5068,4.0825,16.6667,20.0,18.1818,57.8388
+3_SUB6,SUB6,female,mungkin keberuntungan akan membaik,saya harus pergi sampai jumpa,79.4118,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.3781
+15_SUB6,SUB6,female,anda ingin ayam atau daging sapi,dia adalah orang yang bijaksana,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.1922
+21_SUB6,SUB6,female,setiap hari hanyalah rutinitas biasa,dia adalah orang yang bijaksana,69.4444,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.1664
+22_SUB6,SUB6,female,tentu saja tidak masalah,saya harus pergi sampai jumpa,100.0,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.7291
+24_SUB6,SUB6,female,butuh bantuan apa,dia sudah berada di dalam penjara,141.1765,200.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.7535
+30_SUB6,SUB6,female,beberapa bulan terakhir ini kamu sangat sibuk,apa rencanamu,77.7778,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.9659
+38_SUB6,SUB6,female,tolong bantu saya membersihkan dapur,dia adalah orang yang bijaksana,83.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.4441
+52_SUB6,SUB6,female,tolong isi penuh bensinnya terima kasih,aku ingin memasak makan malam,76.9231,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.2837
+53_SUB6,SUB6,female,hubungi aku besok,saya ingin steak dengan tingkat kematangan,200.0,200.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.0448
+61_SUB6,SUB6,female,makanan di sana lumayan enak,saya ingin steak dengan tingkat kematangan medium,117.8571,140.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.6911
+64_SUB6,SUB6,female,apa yang bisa saya bantu,saya harus pergi sampaikan salam saya,100.0,120.0,16.6667,5.7735,4.5068,4.0825,16.6667,20.0,18.1818,49.3764
+72_SUB6,SUB6,female,saya sangat menghargai saran anda,apa yang sedang kamu lakukan,63.6364,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.8252
+75_SUB6,SUB6,female,mengapa kamu melakukan hal itu,saya tidak ingin bekerja sama dengannya,110.0,120.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,56.9531
+83_SUB6,SUB6,female,dia tidak tahu bagaimana menghadapi kenyataan,aku ingin makan sesuatu,66.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,56.1662
+85_SUB6,SUB6,female,guru filsafat saya sangat humoris,aku tidak sengaja bertemu teman lama,87.8788,120.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.7513
+87_SUB6,SUB6,female,terima kasih banyak atas undangannya,saya harus pergi sampai jumpa,77.7778,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.3377
+88_SUB6,SUB6,female,kita bisa pensiun lebih awal,apa yang biasanya anda makan,78.5714,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.8993
+92_SUB6,SUB6,female,saya akan membawakannya untuk anda besok,aku membawa keripik kentang,67.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,58.029
+93_SUB6,SUB6,female,di mana alamat anda,dia adalah orang yang bijaksana,105.2632,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.1857

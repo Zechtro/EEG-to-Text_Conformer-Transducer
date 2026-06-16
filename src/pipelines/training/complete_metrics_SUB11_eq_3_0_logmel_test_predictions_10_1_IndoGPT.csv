@@ -1,0 +1,18 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+3_SUB11,SUB11,female,berharap bisa bertemu lagi di masa depan,anda ingin bicara,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.8757
+5_SUB11,SUB11,female,kapan anda biasanya tidur,apakah kamu tahu,64.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,62.1459
+23_SUB11,SUB11,female,kunci pintunya ayo kita berangkat,sudah siap,84.8485,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,59.655
+30_SUB11,SUB11,female,dia sudah punya pacar,saya tidak tahu,76.1905,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,59.3663
+35_SUB11,SUB11,female,apakah perasaanmu sudah lebih baik,semoga anda cepat sembuh,76.4706,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.235
+39_SUB11,SUB11,female,saya ada janji temu mohon tunggu sebentar,saya tidak tahu,75.6098,85.7143,8.7866,3.403,3.1926,2.995,33.3333,14.2857,20.0,53.5664
+51_SUB11,SUB11,female,dia adalah teman sekamar saya,saya akan berusaha,62.069,100.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,52.4868
+54_SUB11,SUB11,female,dia membuat kesabaran saya habis,saya ada,81.25,80.0,11.1565,4.9893,3.8835,3.3366,50.0,20.0,28.5714,58.8961
+60_SUB11,SUB11,female,apa rencanamu untuk masa depan,kami akan mengabari anda,73.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.9037
+75_SUB11,SUB11,female,saya mau masakan tiongkok terima kasih,kami akan mengabari anda,63.1579,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.8902
+76_SUB11,SUB11,female,wasit sepertinya agak memihak,saya tidak tahu,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,58.8243
+83_SUB11,SUB11,female,dia akan merasa sangat senang,saya ingin bicara,75.8621,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.038
+84_SUB11,SUB11,female,maaf telah mengganggu anda,saya tidak tahu,73.0769,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.638
+87_SUB11,SUB11,female,sebaiknya kita pergi sekarang,anda ada di mana,65.5172,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.5435
+91_SUB11,SUB11,female,tidak usah terima kasih,kami akan mengabari anda,82.6087,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.6333
+95_SUB11,SUB11,female,kecewa dengan upaya anda,anda ada di mana,70.8333,100.0,25.0,9.1287,7.6653,8.0343,25.0,25.0,25.0,50.8832
+96_SUB11,SUB11,female,kita harus saling membantu,apakah kamu,76.9231,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.4275

@@ -1,0 +1,11 @@
+id,subject,gender,sentence,prediction,cer
+8_SUB3,SUB3,male,mereka adalah teman baik,perapa senat,0.6666666666666666
+11_SUB3,SUB3,male,dia memang benar benar pembuat masalah,bok malah,0.8157894736842105
+15_SUB3,SUB3,male,mari kita makan di kantin saja,apa senuh,0.8666666666666667
+19_SUB3,SUB3,male,kapan kamu bisa datang,ida isenta tanda,0.7272727272727273
+21_SUB3,SUB3,male,tapi semua hal baik pasti ada akhirnya,dia bekersalan tidak hati,0.7105263157894737
+23_SUB3,SUB3,male,kamu seharusnya bicara dengannya,bagaiman anda bisa,0.75
+29_SUB3,SUB3,male,saya sudah ada janji besok,berapa sangat tangan,0.7307692307692307
+39_SUB3,SUB3,male,kamu baik sekali,bai selat,0.5625
+43_SUB3,SUB3,male,kamu adalah teman sejatiku,bersaya panda,0.7692307692307693
+50_SUB3,SUB3,male,halo apa kabar,kami ani selah,0.6428571428571429

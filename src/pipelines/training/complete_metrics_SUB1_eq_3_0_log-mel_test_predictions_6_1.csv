@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB1,SUB1,male,maaf saya terlambat,sayur sambantu,68.4211,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.363
+3_SUB1,SUB1,male,biar saya bantu ganti baterainya,maaf ilu,87.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.6175
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang,kami aku anda,74.1935,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.968
+21_SUB1,SUB1,male,kamu tampak penuh energi hari ini,dia adanya kamu yang,75.7576,100.0,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,56.0645
+22_SUB1,SUB1,male,setelah makan saya merasa sangat kenyang,selamat benar saya bantu,62.5,83.3333,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,37.8616
+24_SUB1,SUB1,male,saya sedang terburu buru sampai jumpa,sambuk saikan,78.3784,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.4698
+30_SUB1,SUB1,male,benar benar tidak bisa dipercaya,saya bantu,84.375,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.8173
+38_SUB1,SUB1,male,bagaimana harimu hari ini,sembua sedang biar,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.6262
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati,saya bantu,81.5789,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.5204
+53_SUB1,SUB1,male,cobalah besok pagi,silakan sedang menung,88.8889,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,61.8902
+61_SUB1,SUB1,male,tolong segera pergi dari sini,saya tidak berani menunya,82.7586,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.1052
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda,semora menunya,77.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.9261
+72_SUB1,SUB1,male,apakah anda sudah makan siang,saya bisang saya bantu,68.9655,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.2927
+75_SUB1,SUB1,male,kamu benar benar menjadi lebih sehat,saya lamat pongin,80.5556,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.2412
+83_SUB1,SUB1,male,saya tidak punya waktu luang sama sekali,maapa yang menolon,72.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.6174
+85_SUB1,SUB1,male,dia bukan orang yang penting,sekamanya tidak makan,78.5714,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.0528
+87_SUB1,SUB1,male,apa yang bisa kami lakukan untuk anda,sialam siang,81.0811,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.0296
+88_SUB1,SUB1,male,kita akan bertemu lagi,saya saya bantu,68.1818,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.1071
+92_SUB1,SUB1,male,saya bukan seorang penjahat,silakan tidak bertanya malam,70.3704,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.5292
+93_SUB1,SUB1,male,waktu berjalan begitu cepat,maku anda,74.0741,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.6604

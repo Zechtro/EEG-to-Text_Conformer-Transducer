@@ -1,0 +1,20 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+54_SUB10,SUB10,female,dia memakai topeng wajahnya tidak terlihat,kamu terlihat luar biasa,76.1905,100.0,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,56.0274
+55_SUB10,SUB10,female,halo ada yang bisa saya bantu,selamat datang,75.8621,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.4579
+67_SUB10,SUB10,female,anda bisa mencetaknya,kamu terlihat luar biasa,95.2381,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.6219
+74_SUB10,SUB10,female,saya sedang terburu buru sampai jumpa,kamu terlihat luar biasa,75.6757,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.9345
+75_SUB10,SUB10,female,silakan nikmati perjalanan anda,kamu terlihat luar biasa,77.4194,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.6712
+77_SUB10,SUB10,female,bagaimana kabar ibumu sekarang,kamu terlihat luar biasa,76.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.4763
+87_SUB10,SUB10,female,hari ini ingin makan apa,kamu terlihat luar biasa,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.082
+95_SUB10,SUB10,female,saya ingin lebih mengenalnya,kamu terlihat luar biasa,82.1429,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.5775
+10_SUB10,SUB10,female,kita pernah bertemu tahun lalu,kamu terlihat luar biasa,70.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.8555
+12_SUB10,SUB10,female,anda seharusnya merasa malu,dia,92.5926,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.7927
+19_SUB10,SUB10,female,pilihan anda banyak sekali ya,selamat datang,75.8621,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.1412
+20_SUB10,SUB10,female,lain kali pasti akan lebih baik,kamu terlihat luar biasa,64.5161,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.5142
+23_SUB10,SUB10,female,saya tidak percaya penjelasan anda,kamu terlihat luar biasa,73.5294,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.0914
+31_SUB10,SUB10,female,apa yang anda lakukan di waktu luang,kamu terlihat luar biasa,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.7006
+34_SUB10,SUB10,female,saya setuju dengan semua kebijakannya,kamu terlihat luar biasa,70.2703,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.8731
+38_SUB10,SUB10,female,kita pergi nanti saja,kamu terlihat luar biasa,76.1905,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.961
+42_SUB10,SUB10,female,apakah sarapan sudah siap,kamu terlihat luar biasa,68.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.7469
+44_SUB10,SUB10,female,berikan mikrofonnya kepada dia,kamu terlihat luar biasa,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.536
+46_SUB10,SUB10,female,kami akan merapikan dokumen besok,kamu terlihat luar biasa,63.6364,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.8012

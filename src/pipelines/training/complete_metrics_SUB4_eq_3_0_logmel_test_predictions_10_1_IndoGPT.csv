@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB4,SUB4,male,tolong fotokopi laporan ini,anda terlihat sangat cantik,85.1852,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.4482
+3_SUB4,SUB4,male,bagaimana kabarmu belakangan ini,dia adalah orang yang sangat cantik,75.0,150.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.2708
+15_SUB4,SUB4,male,bagaimana kesehatanmu akhir akhir ini,dia sangat cantik,75.6757,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.3149
+21_SUB4,SUB4,male,maaf apakah sekarang sedang luang,dia adalah anda,66.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.3455
+22_SUB4,SUB4,male,tersesat butuh bantuan,anda bisa mencoba lagi,86.3636,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.4704
+24_SUB4,SUB4,male,saya melewatkan momen yang luar biasa,dia adalah anda,78.3784,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.8389
+30_SUB4,SUB4,male,melakukan panggilan internasional,dia adalah anda,75.7576,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.8119
+38_SUB4,SUB4,male,hidangan apa ini,dia adalah anda,68.75,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.0753
+52_SUB4,SUB4,male,apakah anda membutuhkan bantuan,dia adalah anda,67.7419,100.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,55.7654
+53_SUB4,SUB4,male,dia sangat ketat terhadap kami,dia adalah anda,66.6667,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,58.6838
+61_SUB4,SUB4,male,saya tidak sengaja menumpahkan tinta,dia adalah anda,72.2222,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.3394
+64_SUB4,SUB4,male,saya ingin makan salad,dia adalah orang yang sangat cantik,109.0909,150.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.7005
+72_SUB4,SUB4,male,jadwal saya sangat padat,dia adalah orang yang sangat cantik,79.1667,125.0,16.6667,5.7735,4.5068,4.0825,16.6667,25.0,20.0,53.5734
+75_SUB4,SUB4,male,terima kasih telah menghubungi kami mohon tunggu sebentar,anda terlihat sangat cantik,77.193,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.0015
+83_SUB4,SUB4,male,terima kasih atas pengertian anda,dia adalah anda,66.6667,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,44.2638
+85_SUB4,SUB4,male,tentu saja boleh,dia adalah anda,87.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.4992
+87_SUB4,SUB4,male,berpamitan dengan teman di stasiun kereta,anda terlihat sangat cantik,73.1707,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.3255
+88_SUB4,SUB4,male,ini terlalu sulit baginya,dia adalah anda,72.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,59.7923
+92_SUB4,SUB4,male,berharap bisa bertemu kembali,dia adalah anda,82.7586,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.1659
+93_SUB4,SUB4,male,apakah ruang rapat sudah siap,dia adalah anda,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.6035

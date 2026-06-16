@@ -1,0 +1,5 @@
+id,subject,gender,sentence,prediction,cer
+53_SUB12,SUB12,female,bagaimana kabarmu belakangan ini,anda boleh pergi,0.75
+69_SUB12,SUB12,female,pintunya sudah dibuka,tolong fotokopi laporan ini,1.1428571428571428
+85_SUB12,SUB12,female,dia hanya mencintai uangnya,anda boleh pergi,0.7777777777777778
+94_SUB12,SUB12,female,apakah anda tertarik dengan komputer,saya tidak berpikir demikian,0.6666666666666666

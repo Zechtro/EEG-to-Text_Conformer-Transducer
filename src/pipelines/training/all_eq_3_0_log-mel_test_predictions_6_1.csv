@@ -1,0 +1,190 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB1,SUB1,male,maaf saya terlambat,mari kita bisa,0.6842105263157895
+3_SUB1,SUB1,male,biar saya bantu ganti baterainya,dia adalah orang yang bisa dibantu,0.6875
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang,dia sangat cantik,0.7419354838709677
+21_SUB1,SUB1,male,kamu tampak penuh energi hari ini,apakah ada yang bisa dibantu,0.7878787878787878
+22_SUB1,SUB1,male,setelah makan saya merasa sangat kenyang,kamu adalah orang,0.75
+24_SUB1,SUB1,male,saya sedang terburu buru sampai jumpa,kamu benar benar,0.7837837837837838
+30_SUB1,SUB1,male,benar benar tidak bisa dipercaya,apakah kamu serius,0.78125
+38_SUB1,SUB1,male,bagaimana harimu hari ini,anda benar benar,0.76
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati,selamat datang,0.7894736842105263
+53_SUB1,SUB1,male,cobalah besok pagi,selamat datang di kantor,1.0555555555555556
+61_SUB1,SUB1,male,tolong segera pergi dari sini,mari kita mulai,0.8275862068965517
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda,anda benar benar,0.75
+72_SUB1,SUB1,male,apakah anda sudah makan siang,apakah ada yang bisa dibantu,0.4827586206896552
+75_SUB1,SUB1,male,kamu benar benar menjadi lebih sehat,selamat datang,0.8611111111111112
+83_SUB1,SUB1,male,saya tidak punya waktu luang sama sekali,maaf saya bantu,0.775
+85_SUB1,SUB1,male,dia bukan orang yang penting,selamat datang,0.75
+87_SUB1,SUB1,male,apa yang bisa kami lakukan untuk anda,selamat datang,0.7837837837837838
+88_SUB1,SUB1,male,kita akan bertemu lagi,saya benar benar,0.7272727272727273
+92_SUB1,SUB1,male,saya bukan seorang penjahat,anda benar benar,0.6666666666666666
+93_SUB1,SUB1,male,waktu berjalan begitu cepat,anda benar benar,0.6666666666666666
+8_SUB2,SUB2,male,saya ingin makan siang di kamar,kamu benar benar,0.7419354838709677
+11_SUB2,SUB2,male,tolong segera pergi dari sini,mari kita pergi,0.7241379310344828
+15_SUB2,SUB2,male,sampaikan salam saya untuk mereka,anda benar benar,0.7878787878787878
+19_SUB2,SUB2,male,senang bisa membantu anda,kamu adalah pahlawan,0.76
+21_SUB2,SUB2,male,selamat sore ada yang bisa saya bantu,anda benar benar,0.7567567567567568
+23_SUB2,SUB2,male,silakan tanya saya kapan saja,kamu benar benar,0.7586206896551724
+29_SUB2,SUB2,male,menurutku masakan tiongkok sangat lezat,kamu benar benar,0.7948717948717948
+39_SUB2,SUB2,male,menurutku sebaiknya kamu minta maaf,apakah kamu serius,0.7714285714285715
+43_SUB2,SUB2,male,waktu berjalan begitu cepat,maaf membantu,0.7407407407407407
+50_SUB2,SUB2,male,pekerjaan tidak selesai tepat waktu,anda benar benar,0.7142857142857143
+8_SUB3,SUB3,male,mereka adalah teman baik,anda benar benar,0.7083333333333334
+11_SUB3,SUB3,male,dia memang benar benar pembuat masalah,dia sangat cantik,0.7105263157894737
+15_SUB3,SUB3,male,mari kita makan di kantin saja,kamu adalah orang,0.7333333333333333
+19_SUB3,SUB3,male,kapan kamu bisa datang,mari kita makan di sini,0.7272727272727273
+21_SUB3,SUB3,male,tapi semua hal baik pasti ada akhirnya,saya benar benar benar,0.7368421052631579
+23_SUB3,SUB3,male,kamu seharusnya bicara dengannya,bisa membantu anda,0.78125
+29_SUB3,SUB3,male,saya sudah ada janji besok,kamu benar benar,0.7307692307692307
+39_SUB3,SUB3,male,kamu baik sekali,kamu benar benar,0.5
+43_SUB3,SUB3,male,kamu adalah teman sejatiku,anda benar benar,0.6538461538461539
+50_SUB3,SUB3,male,halo apa kabar,dia adalah orang yang bisa dibantu,1.7857142857142858
+2_SUB4,SUB4,male,tolong fotokopi laporan ini,mari kita makan sesuatu,0.8888888888888888
+3_SUB4,SUB4,male,bagaimana kabarmu belakangan ini,kamu benar benar,0.6875
+15_SUB4,SUB4,male,bagaimana kesehatanmu akhir akhir ini,anda benar benar,0.7567567567567568
+21_SUB4,SUB4,male,maaf apakah sekarang sedang luang,kamu benar benar,0.7272727272727273
+22_SUB4,SUB4,male,tersesat butuh bantuan,dia adalah orang yang bisa dibantu,1.2272727272727273
+24_SUB4,SUB4,male,saya melewatkan momen yang luar biasa,dia adalah orang yang bisa dibantu,0.6486486486486487
+30_SUB4,SUB4,male,melakukan panggilan internasional,anda benar benar,0.7272727272727273
+38_SUB4,SUB4,male,hidangan apa ini,apakah ada yang bisa dibantu,1.125
+52_SUB4,SUB4,male,apakah anda membutuhkan bantuan,apakah kamu serius,0.6129032258064516
+53_SUB4,SUB4,male,dia sangat ketat terhadap kami,dia adalah orang yang bisa dibantu,0.8333333333333334
+61_SUB4,SUB4,male,saya tidak sengaja menumpahkan tinta,anda benar benar,0.6944444444444444
+64_SUB4,SUB4,male,saya ingin makan salad,anda benar benar,0.7272727272727273
+72_SUB4,SUB4,male,jadwal saya sangat padat,dia adalah orang yang bisa dibantu,0.875
+75_SUB4,SUB4,male,terima kasih telah menghubungi kami mohon tunggu sebentar,dia sangat cantik,0.7894736842105263
+83_SUB4,SUB4,male,terima kasih atas pengertian anda,anda benar benar,0.7575757575757576
+85_SUB4,SUB4,male,tentu saja boleh,dia adalah orang yang bisa dibantu,1.8125
+87_SUB4,SUB4,male,berpamitan dengan teman di stasiun kereta,apa yang bisa dibantu,0.6829268292682927
+88_SUB4,SUB4,male,ini terlalu sulit baginya,kamu adalah orang,0.8
+92_SUB4,SUB4,male,berharap bisa bertemu kembali,selamat datang datang,0.7241379310344828
+93_SUB4,SUB4,male,apakah ruang rapat sudah siap,kamu benar benar,0.7586206896551724
+8_SUB5,SUB5,male,sudah waktunya tidur,kamu adalah pahlawan,0.9
+11_SUB5,SUB5,male,maaf kemarin saya tidak masuk kelas,apakah ada yang bisa dibantu,0.7428571428571429
+15_SUB5,SUB5,male,mari ikut saya ke kantor untuk bicara lebih lanjut,kamu adalah orang,0.8
+19_SUB5,SUB5,male,pilihan anda banyak sekali ya,kamu adalah pahlawan,0.7586206896551724
+21_SUB5,SUB5,male,dia sangat tidak bisa diandalkan,kamu benar benar,0.78125
+23_SUB5,SUB5,male,saya tidak percaya penjelasan anda,dia adalah orang yang bisa dibantu,0.7352941176470589
+29_SUB5,SUB5,male,kami biasanya makan di kantin,selamat datang di kantor,0.5517241379310345
+39_SUB5,SUB5,male,semoga anda bersenang senang,apa yang bisa dibantu,0.6785714285714286
+43_SUB5,SUB5,male,aku sedang menelepon teman,apakah ada yang bisa dibantu,0.8076923076923077
+50_SUB5,SUB5,male,jangan percaya apa yang dia katakan,selamat datang datang,0.6571428571428571
+2_SUB6,SUB6,female,kita harus melihat bagaimana keadaannya,saya benar benar benar,0.717948717948718
+3_SUB6,SUB6,female,mungkin keberuntungan akan membaik,kamu benar benar,0.7647058823529411
+15_SUB6,SUB6,female,anda ingin ayam atau daging sapi,mari kita makan sesuatu,0.71875
+21_SUB6,SUB6,female,setiap hari hanyalah rutinitas biasa,kamu adalah orang,0.75
+22_SUB6,SUB6,female,tentu saja tidak masalah,mari kita pergi makan sesuatu,0.9166666666666666
+24_SUB6,SUB6,female,butuh bantuan apa,anda benar benar,0.7647058823529411
+30_SUB6,SUB6,female,beberapa bulan terakhir ini kamu sangat sibuk,selamat datang di kantor,0.7111111111111111
+38_SUB6,SUB6,female,tolong bantu saya membersihkan dapur,selamat datang datang,0.7777777777777778
+52_SUB6,SUB6,female,tolong isi penuh bensinnya terima kasih,saya ingin makan sesuatu,0.7948717948717948
+53_SUB6,SUB6,female,hubungi aku besok,saya benar benar benar,0.9411764705882353
+61_SUB6,SUB6,female,makanan di sana lumayan enak,mari kita makan sesuatu,0.6428571428571429
+64_SUB6,SUB6,female,apa yang bisa saya bantu,selamat datang datang,0.75
+72_SUB6,SUB6,female,saya sangat menghargai saran anda,apakah ada yang bisa dibantu,0.6666666666666666
+75_SUB6,SUB6,female,mengapa kamu melakukan hal itu,apakah ada yang bisa dibantu,0.7333333333333333
+83_SUB6,SUB6,female,dia tidak tahu bagaimana menghadapi kenyataan,apa yang bisa dibantu,0.7111111111111111
+85_SUB6,SUB6,female,guru filsafat saya sangat humoris,saya benar benar benar,0.7272727272727273
+87_SUB6,SUB6,female,terima kasih banyak atas undangannya,saya benar benar benar,0.7222222222222222
+88_SUB6,SUB6,female,kita bisa pensiun lebih awal,kamu benar benar,0.7142857142857143
+92_SUB6,SUB6,female,saya akan membawakannya untuk anda besok,kamu benar benar,0.775
+93_SUB6,SUB6,female,di mana alamat anda,apakah ada yang bisa dibantu,1.0526315789473684
+2_SUB7,SUB7,female,anda benar benar kakek yang murah hati,mari kita makan sesuatu,0.7105263157894737
+3_SUB7,SUB7,female,cobalah besok pagi,kamu benar benar,0.7777777777777778
+15_SUB7,SUB7,female,sampaikan salam saya untuk mereka,dia adalah orang yang bisa dibantu,0.8484848484848485
+21_SUB7,SUB7,female,selamat sore ada yang bisa saya bantu,saya benar benar benar,0.6756756756756757
+22_SUB7,SUB7,female,apakah anda sudah makan siang,anda benar benar,0.6896551724137931
+24_SUB7,SUB7,female,kita harus memberitahunya,kamu adalah orang,0.76
+30_SUB7,SUB7,female,saya sangat sibuk hari ini butuh bantuan,anda benar benar,0.725
+38_SUB7,SUB7,female,kita akan bertemu lagi,apakah kamu serius,0.6818181818181818
+52_SUB7,SUB7,female,ide idemu sangat kreatif,apa yang bisa dibantu,0.7916666666666666
+53_SUB7,SUB7,female,saya punya nomornya di sini,kamu benar benar,0.7777777777777778
+61_SUB7,SUB7,female,dia memang benar benar pembuat masalah,kamu benar benar,0.631578947368421
+64_SUB7,SUB7,female,boleh saya minta tolong,kamu adalah orang,0.6956521739130435
+72_SUB7,SUB7,female,apa pekerjaan anda,anda benar benar,0.6666666666666666
+75_SUB7,SUB7,female,ini surat undangan untuk anda,apakah kamu serius,0.8620689655172413
+83_SUB7,SUB7,female,mungkin kita akan mendapatkan inspirasi secara tidak sengaja,kamu adalah orang,0.8166666666666667
+85_SUB7,SUB7,female,saya pikir anda sudah tahu,kamu adalah orang,0.6923076923076923
+87_SUB7,SUB7,female,kurangi makan roti dan kentang,anda benar benar,0.7
+88_SUB7,SUB7,female,apakah sepeda itu milikmu,kamu benar benar,0.8
+92_SUB7,SUB7,female,kami berkenalan melalui internet,dia adalah orang yang bisa dibantu,0.90625
+93_SUB7,SUB7,female,kamu adalah teman sejatiku,kamu adalah pahlawan,0.46153846153846156
+2_SUB8,SUB8,male,saya butuh informasi anda,saya benar benar benar,0.64
+3_SUB8,SUB8,male,berharap bisa bertemu lagi di masa depan,kamu benar benar,0.8
+15_SUB8,SUB8,male,apakah kamu tahu di mana bisa membelinya,anda terlihat datang,0.775
+21_SUB8,SUB8,male,dia selalu meludah sembarangan,mari kita makan sesuatu,0.7333333333333333
+22_SUB8,SUB8,male,cinta terkadang benar benar buta,kamu benar benar,0.5625
+24_SUB8,SUB8,male,sudah siap mari kita mulai,kamu benar benar,0.8076923076923077
+30_SUB8,SUB8,male,dia sudah punya pacar,anda benar benar,0.6190476190476191
+38_SUB8,SUB8,male,tapi saya sarankan anda mengakui kesalahan,anda benar benar,0.7380952380952381
+52_SUB8,SUB8,male,saya tersesat di dekat rumah anda,kamu benar benar,0.7575757575757576
+53_SUB8,SUB8,male,bisa tolong bantu saya menyiram bunga,kamu benar benar,0.7567567567567568
+61_SUB8,SUB8,male,semoga anda cepat sembuh,kamu adalah orang,0.7083333333333334
+64_SUB8,SUB8,male,dia adalah laki laki yang pemalu,dia adalah orang yang bisa dibantu,0.5
+72_SUB8,SUB8,male,apakah anda memerlukan bantuan,anda benar benar,0.6333333333333333
+75_SUB8,SUB8,male,saya mau masakan tiongkok terima kasih,kamu adalah datang,0.7368421052631579
+83_SUB8,SUB8,male,dia akan merasa sangat senang,anda benar benar,0.6551724137931034
+85_SUB8,SUB8,male,tolong bantu ambilkan foto kami,anda benar benar,0.7741935483870968
+87_SUB8,SUB8,male,sebaiknya kita pergi sekarang,saya benar benar,0.6206896551724138
+88_SUB8,SUB8,male,saya menerima pujian ini dengan rendah hati,apakah ada yang bisa dibantu,0.7441860465116279
+92_SUB8,SUB8,male,kamu akan segera sembuh,apakah ada yang bisa dibantu,0.9130434782608695
+93_SUB8,SUB8,male,saya akan tiba tepat waktu,kamu benar benar,0.7692307692307693
+2_SUB9,SUB9,female,tolong fotokopi laporan ini,apakah ada yang bisa dibantu,0.9259259259259259
+3_SUB9,SUB9,female,bagaimana kabarmu belakangan ini,kamu benar benar,0.6875
+19_SUB9,SUB9,female,pintunya sudah dibuka,kamu benar benar,0.7619047619047619
+25_SUB9,SUB9,female,apakah ada yang ingin anda laporkan,kamu benar benar,0.8
+26_SUB9,SUB9,female,bolehkah saya berbicara dengan anda,anda benar benar,0.6857142857142857
+28_SUB9,SUB9,female,mari makan di luar malam ini,apakah kamu serius,0.7142857142857143
+36_SUB9,SUB9,female,aku akan mencintaimu selamanya,selamat datang datang,0.7
+44_SUB9,SUB9,female,apakah anda tertarik dengan komputer,mari kita makan sesuatu,0.7222222222222222
+58_SUB9,SUB9,female,dia diculik di dalam mobil,dia sudah sedang berkabar,0.7307692307692307
+59_SUB9,SUB9,female,selamat pagi pak ada yang bisa saya bantu,bisa bantu,0.7560975609756098
+66_SUB9,SUB9,female,temanmu sangat cantik,selamat datang di kantor,0.6666666666666666
+67_SUB9,SUB9,female,mari kita bicara,anda benar benar,0.6875
+70_SUB9,SUB9,female,dia benar benar menyalahkan saya,selamat datang datang,0.78125
+80_SUB9,SUB9,female,apakah anda baik baik saja pak,kamu benar benar,0.7666666666666667
+83_SUB9,SUB9,female,terima kasih atas pengertian anda,kamu adalah orang,0.7272727272727273
+88_SUB9,SUB9,female,ini terlalu sulit baginya,anda benar benar,0.76
+91_SUB9,SUB9,female,sepertinya kamu sedang flu,selamat datang,0.6923076923076923
+94_SUB9,SUB9,female,senang berkenalan dengan anda,kamu adalah orang,0.7241379310344828
+96_SUB9,SUB9,female,seperti apa penampilannya,kamu adalah,0.8
+54_SUB10,SUB10,female,dia memakai topeng wajahnya tidak terlihat,kamu benar benar,0.7857142857142857
+55_SUB10,SUB10,female,halo ada yang bisa saya bantu,anda benar benar,0.6896551724137931
+67_SUB10,SUB10,female,anda bisa mencetaknya,selamat datang di kantor,0.9523809523809523
+74_SUB10,SUB10,female,saya sedang terburu buru sampai jumpa,apakah kamu sudah lama,0.7027027027027027
+75_SUB10,SUB10,female,silakan nikmati perjalanan anda,mari kita makan di luar,0.7419354838709677
+77_SUB10,SUB10,female,bagaimana kabar ibumu sekarang,kamu benar benar,0.6666666666666666
+87_SUB10,SUB10,female,hari ini ingin makan apa,mari kita makan di luar,0.625
+95_SUB10,SUB10,female,saya ingin lebih mengenalnya,kamu benar benar,0.75
+10_SUB10,SUB10,female,kita pernah bertemu tahun lalu,dia sangat sidapu,0.7333333333333333
+12_SUB10,SUB10,female,anda seharusnya merasa malu,kamu benar benar,0.7407407407407407
+19_SUB10,SUB10,female,pilihan anda banyak sekali ya,anda benar benar,0.6206896551724138
+20_SUB10,SUB10,female,lain kali pasti akan lebih baik,selamat datang datang,0.7741935483870968
+23_SUB10,SUB10,female,saya tidak percaya penjelasan anda,kamu benar benar,0.7647058823529411
+31_SUB10,SUB10,female,apa yang anda lakukan di waktu luang,anda benar benar,0.7777777777777778
+34_SUB10,SUB10,female,saya setuju dengan semua kebijakannya,kamu benar benar,0.7567567567567568
+38_SUB10,SUB10,female,kita pergi nanti saja,kamu benar benar,0.7142857142857143
+42_SUB10,SUB10,female,apakah sarapan sudah siap,kamu adalah orang,0.72
+44_SUB10,SUB10,female,berikan mikrofonnya kepada dia,kamu adalah orang,0.8333333333333334
+46_SUB10,SUB10,female,kami akan merapikan dokumen besok,kamu benar benar,0.7272727272727273
+3_SUB11,SUB11,female,berharap bisa bertemu lagi di masa depan,anda benar benar,0.775
+5_SUB11,SUB11,female,kapan anda biasanya tidur,selamat datang datang,0.76
+23_SUB11,SUB11,female,kunci pintunya ayo kita berangkat,mari kita mulai,0.7575757575757576
+30_SUB11,SUB11,female,dia sudah punya pacar,saya benar benar,0.6666666666666666
+35_SUB11,SUB11,female,apakah perasaanmu sudah lebih baik,anda benar benar,0.7352941176470589
+39_SUB11,SUB11,female,saya ada janji temu mohon tunggu sebentar,saya benar benar benar,0.6341463414634146
+51_SUB11,SUB11,female,dia adalah teman sekamar saya,apakah ada yang bisa dibantu,0.7586206896551724
+54_SUB11,SUB11,female,dia membuat kesabaran saya habis,kamu benar benar,0.71875
+60_SUB11,SUB11,female,apa rencanamu untuk masa depan,anda benar benar,0.7333333333333333
+75_SUB11,SUB11,female,saya mau masakan tiongkok terima kasih,dia adalah orang yang bisa dibantu,0.7368421052631579
+76_SUB11,SUB11,female,wasit sepertinya agak memihak,selamat datang di kantor,0.8275862068965517
+83_SUB11,SUB11,female,dia akan merasa sangat senang,apakah kamu serius,0.6896551724137931
+84_SUB11,SUB11,female,maaf telah mengganggu anda,selamat datang di kantor kami,0.8461538461538461
+87_SUB11,SUB11,female,sebaiknya kita pergi sekarang,apa yang bisa dibantu,0.7586206896551724
+91_SUB11,SUB11,female,tidak usah terima kasih,kamu adalah orang yang bisa,0.9130434782608695
+95_SUB11,SUB11,female,kecewa dengan upaya anda,anda benar benar,0.7083333333333334
+96_SUB11,SUB11,female,kita harus saling membantu,kamu adalah orang,0.6923076923076923
+53_SUB12,SUB12,female,bagaimana kabarmu belakangan ini,mari kita makan sesuatu,0.71875
+69_SUB12,SUB12,female,pintunya sudah dibuka,saya benar benar,0.7142857142857143
+85_SUB12,SUB12,female,dia hanya mencintai uangnya,apakah ada yang bisa dibantu,0.7777777777777778
+94_SUB12,SUB12,female,apakah anda tertarik dengan komputer,apakah kamu serius,0.6666666666666666

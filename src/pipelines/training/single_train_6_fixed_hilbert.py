@@ -32,6 +32,7 @@ from PyEMD import CEEMDAN
 from scipy.signal import hilbert
 from sklearn.decomposition import FastICA
 from scipy.stats import pearsonr
+import pickle
 
 warnings.filterwarnings('ignore')
 
@@ -488,7 +489,7 @@ def train(model, train_loader, val_loader, tokenizer, config, device, target_sub
     history = {'train_loss': [], 'train_cer': [], 'val_loss': [], 'val_cer': []}
     
     # Simpan model dengan nama subjek
-    best_model_path = os.path.join(OUTPUT_DIR, f'{target_subject}_hilbert_best_model_6_0.pt')
+    best_model_path = os.path.join(OUTPUT_DIR, f'{target_subject}_fixed_hilbert_best_model_6_0.pt')
     best_cer = float('inf')
     
     print("\n[STEP 5] Training model...")
@@ -539,7 +540,7 @@ def predict_and_save_csv(model, test_loader, tokenizer, output_dir, device, beam
                 })
                 
     predictions_df = pd.DataFrame(predictions_list)
-    csv_path = os.path.join(output_dir, f'{target_subject}_hilbert_test_predictions_6_0.csv')
+    csv_path = os.path.join(output_dir, f'{target_subject}_fixed_hilbert_test_predictions_6_0.csv')
     predictions_df.to_csv(csv_path, index=False)
     print(f"[SAVE] Test predictions saved to {csv_path}")
     print(f"Average Test CER: {predictions_df['cer'].mean():.4f}")
@@ -570,7 +571,7 @@ def plot_training_history(history, output_dir, target_subject):
     axes[1].grid(True)
     
     plt.tight_layout()
-    plt.savefig(os.path.join(output_dir, f'{target_subject}_hilbert_training_history_6_0.png'), dpi=300)
+    plt.savefig(os.path.join(output_dir, f'{target_subject}_fixed_hilbert_training_history_6_0.png'), dpi=300)
     plt.close()
 
 # ============================================================================
@@ -590,9 +591,23 @@ def main():
     
     data = load_and_preprocess_dataset(CONFIG, TARGET_SUBJECT)
     
-    print("\n[STEP 4] Build Character Tokenizer...")
-    all_texts = data['train']['targets'] + data['val']['targets'] + data['test']['targets']
-    tokenizer = CharTokenizer(transcripts=all_texts)
+    print("\n[STEP 4] Build or Load Character Tokenizer...")
+    tokenizer_path = os.path.join(OUTPUT_DIR, f'{TARGET_SUBJECT}_fixed_hilbert_char_tokenizer_6_0.pkl')
+    
+    if os.path.exists(tokenizer_path):
+        print(f"Memuat tokenizer yang sudah ada dari: {tokenizer_path}")
+        with open(tokenizer_path, 'rb') as f:
+            tokenizer = pickle.load(f)
+    else:
+        print("Membangun tokenizer baru dari data...")
+        all_texts = data['train']['targets'] + data['val']['targets'] + data['test']['targets']
+        tokenizer = CharTokenizer(transcripts=all_texts)
+        
+        # Simpan tokenizer untuk penggunaan selanjutnya (misal: testing/inference)
+        with open(tokenizer_path, 'wb') as f:
+            pickle.dump(tokenizer, f)
+        print(f"[SAVE] Tokenizer berhasil disimpan ke: {tokenizer_path}")
+        
     CONFIG['vocab_size'] = tokenizer.vocab_size()
     print(f"Vocab size: {CONFIG['vocab_size']}")
     
@@ -608,7 +623,7 @@ def main():
     
     history, beam_decoder = train(model, train_loader, val_loader, tokenizer, CONFIG, DEVICE, TARGET_SUBJECT)
     
-    with open(os.path.join(OUTPUT_DIR, f'{TARGET_SUBJECT}_hilbert_training_history_6_0.json'), 'w') as f:
+    with open(os.path.join(OUTPUT_DIR, f'{TARGET_SUBJECT}_fixed_hilbert_training_history_6_0.json'), 'w') as f:
         json.dump(history, f, indent=2)
         
     plot_training_history(history, OUTPUT_DIR, TARGET_SUBJECT)

@@ -1,0 +1,20 @@
+id,subject,gender,sentence,prediction,cer
+54_SUB10,SUB10,female,dia memakai topeng wajahnya tidak terlihat,dia tidak bisa,0.7142857142857143
+55_SUB10,SUB10,female,halo ada yang bisa saya bantu,saya tidak bisa,0.7241379310344828
+67_SUB10,SUB10,female,anda bisa mencetaknya,kamu terlihat luar biasa,0.9523809523809523
+74_SUB10,SUB10,female,saya sedang terburu buru sampai jumpa,saya tidak bisa,0.7027027027027027
+75_SUB10,SUB10,female,silakan nikmati perjalanan anda,saya tidak bisa,0.7096774193548387
+77_SUB10,SUB10,female,bagaimana kabar ibumu sekarang,saya tidak bisa makan,0.6666666666666666
+87_SUB10,SUB10,female,hari ini ingin makan apa,dia adalah pahlawan,0.8333333333333334
+95_SUB10,SUB10,female,saya ingin lebih mengenalnya,saya tidak bisa,0.6785714285714286
+10_SUB10,SUB10,female,kita pernah bertemu tahun lalu,saya tidak bisa,0.8
+12_SUB10,SUB10,female,anda seharusnya merasa malu,selamat datang ada yang bisa,0.8518518518518519
+19_SUB10,SUB10,female,pilihan anda banyak sekali ya,saya tidak bisa,0.7241379310344828
+20_SUB10,SUB10,female,lain kali pasti akan lebih baik,selamat datang,0.8064516129032258
+23_SUB10,SUB10,female,saya tidak percaya penjelasan anda,saya tidak bisa,0.6176470588235294
+31_SUB10,SUB10,female,apa yang anda lakukan di waktu luang,saya tidak bisa,0.7222222222222222
+34_SUB10,SUB10,female,saya setuju dengan semua kebijakannya,saya tidak bisa,0.6756756756756757
+38_SUB10,SUB10,female,kita pergi nanti saja,dia tidak bisa dipercaya,0.8095238095238095
+42_SUB10,SUB10,female,apakah sarapan sudah siap,saya tidak bisa,0.68
+44_SUB10,SUB10,female,berikan mikrofonnya kepada dia,saya tidak bisa,0.7666666666666667
+46_SUB10,SUB10,female,kami akan merapikan dokumen besok,dia adalah pahlawanku,0.7878787878787878

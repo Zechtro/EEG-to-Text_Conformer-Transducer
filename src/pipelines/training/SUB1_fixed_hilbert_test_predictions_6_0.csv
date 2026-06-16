@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB1,SUB1,male,maaf saya terlambat,apafmu,0.8421052631578947
+3_SUB1,SUB1,male,biar saya bantu ganti baterainya,biar saya bantu,0.53125
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang,saya rantu,0.7419354838709677
+21_SUB1,SUB1,male,kamu tampak penuh energi hari ini,sampai,0.8484848484848485
+22_SUB1,SUB1,male,setelah makan saya merasa sangat kenyang,saya berantu,0.75
+24_SUB1,SUB1,male,saya sedang terburu buru sampai jumpa,pelon,0.9459459459459459
+30_SUB1,SUB1,male,benar benar tidak bisa dipercaya,teoru menalong,0.84375
+38_SUB1,SUB1,male,bagaimana harimu hari ini,saya bantu,0.8
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati,aku apas lama,0.7894736842105263
+53_SUB1,SUB1,male,cobalah besok pagi,saya bantu,0.7777777777777778
+61_SUB1,SUB1,male,tolong segera pergi dari sini,siapa bertanya,0.7931034482758621
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda,seya terlinan hari ingin,0.7
+72_SUB1,SUB1,male,apakah anda sudah makan siang,saya tidak selai,0.7241379310344828
+75_SUB1,SUB1,male,kamu benar benar menjadi lebih sehat,sedanya,0.8888888888888888
+83_SUB1,SUB1,male,saya tidak punya waktu luang sama sekali,anda bisa,0.85
+85_SUB1,SUB1,male,dia bukan orang yang penting,dia menalanya,0.6785714285714286
+87_SUB1,SUB1,male,apa yang bisa kami lakukan untuk anda,seoran saya,0.8378378378378378
+88_SUB1,SUB1,male,kita akan bertemu lagi,perjasanya,0.8181818181818182
+92_SUB1,SUB1,male,saya bukan seorang penjahat,kamu menginya,0.7037037037037037
+93_SUB1,SUB1,male,waktu berjalan begitu cepat,hali anya,0.8148148148148148

@@ -2,3 +2,4 @@ venv_conf
 __pycache__
 dataset
 *.pt
+*.pkl
