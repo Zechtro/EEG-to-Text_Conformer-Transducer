@@ -1,0 +1,5 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+53_SUB12,SUB12,female,bagaimana kabarmu belakangan ini,anda boleh pergi,75.0,100.0,0,0,0,0,0.0,0.0,0.0,41.2895
+69_SUB12,SUB12,female,pintunya sudah dibuka,anda boleh pergi,76.1905,100.0,0,0,0,0,0.0,0.0,0.0,61.6269
+85_SUB12,SUB12,female,dia hanya mencintai uangnya,anda boleh pergi,77.7778,100.0,0,0,0,0,0.0,0.0,0.0,56.9208
+94_SUB12,SUB12,female,apakah anda tertarik dengan komputer,saya tidak berpikir demikian,66.6667,100.0,0,0,0,0,0.0,0.0,0.0,47.0369

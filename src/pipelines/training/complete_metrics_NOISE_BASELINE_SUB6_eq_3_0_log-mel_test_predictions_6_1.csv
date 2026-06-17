@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB6,SUB6,female,kita harus melihat bagaimana keadaannya,aku tidasan,79.4872,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.2231
+3_SUB6,SUB6,female,mungkin keberuntungan akan membaik,saya tidak sengaja bertemu di taman,91.1765,150.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.1997
+15_SUB6,SUB6,female,anda ingin ayam atau daging sapi,teman sudah salah,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.848
+21_SUB6,SUB6,female,setiap hari hanyalah rutinitas biasa,bisa menantu,80.5556,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.5672
+22_SUB6,SUB6,female,tentu saja tidak masalah,saya hangi sipak,70.8333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.5763
+24_SUB6,SUB6,female,butuh bantuan apa,membantu,70.5882,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,61.8773
+30_SUB6,SUB6,female,beberapa bulan terakhir ini kamu sangat sibuk,dia akang sudah sampai,75.5556,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.1441
+38_SUB6,SUB6,female,tolong bantu saya membersihkan dapur,saya ingin memasak bantu ranga,77.7778,100.0,40.0,10.0,7.1211,6.3894,40.0,40.0,40.0,73.9371
+52_SUB6,SUB6,female,tolong isi penuh bensinnya terima kasih,saya tidak benar benar,76.9231,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.2025
+53_SUB6,SUB6,female,hubungi aku besok,saya hari ini,88.2353,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,64.8685
+61_SUB6,SUB6,female,makanan di sana lumayan enak,apa yang sudah keterlaluan,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.2262
+64_SUB6,SUB6,female,apa yang bisa saya bantu,maku terlambang,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,24.3915
+72_SUB6,SUB6,female,saya sangat menghargai saran anda,semua saya adalam bertindak,63.6364,100.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,46.0691
+75_SUB6,SUB6,female,mengapa kamu melakukan hal itu,saya tidak benar benar,76.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,56.3911
+83_SUB6,SUB6,female,dia tidak tahu bagaimana menghadapi kenyataan,saya menantikan sekarang,73.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.4994
+85_SUB6,SUB6,female,guru filsafat saya sangat humoris,dia akti barus,78.7879,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.4411
+87_SUB6,SUB6,female,terima kasih banyak atas undangannya,saya datang mencari,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.5098
+88_SUB6,SUB6,female,kita bisa pensiun lebih awal,semua bertemu saya adalah seorang,89.2857,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.6459
+92_SUB6,SUB6,female,saya akan membawakannya untuk anda besok,mengaka pais,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.0599
+93_SUB6,SUB6,female,di mana alamat anda,masih barang,73.6842,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.4303

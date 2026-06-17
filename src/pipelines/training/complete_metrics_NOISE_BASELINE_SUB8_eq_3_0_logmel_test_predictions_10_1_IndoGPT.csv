@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB8,SUB8,male,saya butuh informasi anda,saya tidak tahu,64.0,75.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,64.1463
+3_SUB8,SUB8,male,berharap bisa bertemu lagi di masa depan,saya tidak tahu,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.7306
+15_SUB8,SUB8,male,apakah kamu tahu di mana bisa membelinya,saya tidak tahu,80.0,85.7143,8.7866,3.403,3.1926,2.995,33.3333,14.2857,20.0,51.5761
+21_SUB8,SUB8,male,dia selalu meludah sembarangan,saya tidak tahu,76.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.5622
+22_SUB8,SUB8,male,cinta terkadang benar benar buta,saya tidak tahu,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.9556
+24_SUB8,SUB8,male,sudah siap mari kita mulai,saya tidak tahu,65.3846,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.9318
+30_SUB8,SUB8,male,dia sudah punya pacar,saya tidak tahu,76.1905,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,59.3663
+38_SUB8,SUB8,male,tapi saya sarankan anda mengakui kesalahan,saya ada janji temu malam ini,64.2857,100.0,16.6667,5.7735,4.5068,4.0825,16.6667,16.6667,16.6667,48.3757
+52_SUB8,SUB8,male,saya tersesat di dekat rumah anda,saya akan bantu,66.6667,83.3333,12.2626,4.7493,4.4557,4.1799,33.3333,16.6667,22.2222,45.1001
+53_SUB8,SUB8,male,bisa tolong bantu saya menyiram bunga,saya tidak tahu,78.3784,83.3333,12.2626,4.7493,4.4557,4.1799,33.3333,16.6667,22.2222,43.5491
+61_SUB8,SUB8,male,semoga anda cepat sembuh,saya tidak tahu,70.8333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.8901
+64_SUB8,SUB8,male,dia adalah laki laki yang pemalu,saya tidak tahu,71.875,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.8184
+72_SUB8,SUB8,male,apakah anda memerlukan bantuan,saya ada janji temu malam ini,70.0,150.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.8153
+75_SUB8,SUB8,male,saya mau masakan tiongkok terima kasih,saya tidak tahu,71.0526,83.3333,12.2626,4.7493,4.4557,4.1799,33.3333,16.6667,22.2222,48.9571
+83_SUB8,SUB8,male,dia akan merasa sangat senang,saya tidak tahu,75.8621,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.3947
+85_SUB8,SUB8,male,tolong bantu ambilkan foto kami,saya ada janji temu malam ini,83.871,120.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.2445
+87_SUB8,SUB8,male,sebaiknya kita pergi sekarang,saya tidak tahu,68.9655,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.4011
+88_SUB8,SUB8,male,saya menerima pujian ini dengan rendah hati,saya tidak tahu,74.4186,85.7143,8.7866,3.403,3.1926,2.995,33.3333,14.2857,20.0,50.7909
+92_SUB8,SUB8,male,kamu akan segera sembuh,saya tidak tahu,78.2609,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.0725
+93_SUB8,SUB8,male,saya akan tiba tepat waktu,saya tidak tahu,57.6923,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,56.4005

@@ -1,0 +1,20 @@
+id,subject,gender,sentence,prediction,cer
+54_SUB10,SUB10,female,dia memakai topeng wajahnya tidak terlihat,kamu terlihat luar biasa,0.7619047619047619
+55_SUB10,SUB10,female,halo ada yang bisa saya bantu,kamu terlihat luar biasa,0.7931034482758621
+67_SUB10,SUB10,female,anda bisa mencetaknya,kamu terlihat luar biasa,0.9523809523809523
+74_SUB10,SUB10,female,saya sedang terburu buru sampai jumpa,kamu terlihat luar biasa,0.7567567567567568
+75_SUB10,SUB10,female,silakan nikmati perjalanan anda,kamu terlihat luar biasa,0.7741935483870968
+77_SUB10,SUB10,female,bagaimana kabar ibumu sekarang,kamu terlihat luar biasa,0.7666666666666667
+87_SUB10,SUB10,female,hari ini ingin makan apa,kamu terlihat luar biasa,0.75
+95_SUB10,SUB10,female,saya ingin lebih mengenalnya,kamu terlihat luar biasa,0.8214285714285714
+10_SUB10,SUB10,female,kita pernah bertemu tahun lalu,kamu terlihat luar biasa,0.7
+12_SUB10,SUB10,female,anda seharusnya merasa malu,kamu terlihat luar biasa,0.7777777777777778
+19_SUB10,SUB10,female,pilihan anda banyak sekali ya,kamu terlihat luar biasa,0.8275862068965517
+20_SUB10,SUB10,female,lain kali pasti akan lebih baik,kamu terlihat luar biasa,0.6451612903225806
+23_SUB10,SUB10,female,saya tidak percaya penjelasan anda,kamu terlihat luar biasa,0.7352941176470589
+31_SUB10,SUB10,female,apa yang anda lakukan di waktu luang,kamu terlihat luar biasa,0.75
+34_SUB10,SUB10,female,saya setuju dengan semua kebijakannya,kamu terlihat luar biasa,0.7027027027027027
+38_SUB10,SUB10,female,kita pergi nanti saja,kamu terlihat luar biasa,0.7619047619047619
+42_SUB10,SUB10,female,apakah sarapan sudah siap,kamu terlihat luar biasa,0.68
+44_SUB10,SUB10,female,berikan mikrofonnya kepada dia,kamu terlihat luar biasa,0.8
+46_SUB10,SUB10,female,kami akan merapikan dokumen besok,kamu terlihat luar biasa,0.6363636363636364

@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB4,SUB4,male,tolong fotokopi laporan ini,selamat anda,0.8148148148148148
+3_SUB4,SUB4,male,bagaimana kabarmu belakangan ini,anda bida,0.8125
+15_SUB4,SUB4,male,bagaimana kesehatanmu akhir akhir ini,dia adalah orang yang ingi,0.7297297297297297
+21_SUB4,SUB4,male,maaf apakah sekarang sedang luang,anda terlari,0.7878787878787878
+22_SUB4,SUB4,male,tersesat butuh bantuan,peripa pergi,0.8181818181818182
+24_SUB4,SUB4,male,saya melewatkan momen yang luar biasa,adan tidas,0.8378378378378378
+30_SUB4,SUB4,male,melakukan panggilan internasional,serapa danya,0.7878787878787878
+38_SUB4,SUB4,male,hidangan apa ini,dia adalah yang ingi,0.6875
+52_SUB4,SUB4,male,apakah anda membutuhkan bantuan,anda bisa belari,0.7096774193548387
+53_SUB4,SUB4,male,dia sangat ketat terhadap kami,setua telahu,0.7666666666666667
+61_SUB4,SUB4,male,saya tidak sengaja menumpahkan tinta,saya akan ditu,0.6666666666666666
+64_SUB4,SUB4,male,saya ingin makan salad,anda terlihat anda,0.7727272727272727
+72_SUB4,SUB4,male,jadwal saya sangat padat,dia adalah orang yang salah,0.7083333333333334
+75_SUB4,SUB4,male,terima kasih telah menghubungi kami mohon tunggu sebentar,tida mencintai,0.8070175438596491
+83_SUB4,SUB4,male,terima kasih atas pengertian anda,anda terlasi,0.7878787878787878
+85_SUB4,SUB4,male,tentu saja boleh,perida,0.875
+87_SUB4,SUB4,male,berpamitan dengan teman di stasiun kereta,saya lapar ini,0.8048780487804879
+88_SUB4,SUB4,male,ini terlalu sulit baginya,anda bida,0.76
+92_SUB4,SUB4,male,berharap bisa bertemu kembali,anda tertida,0.7586206896551724
+93_SUB4,SUB4,male,apakah ruang rapat sudah siap,anda terlihat anda,0.7241379310344828

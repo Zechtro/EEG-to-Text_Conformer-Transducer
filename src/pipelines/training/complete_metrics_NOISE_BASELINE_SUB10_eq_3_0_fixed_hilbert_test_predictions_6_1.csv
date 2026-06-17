@@ -1,0 +1,20 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+54_SUB10,SUB10,female,dia memakai topeng wajahnya tidak terlihat,kami biasanya,78.5714,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.4381
+55_SUB10,SUB10,female,halo ada yang bisa saya bantu,kamu temu,89.6552,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.0782
+67_SUB10,SUB10,female,anda bisa mencetaknya,kami biasanya,61.9048,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.591
+74_SUB10,SUB10,female,saya sedang terburu buru sampai jumpa,kami biasanya,83.7838,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.1302
+75_SUB10,SUB10,female,silakan nikmati perjalanan anda,kamu hari ini,77.4194,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.0192
+77_SUB10,SUB10,female,bagaimana kabar ibumu sekarang,kamu hari ini,73.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,61.7969
+87_SUB10,SUB10,female,hari ini ingin makan apa,apakah anda ingin,75.0,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,50.9684
+95_SUB10,SUB10,female,saya ingin lebih mengenalnya,apakah kamu temu,82.1429,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.2618
+10_SUB10,SUB10,female,kita pernah bertemu tahun lalu,kami biasanya,76.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.5533
+12_SUB10,SUB10,female,anda seharusnya merasa malu,maaf saya terlamba,62.963,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.0323
+19_SUB10,SUB10,female,pilihan anda banyak sekali ya,makan siang,79.3103,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.6049
+20_SUB10,SUB10,female,lain kali pasti akan lebih baik,maaf saya terlambat,67.7419,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.0616
+23_SUB10,SUB10,female,saya tidak percaya penjelasan anda,maaf saya temui,76.4706,100.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,57.5423
+31_SUB10,SUB10,female,apa yang anda lakukan di waktu luang,kamu temu,86.1111,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.638
+34_SUB10,SUB10,female,saya setuju dengan semua kebijakannya,maaf saya temui,75.6757,100.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,49.978
+38_SUB10,SUB10,female,kita pergi nanti saja,kami biasanya,66.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.5461
+42_SUB10,SUB10,female,apakah sarapan sudah siap,mau tambah,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.2018
+44_SUB10,SUB10,female,berikan mikrofonnya kepada dia,maaf saya terlambat,76.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.3985
+46_SUB10,SUB10,female,kami akan merapikan dokumen besok,apakah anda ingin,72.7273,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.1039

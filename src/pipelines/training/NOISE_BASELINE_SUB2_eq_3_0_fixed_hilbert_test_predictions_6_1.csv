@@ -1,0 +1,11 @@
+id,subject,gender,sentence,prediction,cer
+8_SUB2,SUB2,male,saya ingin makan siang di kamar,saya sangi telama,0.6129032258064516
+11_SUB2,SUB2,male,tolong segera pergi dari sini,dia bantu,0.896551724137931
+15_SUB2,SUB2,male,sampaikan salam saya untuk mereka,saya lasan inti,0.6666666666666666
+19_SUB2,SUB2,male,senang bisa membantu anda,saya kengar,0.72
+21_SUB2,SUB2,male,selamat sore ada yang bisa saya bantu,saya berkant melakan,0.7027027027027027
+23_SUB2,SUB2,male,silakan tanya saya kapan saja,saya segila,0.7586206896551724
+29_SUB2,SUB2,male,menurutku masakan tiongkok sangat lezat,kala,0.8974358974358975
+39_SUB2,SUB2,male,menurutku sebaiknya kamu minta maaf,saya telaku,0.8
+43_SUB2,SUB2,male,waktu berjalan begitu cepat,saya baku,0.8148148148148148
+50_SUB2,SUB2,male,pekerjaan tidak selesai tepat waktu,kamu bakan sora,0.7714285714285715

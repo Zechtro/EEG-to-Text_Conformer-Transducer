@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB6,SUB6,female,kita harus melihat bagaimana keadaannya,saya harus pergi sampai jumpa,64.1026,80.0,20.0,7.0711,5.6651,5.3728,20.0,20.0,20.0,52.3667
+3_SUB6,SUB6,female,mungkin keberuntungan akan membaik,aku ingin makan sesuatu,64.7059,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,58.1517
+15_SUB6,SUB6,female,anda ingin ayam atau daging sapi,apakah kamu sudah siap,65.625,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.3948
+21_SUB6,SUB6,female,setiap hari hanyalah rutinitas biasa,sudah lama tidak bertemu,72.2222,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.8012
+22_SUB6,SUB6,female,tentu saja tidak masalah,sudah lama tidak bertemu,58.3333,75.0,25.0,9.1287,7.6653,8.0343,25.0,25.0,25.0,47.3332
+24_SUB6,SUB6,female,butuh bantuan apa,kami sudah tidak bertemu,117.6471,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.7836
+30_SUB6,SUB6,female,beberapa bulan terakhir ini kamu sangat sibuk,aku ingin memasak,75.5556,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.0643
+38_SUB6,SUB6,female,tolong bantu saya membersihkan dapur,sudah lama tidak bertemu,77.7778,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.3741
+52_SUB6,SUB6,female,tolong isi penuh bensinnya terima kasih,sudah lama tidak bertemu,82.0513,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.8414
+53_SUB6,SUB6,female,hubungi aku besok,aku ingin memasak makan malam,123.5294,166.6667,20.0,7.0711,5.6651,5.3728,20.0,33.3333,25.0,59.0212
+61_SUB6,SUB6,female,makanan di sana lumayan enak,sudah lama tidak bertemu,82.1429,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.8473
+64_SUB6,SUB6,female,apa yang bisa saya bantu,apakah anda butuh bantuan,58.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,65.1113
+72_SUB6,SUB6,female,saya sangat menghargai saran anda,sudah lama tidak bertemu,75.7576,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.5525
+75_SUB6,SUB6,female,mengapa kamu melakukan hal itu,saya tidak ingin bekerja sama,90.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,56.5508
+83_SUB6,SUB6,female,dia tidak tahu bagaimana menghadapi kenyataan,saya tidak ingin bekerja sama,64.4444,83.3333,16.3746,5.7893,4.6382,4.3989,20.0,16.6667,18.1818,60.7295
+85_SUB6,SUB6,female,guru filsafat saya sangat humoris,aku tidak sengaja bertemu teman lama,87.8788,120.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.7513
+87_SUB6,SUB6,female,terima kasih banyak atas undangannya,sudah lama tidak bertemu,80.5556,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.4946
+88_SUB6,SUB6,female,kita bisa pensiun lebih awal,sudah lama tidak bertemu,82.1429,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.3194
+92_SUB6,SUB6,female,saya akan membawakannya untuk anda besok,apakah kamu sudah siap,72.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.8771
+93_SUB6,SUB6,female,di mana alamat anda,sudah lama tidak bertemu,94.7368,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.7532

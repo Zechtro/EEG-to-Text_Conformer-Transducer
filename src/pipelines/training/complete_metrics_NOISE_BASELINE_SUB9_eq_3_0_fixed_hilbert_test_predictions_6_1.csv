@@ -1,0 +1,20 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB9,SUB9,female,tolong fotokopi laporan ini,saya akan saja,81.4815,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.7667
+3_SUB9,SUB9,female,bagaimana kabarmu belakangan ini,saya hari,81.25,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.8231
+19_SUB9,SUB9,female,pintunya sudah dibuka,saya kambu,71.4286,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.3364
+25_SUB9,SUB9,female,apakah ada yang ingin anda laporkan,saya terlihat,82.8571,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.9845
+26_SUB9,SUB9,female,bolehkah saya berbicara dengan anda,anda kambu,88.5714,100.0,11.1565,4.9893,3.8835,3.3366,50.0,20.0,28.5714,47.6737
+28_SUB9,SUB9,female,mari makan di luar malam ini,makan terlah,67.8571,83.3333,6.7668,3.0262,2.3554,2.0237,50.0,16.6667,25.0,51.0938
+36_SUB9,SUB9,female,aku akan mencintaimu selamanya,saya terseah bantu,73.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.8451
+44_SUB9,SUB9,female,apakah anda tertarik dengan komputer,akan saja,80.5556,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.2779
+58_SUB9,SUB9,female,dia diculik di dalam mobil,kamu apakah bantu,76.9231,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.2411
+59_SUB9,SUB9,female,selamat pagi pak ada yang bisa saya bantu,maaf terjah,87.8049,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,31.7395
+66_SUB9,SUB9,female,temanmu sangat cantik,saya terlah,80.9524,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.3186
+67_SUB9,SUB9,female,mari kita bicara,akan anda haru,68.75,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.8252
+70_SUB9,SUB9,female,dia benar benar menyalahkan saya,semar buan,78.125,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.5507
+80_SUB9,SUB9,female,apakah anda baik baik saja pak,makan ada tentu,73.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.4745
+83_SUB9,SUB9,female,terima kasih atas pengertian anda,saya terluh,81.8182,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.0364
+88_SUB9,SUB9,female,ini terlalu sulit baginya,anda terlah,76.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.7643
+91_SUB9,SUB9,female,sepertinya kamu sedang flu,maanda terhama,84.6154,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.2376
+94_SUB9,SUB9,female,senang berkenalan dengan anda,kamu bari,86.2069,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.5677
+96_SUB9,SUB9,female,seperti apa penampilannya,kamu akan tak,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.5417

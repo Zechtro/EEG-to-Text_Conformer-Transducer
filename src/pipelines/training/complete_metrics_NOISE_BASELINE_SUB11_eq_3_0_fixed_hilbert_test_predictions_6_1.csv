@@ -1,0 +1,18 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+3_SUB11,SUB11,female,berharap bisa bertemu lagi di masa depan,ingin membuh,87.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.1525
+5_SUB11,SUB11,female,kapan anda biasanya tidur,anda ada hai,64.0,75.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,54.798
+23_SUB11,SUB11,female,kunci pintunya ayo kita berangkat,bisa membelinya,78.7879,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.1789
+30_SUB11,SUB11,female,dia sudah punya pacar,manu,90.4762,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.3323
+35_SUB11,SUB11,female,apakah perasaanmu sudah lebih baik,bisa akan berjalan i anda mian,64.7059,120.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.0465
+39_SUB11,SUB11,female,saya ada janji temu mohon tunggu sebentar,inspirasi malai,87.8049,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.8732
+51_SUB11,SUB11,female,dia adalah teman sekamar saya,semoga anda dengan,79.3103,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.0724
+54_SUB11,SUB11,female,dia membuat kesabaran saya habis,sembuh,84.375,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.7037
+60_SUB11,SUB11,female,apa rencanamu untuk masa depan,anda semala hidari keman,63.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.6982
+75_SUB11,SUB11,female,saya mau masakan tiongkok terima kasih,sembitu hari,81.5789,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,31.4088
+76_SUB11,SUB11,female,wasit sepertinya agak memihak,bicarang memalan,68.9655,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.765
+83_SUB11,SUB11,female,dia akan merasa sangat senang,aku anda di mana,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.3848
+84_SUB11,SUB11,female,maaf telah mengganggu anda,tihu saya hari yian menyiap,84.6154,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.0415
+87_SUB11,SUB11,female,sebaiknya kita pergi sekarang,saya tidak tahu semah,62.069,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.504
+91_SUB11,SUB11,female,tidak usah terima kasih,boleh harus ,82.6087,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,58.6733
+95_SUB11,SUB11,female,kecewa dengan upaya anda,saya ingin tidus sembuh,79.1667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.4516
+96_SUB11,SUB11,female,kita harus saling membantu,kebetuh ,88.4615,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.4112

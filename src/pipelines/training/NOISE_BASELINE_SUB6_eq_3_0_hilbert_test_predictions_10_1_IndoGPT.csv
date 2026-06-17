@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB6,SUB6,female,kita harus melihat bagaimana keadaannya,aku ingin makan sesuatu,0.717948717948718
+3_SUB6,SUB6,female,mungkin keberuntungan akan membaik,aku ingin makan sesuatu,0.6470588235294118
+15_SUB6,SUB6,female,anda ingin ayam atau daging sapi,saya ingin mencicipi hidangan,0.625
+21_SUB6,SUB6,female,setiap hari hanyalah rutinitas biasa,saya tidak sengaja,0.7222222222222222
+22_SUB6,SUB6,female,tentu saja tidak masalah,saya tidak sengaja,0.5416666666666666
+24_SUB6,SUB6,female,butuh bantuan apa,saya ingin mencicipi hidangan,1.411764705882353
+30_SUB6,SUB6,female,beberapa bulan terakhir ini kamu sangat sibuk,saya tidak sengaja,0.7555555555555555
+38_SUB6,SUB6,female,tolong bantu saya membersihkan dapur,saya ingin tahu jam buka,0.8055555555555556
+52_SUB6,SUB6,female,tolong isi penuh bensinnya terima kasih,saya ingin tahu,0.7948717948717948
+53_SUB6,SUB6,female,hubungi aku besok,bisakah anda,0.7647058823529411
+61_SUB6,SUB6,female,makanan di sana lumayan enak,saya ingin tahu,0.75
+64_SUB6,SUB6,female,apa yang bisa saya bantu,saya ingin tahu,0.6666666666666666
+72_SUB6,SUB6,female,saya sangat menghargai saran anda,saya ingin tahu,0.696969696969697
+75_SUB6,SUB6,female,mengapa kamu melakukan hal itu,saya tidak sengaja,0.7666666666666667
+83_SUB6,SUB6,female,dia tidak tahu bagaimana menghadapi kenyataan,aku ingin makan sesuatu,0.6666666666666666
+85_SUB6,SUB6,female,guru filsafat saya sangat humoris,saya ingin tahu jam buka,0.7575757575757576
+87_SUB6,SUB6,female,terima kasih banyak atas undangannya,aku ingin makan sesuatu,0.75
+88_SUB6,SUB6,female,kita bisa pensiun lebih awal,saya tidak sengaja,0.7142857142857143
+92_SUB6,SUB6,female,saya akan membawakannya untuk anda besok,saya tidak sengaja,0.75
+93_SUB6,SUB6,female,di mana alamat anda,saya ingin tahu jam buka,0.9473684210526315

@@ -1,0 +1,5 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+53_SUB12,SUB12,female,bagaimana kabarmu belakangan ini,tetap berkabar,78.125,100.0,0,0,0,0,0.0,0.0,0.0,43.2734
+69_SUB12,SUB12,female,pintunya sudah dibuka,tetap berkata,85.7143,100.0,0,0,0,0,0.0,0.0,0.0,55.0617
+85_SUB12,SUB12,female,dia hanya mencintai uangnya,tetap berkabar,81.4815,100.0,0,0,0,0,0.0,0.0,0.0,47.8949
+94_SUB12,SUB12,female,apakah anda tertarik dengan komputer,dia sangat can,77.7778,100.0,0,0,0,0,0.0,0.0,0.0,40.8041

@@ -1,0 +1,20 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+54_SUB10,SUB10,female,dia memakai topeng wajahnya tidak terlihat,selamat datang siang,73.8095,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.8773
+55_SUB10,SUB10,female,halo ada yang bisa saya bantu,saya tidak bisa di,68.9655,83.3333,30.3265,7.8303,5.8442,5.7951,50.0,33.3333,40.0,44.2083
+67_SUB10,SUB10,female,anda bisa mencetaknya,mari kita ak,71.4286,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.0535
+74_SUB10,SUB10,female,saya sedang terburu buru sampai jumpa,matanya sangat inda,75.6757,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.7213
+75_SUB10,SUB10,female,silakan nikmati perjalanan anda,maaf saya tekan,74.1935,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.3366
+77_SUB10,SUB10,female,bagaimana kabar ibumu sekarang,dia sangat kendapat,76.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.0623
+87_SUB10,SUB10,female,hari ini ingin makan apa,saya tidak bisa di,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.9105
+95_SUB10,SUB10,female,saya ingin lebih mengenalnya,apakah silakan masuk,78.5714,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,62.0806
+10_SUB10,SUB10,female,kita pernah bertemu tahun lalu,kami biasa di,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.6933
+12_SUB10,SUB10,female,anda seharusnya merasa malu,kayan yang kepadanya,70.3704,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.3451
+19_SUB10,SUB10,female,pilihan anda banyak sekali ya,saya tidak bisa di,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.1395
+20_SUB10,SUB10,female,lain kali pasti akan lebih baik,sayur mencara,83.871,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.8183
+23_SUB10,SUB10,female,saya tidak percaya penjelasan anda,kamu beranya tidak bisa di,70.5882,100.0,20.0,7.0711,5.6651,5.3728,20.0,20.0,20.0,52.1036
+31_SUB10,SUB10,female,apa yang anda lakukan di waktu luang,bagaimana kabar,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,31.8516
+34_SUB10,SUB10,female,saya setuju dengan semua kebijakannya,selamat datang silakan makanan tersudi,78.3784,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,31.5878
+38_SUB10,SUB10,female,kita pergi nanti saja,saya tidak akan temi,76.1905,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,61.1611
+42_SUB10,SUB10,female,apakah sarapan sudah siap,selamat datang awak bisa di,76.0,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.9491
+44_SUB10,SUB10,female,berikan mikrofonnya kepada dia,saya ingin pergi makan siang,83.3333,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.3489
+46_SUB10,SUB10,female,kami akan merapikan dokumen besok,saya ingin pergi makan tiba,69.697,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.3186

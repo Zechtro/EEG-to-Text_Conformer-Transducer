@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB6,SUB6,female,kita harus melihat bagaimana keadaannya,saya harus pergi sampai jumpa,0.6410256410256411
+3_SUB6,SUB6,female,mungkin keberuntungan akan membaik,aku ingin makan sesuatu,0.6470588235294118
+15_SUB6,SUB6,female,anda ingin ayam atau daging sapi,apakah kamu sudah siap,0.65625
+21_SUB6,SUB6,female,setiap hari hanyalah rutinitas biasa,sudah lama tidak bertemu,0.7222222222222222
+22_SUB6,SUB6,female,tentu saja tidak masalah,sudah lama tidak bertemu,0.5833333333333334
+24_SUB6,SUB6,female,butuh bantuan apa,kami sudah tidak bertemu,1.1764705882352942
+30_SUB6,SUB6,female,beberapa bulan terakhir ini kamu sangat sibuk,aku ingin memasak,0.7555555555555555
+38_SUB6,SUB6,female,tolong bantu saya membersihkan dapur,sudah lama tidak bertemu,0.7777777777777778
+52_SUB6,SUB6,female,tolong isi penuh bensinnya terima kasih,sudah lama tidak bertemu,0.8205128205128205
+53_SUB6,SUB6,female,hubungi aku besok,aku ingin memasak makan malam,1.2352941176470589
+61_SUB6,SUB6,female,makanan di sana lumayan enak,sudah lama tidak bertemu,0.8214285714285714
+64_SUB6,SUB6,female,apa yang bisa saya bantu,apakah anda butuh bantuan,0.5833333333333334
+72_SUB6,SUB6,female,saya sangat menghargai saran anda,sudah lama tidak bertemu,0.7575757575757576
+75_SUB6,SUB6,female,mengapa kamu melakukan hal itu,saya tidak ingin bekerja sama,0.9
+83_SUB6,SUB6,female,dia tidak tahu bagaimana menghadapi kenyataan,saya tidak ingin bekerja sama,0.6444444444444445
+85_SUB6,SUB6,female,guru filsafat saya sangat humoris,aku tidak sengaja bertemu teman lama,0.8787878787878788
+87_SUB6,SUB6,female,terima kasih banyak atas undangannya,sudah lama tidak bertemu,0.8055555555555556
+88_SUB6,SUB6,female,kita bisa pensiun lebih awal,sudah lama tidak bertemu,0.8214285714285714
+92_SUB6,SUB6,female,saya akan membawakannya untuk anda besok,apakah kamu sudah siap,0.725
+93_SUB6,SUB6,female,di mana alamat anda,sudah lama tidak bertemu,0.9473684210526315

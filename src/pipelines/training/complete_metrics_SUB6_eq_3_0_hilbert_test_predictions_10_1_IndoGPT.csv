@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB6,SUB6,female,kita harus melihat bagaimana keadaannya,teman saya adalah,74.359,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.0776
+3_SUB6,SUB6,female,mungkin keberuntungan akan membaik,saya ingin tahu,82.3529,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.0109
+15_SUB6,SUB6,female,anda ingin ayam atau daging sapi,bisakah anda tinggal beberapa hari,81.25,100.0,16.3746,5.7893,4.6382,4.3989,20.0,16.6667,18.1818,53.573
+21_SUB6,SUB6,female,setiap hari hanyalah rutinitas biasa,terima kasih sudah membantu,72.2222,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.4313
+22_SUB6,SUB6,female,tentu saja tidak masalah,teman lama saya,62.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.2859
+24_SUB6,SUB6,female,butuh bantuan apa,saya tidak sengaja,82.3529,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.4023
+30_SUB6,SUB6,female,beberapa bulan terakhir ini kamu sangat sibuk,terima kasih atas,75.5556,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22.5759
+38_SUB6,SUB6,female,tolong bantu saya membersihkan dapur,saya ingin tahu,72.2222,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,59.0115
+52_SUB6,SUB6,female,tolong isi penuh bensinnya terima kasih,sudah lama tidak bertemu,82.0513,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.8414
+53_SUB6,SUB6,female,hubungi aku besok,apakah anda butuh bantuan,117.6471,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.5041
+61_SUB6,SUB6,female,makanan di sana lumayan enak,terima kasih atas jamuannya,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.1265
+64_SUB6,SUB6,female,apa yang bisa saya bantu,saya ingin tahu jam buka,70.8333,100.0,20.0,7.0711,5.6651,5.3728,20.0,20.0,20.0,55.9101
+72_SUB6,SUB6,female,saya sangat menghargai saran anda,apakah kamu bisa,75.7576,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.0513
+75_SUB6,SUB6,female,mengapa kamu melakukan hal itu,aku ingin membantu,73.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.9036
+83_SUB6,SUB6,female,dia tidak tahu bagaimana menghadapi kenyataan,saya ingin membantu,73.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.7423
+85_SUB6,SUB6,female,guru filsafat saya sangat humoris,saya ingin membantu,75.7576,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,53.7538
+87_SUB6,SUB6,female,terima kasih banyak atas undangannya,saya tidak sengaja bertemu,80.5556,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.3076
+88_SUB6,SUB6,female,kita bisa pensiun lebih awal,anda benar benar,71.4286,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.8635
+92_SUB6,SUB6,female,saya akan membawakannya untuk anda besok,saya ingin membantu,65.0,83.3333,12.2626,4.7493,4.4557,4.1799,33.3333,16.6667,22.2222,56.2304
+93_SUB6,SUB6,female,di mana alamat anda,aku tidak sengaja bertemu,105.2632,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.1638

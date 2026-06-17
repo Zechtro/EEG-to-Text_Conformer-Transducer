@@ -1,0 +1,20 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+54_SUB10,SUB10,female,dia memakai topeng wajahnya tidak terlihat,layanan makan bertemu,73.8095,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.1906
+55_SUB10,SUB10,female,halo ada yang bisa saya bantu,mari kita bisa,72.4138,83.3333,12.2626,4.7493,4.4557,4.1799,33.3333,16.6667,22.2222,30.7104
+67_SUB10,SUB10,female,anda bisa mencetaknya,kami biasanya,61.9048,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.591
+74_SUB10,SUB10,female,saya sedang terburu buru sampai jumpa,semoga anda bersenang,78.3784,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.0241
+75_SUB10,SUB10,female,silakan nikmati perjalanan anda,kamu terlihat luar biasa,77.4194,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.6712
+77_SUB10,SUB10,female,bagaimana kabar ibumu sekarang,matanya kita makan,63.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.5967
+87_SUB10,SUB10,female,hari ini ingin makan apa,saya benar benar,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.2618
+95_SUB10,SUB10,female,saya ingin lebih mengenalnya,maaf saya terlambat,78.5714,100.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,63.7594
+10_SUB10,SUB10,female,kita pernah bertemu tahun lalu,maaf saya temu,76.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.6426
+12_SUB10,SUB10,female,anda seharusnya merasa malu,mari kita bicara,81.4815,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.1735
+19_SUB10,SUB10,female,pilihan anda banyak sekali ya,maaf saya terlambat,68.9655,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.113
+20_SUB10,SUB10,female,lain kali pasti akan lebih baik,kamu terlihat luar biasa,64.5161,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.5142
+23_SUB10,SUB10,female,saya tidak percaya penjelasan anda,maaf saya terlambat,67.6471,100.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,65.2511
+31_SUB10,SUB10,female,apa yang anda lakukan di waktu luang,saya benar benar,80.5556,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.1019
+34_SUB10,SUB10,female,saya setuju dengan semua kebijakannya,kita akan,81.0811,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.535
+38_SUB10,SUB10,female,kita pergi nanti saja,mari kita makan siang,76.1905,100.0,25.0,9.1287,7.6653,8.0343,25.0,25.0,25.0,70.8917
+42_SUB10,SUB10,female,apakah sarapan sudah siap,selamat datang kembali,76.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.3275
+44_SUB10,SUB10,female,berikan mikrofonnya kepada dia,apakah kamu temu,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.6676
+46_SUB10,SUB10,female,kami akan merapikan dokumen besok,kamu terlihat luar biasa,63.6364,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.8012

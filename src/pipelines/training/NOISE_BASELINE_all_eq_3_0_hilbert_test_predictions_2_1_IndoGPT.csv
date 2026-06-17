@@ -1,0 +1,190 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB1,SUB1,male,maaf saya terlambat,kami akan segera sampai,0.7368421052631579
+3_SUB1,SUB1,male,biar saya bantu ganti baterainya,kami akan segera sampai,0.71875
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang,saya akan pergi,0.6451612903225806
+21_SUB1,SUB1,male,kamu tampak penuh energi hari ini,saya ingin makan sesuatu,0.8181818181818182
+22_SUB1,SUB1,male,setelah makan saya merasa sangat kenyang,kami akan segera sampai,0.65
+24_SUB1,SUB1,male,saya sedang terburu buru sampai jumpa,saya ingin makan sesuatu,0.7027027027027027
+30_SUB1,SUB1,male,benar benar tidak bisa dipercaya,saya tidak sengaja bertemu teman lama,0.875
+38_SUB1,SUB1,male,bagaimana harimu hari ini,saya akan pergi,0.72
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati,saya tidak sengaja bertemu teman lama,0.7105263157894737
+53_SUB1,SUB1,male,cobalah besok pagi,kami akan segera sampai,0.8888888888888888
+61_SUB1,SUB1,male,tolong segera pergi dari sini,kamu terlihat luar biasa,0.7931034482758621
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda,saya ingin makan sesuatu,0.7
+72_SUB1,SUB1,male,apakah anda sudah makan siang,anda terlihat luar biasa,0.6896551724137931
+75_SUB1,SUB1,male,kamu benar benar menjadi lebih sehat,saya ingin makan sesuatu,0.6944444444444444
+83_SUB1,SUB1,male,saya tidak punya waktu luang sama sekali,kami akan segera sampai,0.675
+85_SUB1,SUB1,male,dia bukan orang yang penting,saya ingin makan sesuatu,0.7142857142857143
+87_SUB1,SUB1,male,apa yang bisa kami lakukan untuk anda,kami akan segera sampai,0.7297297297297297
+88_SUB1,SUB1,male,kita akan bertemu lagi,saya akan pergi,0.5
+92_SUB1,SUB1,male,saya bukan seorang penjahat,kamu terlihat luar biasa,0.8148148148148148
+93_SUB1,SUB1,male,waktu berjalan begitu cepat,saya tidak sengaja bertemu teman,0.7407407407407407
+8_SUB2,SUB2,male,saya ingin makan siang di kamar,saya ingin makan sesuatu,0.3870967741935484
+11_SUB2,SUB2,male,tolong segera pergi dari sini,kami akan segera sampai,0.7586206896551724
+15_SUB2,SUB2,male,sampaikan salam saya untuk mereka,kami akan segera sampai,0.696969696969697
+19_SUB2,SUB2,male,senang bisa membantu anda,saya akan pergi berenang,0.8
+21_SUB2,SUB2,male,selamat sore ada yang bisa saya bantu,saya akan pergi berenang,0.7027027027027027
+23_SUB2,SUB2,male,silakan tanya saya kapan saja,saya tidak sengaja bertemu teman lama,0.8275862068965517
+29_SUB2,SUB2,male,menurutku masakan tiongkok sangat lezat,saya ingin makan sesuatu,0.6923076923076923
+39_SUB2,SUB2,male,menurutku sebaiknya kamu minta maaf,kami akan segera sampai,0.7714285714285715
+43_SUB2,SUB2,male,waktu berjalan begitu cepat,saya tidak sengaja bertemu teman lama,0.9259259259259259
+50_SUB2,SUB2,male,pekerjaan tidak selesai tepat waktu,saya ingin makan sesuatu,0.7428571428571429
+8_SUB3,SUB3,male,mereka adalah teman baik,saya tidak sengaja bertemu teman lama,1.0416666666666667
+11_SUB3,SUB3,male,dia memang benar benar pembuat masalah,kami akan segera sampai,0.7105263157894737
+15_SUB3,SUB3,male,mari kita makan di kantin saja,saya ingin makan sesuatu,0.6666666666666666
+19_SUB3,SUB3,male,kapan kamu bisa datang,kami akan segera sampai,0.7272727272727273
+21_SUB3,SUB3,male,tapi semua hal baik pasti ada akhirnya,saya ingin makan sesuatu,0.7894736842105263
+23_SUB3,SUB3,male,kamu seharusnya bicara dengannya,saya ingin makan sesuatu,0.75
+29_SUB3,SUB3,male,saya sudah ada janji besok,kami akan segera sampai,0.8076923076923077
+39_SUB3,SUB3,male,kamu baik sekali,saya ingin makan sesuatu,1.0
+43_SUB3,SUB3,male,kamu adalah teman sejatiku,kami akan segera sampai,0.5769230769230769
+50_SUB3,SUB3,male,halo apa kabar,kami akan segera sampai,1.1428571428571428
+2_SUB4,SUB4,male,tolong fotokopi laporan ini,kamu terlihat luar biasa,0.8518518518518519
+3_SUB4,SUB4,male,bagaimana kabarmu belakangan ini,saya tidak sengaja bertemu teman lama,0.84375
+15_SUB4,SUB4,male,bagaimana kesehatanmu akhir akhir ini,kami akan segera sampai,0.7297297297297297
+21_SUB4,SUB4,male,maaf apakah sekarang sedang luang,kami akan segera sampai,0.5757575757575758
+22_SUB4,SUB4,male,tersesat butuh bantuan,saya akan pergi,0.8181818181818182
+24_SUB4,SUB4,male,saya melewatkan momen yang luar biasa,kami akan segera sampai,0.6756756756756757
+30_SUB4,SUB4,male,melakukan panggilan internasional,saya ingin makan sesuatu,0.696969696969697
+38_SUB4,SUB4,male,hidangan apa ini,saya ingin makan sesuatu,1.0
+52_SUB4,SUB4,male,apakah anda membutuhkan bantuan,saya akan pergi,0.7419354838709677
+53_SUB4,SUB4,male,dia sangat ketat terhadap kami,kami akan segera sampai,0.7
+61_SUB4,SUB4,male,saya tidak sengaja menumpahkan tinta,saya ingin makan sesuatu,0.6111111111111112
+64_SUB4,SUB4,male,saya ingin makan salad,saya ingin makan sesuatu,0.22727272727272727
+72_SUB4,SUB4,male,jadwal saya sangat padat,kami akan segera sampai,0.7083333333333334
+75_SUB4,SUB4,male,terima kasih telah menghubungi kami mohon tunggu sebentar,kamu terlihat luar biasa,0.7894736842105263
+83_SUB4,SUB4,male,terima kasih atas pengertian anda,kami akan segera sampai,0.6060606060606061
+85_SUB4,SUB4,male,tentu saja boleh,saya ingin makan sesuatu,1.1875
+87_SUB4,SUB4,male,berpamitan dengan teman di stasiun kereta,saya tidak sengaja bertemu teman,0.6829268292682927
+88_SUB4,SUB4,male,ini terlalu sulit baginya,saya tidak sengaja,0.76
+92_SUB4,SUB4,male,berharap bisa bertemu kembali,saya ingin makan sesuatu,0.7586206896551724
+93_SUB4,SUB4,male,apakah ruang rapat sudah siap,saya ingin makan sesuatu,0.6896551724137931
+8_SUB5,SUB5,male,sudah waktunya tidur,saya ingin makan sesuatu,0.95
+11_SUB5,SUB5,male,maaf kemarin saya tidak masuk kelas,kami akan segera sampai,0.7142857142857143
+15_SUB5,SUB5,male,mari ikut saya ke kantor untuk bicara lebih lanjut,saya tidak sengaja bertemu teman lama,0.74
+19_SUB5,SUB5,male,pilihan anda banyak sekali ya,saya ingin makan sesuatu,0.7241379310344828
+21_SUB5,SUB5,male,dia sangat tidak bisa diandalkan,saya ingin makan sesuatu,0.75
+23_SUB5,SUB5,male,saya tidak percaya penjelasan anda,saya ingin makan sesuatu,0.6764705882352942
+29_SUB5,SUB5,male,kami biasanya makan di kantin,anda terlihat sangat luar biasa,0.8275862068965517
+39_SUB5,SUB5,male,semoga anda bersenang senang,saya ingin makan sesuatu,0.6785714285714286
+43_SUB5,SUB5,male,aku sedang menelepon teman,kamu terlihat luar biasa,0.8076923076923077
+50_SUB5,SUB5,male,jangan percaya apa yang dia katakan,kami akan segera sampai,0.7142857142857143
+2_SUB6,SUB6,female,kita harus melihat bagaimana keadaannya,kami akan segera sampai,0.7435897435897436
+3_SUB6,SUB6,female,mungkin keberuntungan akan membaik,kami akan segera sampai,0.6764705882352942
+15_SUB6,SUB6,female,anda ingin ayam atau daging sapi,kami akan segera sampai,0.6875
+21_SUB6,SUB6,female,setiap hari hanyalah rutinitas biasa,saya ingin makan sesuatu,0.75
+22_SUB6,SUB6,female,tentu saja tidak masalah,saya ingin makan sesuatu,0.8333333333333334
+24_SUB6,SUB6,female,butuh bantuan apa,kami akan segera sampai,1.0
+30_SUB6,SUB6,female,beberapa bulan terakhir ini kamu sangat sibuk,saya tidak sengaja bertemu teman lama,0.7333333333333333
+38_SUB6,SUB6,female,tolong bantu saya membersihkan dapur,saya tidak sengaja bertemu teman lama,0.7777777777777778
+52_SUB6,SUB6,female,tolong isi penuh bensinnya terima kasih,kami akan segera sampai,0.7692307692307693
+53_SUB6,SUB6,female,hubungi aku besok,kami akan segera sampai,1.1176470588235294
+61_SUB6,SUB6,female,makanan di sana lumayan enak,saya tidak sengaja bertemu teman lama,0.9285714285714286
+64_SUB6,SUB6,female,apa yang bisa saya bantu,saya akan pergi berenang,0.75
+72_SUB6,SUB6,female,saya sangat menghargai saran anda,kami akan segera sampai,0.6060606060606061
+75_SUB6,SUB6,female,mengapa kamu melakukan hal itu,saya ingin makan sesuatu,0.6333333333333333
+83_SUB6,SUB6,female,dia tidak tahu bagaimana menghadapi kenyataan,kami akan segera sampai,0.7111111111111111
+85_SUB6,SUB6,female,guru filsafat saya sangat humoris,kami akan segera sampai,0.7272727272727273
+87_SUB6,SUB6,female,terima kasih banyak atas undangannya,kami akan segera sampai,0.7222222222222222
+88_SUB6,SUB6,female,kita bisa pensiun lebih awal,kami akan segera sampai,0.75
+92_SUB6,SUB6,female,saya akan membawakannya untuk anda besok,kami akan segera sampai,0.7
+93_SUB6,SUB6,female,di mana alamat anda,kami akan segera sampai,0.8421052631578947
+2_SUB7,SUB7,female,anda benar benar kakek yang murah hati,kamu terlihat luar biasa,0.7631578947368421
+3_SUB7,SUB7,female,cobalah besok pagi,saya ingin makan sesuatu,1.1111111111111112
+15_SUB7,SUB7,female,sampaikan salam saya untuk mereka,saya ingin makan sesuatu,0.6666666666666666
+21_SUB7,SUB7,female,selamat sore ada yang bisa saya bantu,saya tidak sengaja bertemu teman lama,0.7837837837837838
+22_SUB7,SUB7,female,apakah anda sudah makan siang,saya ingin makan sesuatu,0.6206896551724138
+24_SUB7,SUB7,female,kita harus memberitahunya,kami akan segera sampai,0.72
+30_SUB7,SUB7,female,saya sangat sibuk hari ini butuh bantuan,saya tidak sengaja bertemu teman lama,0.7
+38_SUB7,SUB7,female,kita akan bertemu lagi,saya tidak sengaja bertemu teman,0.8181818181818182
+52_SUB7,SUB7,female,ide idemu sangat kreatif,kami akan segera sampai,0.8333333333333334
+53_SUB7,SUB7,female,saya punya nomornya di sini,saya ingin makan sesuatu,0.6666666666666666
+61_SUB7,SUB7,female,dia memang benar benar pembuat masalah,kami akan segera sampai,0.7105263157894737
+64_SUB7,SUB7,female,boleh saya minta tolong,kami akan segera sampai,0.8260869565217391
+72_SUB7,SUB7,female,apa pekerjaan anda,kami akan segera sampai,0.8888888888888888
+75_SUB7,SUB7,female,ini surat undangan untuk anda,kami akan segera sampai,0.7931034482758621
+83_SUB7,SUB7,female,mungkin kita akan mendapatkan inspirasi secara tidak sengaja,saya ingin makan sesuatu,0.75
+85_SUB7,SUB7,female,saya pikir anda sudah tahu,saya ingin makan sesuatu,0.5769230769230769
+87_SUB7,SUB7,female,kurangi makan roti dan kentang,saya tidak sengaja bertemu teman lama,0.9666666666666667
+88_SUB7,SUB7,female,apakah sepeda itu milikmu,kami akan segera sampai,0.64
+92_SUB7,SUB7,female,kami berkenalan melalui internet,saya ingin makan sesuatu,0.71875
+93_SUB7,SUB7,female,kamu adalah teman sejatiku,saya tidak sengaja bertemu teman lama,1.0
+2_SUB8,SUB8,male,saya butuh informasi anda,saya ingin makan sesuatu,0.72
+3_SUB8,SUB8,male,berharap bisa bertemu lagi di masa depan,saya akan pergi berenang,0.725
+15_SUB8,SUB8,male,apakah kamu tahu di mana bisa membelinya,saya tidak sengaja bertemu teman lama,0.75
+21_SUB8,SUB8,male,dia selalu meludah sembarangan,kamu terlihat luar biasa,0.7333333333333333
+22_SUB8,SUB8,male,cinta terkadang benar benar buta,kami akan segera sampai,0.75
+24_SUB8,SUB8,male,sudah siap mari kita mulai,saya tidak sengaja bertemu teman lama,0.9615384615384616
+30_SUB8,SUB8,male,dia sudah punya pacar,kami akan segera sampai,0.8095238095238095
+38_SUB8,SUB8,male,tapi saya sarankan anda mengakui kesalahan,kami akan segera sampai,0.6666666666666666
+52_SUB8,SUB8,male,saya tersesat di dekat rumah anda,saya tidak sengaja bertemu teman lama,0.6666666666666666
+53_SUB8,SUB8,male,bisa tolong bantu saya menyiram bunga,kami akan segera sampai,0.7567567567567568
+61_SUB8,SUB8,male,semoga anda cepat sembuh,kamu terlihat luar biasa,0.875
+64_SUB8,SUB8,male,dia adalah laki laki yang pemalu,saya akan pergi berenang,0.71875
+72_SUB8,SUB8,male,apakah anda memerlukan bantuan,saya tidak sengaja bertemu teman lama,0.8666666666666667
+75_SUB8,SUB8,male,saya mau masakan tiongkok terima kasih,kami akan segera sampai,0.6578947368421053
+83_SUB8,SUB8,male,dia akan merasa sangat senang,saya akan pergi berenang,0.5172413793103449
+85_SUB8,SUB8,male,tolong bantu ambilkan foto kami,kami akan segera sampai,0.7741935483870968
+87_SUB8,SUB8,male,sebaiknya kita pergi sekarang,kamu terlihat luar biasa,0.7931034482758621
+88_SUB8,SUB8,male,saya menerima pujian ini dengan rendah hati,kami akan segera sampai,0.6976744186046512
+92_SUB8,SUB8,male,kamu akan segera sembuh,kami akan segera sampai,0.21739130434782608
+93_SUB8,SUB8,male,saya akan tiba tepat waktu,saya ingin makan sesuatu,0.5769230769230769
+2_SUB9,SUB9,female,tolong fotokopi laporan ini,kami akan segera sampai,0.8518518518518519
+3_SUB9,SUB9,female,bagaimana kabarmu belakangan ini,saya akan pergi,0.71875
+19_SUB9,SUB9,female,pintunya sudah dibuka,kamu terlihat luar biasa,0.8571428571428571
+25_SUB9,SUB9,female,apakah ada yang ingin anda laporkan,kami akan segera sampai,0.6857142857142857
+26_SUB9,SUB9,female,bolehkah saya berbicara dengan anda,saya ingin makan sesuatu,0.7714285714285715
+28_SUB9,SUB9,female,mari makan di luar malam ini,saya ingin makan sesuatu,0.7857142857142857
+36_SUB9,SUB9,female,aku akan mencintaimu selamanya,saya tidak sengaja bertemu teman lama,0.8333333333333334
+44_SUB9,SUB9,female,apakah anda tertarik dengan komputer,saya akan pergi berenang,0.6944444444444444
+58_SUB9,SUB9,female,dia diculik di dalam mobil,kami akan segera sampai,0.8076923076923077
+59_SUB9,SUB9,female,selamat pagi pak ada yang bisa saya bantu,kamu terlihat luar biasa,0.7073170731707317
+66_SUB9,SUB9,female,temanmu sangat cantik,kami akan segera sampai,0.8095238095238095
+67_SUB9,SUB9,female,mari kita bicara,saya tidak sengaja bertemu teman,1.5
+70_SUB9,SUB9,female,dia benar benar menyalahkan saya,kami akan segera sampai,0.75
+80_SUB9,SUB9,female,apakah anda baik baik saja pak,saya tidak sengaja bertemu teman,0.8
+83_SUB9,SUB9,female,terima kasih atas pengertian anda,saya ingin makan sesuatu,0.7575757575757576
+88_SUB9,SUB9,female,ini terlalu sulit baginya,saya ingin makan sesuatu,0.92
+91_SUB9,SUB9,female,sepertinya kamu sedang flu,saya ingin makan sesuatu,0.7307692307692307
+94_SUB9,SUB9,female,senang berkenalan dengan anda,saya ingin makan sesuatu,0.7241379310344828
+96_SUB9,SUB9,female,seperti apa penampilannya,kami akan segera sampai,0.76
+54_SUB10,SUB10,female,dia memakai topeng wajahnya tidak terlihat,kami akan segera sampai,0.7142857142857143
+55_SUB10,SUB10,female,halo ada yang bisa saya bantu,kami akan segera sampai,0.6551724137931034
+67_SUB10,SUB10,female,anda bisa mencetaknya,saya ingin makan sesuatu,0.9047619047619048
+74_SUB10,SUB10,female,saya sedang terburu buru sampai jumpa,saya ingin makan sesuatu,0.7027027027027027
+75_SUB10,SUB10,female,silakan nikmati perjalanan anda,kami akan segera sampai,0.7096774193548387
+77_SUB10,SUB10,female,bagaimana kabar ibumu sekarang,saya akan pergi berenang,0.6333333333333333
+87_SUB10,SUB10,female,hari ini ingin makan apa,saya ingin makan sesuatu,0.5416666666666666
+95_SUB10,SUB10,female,saya ingin lebih mengenalnya,saya tidak sengaja bertemu teman,0.75
+10_SUB10,SUB10,female,kita pernah bertemu tahun lalu,saya ingin makan sesuatu,0.7666666666666667
+12_SUB10,SUB10,female,anda seharusnya merasa malu,saya ingin makan sesuatu,0.7407407407407407
+19_SUB10,SUB10,female,pilihan anda banyak sekali ya,saya ingin makan sesuatu,0.7241379310344828
+20_SUB10,SUB10,female,lain kali pasti akan lebih baik,kami akan segera sampai,0.7096774193548387
+23_SUB10,SUB10,female,saya tidak percaya penjelasan anda,kami akan segera sampai,0.6764705882352942
+31_SUB10,SUB10,female,apa yang anda lakukan di waktu luang,saya ingin makan sesuatu,0.6111111111111112
+34_SUB10,SUB10,female,saya setuju dengan semua kebijakannya,saya ingin makan sesuatu,0.6486486486486487
+38_SUB10,SUB10,female,kita pergi nanti saja,kami akan segera sampai,0.8095238095238095
+42_SUB10,SUB10,female,apakah sarapan sudah siap,kami akan segera sampai,0.68
+44_SUB10,SUB10,female,berikan mikrofonnya kepada dia,kami akan segera sampai,0.7666666666666667
+46_SUB10,SUB10,female,kami akan merapikan dokumen besok,kami akan segera sampai,0.5757575757575758
+3_SUB11,SUB11,female,berharap bisa bertemu lagi di masa depan,kami akan segera sampai,0.725
+5_SUB11,SUB11,female,kapan anda biasanya tidur,saya ingin makan sesuatu,0.72
+23_SUB11,SUB11,female,kunci pintunya ayo kita berangkat,saya tidak sengaja bertemu teman lama,0.8484848484848485
+30_SUB11,SUB11,female,dia sudah punya pacar,saya akan pergi,0.7619047619047619
+35_SUB11,SUB11,female,apakah perasaanmu sudah lebih baik,saya tidak sengaja bertemu teman lama,0.8235294117647058
+39_SUB11,SUB11,female,saya ada janji temu mohon tunggu sebentar,kamu terlihat luar biasa,0.7560975609756098
+51_SUB11,SUB11,female,dia adalah teman sekamar saya,saya tidak sengaja bertemu teman,0.7931034482758621
+54_SUB11,SUB11,female,dia membuat kesabaran saya habis,saya ingin makan sesuatu,0.75
+60_SUB11,SUB11,female,apa rencanamu untuk masa depan,kami akan segera sampai,0.7333333333333333
+75_SUB11,SUB11,female,saya mau masakan tiongkok terima kasih,kami akan segera sampai,0.6578947368421053
+76_SUB11,SUB11,female,wasit sepertinya agak memihak,kami akan segera sampai,0.7241379310344828
+83_SUB11,SUB11,female,dia akan merasa sangat senang,saya akan pergi berenang,0.5172413793103449
+84_SUB11,SUB11,female,maaf telah mengganggu anda,kami akan segera sampai,0.7307692307692307
+87_SUB11,SUB11,female,sebaiknya kita pergi sekarang,kami akan segera sampai,0.7586206896551724
+91_SUB11,SUB11,female,tidak usah terima kasih,saya tidak sengaja bertemu teman,0.8695652173913043
+95_SUB11,SUB11,female,kecewa dengan upaya anda,kami akan segera sampai,0.75
+96_SUB11,SUB11,female,kita harus saling membantu,kami akan segera sampai,0.6923076923076923
+53_SUB12,SUB12,female,bagaimana kabarmu belakangan ini,kami akan segera sampai,0.6875
+69_SUB12,SUB12,female,pintunya sudah dibuka,saya ingin makan sesuatu,0.9047619047619048
+85_SUB12,SUB12,female,dia hanya mencintai uangnya,kami akan segera sampai,0.7777777777777778
+94_SUB12,SUB12,female,apakah anda tertarik dengan komputer,kami akan segera sampai,0.7222222222222222

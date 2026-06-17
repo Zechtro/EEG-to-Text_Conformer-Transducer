@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB8,SUB8,male,saya butuh informasi anda,semakan belari anda,60.0,75.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,48.6279
+3_SUB8,SUB8,male,berharap bisa bertemu lagi di masa depan,kami anda semakan,77.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.5536
+15_SUB8,SUB8,male,apakah kamu tahu di mana bisa membelinya,kerita membasan biantu,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.8852
+21_SUB8,SUB8,male,dia selalu meludah sembarangan,saya kawat semar,66.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.2773
+22_SUB8,SUB8,male,cinta terkadang benar benar buta,apakah kamu semuan,78.125,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.1719
+24_SUB8,SUB8,male,sudah siap mari kita mulai,siam membuan,73.0769,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.125
+30_SUB8,SUB8,male,dia sudah punya pacar,terkadang dangi kelalin pir,100.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.9209
+38_SUB8,SUB8,male,tapi saya sarankan anda mengakui kesalahan,semuta menabrang segiat berlang,69.0476,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.4516
+52_SUB8,SUB8,male,saya tersesat di dekat rumah anda,kami akan bear,78.7879,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.5712
+53_SUB8,SUB8,male,bisa tolong bantu saya menyiram bunga,saya apa khaling,72.973,83.3333,12.2626,4.7493,4.4557,4.1799,33.3333,16.6667,22.2222,39.3213
+61_SUB8,SUB8,male,semoga anda cepat sembuh,sempuang anda,70.8333,75.0,18.394,8.226,6.4027,5.5011,50.0,25.0,33.3333,53.9398
+64_SUB8,SUB8,male,dia adalah laki laki yang pemalu,kamu benar benar kengata,78.125,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,56.5114
+72_SUB8,SUB8,male,apakah anda memerlukan bantuan,baik apany,83.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.9331
+75_SUB8,SUB8,male,saya mau masakan tiongkok terima kasih,apakan bantu sekaman,71.0526,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.4401
+83_SUB8,SUB8,male,dia akan merasa sangat senang,apakah anda liba,65.5172,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.7749
+85_SUB8,SUB8,male,tolong bantu ambilkan foto kami,bagus sama,80.6452,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.862
+87_SUB8,SUB8,male,sebaiknya kita pergi sekarang,liama makan,75.8621,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.7212
+88_SUB8,SUB8,male,saya menerima pujian ini dengan rendah hati,saya akan memban,72.093,85.7143,8.7866,3.403,3.1926,2.995,33.3333,14.2857,20.0,46.8192
+92_SUB8,SUB8,male,kamu akan segera sembuh,barkan sekaman,60.8696,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.8894
+93_SUB8,SUB8,male,saya akan tiba tepat waktu,ingin anda siap,80.7692,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,56.3353

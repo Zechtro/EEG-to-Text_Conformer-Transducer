@@ -1,0 +1,5 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+53_SUB12,SUB12,female,bagaimana kabarmu belakangan ini,dia sangat cantik,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.9325
+69_SUB12,SUB12,female,pintunya sudah dibuka,dia sangat cantik,76.1905,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.5128
+85_SUB12,SUB12,female,dia hanya mencintai uangnya,dia sangat cantik,59.2593,75.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,69.6718
+94_SUB12,SUB12,female,apakah anda tertarik dengan komputer,dia sangat cantik,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.0214

@@ -1,0 +1,20 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB9,SUB9,female,tolong fotokopi laporan ini,stekanya kam benar,0.8518518518518519
+3_SUB9,SUB9,female,bagaimana kabarmu belakangan ini,hasik maantuk,0.78125
+19_SUB9,SUB9,female,pintunya sudah dibuka,anda ternapas,0.8571428571428571
+25_SUB9,SUB9,female,apakah ada yang ingin anda laporkan,sialap suera mengaku,0.7714285714285715
+26_SUB9,SUB9,female,bolehkah saya berbicara dengan anda,kapan kami,0.8571428571428571
+28_SUB9,SUB9,female,mari makan di luar malam ini,sengaja boleh,0.8571428571428571
+36_SUB9,SUB9,female,aku akan mencintaimu selamanya,pasit ketar,0.8
+44_SUB9,SUB9,female,apakah anda tertarik dengan komputer,kamu kami,0.8333333333333334
+58_SUB9,SUB9,female,dia diculik di dalam mobil,perserah segak,0.9230769230769231
+59_SUB9,SUB9,female,selamat pagi pak ada yang bisa saya bantu,penor,0.9512195121951219
+66_SUB9,SUB9,female,temanmu sangat cantik,sila mengantar kami,0.6190476190476191
+67_SUB9,SUB9,female,mari kita bicara,pekari sedar,0.75
+70_SUB9,SUB9,female,dia benar benar menyalahkan saya,bika seraja,0.78125
+80_SUB9,SUB9,female,apakah anda baik baik saja pak,selamu pergali,0.9
+83_SUB9,SUB9,female,terima kasih atas pengertian anda,apakan segar,0.7575757575757576
+88_SUB9,SUB9,female,ini terlalu sulit baginya,setu banda,0.72
+91_SUB9,SUB9,female,sepertinya kamu sedang flu,apak terlihap kami,0.8461538461538461
+94_SUB9,SUB9,female,senang berkenalan dengan anda,perkami berasa kami,0.6896551724137931
+96_SUB9,SUB9,female,seperti apa penampilannya,perkatan,0.76

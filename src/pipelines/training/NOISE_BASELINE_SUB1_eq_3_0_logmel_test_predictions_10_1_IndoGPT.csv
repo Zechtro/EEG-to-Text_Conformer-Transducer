@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB1,SUB1,male,maaf saya terlambat,selamat sore ada yang bisa saya bantu,1.3157894736842106
+3_SUB1,SUB1,male,biar saya bantu ganti baterainya,selamat sore ada yang bisa saya bantu,0.84375
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang,saya tidak akan minta maaf,0.6451612903225806
+21_SUB1,SUB1,male,kamu tampak penuh energi hari ini,selamat sore ada yang bisa saya bantu,0.8787878787878788
+22_SUB1,SUB1,male,setelah makan saya merasa sangat kenyang,selamat sore ada yang bisa saya bantu,0.65
+24_SUB1,SUB1,male,saya sedang terburu buru sampai jumpa,selamat sore ada yang bisa saya bantu,0.7297297297297297
+30_SUB1,SUB1,male,benar benar tidak bisa dipercaya,selamat sore ada yang bisa dibantu,0.71875
+38_SUB1,SUB1,male,bagaimana harimu hari ini,saya tidak akan minta maaf,0.8
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati,selamat sore ada yang bisa saya bantu,0.7368421052631579
+53_SUB1,SUB1,male,cobalah besok pagi,selamat sore ada yang bisa saya bantu,1.6111111111111112
+61_SUB1,SUB1,male,tolong segera pergi dari sini,selamat sore ada yang bisa saya bantu,0.8620689655172413
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda,saya tidak akan minta maaf,0.65
+72_SUB1,SUB1,male,apakah anda sudah makan siang,selamat sore ada yang bisa saya bantu,0.9310344827586207
+75_SUB1,SUB1,male,kamu benar benar menjadi lebih sehat,selamat sore ada yang bisa saya bantu,0.8611111111111112
+83_SUB1,SUB1,male,saya tidak punya waktu luang sama sekali,selamat sore ada yang bisa saya bantu,0.725
+85_SUB1,SUB1,male,dia bukan orang yang penting,saya tidak akan minta maaf,0.75
+87_SUB1,SUB1,male,apa yang bisa kami lakukan untuk anda,selamat sore ada yang bisa saya bantu,0.7837837837837838
+88_SUB1,SUB1,male,kita akan bertemu lagi,selamat sore ada yang bisa saya bantu,1.2727272727272727
+92_SUB1,SUB1,male,saya bukan seorang penjahat,selamat sore ada yang bisa dibantu,0.8888888888888888
+93_SUB1,SUB1,male,waktu berjalan begitu cepat,selamat sore ada yang bisa dibantu,0.8888888888888888

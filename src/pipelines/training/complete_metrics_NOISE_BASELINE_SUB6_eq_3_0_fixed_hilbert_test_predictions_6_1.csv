@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB6,SUB6,female,kita harus melihat bagaimana keadaannya,saya hangi sengatan menalak,66.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.2367
+3_SUB6,SUB6,female,mungkin keberuntungan akan membaik,saya benar,85.2941,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.1046
+15_SUB6,SUB6,female,anda ingin ayam atau daging sapi,suak,93.75,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.9465
+21_SUB6,SUB6,female,setiap hari hanyalah rutinitas biasa,saya menangi,77.7778,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.5605
+22_SUB6,SUB6,female,tentu saja tidak masalah,menar benar,79.1667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.4513
+24_SUB6,SUB6,female,butuh bantuan apa,saya haru lama sangi,94.1176,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.8582
+30_SUB6,SUB6,female,beberapa bulan terakhir ini kamu sangat sibuk,saya bang,84.4444,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.7859
+38_SUB6,SUB6,female,tolong bantu saya membersihkan dapur,saya diang meldasan,77.7778,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,53.1922
+52_SUB6,SUB6,female,tolong isi penuh bensinnya terima kasih,teman lama di harus,79.4872,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.5929
+53_SUB6,SUB6,female,hubungi aku besok,kemalan,94.1176,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.2225
+61_SUB6,SUB6,female,makanan di sana lumayan enak,masa menangi,71.4286,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.9755
+64_SUB6,SUB6,female,apa yang bisa saya bantu,anda menangikan,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.3079
+72_SUB6,SUB6,female,saya sangat menghargai saran anda,sukmu menango,78.7879,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.7182
+75_SUB6,SUB6,female,mengapa kamu melakukan hal itu,saya anda mengabasa anda,70.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.9548
+83_SUB6,SUB6,female,dia tidak tahu bagaimana menghadapi kenyataan,saya ingin mebarang kemuang,66.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.5735
+85_SUB6,SUB6,female,guru filsafat saya sangat humoris,saya mengalan,75.7576,80.0,11.1565,4.9893,3.8835,3.3366,50.0,20.0,28.5714,50.0222
+87_SUB6,SUB6,female,terima kasih banyak atas undangannya,saya kemuan menangos,72.2222,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.3604
+88_SUB6,SUB6,female,kita bisa pensiun lebih awal,semoga dalan,82.1429,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.1644
+92_SUB6,SUB6,female,saya akan membawakannya untuk anda besok,toring mencari kal,82.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.7019
+93_SUB6,SUB6,female,di mana alamat anda,kamu tdak menanya,68.4211,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.5731

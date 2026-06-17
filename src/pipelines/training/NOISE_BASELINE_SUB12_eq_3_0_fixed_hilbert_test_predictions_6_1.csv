@@ -1,0 +1,5 @@
+id,subject,gender,sentence,prediction,cer
+53_SUB12,SUB12,female,bagaimana kabarmu belakangan ini,tetap berkabar,0.78125
+69_SUB12,SUB12,female,pintunya sudah dibuka,tetap berkata,0.8571428571428571
+85_SUB12,SUB12,female,dia hanya mencintai uangnya,tetap berkabar,0.8148148148148148
+94_SUB12,SUB12,female,apakah anda tertarik dengan komputer,dia sangat can,0.7777777777777778

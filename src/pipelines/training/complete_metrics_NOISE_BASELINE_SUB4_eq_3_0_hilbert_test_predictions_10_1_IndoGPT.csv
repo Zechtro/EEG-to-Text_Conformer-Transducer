@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB4,SUB4,male,tolong fotokopi laporan ini,saya akan menantikan kedatangan anda,103.7037,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.4449
+3_SUB4,SUB4,male,bagaimana kabarmu belakangan ini,mari kita makan sesuatu,71.875,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.4709
+15_SUB4,SUB4,male,bagaimana kesehatanmu akhir akhir ini,mari makan sesuatu,75.6757,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.4158
+21_SUB4,SUB4,male,maaf apakah sekarang sedang luang,anda bisa belajar banyak hal,72.7273,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.4414
+22_SUB4,SUB4,male,tersesat butuh bantuan,saya akan menantikan kedatangan anda,127.2727,166.6667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.8843
+24_SUB4,SUB4,male,saya melewatkan momen yang luar biasa,dia adalah orang yang sangat serius,67.5676,83.3333,16.6667,5.7735,4.5068,4.0825,16.6667,16.6667,16.6667,63.0121
+30_SUB4,SUB4,male,melakukan panggilan internasional,saya akan menantikan kedatangan anda,69.697,166.6667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.5166
+38_SUB4,SUB4,male,hidangan apa ini,anda bisa belajar banyak hal,131.25,166.6667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.4181
+52_SUB4,SUB4,male,apakah anda membutuhkan bantuan,anda bisa belajar banyak hal,67.7419,125.0,20.0,7.0711,5.6651,5.3728,20.0,25.0,22.2222,43.1285
+53_SUB4,SUB4,male,dia sangat ketat terhadap kami,anda bisa belajar banyak hal,73.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.4749
+61_SUB4,SUB4,male,saya tidak sengaja menumpahkan tinta,dia adalah orang yang sangat serius,75.0,120.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.1251
+64_SUB4,SUB4,male,saya ingin makan salad,saya akan menantikan kedatangan anda,95.4545,100.0,20.0,7.0711,5.6651,5.3728,20.0,25.0,22.2222,57.2471
+72_SUB4,SUB4,male,jadwal saya sangat padat,senang berkenalan,83.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.3914
+75_SUB4,SUB4,male,terima kasih telah menghubungi kami mohon tunggu sebentar,saya akan menantikan kedatangan anda,66.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,66.5855
+83_SUB4,SUB4,male,terima kasih atas pengertian anda,mari makan sesuatu,72.7273,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.3859
+85_SUB4,SUB4,male,tentu saja boleh,anda bisa belajar banyak hal,125.0,166.6667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.8834
+87_SUB4,SUB4,male,berpamitan dengan teman di stasiun kereta,mari makan sesuatu,73.1707,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.5251
+88_SUB4,SUB4,male,ini terlalu sulit baginya,anda bisa belajar banyak,72.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.5541
+92_SUB4,SUB4,male,berharap bisa bertemu kembali,saya akan menantikan kedatangan anda,100.0,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,58.5314
+93_SUB4,SUB4,male,apakah ruang rapat sudah siap,saya akan menantikan kedatangan anda,86.2069,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.358

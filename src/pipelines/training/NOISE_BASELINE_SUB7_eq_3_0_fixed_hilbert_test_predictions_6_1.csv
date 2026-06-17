@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB7,SUB7,female,anda benar benar kakek yang murah hati,aku akan segera sambai,0.6842105263157895
+3_SUB7,SUB7,female,cobalah besok pagi,mari kisa masalah,0.8888888888888888
+15_SUB7,SUB7,female,sampaikan salam saya untuk mereka,saya ingin makan segitu,0.696969696969697
+21_SUB7,SUB7,female,selamat sore ada yang bisa saya bantu,saya sangat mengadar,0.7027027027027027
+22_SUB7,SUB7,female,apakah anda sudah makan siang,dia selah,0.8275862068965517
+24_SUB7,SUB7,female,kita harus memberitahunya,kamu seman kami semua,0.76
+30_SUB7,SUB7,female,saya sangat sibuk hari ini butuh bantuan,bisa mentar,0.85
+38_SUB7,SUB7,female,kita akan bertemu lagi,mengapa senang,0.7727272727272727
+52_SUB7,SUB7,female,ide idemu sangat kreatif,dia bantu saya sebentar,0.6666666666666666
+53_SUB7,SUB7,female,saya punya nomornya di sini,saya halan tanda yang bukan,0.7037037037037037
+61_SUB7,SUB7,female,dia memang benar benar pembuat masalah,bagai malak,0.7894736842105263
+64_SUB7,SUB7,female,boleh saya minta tolong,kamu bemarin,0.8260869565217391
+72_SUB7,SUB7,female,apa pekerjaan anda,kami akan segera mengasi bantu,1.1111111111111112
+75_SUB7,SUB7,female,ini surat undangan untuk anda,tapi kita sangat menola,0.6896551724137931
+83_SUB7,SUB7,female,mungkin kita akan mendapatkan inspirasi secara tidak sengaja,kami akan segera mengajarimu,0.75
+85_SUB7,SUB7,female,saya pikir anda sudah tahu,saya melakukan mengadur,0.6923076923076923
+87_SUB7,SUB7,female,kurangi makan roti dan kentang,saya kamu menarus,0.7666666666666667
+88_SUB7,SUB7,female,apakah sepeda itu milikmu,saya halan yang bisa membantu,0.84
+92_SUB7,SUB7,female,kami berkenalan melalui internet,bertemu diang,0.75
+93_SUB7,SUB7,female,kamu adalah teman sejatiku,kamu baik,0.6923076923076923

@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB8,SUB8,male,saya butuh informasi anda,anda berkalan memapan,68.0,100.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,50.5097
+3_SUB8,SUB8,male,berharap bisa bertemu lagi di masa depan,kepatn anda,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.8778
+15_SUB8,SUB8,male,apakah kamu tahu di mana bisa membelinya,arukan makan bergatan,70.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.0838
+21_SUB8,SUB8,male,dia selalu meludah sembarangan,anda berkalam,76.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.5939
+22_SUB8,SUB8,male,cinta terkadang benar benar buta,kita akan anda,65.625,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.6529
+24_SUB8,SUB8,male,sudah siap mari kita mulai,dia anda,76.9231,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.6963
+30_SUB8,SUB8,male,dia sudah punya pacar,teridang lain,76.1905,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.7133
+38_SUB8,SUB8,male,tapi saya sarankan anda mengakui kesalahan,terkama kengatar,73.8095,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.1508
+52_SUB8,SUB8,male,saya tersesat di dekat rumah anda,kitu mendia,84.8485,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.0722
+53_SUB8,SUB8,male,bisa tolong bantu saya menyiram bunga,mara kita pergi lebih awal,81.0811,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.688
+61_SUB8,SUB8,male,semoga anda cepat sembuh,kamu sebar,79.1667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.3614
+64_SUB8,SUB8,male,dia adalah laki laki yang pemalu,apakah kamu separ,68.75,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.7315
+72_SUB8,SUB8,male,apakah anda memerlukan bantuan,ingin makan pergi menuri anda,80.0,125.0,20.0,7.0711,5.6651,5.3728,20.0,25.0,22.2222,50.714
+75_SUB8,SUB8,male,saya mau masakan tiongkok terima kasih,sampai dengan,78.9474,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.5316
+83_SUB8,SUB8,male,dia akan merasa sangat senang,sama keria keria kenar,58.6207,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,31.455
+85_SUB8,SUB8,male,tolong bantu ambilkan foto kami,terkamu menablak,77.4194,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.3898
+87_SUB8,SUB8,male,sebaiknya kita pergi sekarang,makan benar lap,75.8621,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.949
+88_SUB8,SUB8,male,saya menerima pujian ini dengan rendah hati,kebutu,93.0233,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.9549
+92_SUB8,SUB8,male,kamu akan segera sembuh,inspiras tiduk anda,86.9565,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.7493
+93_SUB8,SUB8,male,saya akan tiba tepat waktu,anda perjang,76.9231,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.9889

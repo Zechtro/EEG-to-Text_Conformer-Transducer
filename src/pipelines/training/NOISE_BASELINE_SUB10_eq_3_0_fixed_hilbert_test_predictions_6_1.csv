@@ -1,0 +1,20 @@
+id,subject,gender,sentence,prediction,cer
+54_SUB10,SUB10,female,dia memakai topeng wajahnya tidak terlihat,kami biasanya,0.7857142857142857
+55_SUB10,SUB10,female,halo ada yang bisa saya bantu,kamu temu,0.896551724137931
+67_SUB10,SUB10,female,anda bisa mencetaknya,kami biasanya,0.6190476190476191
+74_SUB10,SUB10,female,saya sedang terburu buru sampai jumpa,kami biasanya,0.8378378378378378
+75_SUB10,SUB10,female,silakan nikmati perjalanan anda,kamu hari ini,0.7741935483870968
+77_SUB10,SUB10,female,bagaimana kabar ibumu sekarang,kamu hari ini,0.7333333333333333
+87_SUB10,SUB10,female,hari ini ingin makan apa,apakah anda ingin,0.75
+95_SUB10,SUB10,female,saya ingin lebih mengenalnya,apakah kamu temu,0.8214285714285714
+10_SUB10,SUB10,female,kita pernah bertemu tahun lalu,kami biasanya,0.7666666666666667
+12_SUB10,SUB10,female,anda seharusnya merasa malu,maaf saya terlamba,0.6296296296296297
+19_SUB10,SUB10,female,pilihan anda banyak sekali ya,makan siang,0.7931034482758621
+20_SUB10,SUB10,female,lain kali pasti akan lebih baik,maaf saya terlambat,0.6774193548387096
+23_SUB10,SUB10,female,saya tidak percaya penjelasan anda,maaf saya temui,0.7647058823529411
+31_SUB10,SUB10,female,apa yang anda lakukan di waktu luang,kamu temu,0.8611111111111112
+34_SUB10,SUB10,female,saya setuju dengan semua kebijakannya,maaf saya temui,0.7567567567567568
+38_SUB10,SUB10,female,kita pergi nanti saja,kami biasanya,0.6666666666666666
+42_SUB10,SUB10,female,apakah sarapan sudah siap,mau tambah,0.8
+44_SUB10,SUB10,female,berikan mikrofonnya kepada dia,maaf saya terlambat,0.7666666666666667
+46_SUB10,SUB10,female,kami akan merapikan dokumen besok,apakah anda ingin,0.7272727272727273

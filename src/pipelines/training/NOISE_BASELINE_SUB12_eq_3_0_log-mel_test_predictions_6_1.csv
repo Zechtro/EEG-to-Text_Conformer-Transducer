@@ -1,0 +1,5 @@
+id,subject,gender,sentence,prediction,cer
+53_SUB12,SUB12,female,bagaimana kabarmu belakangan ini,tetap berka,0.8125
+69_SUB12,SUB12,female,pintunya sudah dibuka,jadwan terlihat sangat ketat,1.0476190476190477
+85_SUB12,SUB12,female,dia hanya mencintai uangnya,anda terlihat sangat ketat,0.7407407407407407
+94_SUB12,SUB12,female,apakah anda tertarik dengan komputer,tetap berka,0.8055555555555556

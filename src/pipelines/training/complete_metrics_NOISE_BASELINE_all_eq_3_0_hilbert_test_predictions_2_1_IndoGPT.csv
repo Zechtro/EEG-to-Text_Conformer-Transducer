@@ -1,0 +1,190 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB1,SUB1,male,maaf saya terlambat,kami akan segera sampai,73.6842,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,58.5854
+3_SUB1,SUB1,male,biar saya bantu ganti baterainya,kami akan segera sampai,71.875,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.6855
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang,saya akan pergi,64.5161,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.049
+21_SUB1,SUB1,male,kamu tampak penuh energi hari ini,saya ingin makan sesuatu,81.8182,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.1451
+22_SUB1,SUB1,male,setelah makan saya merasa sangat kenyang,kami akan segera sampai,65.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.4032
+24_SUB1,SUB1,male,saya sedang terburu buru sampai jumpa,saya ingin makan sesuatu,70.2703,83.3333,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,65.3836
+30_SUB1,SUB1,male,benar benar tidak bisa dipercaya,saya tidak sengaja bertemu teman lama,87.5,120.0,16.6667,5.7735,4.5068,4.0825,16.6667,20.0,18.1818,45.6397
+38_SUB1,SUB1,male,bagaimana harimu hari ini,saya akan pergi,72.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.5923
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati,saya tidak sengaja bertemu teman lama,71.0526,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.5547
+53_SUB1,SUB1,male,cobalah besok pagi,kami akan segera sampai,88.8889,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.9829
+61_SUB1,SUB1,male,tolong segera pergi dari sini,kamu terlihat luar biasa,79.3103,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.2026
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda,saya ingin makan sesuatu,70.0,85.7143,11.8092,4.3121,3.6208,3.7951,25.0,14.2857,18.1818,50.6751
+72_SUB1,SUB1,male,apakah anda sudah makan siang,anda terlihat luar biasa,68.9655,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,52.2981
+75_SUB1,SUB1,male,kamu benar benar menjadi lebih sehat,saya ingin makan sesuatu,69.4444,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.081
+83_SUB1,SUB1,male,saya tidak punya waktu luang sama sekali,kami akan segera sampai,67.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.0668
+85_SUB1,SUB1,male,dia bukan orang yang penting,saya ingin makan sesuatu,71.4286,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.6994
+87_SUB1,SUB1,male,apa yang bisa kami lakukan untuk anda,kami akan segera sampai,72.973,85.7143,11.8092,4.3121,3.6208,3.7951,25.0,14.2857,18.1818,43.4832
+88_SUB1,SUB1,male,kita akan bertemu lagi,saya akan pergi,50.0,75.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,72.2852
+92_SUB1,SUB1,male,saya bukan seorang penjahat,kamu terlihat luar biasa,81.4815,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,58.4166
+93_SUB1,SUB1,male,waktu berjalan begitu cepat,saya tidak sengaja bertemu teman,74.0741,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.6523
+8_SUB2,SUB2,male,saya ingin makan siang di kamar,saya ingin makan sesuatu,38.7097,50.0,45.4898,42.8882,38.386,24.1178,75.0,50.0,60.0,72.9685
+11_SUB2,SUB2,male,tolong segera pergi dari sini,kami akan segera sampai,75.8621,100.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,61.0717
+15_SUB2,SUB2,male,sampaikan salam saya untuk mereka,kami akan segera sampai,69.697,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.6234
+19_SUB2,SUB2,male,senang bisa membantu anda,saya akan pergi berenang,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.787
+21_SUB2,SUB2,male,selamat sore ada yang bisa saya bantu,saya akan pergi berenang,70.2703,100.0,11.8092,4.3121,3.6208,3.7951,25.0,14.2857,18.1818,23.2212
+23_SUB2,SUB2,male,silakan tanya saya kapan saja,saya tidak sengaja bertemu teman lama,82.7586,120.0,16.6667,5.7735,4.5068,4.0825,16.6667,20.0,18.1818,47.893
+29_SUB2,SUB2,male,menurutku masakan tiongkok sangat lezat,saya ingin makan sesuatu,69.2308,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.0314
+39_SUB2,SUB2,male,menurutku sebaiknya kamu minta maaf,kami akan segera sampai,77.1429,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.5606
+43_SUB2,SUB2,male,waktu berjalan begitu cepat,saya tidak sengaja bertemu teman lama,92.5926,150.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.5478
+50_SUB2,SUB2,male,pekerjaan tidak selesai tepat waktu,saya ingin makan sesuatu,74.2857,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.2504
+8_SUB3,SUB3,male,mereka adalah teman baik,saya tidak sengaja bertemu teman lama,104.1667,125.0,16.6667,5.7735,4.5068,4.0825,16.6667,25.0,20.0,61.1331
+11_SUB3,SUB3,male,dia memang benar benar pembuat masalah,kami akan segera sampai,71.0526,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.6087
+15_SUB3,SUB3,male,mari kita makan di kantin saja,saya ingin makan sesuatu,66.6667,83.3333,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,52.8149
+19_SUB3,SUB3,male,kapan kamu bisa datang,kami akan segera sampai,72.7273,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.6021
+21_SUB3,SUB3,male,tapi semua hal baik pasti ada akhirnya,saya ingin makan sesuatu,78.9474,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,31.9388
+23_SUB3,SUB3,male,kamu seharusnya bicara dengannya,saya ingin makan sesuatu,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,64.6405
+29_SUB3,SUB3,male,saya sudah ada janji besok,kami akan segera sampai,80.7692,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,59.8079
+39_SUB3,SUB3,male,kamu baik sekali,saya ingin makan sesuatu,100.0,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.8152
+43_SUB3,SUB3,male,kamu adalah teman sejatiku,kami akan segera sampai,57.6923,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.233
+50_SUB3,SUB3,male,halo apa kabar,kami akan segera sampai,114.2857,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.1978
+2_SUB4,SUB4,male,tolong fotokopi laporan ini,kamu terlihat luar biasa,85.1852,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.1707
+3_SUB4,SUB4,male,bagaimana kabarmu belakangan ini,saya tidak sengaja bertemu teman lama,84.375,150.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.1001
+15_SUB4,SUB4,male,bagaimana kesehatanmu akhir akhir ini,kami akan segera sampai,72.973,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.3943
+21_SUB4,SUB4,male,maaf apakah sekarang sedang luang,kami akan segera sampai,57.5758,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.4617
+22_SUB4,SUB4,male,tersesat butuh bantuan,saya akan pergi,81.8182,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,58.7473
+24_SUB4,SUB4,male,saya melewatkan momen yang luar biasa,kami akan segera sampai,67.5676,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.1823
+30_SUB4,SUB4,male,melakukan panggilan internasional,saya ingin makan sesuatu,69.697,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.4253
+38_SUB4,SUB4,male,hidangan apa ini,saya ingin makan sesuatu,100.0,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,59.4872
+52_SUB4,SUB4,male,apakah anda membutuhkan bantuan,saya akan pergi,74.1935,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.8255
+53_SUB4,SUB4,male,dia sangat ketat terhadap kami,kami akan segera sampai,70.0,100.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,48.5876
+61_SUB4,SUB4,male,saya tidak sengaja menumpahkan tinta,saya ingin makan sesuatu,61.1111,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,63.6546
+64_SUB4,SUB4,male,saya ingin makan salad,saya ingin makan sesuatu,22.7273,25.0,75.0,70.7107,63.2878,39.7635,75.0,75.0,75.0,88.8499
+72_SUB4,SUB4,male,jadwal saya sangat padat,kami akan segera sampai,70.8333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.2996
+75_SUB4,SUB4,male,terima kasih telah menghubungi kami mohon tunggu sebentar,kamu terlihat luar biasa,78.9474,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.0768
+83_SUB4,SUB4,male,terima kasih atas pengertian anda,kami akan segera sampai,60.6061,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.6288
+85_SUB4,SUB4,male,tentu saja boleh,saya ingin makan sesuatu,118.75,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.6087
+87_SUB4,SUB4,male,berpamitan dengan teman di stasiun kereta,saya tidak sengaja bertemu teman,68.2927,100.0,16.3746,5.7893,4.6382,4.3989,20.0,16.6667,18.1818,63.4516
+88_SUB4,SUB4,male,ini terlalu sulit baginya,saya tidak sengaja,76.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,56.9607
+92_SUB4,SUB4,male,berharap bisa bertemu kembali,saya ingin makan sesuatu,75.8621,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.2374
+93_SUB4,SUB4,male,apakah ruang rapat sudah siap,saya ingin makan sesuatu,68.9655,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.8926
+8_SUB5,SUB5,male,sudah waktunya tidur,saya ingin makan sesuatu,95.0,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.3411
+11_SUB5,SUB5,male,maaf kemarin saya tidak masuk kelas,kami akan segera sampai,71.4286,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.2625
+15_SUB5,SUB5,male,mari ikut saya ke kantor untuk bicara lebih lanjut,saya tidak sengaja bertemu teman lama,74.0,88.8889,10.1088,3.5018,2.7335,2.4762,16.6667,11.1111,13.3333,49.7699
+19_SUB5,SUB5,male,pilihan anda banyak sekali ya,saya ingin makan sesuatu,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.3078
+21_SUB5,SUB5,male,dia sangat tidak bisa diandalkan,saya ingin makan sesuatu,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,58.4726
+23_SUB5,SUB5,male,saya tidak percaya penjelasan anda,saya ingin makan sesuatu,67.6471,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,60.7815
+29_SUB5,SUB5,male,kami biasanya makan di kantin,anda terlihat sangat luar biasa,82.7586,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.3303
+39_SUB5,SUB5,male,semoga anda bersenang senang,saya ingin makan sesuatu,67.8571,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.6717
+43_SUB5,SUB5,male,aku sedang menelepon teman,kamu terlihat luar biasa,80.7692,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.0528
+50_SUB5,SUB5,male,jangan percaya apa yang dia katakan,kami akan segera sampai,71.4286,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.3168
+2_SUB6,SUB6,female,kita harus melihat bagaimana keadaannya,kami akan segera sampai,74.359,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.0225
+3_SUB6,SUB6,female,mungkin keberuntungan akan membaik,kami akan segera sampai,67.6471,100.0,25.0,9.1287,7.6653,8.0343,25.0,25.0,25.0,56.4639
+15_SUB6,SUB6,female,anda ingin ayam atau daging sapi,kami akan segera sampai,68.75,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.393
+21_SUB6,SUB6,female,setiap hari hanyalah rutinitas biasa,saya ingin makan sesuatu,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.2867
+22_SUB6,SUB6,female,tentu saja tidak masalah,saya ingin makan sesuatu,83.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.6435
+24_SUB6,SUB6,female,butuh bantuan apa,kami akan segera sampai,100.0,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.0835
+30_SUB6,SUB6,female,beberapa bulan terakhir ini kamu sangat sibuk,saya tidak sengaja bertemu teman lama,73.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.8127
+38_SUB6,SUB6,female,tolong bantu saya membersihkan dapur,saya tidak sengaja bertemu teman lama,77.7778,120.0,16.6667,5.7735,4.5068,4.0825,16.6667,20.0,18.1818,52.4592
+52_SUB6,SUB6,female,tolong isi penuh bensinnya terima kasih,kami akan segera sampai,76.9231,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.9091
+53_SUB6,SUB6,female,hubungi aku besok,kami akan segera sampai,111.7647,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,61.1318
+61_SUB6,SUB6,female,makanan di sana lumayan enak,saya tidak sengaja bertemu teman lama,92.8571,120.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.7778
+64_SUB6,SUB6,female,apa yang bisa saya bantu,saya akan pergi berenang,75.0,100.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,37.7595
+72_SUB6,SUB6,female,saya sangat menghargai saran anda,kami akan segera sampai,60.6061,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.4272
+75_SUB6,SUB6,female,mengapa kamu melakukan hal itu,saya ingin makan sesuatu,63.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,59.0407
+83_SUB6,SUB6,female,dia tidak tahu bagaimana menghadapi kenyataan,kami akan segera sampai,71.1111,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.2285
+85_SUB6,SUB6,female,guru filsafat saya sangat humoris,kami akan segera sampai,72.7273,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.6648
+87_SUB6,SUB6,female,terima kasih banyak atas undangannya,kami akan segera sampai,72.2222,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.7669
+88_SUB6,SUB6,female,kita bisa pensiun lebih awal,kami akan segera sampai,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.2672
+92_SUB6,SUB6,female,saya akan membawakannya untuk anda besok,kami akan segera sampai,70.0,83.3333,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,60.5566
+93_SUB6,SUB6,female,di mana alamat anda,kami akan segera sampai,84.2105,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.33
+2_SUB7,SUB7,female,anda benar benar kakek yang murah hati,kamu terlihat luar biasa,76.3158,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.4789
+3_SUB7,SUB7,female,cobalah besok pagi,saya ingin makan sesuatu,111.1111,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,63.5116
+15_SUB7,SUB7,female,sampaikan salam saya untuk mereka,saya ingin makan sesuatu,66.6667,100.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,46.9116
+21_SUB7,SUB7,female,selamat sore ada yang bisa saya bantu,saya tidak sengaja bertemu teman lama,78.3784,100.0,14.108,4.8872,3.8149,3.4557,16.6667,14.2857,15.3846,35.1601
+22_SUB7,SUB7,female,apakah anda sudah makan siang,saya ingin makan sesuatu,62.069,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,64.0713
+24_SUB7,SUB7,female,kita harus memberitahunya,kami akan segera sampai,72.0,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.1313
+30_SUB7,SUB7,female,saya sangat sibuk hari ini butuh bantuan,saya tidak sengaja bertemu teman lama,70.0,85.7143,14.108,4.8872,3.8149,3.4557,16.6667,14.2857,15.3846,51.4679
+38_SUB7,SUB7,female,kita akan bertemu lagi,saya tidak sengaja bertemu teman,81.8182,100.0,20.0,7.0711,5.6651,5.3728,20.0,25.0,22.2222,44.9462
+52_SUB7,SUB7,female,ide idemu sangat kreatif,kami akan segera sampai,83.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.6561
+53_SUB7,SUB7,female,saya punya nomornya di sini,saya ingin makan sesuatu,66.6667,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,49.3541
+61_SUB7,SUB7,female,dia memang benar benar pembuat masalah,kami akan segera sampai,71.0526,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.6087
+64_SUB7,SUB7,female,boleh saya minta tolong,kami akan segera sampai,82.6087,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.1459
+72_SUB7,SUB7,female,apa pekerjaan anda,kami akan segera sampai,88.8889,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.6755
+75_SUB7,SUB7,female,ini surat undangan untuk anda,kami akan segera sampai,79.3103,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.6959
+83_SUB7,SUB7,female,mungkin kita akan mendapatkan inspirasi secara tidak sengaja,saya ingin makan sesuatu,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.692
+85_SUB7,SUB7,female,saya pikir anda sudah tahu,saya ingin makan sesuatu,57.6923,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,65.9792
+87_SUB7,SUB7,female,kurangi makan roti dan kentang,saya tidak sengaja bertemu teman lama,96.6667,120.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.4237
+88_SUB7,SUB7,female,apakah sepeda itu milikmu,kami akan segera sampai,64.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.9035
+92_SUB7,SUB7,female,kami berkenalan melalui internet,saya ingin makan sesuatu,71.875,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.3797
+93_SUB7,SUB7,female,kamu adalah teman sejatiku,saya tidak sengaja bertemu teman lama,100.0,125.0,16.6667,5.7735,4.5068,4.0825,16.6667,25.0,20.0,49.0275
+2_SUB8,SUB8,male,saya butuh informasi anda,saya ingin makan sesuatu,72.0,75.0,25.0,9.1287,7.6653,8.0343,25.0,25.0,25.0,64.098
+3_SUB8,SUB8,male,berharap bisa bertemu lagi di masa depan,saya akan pergi berenang,72.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.4551
+15_SUB8,SUB8,male,apakah kamu tahu di mana bisa membelinya,saya tidak sengaja bertemu teman lama,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.737
+21_SUB8,SUB8,male,dia selalu meludah sembarangan,kamu terlihat luar biasa,73.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.7599
+22_SUB8,SUB8,male,cinta terkadang benar benar buta,kami akan segera sampai,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.1498
+24_SUB8,SUB8,male,sudah siap mari kita mulai,saya tidak sengaja bertemu teman lama,96.1538,120.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.473
+30_SUB8,SUB8,male,dia sudah punya pacar,kami akan segera sampai,80.9524,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.3902
+38_SUB8,SUB8,male,tapi saya sarankan anda mengakui kesalahan,kami akan segera sampai,66.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.7422
+52_SUB8,SUB8,male,saya tersesat di dekat rumah anda,saya tidak sengaja bertemu teman lama,66.6667,83.3333,16.6667,5.7735,4.5068,4.0825,16.6667,16.6667,16.6667,68.971
+53_SUB8,SUB8,male,bisa tolong bantu saya menyiram bunga,kami akan segera sampai,75.6757,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.6714
+61_SUB8,SUB8,male,semoga anda cepat sembuh,kamu terlihat luar biasa,87.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.2111
+64_SUB8,SUB8,male,dia adalah laki laki yang pemalu,saya akan pergi berenang,71.875,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.8593
+72_SUB8,SUB8,male,apakah anda memerlukan bantuan,saya tidak sengaja bertemu teman lama,86.6667,150.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.0079
+75_SUB8,SUB8,male,saya mau masakan tiongkok terima kasih,kami akan segera sampai,65.7895,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.4526
+83_SUB8,SUB8,male,dia akan merasa sangat senang,saya akan pergi berenang,51.7241,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,53.0687
+85_SUB8,SUB8,male,tolong bantu ambilkan foto kami,kami akan segera sampai,77.4194,100.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,56.2423
+87_SUB8,SUB8,male,sebaiknya kita pergi sekarang,kamu terlihat luar biasa,79.3103,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.3025
+88_SUB8,SUB8,male,saya menerima pujian ini dengan rendah hati,kami akan segera sampai,69.7674,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.8471
+92_SUB8,SUB8,male,kamu akan segera sembuh,kami akan segera sampai,21.7391,50.0,50.0,40.8248,20.6001,16.9904,50.0,50.0,50.0,62.6834
+93_SUB8,SUB8,male,saya akan tiba tepat waktu,saya ingin makan sesuatu,57.6923,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,59.5922
+2_SUB9,SUB9,female,tolong fotokopi laporan ini,kami akan segera sampai,85.1852,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.174
+3_SUB9,SUB9,female,bagaimana kabarmu belakangan ini,saya akan pergi,71.875,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.9392
+19_SUB9,SUB9,female,pintunya sudah dibuka,kamu terlihat luar biasa,85.7143,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.1616
+25_SUB9,SUB9,female,apakah ada yang ingin anda laporkan,kami akan segera sampai,68.5714,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.6129
+26_SUB9,SUB9,female,bolehkah saya berbicara dengan anda,saya ingin makan sesuatu,77.1429,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,67.4166
+28_SUB9,SUB9,female,mari makan di luar malam ini,saya ingin makan sesuatu,78.5714,100.0,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,62.8482
+36_SUB9,SUB9,female,aku akan mencintaimu selamanya,saya tidak sengaja bertemu teman lama,83.3333,150.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.4367
+44_SUB9,SUB9,female,apakah anda tertarik dengan komputer,saya akan pergi berenang,69.4444,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.5948
+58_SUB9,SUB9,female,dia diculik di dalam mobil,kami akan segera sampai,80.7692,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.5725
+59_SUB9,SUB9,female,selamat pagi pak ada yang bisa saya bantu,kamu terlihat luar biasa,70.7317,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,25.8357
+66_SUB9,SUB9,female,temanmu sangat cantik,kami akan segera sampai,80.9524,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.718
+67_SUB9,SUB9,female,mari kita bicara,saya tidak sengaja bertemu teman,150.0,166.6667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.3932
+70_SUB9,SUB9,female,dia benar benar menyalahkan saya,kami akan segera sampai,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.5946
+80_SUB9,SUB9,female,apakah anda baik baik saja pak,saya tidak sengaja bertemu teman,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.1124
+83_SUB9,SUB9,female,terima kasih atas pengertian anda,saya ingin makan sesuatu,75.7576,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.0896
+88_SUB9,SUB9,female,ini terlalu sulit baginya,saya ingin makan sesuatu,92.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.8119
+91_SUB9,SUB9,female,sepertinya kamu sedang flu,saya ingin makan sesuatu,73.0769,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,62.1297
+94_SUB9,SUB9,female,senang berkenalan dengan anda,saya ingin makan sesuatu,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.977
+96_SUB9,SUB9,female,seperti apa penampilannya,kami akan segera sampai,76.0,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.0747
+54_SUB10,SUB10,female,dia memakai topeng wajahnya tidak terlihat,kami akan segera sampai,71.4286,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.6614
+55_SUB10,SUB10,female,halo ada yang bisa saya bantu,kami akan segera sampai,65.5172,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.0293
+67_SUB10,SUB10,female,anda bisa mencetaknya,saya ingin makan sesuatu,90.4762,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.3493
+74_SUB10,SUB10,female,saya sedang terburu buru sampai jumpa,saya ingin makan sesuatu,70.2703,83.3333,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,65.3836
+75_SUB10,SUB10,female,silakan nikmati perjalanan anda,kami akan segera sampai,70.9677,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.6589
+77_SUB10,SUB10,female,bagaimana kabar ibumu sekarang,saya akan pergi berenang,63.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.7431
+87_SUB10,SUB10,female,hari ini ingin makan apa,saya ingin makan sesuatu,54.1667,60.0,38.94,31.7944,16.0434,13.2322,50.0,40.0,44.4444,68.3091
+95_SUB10,SUB10,female,saya ingin lebih mengenalnya,saya tidak sengaja bertemu teman,75.0,100.0,20.0,7.0711,5.6651,5.3728,20.0,25.0,22.2222,63.4965
+10_SUB10,SUB10,female,kita pernah bertemu tahun lalu,saya ingin makan sesuatu,76.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.9313
+12_SUB10,SUB10,female,anda seharusnya merasa malu,saya ingin makan sesuatu,74.0741,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,62.1947
+19_SUB10,SUB10,female,pilihan anda banyak sekali ya,saya ingin makan sesuatu,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.3078
+20_SUB10,SUB10,female,lain kali pasti akan lebih baik,kami akan segera sampai,70.9677,83.3333,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,51.6061
+23_SUB10,SUB10,female,saya tidak percaya penjelasan anda,kami akan segera sampai,67.6471,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.2875
+31_SUB10,SUB10,female,apa yang anda lakukan di waktu luang,saya ingin makan sesuatu,61.1111,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.3715
+34_SUB10,SUB10,female,saya setuju dengan semua kebijakannya,saya ingin makan sesuatu,64.8649,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,45.4539
+38_SUB10,SUB10,female,kita pergi nanti saja,kami akan segera sampai,80.9524,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,61.1019
+42_SUB10,SUB10,female,apakah sarapan sudah siap,kami akan segera sampai,68.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.7669
+44_SUB10,SUB10,female,berikan mikrofonnya kepada dia,kami akan segera sampai,76.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.2459
+46_SUB10,SUB10,female,kami akan merapikan dokumen besok,kami akan segera sampai,57.5758,60.0,38.94,31.7944,16.0434,13.2322,50.0,40.0,44.4444,67.061
+3_SUB11,SUB11,female,berharap bisa bertemu lagi di masa depan,kami akan segera sampai,72.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.5312
+5_SUB11,SUB11,female,kapan anda biasanya tidur,saya ingin makan sesuatu,72.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,59.1836
+23_SUB11,SUB11,female,kunci pintunya ayo kita berangkat,saya tidak sengaja bertemu teman lama,84.8485,120.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.7738
+30_SUB11,SUB11,female,dia sudah punya pacar,saya akan pergi,76.1905,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,56.3085
+35_SUB11,SUB11,female,apakah perasaanmu sudah lebih baik,saya tidak sengaja bertemu teman lama,82.3529,120.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.8717
+39_SUB11,SUB11,female,saya ada janji temu mohon tunggu sebentar,kamu terlihat luar biasa,75.6098,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.365
+51_SUB11,SUB11,female,dia adalah teman sekamar saya,saya tidak sengaja bertemu teman,79.3103,100.0,40.0,10.0,7.1211,6.3894,40.0,40.0,40.0,68.7596
+54_SUB11,SUB11,female,dia membuat kesabaran saya habis,saya ingin makan sesuatu,75.0,100.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,62.9263
+60_SUB11,SUB11,female,apa rencanamu untuk masa depan,kami akan segera sampai,73.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.4697
+75_SUB11,SUB11,female,saya mau masakan tiongkok terima kasih,kami akan segera sampai,65.7895,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.4526
+76_SUB11,SUB11,female,wasit sepertinya agak memihak,kami akan segera sampai,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.641
+83_SUB11,SUB11,female,dia akan merasa sangat senang,saya akan pergi berenang,51.7241,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,53.0687
+84_SUB11,SUB11,female,maaf telah mengganggu anda,kami akan segera sampai,73.0769,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.8788
+87_SUB11,SUB11,female,sebaiknya kita pergi sekarang,kami akan segera sampai,75.8621,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,58.8216
+91_SUB11,SUB11,female,tidak usah terima kasih,saya tidak sengaja bertemu teman,86.9565,100.0,20.0,7.0711,5.6651,5.3728,20.0,25.0,22.2222,44.6672
+95_SUB11,SUB11,female,kecewa dengan upaya anda,kami akan segera sampai,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.3337
+96_SUB11,SUB11,female,kita harus saling membantu,kami akan segera sampai,69.2308,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.92
+53_SUB12,SUB12,female,bagaimana kabarmu belakangan ini,kami akan segera sampai,68.75,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.9334
+69_SUB12,SUB12,female,pintunya sudah dibuka,saya ingin makan sesuatu,90.4762,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.8984
+85_SUB12,SUB12,female,dia hanya mencintai uangnya,kami akan segera sampai,77.7778,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.3748
+94_SUB12,SUB12,female,apakah anda tertarik dengan komputer,kami akan segera sampai,72.2222,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.5319

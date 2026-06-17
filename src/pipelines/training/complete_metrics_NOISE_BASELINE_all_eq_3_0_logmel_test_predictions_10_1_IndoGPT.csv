@@ -1,0 +1,190 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB1,SUB1,male,maaf saya terlambat,saya ingin makan sesuatu,94.7368,133.3333,25.0,9.1287,7.6653,8.0343,25.0,33.3333,28.5714,65.4963
+3_SUB1,SUB1,male,biar saya bantu ganti baterainya,saya ingin makan sesuatu,71.875,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,46.7567
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang,saya ingin makan sesuatu,58.0645,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.921
+21_SUB1,SUB1,male,kamu tampak penuh energi hari ini,saya ingin makan sesuatu,81.8182,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.1451
+22_SUB1,SUB1,male,setelah makan saya merasa sangat kenyang,saya ingin makan sesuatu,70.0,83.3333,30.3265,7.8303,5.8442,5.7951,50.0,33.3333,40.0,60.8247
+24_SUB1,SUB1,male,saya sedang terburu buru sampai jumpa,saya ingin makan sesuatu,70.2703,83.3333,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,65.3836
+30_SUB1,SUB1,male,benar benar tidak bisa dipercaya,saya ingin makan sesuatu,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.9573
+38_SUB1,SUB1,male,bagaimana harimu hari ini,saya ingin makan sesuatu,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.3325
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati,saya ingin makan sesuatu,68.4211,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.2386
+53_SUB1,SUB1,male,cobalah besok pagi,saya ingin makan sesuatu,111.1111,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,63.5116
+61_SUB1,SUB1,male,tolong segera pergi dari sini,saya ingin makan sesuatu,86.2069,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.9222
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda,saya ingin makan sesuatu,70.0,85.7143,11.8092,4.3121,3.6208,3.7951,25.0,14.2857,18.1818,50.6751
+72_SUB1,SUB1,male,apakah anda sudah makan siang,saya ingin makan sesuatu,62.069,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,64.0713
+75_SUB1,SUB1,male,kamu benar benar menjadi lebih sehat,saya ingin makan sesuatu,69.4444,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.0811
+83_SUB1,SUB1,male,saya tidak punya waktu luang sama sekali,saya ingin makan sesuatu,60.0,85.7143,11.8092,4.3121,3.6208,3.7951,25.0,14.2857,18.1818,59.396
+85_SUB1,SUB1,male,dia bukan orang yang penting,saya ingin makan sesuatu,71.4286,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.6994
+87_SUB1,SUB1,male,apa yang bisa kami lakukan untuk anda,saya ingin makan sesuatu,62.1622,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.9621
+88_SUB1,SUB1,male,kita akan bertemu lagi,saya ingin makan sesuatu,86.3636,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.5008
+92_SUB1,SUB1,male,saya bukan seorang penjahat,saya ingin makan sesuatu,55.5556,75.0,25.0,9.1287,7.6653,8.0343,25.0,25.0,25.0,67.231
+93_SUB1,SUB1,male,waktu berjalan begitu cepat,saya ingin makan sesuatu,77.7778,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.3139
+8_SUB2,SUB2,male,saya ingin makan siang di kamar,saya ingin makan sesuatu,38.7097,50.0,45.4898,42.8882,38.386,24.1178,75.0,50.0,60.0,72.9685
+11_SUB2,SUB2,male,tolong segera pergi dari sini,saya ingin makan sesuatu,86.2069,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.9222
+15_SUB2,SUB2,male,sampaikan salam saya untuk mereka,saya ingin makan sesuatu,66.6667,100.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,46.9116
+19_SUB2,SUB2,male,senang bisa membantu anda,saya ingin makan sesuatu,76.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.7275
+21_SUB2,SUB2,male,selamat sore ada yang bisa saya bantu,saya ingin makan sesuatu,64.8649,100.0,11.8092,4.3121,3.6208,3.7951,25.0,14.2857,18.1818,36.2845
+23_SUB2,SUB2,male,silakan tanya saya kapan saja,saya ingin makan sesuatu,68.9655,100.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,48.8003
+29_SUB2,SUB2,male,menurutku masakan tiongkok sangat lezat,saya ingin makan sesuatu,69.2308,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.0314
+39_SUB2,SUB2,male,menurutku sebaiknya kamu minta maaf,saya ingin makan sesuatu,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.7876
+43_SUB2,SUB2,male,waktu berjalan begitu cepat,saya ingin makan sesuatu,77.7778,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.3139
+50_SUB2,SUB2,male,pekerjaan tidak selesai tepat waktu,saya ingin makan sesuatu,74.2857,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.2504
+8_SUB3,SUB3,male,mereka adalah teman baik,saya ingin makan sesuatu,83.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.2515
+11_SUB3,SUB3,male,dia memang benar benar pembuat masalah,saya ingin makan sesuatu,71.0526,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.125
+15_SUB3,SUB3,male,mari kita makan di kantin saja,saya ingin makan sesuatu,66.6667,83.3333,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,52.8149
+19_SUB3,SUB3,male,kapan kamu bisa datang,saya ingin makan sesuatu,81.8182,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.0224
+21_SUB3,SUB3,male,tapi semua hal baik pasti ada akhirnya,saya ingin makan sesuatu,78.9474,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,31.9388
+23_SUB3,SUB3,male,kamu seharusnya bicara dengannya,saya ingin makan sesuatu,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,64.6405
+29_SUB3,SUB3,male,saya sudah ada janji besok,saya ingin makan sesuatu,61.5385,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,58.7419
+39_SUB3,SUB3,male,kamu baik sekali,saya ingin makan sesuatu,100.0,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.8152
+43_SUB3,SUB3,male,kamu adalah teman sejatiku,saya ingin makan sesuatu,61.5385,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.9634
+50_SUB3,SUB3,male,halo apa kabar,saya ingin makan sesuatu,128.5714,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.6563
+2_SUB4,SUB4,male,tolong fotokopi laporan ini,saya ingin makan sesuatu,88.8889,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.6369
+3_SUB4,SUB4,male,bagaimana kabarmu belakangan ini,saya ingin makan sesuatu,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.9626
+15_SUB4,SUB4,male,bagaimana kesehatanmu akhir akhir ini,saya ingin makan sesuatu,78.3784,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.4973
+21_SUB4,SUB4,male,maaf apakah sekarang sedang luang,saya ingin makan sesuatu,66.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.8824
+22_SUB4,SUB4,male,tersesat butuh bantuan,saya ingin makan sesuatu,90.9091,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.0627
+24_SUB4,SUB4,male,saya melewatkan momen yang luar biasa,saya ingin makan sesuatu,67.5676,83.3333,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,62.9987
+30_SUB4,SUB4,male,melakukan panggilan internasional,saya ingin makan sesuatu,69.697,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.4253
+38_SUB4,SUB4,male,hidangan apa ini,saya ingin makan sesuatu,100.0,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,59.4872
+52_SUB4,SUB4,male,apakah anda membutuhkan bantuan,saya ingin makan sesuatu,67.7419,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,58.0618
+53_SUB4,SUB4,male,dia sangat ketat terhadap kami,saya ingin makan sesuatu,73.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.7774
+61_SUB4,SUB4,male,saya tidak sengaja menumpahkan tinta,saya ingin makan sesuatu,61.1111,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,63.6546
+64_SUB4,SUB4,male,saya ingin makan salad,saya ingin makan sesuatu,22.7273,25.0,75.0,70.7107,63.2878,39.7635,75.0,75.0,75.0,88.8498
+72_SUB4,SUB4,male,jadwal saya sangat padat,saya ingin makan sesuatu,75.0,100.0,25.0,9.1287,7.6653,8.0343,25.0,25.0,25.0,59.4815
+75_SUB4,SUB4,male,terima kasih telah menghubungi kami mohon tunggu sebentar,saya ingin makan sesuatu,77.193,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.5316
+83_SUB4,SUB4,male,terima kasih atas pengertian anda,saya ingin makan sesuatu,75.7576,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.0896
+85_SUB4,SUB4,male,tentu saja boleh,saya ingin makan sesuatu,118.75,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.6087
+87_SUB4,SUB4,male,berpamitan dengan teman di stasiun kereta,saya ingin makan sesuatu,65.8537,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.3516
+88_SUB4,SUB4,male,ini terlalu sulit baginya,saya ingin makan sesuatu,92.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.8119
+92_SUB4,SUB4,male,berharap bisa bertemu kembali,saya ingin makan sesuatu,75.8621,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.2374
+93_SUB4,SUB4,male,apakah ruang rapat sudah siap,saya ingin makan sesuatu,68.9655,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.8926
+8_SUB5,SUB5,male,sudah waktunya tidur,saya ingin makan sesuatu,95.0,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.3411
+11_SUB5,SUB5,male,maaf kemarin saya tidak masuk kelas,saya ingin makan sesuatu,71.4286,83.3333,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,44.9275
+15_SUB5,SUB5,male,mari ikut saya ke kantor untuk bicara lebih lanjut,saya ingin makan sesuatu,74.0,88.8889,7.1626,2.6154,2.1962,2.3019,25.0,11.1111,15.3846,51.0009
+19_SUB5,SUB5,male,pilihan anda banyak sekali ya,saya ingin makan sesuatu,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.3078
+21_SUB5,SUB5,male,dia sangat tidak bisa diandalkan,saya ingin makan sesuatu,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,58.4726
+23_SUB5,SUB5,male,saya tidak percaya penjelasan anda,saya ingin makan sesuatu,67.6471,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,60.7815
+29_SUB5,SUB5,male,kami biasanya makan di kantin,saya ingin makan sesuatu,55.1724,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,55.2897
+39_SUB5,SUB5,male,semoga anda bersenang senang,saya ingin makan sesuatu,67.8571,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.6717
+43_SUB5,SUB5,male,aku sedang menelepon teman,saya ingin makan sesuatu,76.9231,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,67.617
+50_SUB5,SUB5,male,jangan percaya apa yang dia katakan,saya ingin makan sesuatu,71.4286,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.7032
+2_SUB6,SUB6,female,kita harus melihat bagaimana keadaannya,saya ingin makan sesuatu,71.7949,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.697
+3_SUB6,SUB6,female,mungkin keberuntungan akan membaik,saya ingin makan sesuatu,67.6471,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.9211
+15_SUB6,SUB6,female,anda ingin ayam atau daging sapi,saya ingin makan sesuatu,59.375,83.3333,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,61.8147
+21_SUB6,SUB6,female,setiap hari hanyalah rutinitas biasa,saya ingin makan sesuatu,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.2867
+22_SUB6,SUB6,female,tentu saja tidak masalah,saya ingin makan sesuatu,83.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.6435
+24_SUB6,SUB6,female,butuh bantuan apa,saya ingin makan sesuatu,111.7647,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.7374
+30_SUB6,SUB6,female,beberapa bulan terakhir ini kamu sangat sibuk,saya ingin makan sesuatu,71.1111,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.0449
+38_SUB6,SUB6,female,tolong bantu saya membersihkan dapur,saya ingin makan sesuatu,77.7778,100.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,59.1407
+52_SUB6,SUB6,female,tolong isi penuh bensinnya terima kasih,saya ingin makan sesuatu,79.4872,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.0968
+53_SUB6,SUB6,female,hubungi aku besok,saya ingin makan sesuatu,88.2353,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.4865
+61_SUB6,SUB6,female,makanan di sana lumayan enak,saya ingin makan sesuatu,64.2857,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.0276
+64_SUB6,SUB6,female,apa yang bisa saya bantu,saya ingin makan sesuatu,66.6667,100.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,51.2587
+72_SUB6,SUB6,female,saya sangat menghargai saran anda,saya ingin makan sesuatu,57.5758,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,50.801
+75_SUB6,SUB6,female,mengapa kamu melakukan hal itu,saya ingin makan sesuatu,63.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,59.0407
+83_SUB6,SUB6,female,dia tidak tahu bagaimana menghadapi kenyataan,saya ingin makan sesuatu,68.8889,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.4265
+85_SUB6,SUB6,female,guru filsafat saya sangat humoris,saya ingin makan sesuatu,72.7273,100.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,52.3623
+87_SUB6,SUB6,female,terima kasih banyak atas undangannya,saya ingin makan sesuatu,72.2222,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.6903
+88_SUB6,SUB6,female,kita bisa pensiun lebih awal,saya ingin makan sesuatu,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.8273
+92_SUB6,SUB6,female,saya akan membawakannya untuk anda besok,saya ingin makan sesuatu,65.0,83.3333,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,61.2415
+93_SUB6,SUB6,female,di mana alamat anda,saya ingin makan sesuatu,100.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.7726
+2_SUB7,SUB7,female,anda benar benar kakek yang murah hati,saya ingin makan sesuatu,68.4211,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.2386
+3_SUB7,SUB7,female,cobalah besok pagi,saya ingin makan sesuatu,111.1111,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,63.5116
+15_SUB7,SUB7,female,sampaikan salam saya untuk mereka,saya ingin makan sesuatu,66.6667,100.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,46.9116
+21_SUB7,SUB7,female,selamat sore ada yang bisa saya bantu,saya ingin makan sesuatu,64.8649,100.0,11.8092,4.3121,3.6208,3.7951,25.0,14.2857,18.1818,36.2845
+22_SUB7,SUB7,female,apakah anda sudah makan siang,saya ingin makan sesuatu,62.069,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,64.0713
+24_SUB7,SUB7,female,kita harus memberitahunya,saya ingin makan sesuatu,80.0,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,64.7509
+30_SUB7,SUB7,female,saya sangat sibuk hari ini butuh bantuan,saya ingin makan sesuatu,60.0,85.7143,11.8092,4.3121,3.6208,3.7951,25.0,14.2857,18.1818,59.9471
+38_SUB7,SUB7,female,kita akan bertemu lagi,saya ingin makan sesuatu,86.3636,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.5008
+52_SUB7,SUB7,female,ide idemu sangat kreatif,saya ingin makan sesuatu,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.0106
+53_SUB7,SUB7,female,saya punya nomornya di sini,saya ingin makan sesuatu,66.6667,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,49.3541
+61_SUB7,SUB7,female,dia memang benar benar pembuat masalah,saya ingin makan sesuatu,71.0526,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.125
+64_SUB7,SUB7,female,boleh saya minta tolong,saya ingin makan sesuatu,91.3043,100.0,25.0,9.1287,7.6653,8.0343,25.0,25.0,25.0,54.1594
+72_SUB7,SUB7,female,apa pekerjaan anda,saya ingin makan sesuatu,88.8889,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,62.8481
+75_SUB7,SUB7,female,ini surat undangan untuk anda,saya ingin makan sesuatu,75.8621,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.5528
+83_SUB7,SUB7,female,mungkin kita akan mendapatkan inspirasi secara tidak sengaja,saya ingin makan sesuatu,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.692
+85_SUB7,SUB7,female,saya pikir anda sudah tahu,saya ingin makan sesuatu,57.6923,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,65.9792
+87_SUB7,SUB7,female,kurangi makan roti dan kentang,saya ingin makan sesuatu,66.6667,100.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,47.1817
+88_SUB7,SUB7,female,apakah sepeda itu milikmu,saya ingin makan sesuatu,84.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.8261
+92_SUB7,SUB7,female,kami berkenalan melalui internet,saya ingin makan sesuatu,71.875,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.3797
+93_SUB7,SUB7,female,kamu adalah teman sejatiku,saya ingin makan sesuatu,61.5385,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.9634
+2_SUB8,SUB8,male,saya butuh informasi anda,saya ingin makan sesuatu,72.0,75.0,25.0,9.1287,7.6653,8.0343,25.0,25.0,25.0,64.098
+3_SUB8,SUB8,male,berharap bisa bertemu lagi di masa depan,saya ingin makan sesuatu,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.8557
+15_SUB8,SUB8,male,apakah kamu tahu di mana bisa membelinya,saya ingin makan sesuatu,77.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.1166
+21_SUB8,SUB8,male,dia selalu meludah sembarangan,saya ingin makan sesuatu,73.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.9692
+22_SUB8,SUB8,male,cinta terkadang benar benar buta,saya ingin makan sesuatu,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.9049
+24_SUB8,SUB8,male,sudah siap mari kita mulai,saya ingin makan sesuatu,76.9231,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.8063
+30_SUB8,SUB8,male,dia sudah punya pacar,saya ingin makan sesuatu,90.4762,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.8082
+38_SUB8,SUB8,male,tapi saya sarankan anda mengakui kesalahan,saya ingin makan sesuatu,64.2857,83.3333,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,54.4897
+52_SUB8,SUB8,male,saya tersesat di dekat rumah anda,saya ingin makan sesuatu,69.697,83.3333,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,56.5874
+53_SUB8,SUB8,male,bisa tolong bantu saya menyiram bunga,saya ingin makan sesuatu,70.2703,100.0,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,48.1834
+61_SUB8,SUB8,male,semoga anda cepat sembuh,saya ingin makan sesuatu,70.8333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.5133
+64_SUB8,SUB8,male,dia adalah laki laki yang pemalu,saya ingin makan sesuatu,65.625,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.811
+72_SUB8,SUB8,male,apakah anda memerlukan bantuan,saya ingin makan sesuatu,66.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,58.2988
+75_SUB8,SUB8,male,saya mau masakan tiongkok terima kasih,saya ingin makan sesuatu,68.4211,83.3333,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,64.4003
+83_SUB8,SUB8,male,dia akan merasa sangat senang,saya ingin makan sesuatu,68.9655,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.4934
+85_SUB8,SUB8,male,tolong bantu ambilkan foto kami,saya ingin makan sesuatu,74.1935,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.6286
+87_SUB8,SUB8,male,sebaiknya kita pergi sekarang,saya ingin makan sesuatu,68.9655,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,61.0459
+88_SUB8,SUB8,male,saya menerima pujian ini dengan rendah hati,saya ingin makan sesuatu,62.7907,85.7143,11.8092,4.3121,3.6208,3.7951,25.0,14.2857,18.1818,49.2901
+92_SUB8,SUB8,male,kamu akan segera sembuh,saya ingin makan sesuatu,78.2609,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.3998
+93_SUB8,SUB8,male,saya akan tiba tepat waktu,saya ingin makan sesuatu,57.6923,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,59.5922
+2_SUB9,SUB9,female,tolong fotokopi laporan ini,saya ingin makan sesuatu,88.8889,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.6369
+3_SUB9,SUB9,female,bagaimana kabarmu belakangan ini,saya ingin makan sesuatu,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.9626
+19_SUB9,SUB9,female,pintunya sudah dibuka,saya ingin makan sesuatu,90.4762,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.8984
+25_SUB9,SUB9,female,apakah ada yang ingin anda laporkan,saya ingin makan sesuatu,68.5714,83.3333,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,58.8014
+26_SUB9,SUB9,female,bolehkah saya berbicara dengan anda,saya ingin makan sesuatu,77.1429,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,67.4166
+28_SUB9,SUB9,female,mari makan di luar malam ini,saya ingin makan sesuatu,78.5714,100.0,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,62.8482
+36_SUB9,SUB9,female,aku akan mencintaimu selamanya,saya ingin makan sesuatu,66.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.4755
+44_SUB9,SUB9,female,apakah anda tertarik dengan komputer,saya ingin makan sesuatu,72.2222,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.4785
+58_SUB9,SUB9,female,dia diculik di dalam mobil,saya ingin makan sesuatu,80.7692,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.1432
+59_SUB9,SUB9,female,selamat pagi pak ada yang bisa saya bantu,saya ingin makan sesuatu,60.9756,100.0,9.197,3.3583,2.8199,2.9556,25.0,12.5,16.6667,35.7442
+66_SUB9,SUB9,female,temanmu sangat cantik,saya ingin makan sesuatu,90.4762,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,61.7789
+67_SUB9,SUB9,female,mari kita bicara,saya ingin makan sesuatu,112.5,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.7268
+70_SUB9,SUB9,female,dia benar benar menyalahkan saya,saya ingin makan sesuatu,71.875,100.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,66.6647
+80_SUB9,SUB9,female,apakah anda baik baik saja pak,saya ingin makan sesuatu,70.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.8625
+83_SUB9,SUB9,female,terima kasih atas pengertian anda,saya ingin makan sesuatu,75.7576,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.0896
+88_SUB9,SUB9,female,ini terlalu sulit baginya,saya ingin makan sesuatu,92.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.8119
+91_SUB9,SUB9,female,sepertinya kamu sedang flu,saya ingin makan sesuatu,73.0769,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,62.1297
+94_SUB9,SUB9,female,senang berkenalan dengan anda,saya ingin makan sesuatu,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.977
+96_SUB9,SUB9,female,seperti apa penampilannya,saya ingin makan sesuatu,84.0,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.9932
+54_SUB10,SUB10,female,dia memakai topeng wajahnya tidak terlihat,saya ingin makan sesuatu,73.8095,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.9599
+55_SUB10,SUB10,female,halo ada yang bisa saya bantu,saya ingin makan sesuatu,68.9655,100.0,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,38.4892
+67_SUB10,SUB10,female,anda bisa mencetaknya,saya ingin makan sesuatu,90.4762,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.3493
+74_SUB10,SUB10,female,saya sedang terburu buru sampai jumpa,saya ingin makan sesuatu,70.2703,83.3333,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,65.3836
+75_SUB10,SUB10,female,silakan nikmati perjalanan anda,saya ingin makan sesuatu,74.1935,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.5794
+77_SUB10,SUB10,female,bagaimana kabar ibumu sekarang,saya ingin makan sesuatu,70.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.5713
+87_SUB10,SUB10,female,hari ini ingin makan apa,saya ingin makan sesuatu,54.1667,60.0,38.94,31.7944,16.0434,13.2322,50.0,40.0,44.4444,68.3091
+95_SUB10,SUB10,female,saya ingin lebih mengenalnya,saya ingin makan sesuatu,50.0,50.0,50.0,40.8248,20.6001,16.9904,50.0,50.0,50.0,70.688
+10_SUB10,SUB10,female,kita pernah bertemu tahun lalu,saya ingin makan sesuatu,76.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.9313
+12_SUB10,SUB10,female,anda seharusnya merasa malu,saya ingin makan sesuatu,74.0741,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,62.1947
+19_SUB10,SUB10,female,pilihan anda banyak sekali ya,saya ingin makan sesuatu,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.3078
+20_SUB10,SUB10,female,lain kali pasti akan lebih baik,saya ingin makan sesuatu,67.7419,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.8679
+23_SUB10,SUB10,female,saya tidak percaya penjelasan anda,saya ingin makan sesuatu,67.6471,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,60.7815
+31_SUB10,SUB10,female,apa yang anda lakukan di waktu luang,saya ingin makan sesuatu,61.1111,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.3715
+34_SUB10,SUB10,female,saya setuju dengan semua kebijakannya,saya ingin makan sesuatu,64.8649,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,45.4539
+38_SUB10,SUB10,female,kita pergi nanti saja,saya ingin makan sesuatu,76.1905,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.8921
+42_SUB10,SUB10,female,apakah sarapan sudah siap,saya ingin makan sesuatu,76.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.7892
+44_SUB10,SUB10,female,berikan mikrofonnya kepada dia,saya ingin makan sesuatu,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.0536
+46_SUB10,SUB10,female,kami akan merapikan dokumen besok,saya ingin makan sesuatu,69.697,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.5589
+3_SUB11,SUB11,female,berharap bisa bertemu lagi di masa depan,saya ingin makan sesuatu,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.8557
+5_SUB11,SUB11,female,kapan anda biasanya tidur,saya ingin makan sesuatu,72.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,59.1836
+23_SUB11,SUB11,female,kunci pintunya ayo kita berangkat,saya ingin makan sesuatu,72.7273,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.4552
+30_SUB11,SUB11,female,dia sudah punya pacar,saya ingin makan sesuatu,90.4762,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.8082
+35_SUB11,SUB11,female,apakah perasaanmu sudah lebih baik,saya ingin makan sesuatu,73.5294,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.0019
+39_SUB11,SUB11,female,saya ada janji temu mohon tunggu sebentar,saya ingin makan sesuatu,65.8537,85.7143,11.8092,4.3121,3.6208,3.7951,25.0,14.2857,18.1818,51.9685
+51_SUB11,SUB11,female,dia adalah teman sekamar saya,saya ingin makan sesuatu,72.4138,100.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,59.1921
+54_SUB11,SUB11,female,dia membuat kesabaran saya habis,saya ingin makan sesuatu,75.0,100.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,62.9263
+60_SUB11,SUB11,female,apa rencanamu untuk masa depan,saya ingin makan sesuatu,73.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.3123
+75_SUB11,SUB11,female,saya mau masakan tiongkok terima kasih,saya ingin makan sesuatu,68.4211,83.3333,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,64.4003
+76_SUB11,SUB11,female,wasit sepertinya agak memihak,saya ingin makan sesuatu,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.7563
+83_SUB11,SUB11,female,dia akan merasa sangat senang,saya ingin makan sesuatu,68.9655,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.4934
+84_SUB11,SUB11,female,maaf telah mengganggu anda,saya ingin makan sesuatu,76.9231,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.9704
+87_SUB11,SUB11,female,sebaiknya kita pergi sekarang,saya ingin makan sesuatu,68.9655,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,61.0459
+91_SUB11,SUB11,female,tidak usah terima kasih,saya ingin makan sesuatu,91.3043,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.7533
+95_SUB11,SUB11,female,kecewa dengan upaya anda,saya ingin makan sesuatu,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.8286
+96_SUB11,SUB11,female,kita harus saling membantu,saya ingin makan sesuatu,61.5385,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.9503
+53_SUB12,SUB12,female,bagaimana kabarmu belakangan ini,saya ingin makan sesuatu,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.9626
+69_SUB12,SUB12,female,pintunya sudah dibuka,saya ingin makan sesuatu,90.4762,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.8984
+85_SUB12,SUB12,female,dia hanya mencintai uangnya,saya ingin makan sesuatu,77.7778,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,64.3387
+94_SUB12,SUB12,female,apakah anda tertarik dengan komputer,saya ingin makan sesuatu,72.2222,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.4785

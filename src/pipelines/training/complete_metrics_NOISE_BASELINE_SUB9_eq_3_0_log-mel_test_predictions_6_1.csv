@@ -1,0 +1,20 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB9,SUB9,female,tolong fotokopi laporan ini,stekanya kam benar,85.1852,100.0,0,0,0,0,0.0,0.0,0.0,46.8019
+3_SUB9,SUB9,female,bagaimana kabarmu belakangan ini,hasik maantuk,78.125,100.0,0,0,0,0,0.0,0.0,0.0,35.3882
+19_SUB9,SUB9,female,pintunya sudah dibuka,anda ternapas,85.7143,100.0,0,0,0,0,0.0,0.0,0.0,55.4088
+25_SUB9,SUB9,female,apakah ada yang ingin anda laporkan,sialap suera mengaku,77.1429,100.0,0,0,0,0,0.0,0.0,0.0,26.7693
+26_SUB9,SUB9,female,bolehkah saya berbicara dengan anda,kapan kami,85.7143,100.0,0,0,0,0,0.0,0.0,0.0,58.7053
+28_SUB9,SUB9,female,mari makan di luar malam ini,sengaja boleh,85.7143,100.0,0,0,0,0,0.0,0.0,0.0,37.4238
+36_SUB9,SUB9,female,aku akan mencintaimu selamanya,pasit ketar,80.0,100.0,0,0,0,0,0.0,0.0,0.0,39.4861
+44_SUB9,SUB9,female,apakah anda tertarik dengan komputer,kamu kami,83.3333,100.0,0,0,0,0,0.0,0.0,0.0,35.0426
+58_SUB9,SUB9,female,dia diculik di dalam mobil,perserah segak,92.3077,100.0,0,0,0,0,0.0,0.0,0.0,36.1398
+59_SUB9,SUB9,female,selamat pagi pak ada yang bisa saya bantu,penor,95.122,100.0,0,0,0,0,0.0,0.0,0.0,14.4708
+66_SUB9,SUB9,female,temanmu sangat cantik,sila mengantar kami,61.9048,100.0,0,0,0,0,0.0,0.0,0.0,56.4581
+67_SUB9,SUB9,female,mari kita bicara,pekari sedar,75.0,100.0,0,0,0,0,0.0,0.0,0.0,48.594
+70_SUB9,SUB9,female,dia benar benar menyalahkan saya,bika seraja,78.125,100.0,0,0,0,0,0.0,0.0,0.0,35.5743
+80_SUB9,SUB9,female,apakah anda baik baik saja pak,selamu pergali,90.0,100.0,0,0,0,0,0.0,0.0,0.0,32.3341
+83_SUB9,SUB9,female,terima kasih atas pengertian anda,apakan segar,75.7576,100.0,0,0,0,0,0.0,0.0,0.0,29.2733
+88_SUB9,SUB9,female,ini terlalu sulit baginya,setu banda,72.0,100.0,0,0,0,0,0.0,0.0,0.0,39.8824
+91_SUB9,SUB9,female,sepertinya kamu sedang flu,apak terlihap kami,84.6154,100.0,0,0,0,0,0.0,0.0,0.0,42.1306
+94_SUB9,SUB9,female,senang berkenalan dengan anda,perkami berasa kami,68.9655,100.0,0,0,0,0,0.0,0.0,0.0,50.9748
+96_SUB9,SUB9,female,seperti apa penampilannya,perkatan,76.0,100.0,0,0,0,0,0.0,0.0,0.0,55.7017

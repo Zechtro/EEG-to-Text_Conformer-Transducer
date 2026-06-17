@@ -1,0 +1,11 @@
+id,subject,gender,sentence,prediction,cer
+8_SUB3,SUB3,male,mereka adalah teman baik,berapa suhu tubuh anda sekarang,0.9583333333333334
+11_SUB3,SUB3,male,dia memang benar benar pembuat masalah,tetap berkabar ya sampai jumpa,0.7105263157894737
+15_SUB3,SUB3,male,mari kita makan di kantin saja,tetap berkabar ya sampai jumpa,0.8
+19_SUB3,SUB3,male,kapan kamu bisa datang,berapa suhu tubuhmu kemarin,0.8636363636363636
+21_SUB3,SUB3,male,tapi semua hal baik pasti ada akhirnya,tetap berkabar ya sampai jumpa,0.6842105263157895
+23_SUB3,SUB3,male,kamu seharusnya bicara dengannya,tetap berkabar ya sampai jumpa,0.8125
+29_SUB3,SUB3,male,saya sudah ada janji besok,tetap berkabar ya sampai jumpa,0.8461538461538461
+39_SUB3,SUB3,male,kamu baik sekali,dia selalu senang,0.6875
+43_SUB3,SUB3,male,kamu adalah teman sejatiku,tetap berkabar ya sampai jumpa,0.9230769230769231
+50_SUB3,SUB3,male,halo apa kabar,tetap berkabar ya,0.8571428571428571

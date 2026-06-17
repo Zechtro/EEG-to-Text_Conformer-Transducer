@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB7,SUB7,female,anda benar benar kakek yang murah hati,tapi kemang,81.5789,100.0,0,0,0,0,0.0,0.0,0.0,35.6312
+3_SUB7,SUB7,female,cobalah besok pagi,saya kamu minta saya,83.3333,133.3333,0,0,0,0,0.0,0.0,0.0,54.6608
+15_SUB7,SUB7,female,sampaikan salam saya untuk mereka,jadla kamu baik,75.7576,100.0,0,0,0,0,0.0,0.0,0.0,40.9473
+21_SUB7,SUB7,female,selamat sore ada yang bisa saya bantu,terima sebuat,75.6757,100.0,0,0,0,0,0.0,0.0,0.0,34.5291
+22_SUB7,SUB7,female,apakah anda sudah makan siang,dia suda pergit,72.4138,100.0,0,0,0,0,0.0,0.0,0.0,34.3347
+24_SUB7,SUB7,female,kita harus memberitahunya,kami benag,76.0,100.0,0,0,0,0,0.0,0.0,0.0,54.5615
+30_SUB7,SUB7,female,saya sangat sibuk hari ini butuh bantuan,dia selarang,82.5,100.0,0,0,0,0,0.0,0.0,0.0,37.3395
+38_SUB7,SUB7,female,kita akan bertemu lagi,dia senang,77.2727,100.0,0,0,0,0,0.0,0.0,0.0,54.3531
+52_SUB7,SUB7,female,ide idemu sangat kreatif,dia menjadi bersalah,75.0,100.0,0,0,0,0,0.0,0.0,0.0,49.2296
+53_SUB7,SUB7,female,saya punya nomornya di sini,tergima kami anda,81.4815,100.0,0,0,0,0,0.0,0.0,0.0,37.0385
+61_SUB7,SUB7,female,dia memang benar benar pembuat masalah,berteng,86.8421,100.0,0,0,0,0,0.0,0.0,0.0,40.8163
+64_SUB7,SUB7,female,boleh saya minta tolong,dia senang,73.913,100.0,0,0,0,0,0.0,0.0,0.0,45.4477
+72_SUB7,SUB7,female,apa pekerjaan anda,kami sengat,77.7778,100.0,0,0,0,0,0.0,0.0,0.0,51.8765
+75_SUB7,SUB7,female,ini surat undangan untuk anda,dia senang,79.3103,100.0,0,0,0,0,0.0,0.0,0.0,44.8018
+83_SUB7,SUB7,female,mungkin kita akan mendapatkan inspirasi secara tidak sengaja,bertemu tenong,88.3333,100.0,0,0,0,0,0.0,0.0,0.0,37.7632
+85_SUB7,SUB7,female,saya pikir anda sudah tahu,dia tukunglah,76.9231,100.0,0,0,0,0,0.0,0.0,0.0,39.8969
+87_SUB7,SUB7,female,kurangi makan roti dan kentang,menurutku sebentar,73.3333,100.0,0,0,0,0,0.0,0.0,0.0,34.7745
+88_SUB7,SUB7,female,apakah sepeda itu milikmu,terimu kapan saih,80.0,100.0,0,0,0,0,0.0,0.0,0.0,42.6118
+92_SUB7,SUB7,female,kami berkenalan melalui internet,saya andat,81.25,100.0,0,0,0,0,0.0,0.0,0.0,53.3407
+93_SUB7,SUB7,female,kamu adalah teman sejatiku,dia bukan saya kami bisa,80.7692,125.0,0,0,0,0,0.0,0.0,0.0,58.482

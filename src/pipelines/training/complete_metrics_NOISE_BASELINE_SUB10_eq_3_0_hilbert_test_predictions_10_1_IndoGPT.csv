@@ -1,0 +1,20 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+54_SUB10,SUB10,female,dia memakai topeng wajahnya tidak terlihat,saya tidak bisa makan,76.1905,100.0,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,57.8464
+55_SUB10,SUB10,female,halo ada yang bisa saya bantu,saya tidak bisa,72.4138,83.3333,24.5253,6.7165,5.6009,4.9708,66.6667,33.3333,44.4444,40.0425
+67_SUB10,SUB10,female,anda bisa mencetaknya,saya tidak bisa,76.1905,100.0,33.3333,12.9099,12.1118,11.3622,33.3333,33.3333,33.3333,59.086
+74_SUB10,SUB10,female,saya sedang terburu buru sampai jumpa,dia tidak bisa makan,75.6757,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.6159
+75_SUB10,SUB10,female,silakan nikmati perjalanan anda,saya tidak bisa,70.9677,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.6222
+77_SUB10,SUB10,female,bagaimana kabar ibumu sekarang,saya tidak bisa,73.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.5559
+87_SUB10,SUB10,female,hari ini ingin makan apa,dia tidak bisa makan,70.8333,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,60.1618
+95_SUB10,SUB10,female,saya ingin lebih mengenalnya,saya tidak bisa,67.8571,75.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,62.4655
+10_SUB10,SUB10,female,kita pernah bertemu tahun lalu,saya tidak bisa,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.3598
+12_SUB10,SUB10,female,anda seharusnya merasa malu,saya tidak bisa,74.0741,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,65.6687
+19_SUB10,SUB10,female,pilihan anda banyak sekali ya,saya tidak bisa,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.6829
+20_SUB10,SUB10,female,lain kali pasti akan lebih baik,mari kita bicara di luar,64.5161,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.9622
+23_SUB10,SUB10,female,saya tidak percaya penjelasan anda,dia adalah pahlawan,67.6471,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.0815
+31_SUB10,SUB10,female,apa yang anda lakukan di waktu luang,saya tidak bisa,72.2222,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.9789
+34_SUB10,SUB10,female,saya setuju dengan semua kebijakannya,saya tidak bisa,67.5676,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,50.6395
+38_SUB10,SUB10,female,kita pergi nanti saja,saya tidak bisa,71.4286,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,56.149
+42_SUB10,SUB10,female,apakah sarapan sudah siap,saya tidak bisa,68.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.3178
+44_SUB10,SUB10,female,berikan mikrofonnya kepada dia,saya tidak bisa,76.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.0259
+46_SUB10,SUB10,female,kami akan merapikan dokumen besok,dia tidak bisa makan,75.7576,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.9817

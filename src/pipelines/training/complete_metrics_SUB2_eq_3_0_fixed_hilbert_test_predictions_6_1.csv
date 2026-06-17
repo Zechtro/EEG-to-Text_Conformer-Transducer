@@ -1,0 +1,11 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+8_SUB2,SUB2,male,saya ingin makan siang di kamar,sia bita anda,67.7419,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.0462
+11_SUB2,SUB2,male,tolong segera pergi dari sini,saya anda baki,75.8621,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.7224
+15_SUB2,SUB2,male,sampaikan salam saya untuk mereka,saya sanga bama selakang makan,60.6061,100.0,20.0,7.0711,5.6651,5.3728,20.0,20.0,20.0,44.2246
+19_SUB2,SUB2,male,senang bisa membantu anda,kami beran sibantu,64.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.0512
+21_SUB2,SUB2,male,selamat sore ada yang bisa saya bantu,aya bukan besakan ini,67.5676,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,24.6519
+23_SUB2,SUB2,male,silakan tanya saya kapan saja,dala bertelan,82.7586,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.8716
+29_SUB2,SUB2,male,menurutku masakan tiongkok sangat lezat,saya bantu bukan,79.4872,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.2243
+39_SUB2,SUB2,male,menurutku sebaiknya kamu minta maaf,saya sangat kama kasih telama,74.2857,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.2006
+43_SUB2,SUB2,male,waktu berjalan begitu cepat,saya temak mala,77.7778,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.2484
+50_SUB2,SUB2,male,pekerjaan tidak selesai tepat waktu,saya bakan tula,77.1429,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.2121

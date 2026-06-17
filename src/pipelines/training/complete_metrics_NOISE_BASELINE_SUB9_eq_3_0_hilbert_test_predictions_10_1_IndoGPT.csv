@@ -1,0 +1,20 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB9,SUB9,female,tolong fotokopi laporan ini,saya tidak sengaja,81.4815,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.545
+3_SUB9,SUB9,female,bagaimana kabarmu belakangan ini,saya tidak sengaja,71.875,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.7514
+19_SUB9,SUB9,female,pintunya sudah dibuka,saya tidak sengaja,71.4286,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.9802
+25_SUB9,SUB9,female,apakah ada yang ingin anda laporkan,saya tidak sengaja,77.1429,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.858
+26_SUB9,SUB9,female,bolehkah saya berbicara dengan anda,saya tidak sengaja,62.8571,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,58.314
+28_SUB9,SUB9,female,mari makan di luar malam ini,saya tidak sengaja,78.5714,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.028
+36_SUB9,SUB9,female,aku akan mencintaimu selamanya,kamu,86.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.8769
+44_SUB9,SUB9,female,apakah anda tertarik dengan komputer,kamu,88.8889,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.5276
+58_SUB9,SUB9,female,dia diculik di dalam mobil,saya tidak sengaja,76.9231,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.5403
+59_SUB9,SUB9,female,selamat pagi pak ada yang bisa saya bantu,saya tidak sengaja,70.7317,100.0,6.2959,2.4384,2.2876,2.146,33.3333,12.5,18.1818,27.2939
+66_SUB9,SUB9,female,temanmu sangat cantik,saya tidak sengaja,80.9524,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,64.4764
+67_SUB9,SUB9,female,mari kita bicara,saya tidak sengaja,68.75,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.8179
+70_SUB9,SUB9,female,dia benar benar menyalahkan saya,saya tidak,84.375,100.0,11.1565,4.9893,3.8835,3.3366,50.0,20.0,28.5714,65.756
+80_SUB9,SUB9,female,apakah anda baik baik saja pak,kamu,93.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.0928
+83_SUB9,SUB9,female,terima kasih atas pengertian anda,saya tidak,78.7879,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.9741
+88_SUB9,SUB9,female,ini terlalu sulit baginya,saya tidak sengaja,76.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,56.9607
+91_SUB9,SUB9,female,sepertinya kamu sedang flu,saya tidak sengaja,61.5385,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.5302
+94_SUB9,SUB9,female,senang berkenalan dengan anda,saya tidak sengaja,65.5172,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.3163
+96_SUB9,SUB9,female,seperti apa penampilannya,saya tidak sengaja,64.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.5246

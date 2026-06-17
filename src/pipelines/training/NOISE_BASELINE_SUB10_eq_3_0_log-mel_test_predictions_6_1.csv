@@ -1,0 +1,20 @@
+id,subject,gender,sentence,prediction,cer
+54_SUB10,SUB10,female,dia memakai topeng wajahnya tidak terlihat,selamat datang siang,0.7380952380952381
+55_SUB10,SUB10,female,halo ada yang bisa saya bantu,saya tidak bisa di,0.6896551724137931
+67_SUB10,SUB10,female,anda bisa mencetaknya,mari kita ak,0.7142857142857143
+74_SUB10,SUB10,female,saya sedang terburu buru sampai jumpa,matanya sangat inda,0.7567567567567568
+75_SUB10,SUB10,female,silakan nikmati perjalanan anda,maaf saya tekan,0.7419354838709677
+77_SUB10,SUB10,female,bagaimana kabar ibumu sekarang,dia sangat kendapat,0.7666666666666667
+87_SUB10,SUB10,female,hari ini ingin makan apa,saya tidak bisa di,0.75
+95_SUB10,SUB10,female,saya ingin lebih mengenalnya,apakah silakan masuk,0.7857142857142857
+10_SUB10,SUB10,female,kita pernah bertemu tahun lalu,kami biasa di,0.8
+12_SUB10,SUB10,female,anda seharusnya merasa malu,kayan yang kepadanya,0.7037037037037037
+19_SUB10,SUB10,female,pilihan anda banyak sekali ya,saya tidak bisa di,0.7241379310344828
+20_SUB10,SUB10,female,lain kali pasti akan lebih baik,sayur mencara,0.8387096774193549
+23_SUB10,SUB10,female,saya tidak percaya penjelasan anda,kamu beranya tidak bisa di,0.7058823529411765
+31_SUB10,SUB10,female,apa yang anda lakukan di waktu luang,bagaimana kabar,0.75
+34_SUB10,SUB10,female,saya setuju dengan semua kebijakannya,selamat datang silakan makanan tersudi,0.7837837837837838
+38_SUB10,SUB10,female,kita pergi nanti saja,saya tidak akan temi,0.7619047619047619
+42_SUB10,SUB10,female,apakah sarapan sudah siap,selamat datang awak bisa di,0.76
+44_SUB10,SUB10,female,berikan mikrofonnya kepada dia,saya ingin pergi makan siang,0.8333333333333334
+46_SUB10,SUB10,female,kami akan merapikan dokumen besok,saya ingin pergi makan tiba,0.696969696969697

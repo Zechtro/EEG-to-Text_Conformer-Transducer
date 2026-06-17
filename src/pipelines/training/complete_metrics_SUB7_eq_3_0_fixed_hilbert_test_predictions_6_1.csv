@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB7,SUB7,female,anda benar benar kakek yang murah hati,buka anda bangat,71.0526,100.0,8.7866,3.403,3.1926,2.995,33.3333,14.2857,20.0,48.8014
+3_SUB7,SUB7,female,cobalah besok pagi,bais anda bisa membantu,100.0,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.9684
+15_SUB7,SUB7,female,sampaikan salam saya untuk mereka,dia besok,84.8485,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.469
+21_SUB7,SUB7,female,selamat sore ada yang bisa saya bantu,kami sekerlah,83.7838,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.6002
+22_SUB7,SUB7,female,apakah anda sudah makan siang,bisa menar kamar,75.8621,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.5917
+24_SUB7,SUB7,female,kita harus memberitahunya,kamu baik menari,68.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.5021
+30_SUB7,SUB7,female,saya sangat sibuk hari ini butuh bantuan,bukan baik,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.0833
+38_SUB7,SUB7,female,kita akan bertemu lagi,saya sudah ada yang,77.2727,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.9459
+52_SUB7,SUB7,female,ide idemu sangat kreatif,kita melesok,83.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.6974
+53_SUB7,SUB7,female,saya punya nomornya di sini,kasi bangat senang bisa dikan,74.0741,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.3937
+61_SUB7,SUB7,female,dia memang benar benar pembuat masalah,dia bukan tidak perkolan,65.7895,83.3333,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,62.2537
+64_SUB7,SUB7,female,boleh saya minta tolong,bisa tanda mengerti,69.5652,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.1603
+72_SUB7,SUB7,female,apa pekerjaan anda,kamu seharus pada uang,83.3333,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.5249
+75_SUB7,SUB7,female,ini surat undangan untuk anda,silakan tanya saya menar,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.4659
+83_SUB7,SUB7,female,mungkin kita akan mendapatkan inspirasi secara tidak sengaja,dia taku berkata demin,76.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.2448
+85_SUB7,SUB7,female,saya pikir anda sudah tahu,saya makan segera sampai,61.5385,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,56.7924
+87_SUB7,SUB7,female,kurangi makan roti dan kentang,seanang bisa membantu anda,73.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,31.6721
+88_SUB7,SUB7,female,apakah sepeda itu milikmu,terikan masalah,84.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.1016
+92_SUB7,SUB7,female,kami berkenalan melalui internet,tergi sada anda tang,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.4657
+93_SUB7,SUB7,female,kamu adalah teman sejatiku,saya anda hari,73.0769,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.1434

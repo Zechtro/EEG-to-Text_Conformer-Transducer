@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB7,SUB7,female,anda benar benar kakek yang murah hati,aku akan segera sambai,68.4211,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.2745
+3_SUB7,SUB7,female,cobalah besok pagi,mari kisa masalah,88.8889,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,56.388
+15_SUB7,SUB7,female,sampaikan salam saya untuk mereka,saya ingin makan segitu,69.697,100.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,44.3427
+21_SUB7,SUB7,female,selamat sore ada yang bisa saya bantu,saya sangat mengadar,70.2703,100.0,8.7866,3.403,3.1926,2.995,33.3333,14.2857,20.0,24.874
+22_SUB7,SUB7,female,apakah anda sudah makan siang,dia selah,82.7586,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.9093
+24_SUB7,SUB7,female,kita harus memberitahunya,kamu seman kami semua,76.0,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.6203
+30_SUB7,SUB7,female,saya sangat sibuk hari ini butuh bantuan,bisa mentar,85.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.4537
+38_SUB7,SUB7,female,kita akan bertemu lagi,mengapa senang,77.2727,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.8413
+52_SUB7,SUB7,female,ide idemu sangat kreatif,dia bantu saya sebentar,66.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.1186
+53_SUB7,SUB7,female,saya punya nomornya di sini,saya halan tanda yang bukan,70.3704,80.0,20.0,7.0711,5.6651,5.3728,20.0,20.0,20.0,48.121
+61_SUB7,SUB7,female,dia memang benar benar pembuat masalah,bagai malak,78.9474,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.8857
+64_SUB7,SUB7,female,boleh saya minta tolong,kamu bemarin,82.6087,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.0857
+72_SUB7,SUB7,female,apa pekerjaan anda,kami akan segera mengasi bantu,111.1111,166.6667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.1498
+75_SUB7,SUB7,female,ini surat undangan untuk anda,tapi kita sangat menola,68.9655,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.7851
+83_SUB7,SUB7,female,mungkin kita akan mendapatkan inspirasi secara tidak sengaja,kami akan segera mengajarimu,75.0,87.5,9.197,3.3583,2.8199,2.9556,25.0,12.5,16.6667,48.5718
+85_SUB7,SUB7,female,saya pikir anda sudah tahu,saya melakukan mengadur,69.2308,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,55.4278
+87_SUB7,SUB7,female,kurangi makan roti dan kentang,saya kamu menarus,76.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.5853
+88_SUB7,SUB7,female,apakah sepeda itu milikmu,saya halan yang bisa membantu,84.0,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.7489
+92_SUB7,SUB7,female,kami berkenalan melalui internet,bertemu diang,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,58.5489
+93_SUB7,SUB7,female,kamu adalah teman sejatiku,kamu baik,69.2308,75.0,18.394,8.226,6.4027,5.5011,50.0,25.0,33.3333,63.5604

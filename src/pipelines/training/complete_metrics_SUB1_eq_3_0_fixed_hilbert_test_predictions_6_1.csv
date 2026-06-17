@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB1,SUB1,male,maaf saya terlambat,sayur saya perinya,52.6316,66.6667,33.3333,12.9099,12.1118,11.3622,33.3333,33.3333,33.3333,62.2576
+3_SUB1,SUB1,male,biar saya bantu ganti baterainya,saya lagi siban,65.625,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,51.166
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang,siakan tidulak bia,74.1935,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.0633
+21_SUB1,SUB1,male,kamu tampak penuh energi hari ini,hari ini,75.7576,66.6667,13.5335,13.5335,6.3301,4.2797,100.0,33.3333,50.0,61.3788
+22_SUB1,SUB1,male,setelah makan saya merasa sangat kenyang,sekarang bisak menangapu,70.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.495
+24_SUB1,SUB1,male,saya sedang terburu buru sampai jumpa,senang tertidur,70.2703,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.892
+30_SUB1,SUB1,male,benar benar tidak bisa dipercaya,malai saya bari,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.72
+38_SUB1,SUB1,male,bagaimana harimu hari ini,saya tidak bisa mematu,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.3076
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati,selamat sedang pintaku,73.6842,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.7131
+53_SUB1,SUB1,male,cobalah besok pagi,tagu sebari,72.2222,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.9602
+61_SUB1,SUB1,male,tolong segera pergi dari sini,pekerjaan anda,82.7586,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.5648
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda,sayur tidak mengalian,65.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.9878
+72_SUB1,SUB1,male,apakah anda sudah makan siang,saya tidak sengaja anda bisa mebas,82.7586,120.0,16.6667,5.7735,4.5068,4.0825,16.6667,20.0,18.1818,43.5902
+75_SUB1,SUB1,male,kamu benar benar menjadi lebih sehat,silama saya anda,80.5556,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.7871
+83_SUB1,SUB1,male,saya tidak punya waktu luang sama sekali,sekang mengenalmu,77.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.7933
+85_SUB1,SUB1,male,dia bukan orang yang penting,selamai makan yang bisa sain,67.8571,100.0,20.0,7.0711,5.6651,5.3728,20.0,20.0,20.0,45.1288
+87_SUB1,SUB1,male,apa yang bisa kami lakukan untuk anda,silakan pintuk,70.2703,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.366
+88_SUB1,SUB1,male,kita akan bertemu lagi,saya tukan separ,68.1818,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.681
+92_SUB1,SUB1,male,saya bukan seorang penjahat,tolong bisa menalang,77.7778,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.2314
+93_SUB1,SUB1,male,waktu berjalan begitu cepat,silakan samu,81.4815,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.2805

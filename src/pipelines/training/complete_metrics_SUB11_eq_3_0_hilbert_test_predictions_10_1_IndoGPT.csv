@@ -1,0 +1,18 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+3_SUB11,SUB11,female,berharap bisa bertemu lagi di masa depan,saya tidak tahu,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.7306
+5_SUB11,SUB11,female,kapan anda biasanya tidur,saya tidak tahu,68.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,56.1479
+23_SUB11,SUB11,female,kunci pintunya ayo kita berangkat,teman sejati,84.8485,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.8129
+30_SUB11,SUB11,female,dia sudah punya pacar,apakah kamu tahu,71.4286,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,59.512
+35_SUB11,SUB11,female,apakah perasaanmu sudah lebih baik,saya akan berusaha,70.5882,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.9047
+39_SUB11,SUB11,female,saya ada janji temu mohon tunggu sebentar,apakah kamu tahu,75.6098,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.53
+51_SUB11,SUB11,female,dia adalah teman sekamar saya,apakah kamu tahu,65.5172,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.6984
+54_SUB11,SUB11,female,dia membuat kesabaran saya habis,saya tidak tahu,78.125,100.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,58.23
+60_SUB11,SUB11,female,apa rencanamu untuk masa depan,sudah larut,90.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.3731
+75_SUB11,SUB11,female,saya mau masakan tiongkok terima kasih,apakah kamu tahu,76.3158,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.065
+76_SUB11,SUB11,female,wasit sepertinya agak memihak,apakah kamu tahu,79.3103,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.0206
+83_SUB11,SUB11,female,dia akan merasa sangat senang,apakah kamu tahu,68.9655,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.2689
+84_SUB11,SUB11,female,maaf telah mengganggu anda,saya tidak tahu,73.0769,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.638
+87_SUB11,SUB11,female,sebaiknya kita pergi sekarang,sudah siap,79.3103,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.9993
+91_SUB11,SUB11,female,tidak usah terima kasih,apakah kamu tahu,65.2174,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.2553
+95_SUB11,SUB11,female,kecewa dengan upaya anda,apakah kamu tahu,79.1667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.5071
+96_SUB11,SUB11,female,kita harus saling membantu,apakah kamu tahu,73.0769,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.7729

@@ -1,0 +1,11 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+8_SUB5,SUB5,male,sudah waktunya tidur,apakah ada waktu luang,80.0,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.6149
+11_SUB5,SUB5,male,maaf kemarin saya tidak masuk kelas,kamu adalah penyelamat hidupku,77.1429,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.9273
+15_SUB5,SUB5,male,mari ikut saya ke kantor untuk bicara lebih lanjut,kamu adalah penyelamat hidupku,78.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.5822
+19_SUB5,SUB5,male,pilihan anda banyak sekali ya,apakah ada waktu luang,68.9655,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.4958
+21_SUB5,SUB5,male,dia sangat tidak bisa diandalkan,apakah ada waktu luang,68.75,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.8317
+23_SUB5,SUB5,male,saya tidak percaya penjelasan anda,apakah ada waktu luang,73.5294,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.7432
+29_SUB5,SUB5,male,kami biasanya makan di kantin,mari kita bicara di luar,62.069,80.0,20.0,7.0711,5.6651,5.3728,20.0,20.0,20.0,55.1281
+39_SUB5,SUB5,male,semoga anda bersenang senang,kamu adalah penyelamat hidupku,78.5714,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.2857
+43_SUB5,SUB5,male,aku sedang menelepon teman,apakah ada waktu luang,80.7692,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.9145
+50_SUB5,SUB5,male,jangan percaya apa yang dia katakan,kamu adalah penyelamat hidupku,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.9525

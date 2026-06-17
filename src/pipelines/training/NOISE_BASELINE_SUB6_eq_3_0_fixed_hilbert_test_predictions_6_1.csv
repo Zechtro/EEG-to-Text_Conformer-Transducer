@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB6,SUB6,female,kita harus melihat bagaimana keadaannya,saya hangi sengatan menalak,0.6666666666666666
+3_SUB6,SUB6,female,mungkin keberuntungan akan membaik,saya benar,0.8529411764705882
+15_SUB6,SUB6,female,anda ingin ayam atau daging sapi,suak,0.9375
+21_SUB6,SUB6,female,setiap hari hanyalah rutinitas biasa,saya menangi,0.7777777777777778
+22_SUB6,SUB6,female,tentu saja tidak masalah,menar benar,0.7916666666666666
+24_SUB6,SUB6,female,butuh bantuan apa,saya haru lama sangi,0.9411764705882353
+30_SUB6,SUB6,female,beberapa bulan terakhir ini kamu sangat sibuk,saya bang,0.8444444444444444
+38_SUB6,SUB6,female,tolong bantu saya membersihkan dapur,saya diang meldasan,0.7777777777777778
+52_SUB6,SUB6,female,tolong isi penuh bensinnya terima kasih,teman lama di harus,0.7948717948717948
+53_SUB6,SUB6,female,hubungi aku besok,kemalan,0.9411764705882353
+61_SUB6,SUB6,female,makanan di sana lumayan enak,masa menangi,0.7142857142857143
+64_SUB6,SUB6,female,apa yang bisa saya bantu,anda menangikan,0.75
+72_SUB6,SUB6,female,saya sangat menghargai saran anda,sukmu menango,0.7878787878787878
+75_SUB6,SUB6,female,mengapa kamu melakukan hal itu,saya anda mengabasa anda,0.7
+83_SUB6,SUB6,female,dia tidak tahu bagaimana menghadapi kenyataan,saya ingin mebarang kemuang,0.6666666666666666
+85_SUB6,SUB6,female,guru filsafat saya sangat humoris,saya mengalan,0.7575757575757576
+87_SUB6,SUB6,female,terima kasih banyak atas undangannya,saya kemuan menangos,0.7222222222222222
+88_SUB6,SUB6,female,kita bisa pensiun lebih awal,semoga dalan,0.8214285714285714
+92_SUB6,SUB6,female,saya akan membawakannya untuk anda besok,toring mencari kal,0.825
+93_SUB6,SUB6,female,di mana alamat anda,kamu tdak menanya,0.6842105263157895

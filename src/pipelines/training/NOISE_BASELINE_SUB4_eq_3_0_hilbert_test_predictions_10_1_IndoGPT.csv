@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB4,SUB4,male,tolong fotokopi laporan ini,saya akan menantikan kedatangan anda,1.037037037037037
+3_SUB4,SUB4,male,bagaimana kabarmu belakangan ini,mari kita makan sesuatu,0.71875
+15_SUB4,SUB4,male,bagaimana kesehatanmu akhir akhir ini,mari makan sesuatu,0.7567567567567568
+21_SUB4,SUB4,male,maaf apakah sekarang sedang luang,anda bisa belajar banyak hal,0.7272727272727273
+22_SUB4,SUB4,male,tersesat butuh bantuan,saya akan menantikan kedatangan anda,1.2727272727272727
+24_SUB4,SUB4,male,saya melewatkan momen yang luar biasa,dia adalah orang yang sangat serius,0.6756756756756757
+30_SUB4,SUB4,male,melakukan panggilan internasional,saya akan menantikan kedatangan anda,0.696969696969697
+38_SUB4,SUB4,male,hidangan apa ini,anda bisa belajar banyak hal,1.3125
+52_SUB4,SUB4,male,apakah anda membutuhkan bantuan,anda bisa belajar banyak hal,0.6774193548387096
+53_SUB4,SUB4,male,dia sangat ketat terhadap kami,anda bisa belajar banyak hal,0.7333333333333333
+61_SUB4,SUB4,male,saya tidak sengaja menumpahkan tinta,dia adalah orang yang sangat serius,0.75
+64_SUB4,SUB4,male,saya ingin makan salad,saya akan menantikan kedatangan anda,0.9545454545454546
+72_SUB4,SUB4,male,jadwal saya sangat padat,senang berkenalan,0.8333333333333334
+75_SUB4,SUB4,male,terima kasih telah menghubungi kami mohon tunggu sebentar,saya akan menantikan kedatangan anda,0.6666666666666666
+83_SUB4,SUB4,male,terima kasih atas pengertian anda,mari makan sesuatu,0.7272727272727273
+85_SUB4,SUB4,male,tentu saja boleh,anda bisa belajar banyak hal,1.25
+87_SUB4,SUB4,male,berpamitan dengan teman di stasiun kereta,mari makan sesuatu,0.7317073170731707
+88_SUB4,SUB4,male,ini terlalu sulit baginya,anda bisa belajar banyak,0.72
+92_SUB4,SUB4,male,berharap bisa bertemu kembali,saya akan menantikan kedatangan anda,1.0
+93_SUB4,SUB4,male,apakah ruang rapat sudah siap,saya akan menantikan kedatangan anda,0.8620689655172413

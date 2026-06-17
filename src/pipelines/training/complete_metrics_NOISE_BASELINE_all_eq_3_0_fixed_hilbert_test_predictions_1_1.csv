@@ -1,0 +1,190 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB1,SUB1,male,maaf saya terlambat,maaf membuat anda,63.1579,66.6667,33.3333,12.9099,12.1118,11.3622,33.3333,33.3333,33.3333,76.0784
+3_SUB1,SUB1,male,biar saya bantu ganti baterainya,maaf membuat anda,68.75,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.3399
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang,maaf membuat anda,80.6452,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.1813
+21_SUB1,SUB1,male,kamu tampak penuh energi hari ini,maaf membuat anda,78.7879,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.9776
+22_SUB1,SUB1,male,setelah makan saya merasa sangat kenyang,maaf membuat anda,72.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.8642
+24_SUB1,SUB1,male,saya sedang terburu buru sampai jumpa,maaf membuat anda,75.6757,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.3151
+30_SUB1,SUB1,male,benar benar tidak bisa dipercaya,maaf membuat anda,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.4342
+38_SUB1,SUB1,male,bagaimana harimu hari ini,maaf membuat anda,76.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.7962
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati,maaf membuat anda,76.3158,100.0,8.7866,3.403,3.1926,2.995,33.3333,14.2857,20.0,55.6257
+53_SUB1,SUB1,male,cobalah besok pagi,maaf membuat anda,83.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,59.2261
+61_SUB1,SUB1,male,tolong segera pergi dari sini,maaf membuat anda,82.7586,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.2557
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda,maaf membuat anda,72.5,85.7143,8.7866,3.403,3.1926,2.995,33.3333,14.2857,20.0,56.4946
+72_SUB1,SUB1,male,apakah anda sudah makan siang,maaf membuat anda,68.9655,100.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,52.9637
+75_SUB1,SUB1,male,kamu benar benar menjadi lebih sehat,maaf membuat anda,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.9108
+83_SUB1,SUB1,male,saya tidak punya waktu luang sama sekali,maaf membuat anda,77.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.102
+85_SUB1,SUB1,male,dia bukan orang yang penting,maaf teman saya sedang sakit,67.8571,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.063
+87_SUB1,SUB1,male,apa yang bisa kami lakukan untuk anda,maaf membuat anda,67.5676,85.7143,8.7866,3.403,3.1926,2.995,33.3333,14.2857,20.0,46.1475
+88_SUB1,SUB1,male,kita akan bertemu lagi,maaf teman saya sedang sakit,90.9091,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.1134
+92_SUB1,SUB1,male,saya bukan seorang penjahat,maaf teman saya sedang sakit,70.3704,125.0,20.0,7.0711,5.6651,5.3728,20.0,25.0,22.2222,55.1445
+93_SUB1,SUB1,male,waktu berjalan begitu cepat,maaf membuat anda,74.0741,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.09
+8_SUB2,SUB2,male,saya ingin makan siang di kamar,maaf membuat anda,70.9677,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.5901
+11_SUB2,SUB2,male,tolong segera pergi dari sini,maaf membuat anda,82.7586,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.2557
+15_SUB2,SUB2,male,sampaikan salam saya untuk mereka,maaf membuat anda,72.7273,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,63.5227
+19_SUB2,SUB2,male,senang bisa membantu anda,maaf membuat anda,52.0,75.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,67.5139
+21_SUB2,SUB2,male,selamat sore ada yang bisa saya bantu,maaf membuat anda,75.6757,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.0992
+23_SUB2,SUB2,male,silakan tanya saya kapan saja,maaf membuat anda,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.1262
+29_SUB2,SUB2,male,menurutku masakan tiongkok sangat lezat,maaf membuat anda,76.9231,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.5332
+39_SUB2,SUB2,male,menurutku sebaiknya kamu minta maaf,maaf membuat anda,80.0,100.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,59.579
+43_SUB2,SUB2,male,waktu berjalan begitu cepat,maaf membuat anda,74.0741,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.09
+50_SUB2,SUB2,male,pekerjaan tidak selesai tepat waktu,maaf membuat anda,77.1429,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.1439
+8_SUB3,SUB3,male,mereka adalah teman baik,maaf membuat anda,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,62.182
+11_SUB3,SUB3,male,dia memang benar benar pembuat masalah,maaf membuat anda,65.7895,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,58.4357
+15_SUB3,SUB3,male,mari kita makan di kantin saja,maaf membuat anda,70.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.9519
+19_SUB3,SUB3,male,kapan kamu bisa datang,maaf membuat anda,68.1818,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.3712
+21_SUB3,SUB3,male,tapi semua hal baik pasti ada akhirnya,maaf membuat anda,71.0526,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.1227
+23_SUB3,SUB3,male,kamu seharusnya bicara dengannya,maaf membuat anda,71.875,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.2614
+29_SUB3,SUB3,male,saya sudah ada janji besok,maaf membuat anda,76.9231,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.9095
+39_SUB3,SUB3,male,kamu baik sekali,maaf membuat anda,87.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.2486
+43_SUB3,SUB3,male,kamu adalah teman sejatiku,maaf membuat anda,73.0769,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.2069
+50_SUB3,SUB3,male,halo apa kabar,maaf membuat anda,92.8571,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.0065
+2_SUB4,SUB4,male,tolong fotokopi laporan ini,maaf membuat anda,85.1852,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.7687
+3_SUB4,SUB4,male,bagaimana kabarmu belakangan ini,maaf membuat anda,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.4096
+15_SUB4,SUB4,male,bagaimana kesehatanmu akhir akhir ini,maaf membuat anda,75.6757,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.5754
+21_SUB4,SUB4,male,maaf apakah sekarang sedang luang,maaf membuat anda,66.6667,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,58.2272
+22_SUB4,SUB4,male,tersesat butuh bantuan,maaf membuat anda,72.7273,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,63.2922
+24_SUB4,SUB4,male,saya melewatkan momen yang luar biasa,maaf membuat anda,72.973,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.7784
+30_SUB4,SUB4,male,melakukan panggilan internasional,maaf membuat anda,75.7576,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,62.117
+38_SUB4,SUB4,male,hidangan apa ini,maaf membuat anda,87.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.0319
+52_SUB4,SUB4,male,apakah anda membutuhkan bantuan,maaf membuat anda,58.0645,100.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,57.2168
+53_SUB4,SUB4,male,dia sangat ketat terhadap kami,maaf membuat anda,76.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.6903
+61_SUB4,SUB4,male,saya tidak sengaja menumpahkan tinta,maaf membuat anda,72.2222,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,63.4297
+64_SUB4,SUB4,male,saya ingin makan salad,maaf membuat anda,72.7273,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.5751
+72_SUB4,SUB4,male,jadwal saya sangat padat,maaf membuat anda,66.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.1089
+75_SUB4,SUB4,male,terima kasih telah menghubungi kami mohon tunggu sebentar,maaf membuat anda,77.193,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.6075
+83_SUB4,SUB4,male,terima kasih atas pengertian anda,maaf membuat anda,66.6667,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,61.4016
+85_SUB4,SUB4,male,tentu saja boleh,maaf membuat anda,100.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,58.4046
+87_SUB4,SUB4,male,berpamitan dengan teman di stasiun kereta,maaf membuat anda,75.6098,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.0816
+88_SUB4,SUB4,male,ini terlalu sulit baginya,maaf membuat anda,72.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,59.3352
+92_SUB4,SUB4,male,berharap bisa bertemu kembali,maaf membuat anda,75.8621,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.718
+93_SUB4,SUB4,male,apakah ruang rapat sudah siap,maaf membuat anda,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.9375
+8_SUB5,SUB5,male,sudah waktunya tidur,maaf membuat anda,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.0918
+11_SUB5,SUB5,male,maaf kemarin saya tidak masuk kelas,maaf membuat anda,65.7143,83.3333,12.2626,4.7493,4.4557,4.1799,33.3333,16.6667,22.2222,53.9717
+15_SUB5,SUB5,male,mari ikut saya ke kantor untuk bicara lebih lanjut,maaf membuat anda,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.0037
+19_SUB5,SUB5,male,pilihan anda banyak sekali ya,maaf membuat anda,75.8621,100.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,53.6482
+21_SUB5,SUB5,male,dia sangat tidak bisa diandalkan,maaf membuat anda,71.875,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.7058
+23_SUB5,SUB5,male,saya tidak percaya penjelasan anda,maaf membuat anda,70.5882,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,62.7447
+29_SUB5,SUB5,male,kami biasanya makan di kantin,maaf membuat anda,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.4632
+39_SUB5,SUB5,male,semoga anda bersenang senang,maaf membuat anda,71.4286,100.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,61.9785
+43_SUB5,SUB5,male,aku sedang menelepon teman,maaf membuat anda,76.9231,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.6329
+50_SUB5,SUB5,male,jangan percaya apa yang dia katakan,maaf membuat anda,71.4286,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.7408
+2_SUB6,SUB6,female,kita harus melihat bagaimana keadaannya,maaf membuat anda,69.2308,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.8129
+3_SUB6,SUB6,female,mungkin keberuntungan akan membaik,maaf membuat anda,73.5294,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.1527
+15_SUB6,SUB6,female,anda ingin ayam atau daging sapi,maaf membuat anda,75.0,100.0,12.2626,4.7493,4.4557,4.1799,33.3333,16.6667,22.2222,48.0797
+21_SUB6,SUB6,female,setiap hari hanyalah rutinitas biasa,maaf membuat anda,80.5556,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.1341
+22_SUB6,SUB6,female,tentu saja tidak masalah,maaf membuat anda,79.1667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,56.0119
+24_SUB6,SUB6,female,butuh bantuan apa,maaf membuat anda,70.5882,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.425
+30_SUB6,SUB6,female,beberapa bulan terakhir ini kamu sangat sibuk,maaf membuat anda,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.5146
+38_SUB6,SUB6,female,tolong bantu saya membersihkan dapur,maaf membuat anda,69.4444,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.5282
+52_SUB6,SUB6,female,tolong isi penuh bensinnya terima kasih,maaf membuat anda,82.0513,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.2321
+53_SUB6,SUB6,female,hubungi aku besok,maaf membuat anda,100.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.6756
+61_SUB6,SUB6,female,makanan di sana lumayan enak,maaf membuat anda,71.4286,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.8172
+64_SUB6,SUB6,female,apa yang bisa saya bantu,maaf membuat anda,70.8333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.6366
+72_SUB6,SUB6,female,saya sangat menghargai saran anda,maaf membuat anda,66.6667,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,57.969
+75_SUB6,SUB6,female,mengapa kamu melakukan hal itu,maaf membuat anda,66.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.5479
+83_SUB6,SUB6,female,dia tidak tahu bagaimana menghadapi kenyataan,maaf membuat anda,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.4352
+85_SUB6,SUB6,female,guru filsafat saya sangat humoris,maaf membuat anda,78.7879,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.5989
+87_SUB6,SUB6,female,terima kasih banyak atas undangannya,maaf membuat anda,72.2222,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.7101
+88_SUB6,SUB6,female,kita bisa pensiun lebih awal,maaf membuat anda,78.5714,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.1353
+92_SUB6,SUB6,female,saya akan membawakannya untuk anda besok,maaf membuat anda,65.0,83.3333,12.2626,4.7493,4.4557,4.1799,33.3333,16.6667,22.2222,54.534
+93_SUB6,SUB6,female,di mana alamat anda,maaf membuat anda,52.6316,75.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,55.489
+2_SUB7,SUB7,female,anda benar benar kakek yang murah hati,maaf membuat anda,76.3158,100.0,8.7866,3.403,3.1926,2.995,33.3333,14.2857,20.0,55.6257
+3_SUB7,SUB7,female,cobalah besok pagi,maaf membuat anda,83.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,59.2261
+15_SUB7,SUB7,female,sampaikan salam saya untuk mereka,maaf membuat anda,72.7273,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,63.5227
+21_SUB7,SUB7,female,selamat sore ada yang bisa saya bantu,maaf membuat anda,75.6757,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.0992
+22_SUB7,SUB7,female,apakah anda sudah makan siang,maaf membuat anda,68.9655,100.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,52.9637
+24_SUB7,SUB7,female,kita harus memberitahunya,maaf membuat anda,60.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,56.2885
+30_SUB7,SUB7,female,saya sangat sibuk hari ini butuh bantuan,maaf membuat anda,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.8134
+38_SUB7,SUB7,female,kita akan bertemu lagi,maaf membuat anda,77.2727,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.5558
+52_SUB7,SUB7,female,ide idemu sangat kreatif,maaf membuat anda,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.081
+53_SUB7,SUB7,female,saya punya nomornya di sini,maaf membuat anda,77.7778,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.4314
+61_SUB7,SUB7,female,dia memang benar benar pembuat masalah,maaf membuat anda,65.7895,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,58.4357
+64_SUB7,SUB7,female,boleh saya minta tolong,maaf membuat anda,82.6087,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.1473
+72_SUB7,SUB7,female,apa pekerjaan anda,maaf membuat anda,55.5556,66.6667,33.3333,12.9099,12.1118,11.3622,33.3333,33.3333,33.3333,63.6853
+75_SUB7,SUB7,female,ini surat undangan untuk anda,maaf membuat anda,68.9655,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,53.7923
+83_SUB7,SUB7,female,mungkin kita akan mendapatkan inspirasi secara tidak sengaja,maaf membuat anda,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.1776
+85_SUB7,SUB7,female,saya pikir anda sudah tahu,maaf membuat anda,76.9231,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,62.3066
+87_SUB7,SUB7,female,kurangi makan roti dan kentang,maaf membuat anda,73.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.5813
+88_SUB7,SUB7,female,apakah sepeda itu milikmu,maaf membuat anda,72.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.4955
+92_SUB7,SUB7,female,kami berkenalan melalui internet,maaf membuat anda,71.875,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.2354
+93_SUB7,SUB7,female,kamu adalah teman sejatiku,maaf membuat anda,73.0769,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.2069
+2_SUB8,SUB8,male,saya butuh informasi anda,maaf membuat anda,64.0,75.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,60.9584
+3_SUB8,SUB8,male,berharap bisa bertemu lagi di masa depan,maaf membuat anda,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.0072
+15_SUB8,SUB8,male,apakah kamu tahu di mana bisa membelinya,maaf membuat anda,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.9363
+21_SUB8,SUB8,male,dia selalu meludah sembarangan,maaf membuat anda,66.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.7899
+22_SUB8,SUB8,male,cinta terkadang benar benar buta,maaf membuat anda,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.4337
+24_SUB8,SUB8,male,sudah siap mari kita mulai,maaf membuat anda,73.0769,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.8302
+30_SUB8,SUB8,male,dia sudah punya pacar,maaf membuat anda,80.9524,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.7758
+38_SUB8,SUB8,male,tapi saya sarankan anda mengakui kesalahan,maaf membuat anda,78.5714,83.3333,12.2626,4.7493,4.4557,4.1799,33.3333,16.6667,22.2222,65.4902
+52_SUB8,SUB8,male,saya tersesat di dekat rumah anda,maaf membuat anda,66.6667,83.3333,12.2626,4.7493,4.4557,4.1799,33.3333,16.6667,22.2222,55.9419
+53_SUB8,SUB8,male,bisa tolong bantu saya menyiram bunga,maaf membuat anda,75.6757,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.8343
+61_SUB8,SUB8,male,semoga anda cepat sembuh,maaf membuat anda,75.0,100.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,56.3096
+64_SUB8,SUB8,male,dia adalah laki laki yang pemalu,maaf membuat anda,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.1876
+72_SUB8,SUB8,male,apakah anda memerlukan bantuan,maaf membuat anda,60.0,100.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,57.41
+75_SUB8,SUB8,male,saya mau masakan tiongkok terima kasih,maaf membuat anda,76.3158,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.3423
+83_SUB8,SUB8,male,dia akan merasa sangat senang,maaf membuat anda,68.9655,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.6645
+85_SUB8,SUB8,male,tolong bantu ambilkan foto kami,maaf membuat anda,80.6452,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.9162
+87_SUB8,SUB8,male,sebaiknya kita pergi sekarang,maaf membuat anda,82.7586,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.9281
+88_SUB8,SUB8,male,saya menerima pujian ini dengan rendah hati,maaf membuat anda,72.093,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.4713
+92_SUB8,SUB8,male,kamu akan segera sembuh,maaf membuat anda,73.913,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.2221
+93_SUB8,SUB8,male,saya akan tiba tepat waktu,maaf membuat anda,73.0769,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.6857
+2_SUB9,SUB9,female,tolong fotokopi laporan ini,maaf membuat anda,85.1852,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.7687
+3_SUB9,SUB9,female,bagaimana kabarmu belakangan ini,maaf membuat anda,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.4096
+19_SUB9,SUB9,female,pintunya sudah dibuka,maaf membuat anda,80.9524,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.2084
+25_SUB9,SUB9,female,apakah ada yang ingin anda laporkan,maaf membuat anda,74.2857,83.3333,12.2626,4.7493,4.4557,4.1799,33.3333,16.6667,22.2222,51.4802
+26_SUB9,SUB9,female,bolehkah saya berbicara dengan anda,maaf membuat anda,68.5714,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,65.084
+28_SUB9,SUB9,female,mari makan di luar malam ini,maaf membuat anda,71.4286,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.2422
+36_SUB9,SUB9,female,aku akan mencintaimu selamanya,maaf membuat anda,66.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.3175
+44_SUB9,SUB9,female,apakah anda tertarik dengan komputer,maaf membuat anda,80.5556,100.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,45.3628
+58_SUB9,SUB9,female,dia diculik di dalam mobil,maaf teman saya sedang sakit,84.6154,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.608
+59_SUB9,SUB9,female,selamat pagi pak ada yang bisa saya bantu,maaf membuat anda,78.0488,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.3401
+66_SUB9,SUB9,female,temanmu sangat cantik,maaf membuat anda,66.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,62.6043
+67_SUB9,SUB9,female,mari kita bicara,maaf teman saya sedang sakit,131.25,166.6667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.5757
+70_SUB9,SUB9,female,dia benar benar menyalahkan saya,maaf membuat anda,71.875,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,65.1308
+80_SUB9,SUB9,female,apakah anda baik baik saja pak,maaf membuat anda,73.3333,100.0,12.2626,4.7493,4.4557,4.1799,33.3333,16.6667,22.2222,51.49
+83_SUB9,SUB9,female,terima kasih atas pengertian anda,maaf membuat anda,66.6667,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,61.4016
+88_SUB9,SUB9,female,ini terlalu sulit baginya,maaf membuat anda,72.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,59.3352
+91_SUB9,SUB9,female,sepertinya kamu sedang flu,maaf membuat anda,84.6154,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.8918
+94_SUB9,SUB9,female,senang berkenalan dengan anda,maaf membuat anda,68.9655,75.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,64.6782
+96_SUB9,SUB9,female,seperti apa penampilannya,maaf membuat anda,76.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.9232
+54_SUB10,SUB10,female,dia memakai topeng wajahnya tidak terlihat,maaf membuat anda,73.8095,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.2257
+55_SUB10,SUB10,female,halo ada yang bisa saya bantu,maaf membuat anda,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.9701
+67_SUB10,SUB10,female,anda bisa mencetaknya,maaf membuat anda,71.4286,100.0,33.3333,12.9099,12.1118,11.3622,33.3333,33.3333,33.3333,53.7013
+74_SUB10,SUB10,female,saya sedang terburu buru sampai jumpa,maaf membuat anda,75.6757,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.3151
+75_SUB10,SUB10,female,silakan nikmati perjalanan anda,maaf membuat anda,64.5161,75.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,59.6985
+77_SUB10,SUB10,female,bagaimana kabar ibumu sekarang,maaf membuat anda,76.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.9937
+87_SUB10,SUB10,female,hari ini ingin makan apa,maaf membuat anda,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.6503
+95_SUB10,SUB10,female,saya ingin lebih mengenalnya,maaf membuat anda,71.4286,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.2891
+10_SUB10,SUB10,female,kita pernah bertemu tahun lalu,maaf membuat anda,73.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.7568
+12_SUB10,SUB10,female,anda seharusnya merasa malu,maaf membuat anda,77.7778,100.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,71.4588
+19_SUB10,SUB10,female,pilihan anda banyak sekali ya,maaf membuat anda,75.8621,100.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,53.6482
+20_SUB10,SUB10,female,lain kali pasti akan lebih baik,maaf membuat anda,74.1935,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.6887
+23_SUB10,SUB10,female,saya tidak percaya penjelasan anda,maaf membuat anda,70.5882,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,62.7447
+31_SUB10,SUB10,female,apa yang anda lakukan di waktu luang,maaf membuat anda,77.7778,85.7143,8.7866,3.403,3.1926,2.995,33.3333,14.2857,20.0,45.8977
+34_SUB10,SUB10,female,saya setuju dengan semua kebijakannya,maaf membuat anda,75.6757,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.3026
+38_SUB10,SUB10,female,kita pergi nanti saja,maaf membuat anda,71.4286,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.7426
+42_SUB10,SUB10,female,apakah sarapan sudah siap,maaf membuat anda,72.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.1428
+44_SUB10,SUB10,female,berikan mikrofonnya kepada dia,maaf membuat anda,76.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.7974
+46_SUB10,SUB10,female,kami akan merapikan dokumen besok,maaf membuat anda,72.7273,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.0758
+3_SUB11,SUB11,female,berharap bisa bertemu lagi di masa depan,maaf membuat anda,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.0072
+5_SUB11,SUB11,female,kapan anda biasanya tidur,maaf membuat anda,72.0,100.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,56.4275
+23_SUB11,SUB11,female,kunci pintunya ayo kita berangkat,maaf membuat anda,75.7576,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.2668
+30_SUB11,SUB11,female,dia sudah punya pacar,maaf membuat anda,80.9524,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.7758
+35_SUB11,SUB11,female,apakah perasaanmu sudah lebih baik,maaf membuat anda,73.5294,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.8465
+39_SUB11,SUB11,female,saya ada janji temu mohon tunggu sebentar,maaf membuat anda,78.0488,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.416
+51_SUB11,SUB11,female,dia adalah teman sekamar saya,maaf membuat anda,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.6651
+54_SUB11,SUB11,female,dia membuat kesabaran saya habis,maaf membuat anda,62.5,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,67.6325
+60_SUB11,SUB11,female,apa rencanamu untuk masa depan,maaf membuat anda,70.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.5113
+75_SUB11,SUB11,female,saya mau masakan tiongkok terima kasih,maaf membuat anda,76.3158,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.3423
+76_SUB11,SUB11,female,wasit sepertinya agak memihak,maaf membuat anda,79.3103,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.2612
+83_SUB11,SUB11,female,dia akan merasa sangat senang,maaf membuat anda,68.9655,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.6645
+84_SUB11,SUB11,female,maaf telah mengganggu anda,maaf membuat anda,50.0,50.0,47.7688,13.082,10.909,9.6818,66.6667,50.0,57.1429,80.4587
+87_SUB11,SUB11,female,sebaiknya kita pergi sekarang,maaf membuat anda,82.7586,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.9281
+91_SUB11,SUB11,female,tidak usah terima kasih,maaf teman saya sedang sakit,82.6087,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.8878
+95_SUB11,SUB11,female,kecewa dengan upaya anda,maaf teman saya sedang sakit,83.3333,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.6883
+96_SUB11,SUB11,female,kita harus saling membantu,maaf membuat anda,80.7692,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.7604
+53_SUB12,SUB12,female,bagaimana kabarmu belakangan ini,maaf membuat anda,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.4096
+69_SUB12,SUB12,female,pintunya sudah dibuka,maaf membuat anda,80.9524,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.2084
+85_SUB12,SUB12,female,dia hanya mencintai uangnya,maaf teman saya sedang sakit,81.4815,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.7466
+94_SUB12,SUB12,female,apakah anda tertarik dengan komputer,maaf membuat anda,80.5556,100.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,45.3628

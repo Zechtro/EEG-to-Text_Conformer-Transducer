@@ -1,0 +1,20 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB9,SUB9,female,tolong fotokopi laporan ini,saya akan saja,0.8148148148148148
+3_SUB9,SUB9,female,bagaimana kabarmu belakangan ini,saya hari,0.8125
+19_SUB9,SUB9,female,pintunya sudah dibuka,saya kambu,0.7142857142857143
+25_SUB9,SUB9,female,apakah ada yang ingin anda laporkan,saya terlihat,0.8285714285714286
+26_SUB9,SUB9,female,bolehkah saya berbicara dengan anda,anda kambu,0.8857142857142857
+28_SUB9,SUB9,female,mari makan di luar malam ini,makan terlah,0.6785714285714286
+36_SUB9,SUB9,female,aku akan mencintaimu selamanya,saya terseah bantu,0.7333333333333333
+44_SUB9,SUB9,female,apakah anda tertarik dengan komputer,akan saja,0.8055555555555556
+58_SUB9,SUB9,female,dia diculik di dalam mobil,kamu apakah bantu,0.7692307692307693
+59_SUB9,SUB9,female,selamat pagi pak ada yang bisa saya bantu,maaf terjah,0.8780487804878049
+66_SUB9,SUB9,female,temanmu sangat cantik,saya terlah,0.8095238095238095
+67_SUB9,SUB9,female,mari kita bicara,akan anda haru,0.6875
+70_SUB9,SUB9,female,dia benar benar menyalahkan saya,semar buan,0.78125
+80_SUB9,SUB9,female,apakah anda baik baik saja pak,makan ada tentu,0.7333333333333333
+83_SUB9,SUB9,female,terima kasih atas pengertian anda,saya terluh,0.8181818181818182
+88_SUB9,SUB9,female,ini terlalu sulit baginya,anda terlah,0.76
+91_SUB9,SUB9,female,sepertinya kamu sedang flu,maanda terhama,0.8461538461538461
+94_SUB9,SUB9,female,senang berkenalan dengan anda,kamu bari,0.8620689655172413
+96_SUB9,SUB9,female,seperti apa penampilannya,kamu akan tak,0.8

@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB8,SUB8,male,saya butuh informasi anda,saya tidak ingin anda,48.0,50.0,50.0,12.9099,9.6354,9.5544,50.0,50.0,50.0,63.7541
+3_SUB8,SUB8,male,berharap bisa bertemu lagi di masa depan,saya tidak ingin anda,70.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.057
+15_SUB8,SUB8,male,apakah kamu tahu di mana bisa membelinya,saya tidak ingin anda,72.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.9732
+21_SUB8,SUB8,male,dia selalu meludah sembarangan,saya tidak ingin anda,70.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.0109
+22_SUB8,SUB8,male,cinta terkadang benar benar buta,saya akan bantu,68.75,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.0014
+24_SUB8,SUB8,male,sudah siap mari kita mulai,saya tidak ingin anda,65.3846,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.4118
+30_SUB8,SUB8,male,dia sudah punya pacar,saya tidak ingin anda,71.4286,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.3823
+38_SUB8,SUB8,male,tapi saya sarankan anda mengakui kesalahan,saya tidak ingin anda,69.0476,83.3333,30.3265,7.8303,5.8442,5.7951,50.0,33.3333,40.0,69.6909
+52_SUB8,SUB8,male,saya tersesat di dekat rumah anda,saya tidak ingin anda,54.5455,66.6667,30.3265,7.8303,5.8442,5.7951,50.0,33.3333,40.0,56.5832
+53_SUB8,SUB8,male,bisa tolong bantu saya menyiram bunga,saya tidak ingin anda,70.2703,100.0,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,39.479
+61_SUB8,SUB8,male,semoga anda cepat sembuh,saya tidak ingin anda,75.0,100.0,25.0,9.1287,7.6653,8.0343,25.0,25.0,25.0,49.6752
+64_SUB8,SUB8,male,dia adalah laki laki yang pemalu,saya tidak tahu,71.875,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.8184
+72_SUB8,SUB8,male,apakah anda memerlukan bantuan,saya tidak tahu,70.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,56.6645
+75_SUB8,SUB8,male,saya mau masakan tiongkok terima kasih,saya tidak ingin anda,63.1579,83.3333,15.1633,5.5368,4.6493,4.873,25.0,16.6667,20.0,48.0839
+83_SUB8,SUB8,male,dia akan merasa sangat senang,saya tidak ingin anda,68.9655,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.4513
+85_SUB8,SUB8,male,tolong bantu ambilkan foto kami,saya tidak ingin anda,77.4194,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.1771
+87_SUB8,SUB8,male,sebaiknya kita pergi sekarang,saya akan bantu,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.3178
+88_SUB8,SUB8,male,saya menerima pujian ini dengan rendah hati,saya tidak ingin anda,62.7907,85.7143,11.8092,4.3121,3.6208,3.7951,25.0,14.2857,18.1818,56.4069
+92_SUB8,SUB8,male,kamu akan segera sembuh,saya tidak ingin anda,78.2609,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.0094
+93_SUB8,SUB8,male,saya akan tiba tepat waktu,saya tidak ingin anda,61.5385,80.0,19.47,7.1094,5.9698,6.2571,25.0,20.0,22.2222,57.0174

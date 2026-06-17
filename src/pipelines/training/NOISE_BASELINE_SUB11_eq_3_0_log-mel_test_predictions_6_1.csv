@@ -1,0 +1,18 @@
+id,subject,gender,sentence,prediction,cer
+3_SUB11,SUB11,female,berharap bisa bertemu lagi di masa depan,saya terlihaba,0.775
+5_SUB11,SUB11,female,kapan anda biasanya tidur,bagain sembu,0.76
+23_SUB11,SUB11,female,kunci pintunya ayo kita berangkat,bisa membungkan,0.7575757575757576
+30_SUB11,SUB11,female,dia sudah punya pacar,apakah kasi,0.7619047619047619
+35_SUB11,SUB11,female,apakah perasaanmu sudah lebih baik,seba,0.8823529411764706
+39_SUB11,SUB11,female,saya ada janji temu mohon tunggu sebentar,saya menjempu,0.7560975609756098
+51_SUB11,SUB11,female,dia adalah teman sekamar saya,sembu,0.896551724137931
+54_SUB11,SUB11,female,dia membuat kesabaran saya habis,bisa sembu,0.8125
+60_SUB11,SUB11,female,apa rencanamu untuk masa depan,anda ada sembu,0.7333333333333333
+75_SUB11,SUB11,female,saya mau masakan tiongkok terima kasih,baik,0.9210526315789473
+76_SUB11,SUB11,female,wasit sepertinya agak memihak,saya menerima di mana,0.6206896551724138
+83_SUB11,SUB11,female,dia akan merasa sangat senang,saya menyenar,0.6896551724137931
+84_SUB11,SUB11,female,maaf telah mengganggu anda,banya,0.8846153846153846
+87_SUB11,SUB11,female,sebaiknya kita pergi sekarang,bisa membung ban,0.7241379310344828
+91_SUB11,SUB11,female,tidak usah terima kasih,baik,0.8695652173913043
+95_SUB11,SUB11,female,kecewa dengan upaya anda,saya mebus,0.8333333333333334
+96_SUB11,SUB11,female,kita harus saling membantu,saya bisa membun,0.6153846153846154

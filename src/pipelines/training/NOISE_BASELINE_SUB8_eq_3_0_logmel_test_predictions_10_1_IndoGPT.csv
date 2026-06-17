@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB8,SUB8,male,saya butuh informasi anda,saya tidak tahu,0.64
+3_SUB8,SUB8,male,berharap bisa bertemu lagi di masa depan,saya tidak tahu,0.8
+15_SUB8,SUB8,male,apakah kamu tahu di mana bisa membelinya,saya tidak tahu,0.8
+21_SUB8,SUB8,male,dia selalu meludah sembarangan,saya tidak tahu,0.7666666666666667
+22_SUB8,SUB8,male,cinta terkadang benar benar buta,saya tidak tahu,0.75
+24_SUB8,SUB8,male,sudah siap mari kita mulai,saya tidak tahu,0.6538461538461539
+30_SUB8,SUB8,male,dia sudah punya pacar,saya tidak tahu,0.7619047619047619
+38_SUB8,SUB8,male,tapi saya sarankan anda mengakui kesalahan,saya ada janji temu malam ini,0.6428571428571429
+52_SUB8,SUB8,male,saya tersesat di dekat rumah anda,saya akan bantu,0.6666666666666666
+53_SUB8,SUB8,male,bisa tolong bantu saya menyiram bunga,saya tidak tahu,0.7837837837837838
+61_SUB8,SUB8,male,semoga anda cepat sembuh,saya tidak tahu,0.7083333333333334
+64_SUB8,SUB8,male,dia adalah laki laki yang pemalu,saya tidak tahu,0.71875
+72_SUB8,SUB8,male,apakah anda memerlukan bantuan,saya ada janji temu malam ini,0.7
+75_SUB8,SUB8,male,saya mau masakan tiongkok terima kasih,saya tidak tahu,0.7105263157894737
+83_SUB8,SUB8,male,dia akan merasa sangat senang,saya tidak tahu,0.7586206896551724
+85_SUB8,SUB8,male,tolong bantu ambilkan foto kami,saya ada janji temu malam ini,0.8387096774193549
+87_SUB8,SUB8,male,sebaiknya kita pergi sekarang,saya tidak tahu,0.6896551724137931
+88_SUB8,SUB8,male,saya menerima pujian ini dengan rendah hati,saya tidak tahu,0.7441860465116279
+92_SUB8,SUB8,male,kamu akan segera sembuh,saya tidak tahu,0.782608695652174
+93_SUB8,SUB8,male,saya akan tiba tepat waktu,saya tidak tahu,0.5769230769230769

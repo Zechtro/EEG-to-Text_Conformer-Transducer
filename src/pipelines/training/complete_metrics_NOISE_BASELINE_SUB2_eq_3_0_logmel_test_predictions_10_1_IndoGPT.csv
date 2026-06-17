@@ -1,0 +1,11 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+8_SUB2,SUB2,male,saya ingin makan siang di kamar,selamat sore,80.6452,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.8336
+11_SUB2,SUB2,male,tolong segera pergi dari sini,dia bukan orang yang,79.3103,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.9098
+15_SUB2,SUB2,male,sampaikan salam saya untuk mereka,saya akan,78.7879,80.0,11.1565,4.9893,3.8835,3.3366,50.0,20.0,28.5714,50.164
+19_SUB2,SUB2,male,senang bisa membantu anda,saya akan,72.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.821
+21_SUB2,SUB2,male,selamat sore ada yang bisa saya bantu,saya akan,78.3784,85.7143,4.1042,1.8355,1.4286,1.2275,50.0,14.2857,22.2222,27.7259
+23_SUB2,SUB2,male,silakan tanya saya kapan saja,saya akan,68.9655,80.0,11.1565,4.9893,3.8835,3.3366,50.0,20.0,28.5714,52.6556
+29_SUB2,SUB2,male,menurutku masakan tiongkok sangat lezat,saya akan,82.0513,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.2571
+39_SUB2,SUB2,male,menurutku sebaiknya kamu minta maaf,saya akan pergi,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.2264
+43_SUB2,SUB2,male,waktu berjalan begitu cepat,saya akan,81.4815,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.5894
+50_SUB2,SUB2,male,pekerjaan tidak selesai tepat waktu,saya akan,82.8571,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.1494

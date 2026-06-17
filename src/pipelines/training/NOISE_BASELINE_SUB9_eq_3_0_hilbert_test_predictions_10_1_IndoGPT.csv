@@ -1,0 +1,20 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB9,SUB9,female,tolong fotokopi laporan ini,saya tidak sengaja,0.8148148148148148
+3_SUB9,SUB9,female,bagaimana kabarmu belakangan ini,saya tidak sengaja,0.71875
+19_SUB9,SUB9,female,pintunya sudah dibuka,saya tidak sengaja,0.7142857142857143
+25_SUB9,SUB9,female,apakah ada yang ingin anda laporkan,saya tidak sengaja,0.7714285714285715
+26_SUB9,SUB9,female,bolehkah saya berbicara dengan anda,saya tidak sengaja,0.6285714285714286
+28_SUB9,SUB9,female,mari makan di luar malam ini,saya tidak sengaja,0.7857142857142857
+36_SUB9,SUB9,female,aku akan mencintaimu selamanya,kamu,0.8666666666666667
+44_SUB9,SUB9,female,apakah anda tertarik dengan komputer,kamu,0.8888888888888888
+58_SUB9,SUB9,female,dia diculik di dalam mobil,saya tidak sengaja,0.7692307692307693
+59_SUB9,SUB9,female,selamat pagi pak ada yang bisa saya bantu,saya tidak sengaja,0.7073170731707317
+66_SUB9,SUB9,female,temanmu sangat cantik,saya tidak sengaja,0.8095238095238095
+67_SUB9,SUB9,female,mari kita bicara,saya tidak sengaja,0.6875
+70_SUB9,SUB9,female,dia benar benar menyalahkan saya,saya tidak,0.84375
+80_SUB9,SUB9,female,apakah anda baik baik saja pak,kamu,0.9333333333333333
+83_SUB9,SUB9,female,terima kasih atas pengertian anda,saya tidak,0.7878787878787878
+88_SUB9,SUB9,female,ini terlalu sulit baginya,saya tidak sengaja,0.76
+91_SUB9,SUB9,female,sepertinya kamu sedang flu,saya tidak sengaja,0.6153846153846154
+94_SUB9,SUB9,female,senang berkenalan dengan anda,saya tidak sengaja,0.6551724137931034
+96_SUB9,SUB9,female,seperti apa penampilannya,saya tidak sengaja,0.64

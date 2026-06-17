@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB1,SUB1,male,maaf saya terlambat,silakan datang,84.2105,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,62.6874
+3_SUB1,SUB1,male,biar saya bantu ganti baterainya,saya tidak bisa minta maaf,71.875,100.0,20.0,7.0711,5.6651,5.3728,20.0,20.0,20.0,53.8756
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang,saya tidak bisa minta maaf,67.7419,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.042
+21_SUB1,SUB1,male,kamu tampak penuh energi hari ini,saya tidak bisa minta maaf,72.7273,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.2435
+22_SUB1,SUB1,male,setelah makan saya merasa sangat kenyang,kami akan segera sampai,65.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.4032
+24_SUB1,SUB1,male,saya sedang terburu buru sampai jumpa,saya tidak bisa minta maaf,64.8649,83.3333,16.3746,5.7893,4.6382,4.3989,20.0,16.6667,18.1818,59.3856
+30_SUB1,SUB1,male,benar benar tidak bisa dipercaya,saya tidak bisa makan,53.125,60.0,38.94,31.7944,16.0434,13.2322,50.0,40.0,44.4444,59.1499
+38_SUB1,SUB1,male,bagaimana harimu hari ini,kami akan bertanggung jawab,84.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.9304
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati,kami akan segera sampai,71.0526,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.5681
+53_SUB1,SUB1,male,cobalah besok pagi,saya tidak bisa minta maaf,105.5556,166.6667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.2882
+61_SUB1,SUB1,male,tolong segera pergi dari sini,saya tidak bisa minta maaf,89.6552,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.8785
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda,saya tidak bisa minta maaf,67.5,100.0,13.4064,4.7399,3.7975,3.6015,20.0,14.2857,16.6667,58.3108
+72_SUB1,SUB1,male,apakah anda sudah makan siang,saya tidak bisa,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.872
+75_SUB1,SUB1,male,kamu benar benar menjadi lebih sehat,kamu adalah orang yang humoris,72.2222,83.3333,16.3746,5.7893,4.6382,4.3989,20.0,16.6667,18.1818,60.7218
+83_SUB1,SUB1,male,saya tidak punya waktu luang sama sekali,kamu adalah orang yang humoris,70.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.014
+85_SUB1,SUB1,male,dia bukan orang yang penting,anda bisa mencetaknya,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.5506
+87_SUB1,SUB1,male,apa yang bisa kami lakukan untuk anda,kamu adalah orang yang humoris,81.0811,100.0,13.4064,4.7399,3.7975,3.6015,20.0,14.2857,16.6667,35.7228
+88_SUB1,SUB1,male,kita akan bertemu lagi,anda bisa mencetaknya,77.2727,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.8694
+92_SUB1,SUB1,male,saya bukan seorang penjahat,dia tidak bisa,81.4815,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,66.4233
+93_SUB1,SUB1,male,waktu berjalan begitu cepat,kami akan segera sampai,62.963,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.8251

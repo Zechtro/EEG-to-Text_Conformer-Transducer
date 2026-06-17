@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB8,SUB8,male,saya butuh informasi anda,saya tidak ingin anda,0.48
+3_SUB8,SUB8,male,berharap bisa bertemu lagi di masa depan,saya tidak ingin anda,0.7
+15_SUB8,SUB8,male,apakah kamu tahu di mana bisa membelinya,saya tidak ingin anda,0.725
+21_SUB8,SUB8,male,dia selalu meludah sembarangan,saya tidak ingin anda,0.7
+22_SUB8,SUB8,male,cinta terkadang benar benar buta,saya akan bantu,0.6875
+24_SUB8,SUB8,male,sudah siap mari kita mulai,saya tidak ingin anda,0.6538461538461539
+30_SUB8,SUB8,male,dia sudah punya pacar,saya tidak ingin anda,0.7142857142857143
+38_SUB8,SUB8,male,tapi saya sarankan anda mengakui kesalahan,saya tidak ingin anda,0.6904761904761905
+52_SUB8,SUB8,male,saya tersesat di dekat rumah anda,saya tidak ingin anda,0.5454545454545454
+53_SUB8,SUB8,male,bisa tolong bantu saya menyiram bunga,saya tidak ingin anda,0.7027027027027027
+61_SUB8,SUB8,male,semoga anda cepat sembuh,saya tidak ingin anda,0.75
+64_SUB8,SUB8,male,dia adalah laki laki yang pemalu,saya tidak tahu,0.71875
+72_SUB8,SUB8,male,apakah anda memerlukan bantuan,saya tidak tahu,0.7
+75_SUB8,SUB8,male,saya mau masakan tiongkok terima kasih,saya tidak ingin anda,0.631578947368421
+83_SUB8,SUB8,male,dia akan merasa sangat senang,saya tidak ingin anda,0.6896551724137931
+85_SUB8,SUB8,male,tolong bantu ambilkan foto kami,saya tidak ingin anda,0.7741935483870968
+87_SUB8,SUB8,male,sebaiknya kita pergi sekarang,saya akan bantu,0.7241379310344828
+88_SUB8,SUB8,male,saya menerima pujian ini dengan rendah hati,saya tidak ingin anda,0.627906976744186
+92_SUB8,SUB8,male,kamu akan segera sembuh,saya tidak ingin anda,0.782608695652174
+93_SUB8,SUB8,male,saya akan tiba tepat waktu,saya tidak ingin anda,0.6153846153846154

@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB1,SUB1,male,maaf saya terlambat,saya tidak bisa,68.4211,100.0,33.3333,12.9099,12.1118,11.3622,33.3333,33.3333,33.3333,70.2424
+3_SUB1,SUB1,male,biar saya bantu ganti baterainya,saya tidak bisa minta maaf,71.875,100.0,20.0,7.0711,5.6651,5.3728,20.0,20.0,20.0,53.8756
+15_SUB1,SUB1,male,sebaiknya kita sarapan sekarang,saya tidak bisa minta maaf,67.7419,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.042
+21_SUB1,SUB1,male,kamu tampak penuh energi hari ini,saya tidak bisa makan,72.7273,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.9259
+22_SUB1,SUB1,male,setelah makan saya merasa sangat kenyang,saya tidak bisa minta maaf,70.0,100.0,16.3746,5.7893,4.6382,4.3989,20.0,16.6667,18.1818,45.4051
+24_SUB1,SUB1,male,saya sedang terburu buru sampai jumpa,anda bisa,81.0811,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.6204
+30_SUB1,SUB1,male,benar benar tidak bisa dipercaya,saya tidak bisa minta maaf,53.125,80.0,40.0,31.6228,15.2247,11.3622,40.0,40.0,40.0,59.6873
+38_SUB1,SUB1,male,bagaimana harimu hari ini,saya tidak bisa,76.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.0867
+52_SUB1,SUB1,male,anda benar benar kakek yang murah hati,saya tidak bisa minta maaf,68.4211,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.8819
+53_SUB1,SUB1,male,cobalah besok pagi,kami akan bertanggung jawab,111.1111,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.2312
+61_SUB1,SUB1,male,tolong segera pergi dari sini,saya tidak bisa minta maaf,89.6552,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.8785
+64_SUB1,SUB1,male,silakan beri tahu saya nama lengkap anda,saya tidak bisa minta maaf,67.5,100.0,13.4064,4.7399,3.7975,3.6015,20.0,14.2857,16.6667,58.3108
+72_SUB1,SUB1,male,apakah anda sudah makan siang,saya tidak bisa minta maaf,65.5172,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.6366
+75_SUB1,SUB1,male,kamu benar benar menjadi lebih sehat,saya tidak bisa minta maaf,66.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.9428
+83_SUB1,SUB1,male,saya tidak punya waktu luang sama sekali,saya tidak bisa makan,57.5,71.4286,23.6183,19.2843,9.7308,8.0257,50.0,28.5714,36.3636,67.3882
+85_SUB1,SUB1,male,dia bukan orang yang penting,kami akan segera,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.7375
+87_SUB1,SUB1,male,apa yang bisa kami lakukan untuk anda,kami akan segera,70.2703,85.7143,8.7866,3.403,3.1926,2.995,33.3333,14.2857,20.0,48.422
+88_SUB1,SUB1,male,kita akan bertemu lagi,kami akan segera,54.5455,75.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,62.1023
+92_SUB1,SUB1,male,saya bukan seorang penjahat,kami akan bertanggung jawab,55.5556,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.7624
+93_SUB1,SUB1,male,waktu berjalan begitu cepat,saya tidak bisa minta maaf,81.4815,125.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.7133

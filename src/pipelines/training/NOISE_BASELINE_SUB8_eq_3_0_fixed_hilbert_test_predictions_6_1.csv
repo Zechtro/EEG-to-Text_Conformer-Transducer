@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB8,SUB8,male,saya butuh informasi anda,anda berkalan memapan,0.68
+3_SUB8,SUB8,male,berharap bisa bertemu lagi di masa depan,kepatn anda,0.8
+15_SUB8,SUB8,male,apakah kamu tahu di mana bisa membelinya,arukan makan bergatan,0.7
+21_SUB8,SUB8,male,dia selalu meludah sembarangan,anda berkalam,0.7666666666666667
+22_SUB8,SUB8,male,cinta terkadang benar benar buta,kita akan anda,0.65625
+24_SUB8,SUB8,male,sudah siap mari kita mulai,dia anda,0.7692307692307693
+30_SUB8,SUB8,male,dia sudah punya pacar,teridang lain,0.7619047619047619
+38_SUB8,SUB8,male,tapi saya sarankan anda mengakui kesalahan,terkama kengatar,0.7380952380952381
+52_SUB8,SUB8,male,saya tersesat di dekat rumah anda,kitu mendia,0.8484848484848485
+53_SUB8,SUB8,male,bisa tolong bantu saya menyiram bunga,mara kita pergi lebih awal,0.8108108108108109
+61_SUB8,SUB8,male,semoga anda cepat sembuh,kamu sebar,0.7916666666666666
+64_SUB8,SUB8,male,dia adalah laki laki yang pemalu,apakah kamu separ,0.6875
+72_SUB8,SUB8,male,apakah anda memerlukan bantuan,ingin makan pergi menuri anda,0.8
+75_SUB8,SUB8,male,saya mau masakan tiongkok terima kasih,sampai dengan,0.7894736842105263
+83_SUB8,SUB8,male,dia akan merasa sangat senang,sama keria keria kenar,0.5862068965517241
+85_SUB8,SUB8,male,tolong bantu ambilkan foto kami,terkamu menablak,0.7741935483870968
+87_SUB8,SUB8,male,sebaiknya kita pergi sekarang,makan benar lap,0.7586206896551724
+88_SUB8,SUB8,male,saya menerima pujian ini dengan rendah hati,kebutu,0.9302325581395349
+92_SUB8,SUB8,male,kamu akan segera sembuh,inspiras tiduk anda,0.8695652173913043
+93_SUB8,SUB8,male,saya akan tiba tepat waktu,anda perjang,0.7692307692307693

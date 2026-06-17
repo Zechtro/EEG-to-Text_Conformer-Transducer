@@ -1,0 +1,18 @@
+id,subject,gender,sentence,prediction,cer
+3_SUB11,SUB11,female,berharap bisa bertemu lagi di masa depan,saya akan menjemput,0.8
+5_SUB11,SUB11,female,kapan anda biasanya tidur,saya tidak tahu,0.68
+23_SUB11,SUB11,female,kunci pintunya ayo kita berangkat,sudah siap,0.8484848484848485
+30_SUB11,SUB11,female,dia sudah punya pacar,saya tidak tahu,0.7619047619047619
+35_SUB11,SUB11,female,apakah perasaanmu sudah lebih baik,sudah siap,0.7647058823529411
+39_SUB11,SUB11,female,saya ada janji temu mohon tunggu sebentar,saya tidak tahu,0.7560975609756098
+51_SUB11,SUB11,female,dia adalah teman sekamar saya,saya ada,0.7931034482758621
+54_SUB11,SUB11,female,dia membuat kesabaran saya habis,sudah siap,0.84375
+60_SUB11,SUB11,female,apa rencanamu untuk masa depan,kami akan mengabari anda,0.7333333333333333
+75_SUB11,SUB11,female,saya mau masakan tiongkok terima kasih,sudah siap,0.8421052631578947
+76_SUB11,SUB11,female,wasit sepertinya agak memihak,kami akan mengabari anda,0.7241379310344828
+83_SUB11,SUB11,female,dia akan merasa sangat senang,sudah siap,0.8275862068965517
+84_SUB11,SUB11,female,maaf telah mengganggu anda,saya ada,0.7692307692307693
+87_SUB11,SUB11,female,sebaiknya kita pergi sekarang,saya tidak tahu,0.6896551724137931
+91_SUB11,SUB11,female,tidak usah terima kasih,saya ada,0.782608695652174
+95_SUB11,SUB11,female,kecewa dengan upaya anda,saya ada,0.7083333333333334
+96_SUB11,SUB11,female,kita harus saling membantu,saya ada,0.8076923076923077

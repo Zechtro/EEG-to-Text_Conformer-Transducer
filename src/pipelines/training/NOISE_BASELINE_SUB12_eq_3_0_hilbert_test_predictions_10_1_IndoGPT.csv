@@ -1,0 +1,5 @@
+id,subject,gender,sentence,prediction,cer
+53_SUB12,SUB12,female,bagaimana kabarmu belakangan ini,dia sangat cantik,0.75
+69_SUB12,SUB12,female,pintunya sudah dibuka,dia sangat cantik,0.7619047619047619
+85_SUB12,SUB12,female,dia hanya mencintai uangnya,dia sangat cantik,0.5925925925925926
+94_SUB12,SUB12,female,apakah anda tertarik dengan komputer,dia sangat cantik,0.75

@@ -1,0 +1,18 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+3_SUB11,SUB11,female,berharap bisa bertemu lagi di masa depan,saya terlihaba,77.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.8047
+5_SUB11,SUB11,female,kapan anda biasanya tidur,bagain sembu,76.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.9068
+23_SUB11,SUB11,female,kunci pintunya ayo kita berangkat,bisa membungkan,75.7576,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.1978
+30_SUB11,SUB11,female,dia sudah punya pacar,apakah kasi,76.1905,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.1754
+35_SUB11,SUB11,female,apakah perasaanmu sudah lebih baik,seba,88.2353,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.3237
+39_SUB11,SUB11,female,saya ada janji temu mohon tunggu sebentar,saya menjempu,75.6098,85.7143,4.1042,1.8355,1.4286,1.2275,50.0,14.2857,22.2222,41.9721
+51_SUB11,SUB11,female,dia adalah teman sekamar saya,sembu,89.6552,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.2963
+54_SUB11,SUB11,female,dia membuat kesabaran saya habis,bisa sembu,81.25,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.7323
+60_SUB11,SUB11,female,apa rencanamu untuk masa depan,anda ada sembu,73.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.8153
+75_SUB11,SUB11,female,saya mau masakan tiongkok terima kasih,baik,92.1053,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.0338
+76_SUB11,SUB11,female,wasit sepertinya agak memihak,saya menerima di mana,62.069,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.6083
+83_SUB11,SUB11,female,dia akan merasa sangat senang,saya menyenar,68.9655,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.9621
+84_SUB11,SUB11,female,maaf telah mengganggu anda,banya,88.4615,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.7205
+87_SUB11,SUB11,female,sebaiknya kita pergi sekarang,bisa membung ban,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.195
+91_SUB11,SUB11,female,tidak usah terima kasih,baik,86.9565,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,62.0758
+95_SUB11,SUB11,female,kecewa dengan upaya anda,saya mebus,83.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.7542
+96_SUB11,SUB11,female,kita harus saling membantu,saya bisa membun,61.5385,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.0127

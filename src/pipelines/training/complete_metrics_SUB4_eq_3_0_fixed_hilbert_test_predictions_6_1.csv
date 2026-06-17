@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB4,SUB4,male,tolong fotokopi laporan ini,saya akan sedatangan anda,81.4815,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.6329
+3_SUB4,SUB4,male,bagaimana kabarmu belakangan ini,anda terida,81.25,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.5744
+15_SUB4,SUB4,male,bagaimana kesehatanmu akhir akhir ini,dia sedian diak,70.2703,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.0059
+21_SUB4,SUB4,male,maaf apakah sekarang sedang luang,dia telari,84.8485,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.0268
+22_SUB4,SUB4,male,tersesat butuh bantuan,saya akan di mengantkan,72.7273,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,57.6817
+24_SUB4,SUB4,male,saya melewatkan momen yang luar biasa,saya akan dituk,70.2703,83.3333,12.2626,4.7493,4.4557,4.1799,33.3333,16.6667,22.2222,46.6482
+30_SUB4,SUB4,male,melakukan panggilan internasional,anda berianda,75.7576,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,59.2848
+38_SUB4,SUB4,male,hidangan apa ini,anda bisa beriuha,87.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.9533
+52_SUB4,SUB4,male,apakah anda membutuhkan bantuan,keluat sedang saja,74.1935,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.734
+53_SUB4,SUB4,male,dia sangat ketat terhadap kami,selamat yang bicara,76.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.5574
+61_SUB4,SUB4,male,saya tidak sengaja menumpahkan tinta,saya akan menagi,61.1111,80.0,17.1139,6.6282,6.2184,5.8335,33.3333,20.0,25.0,57.8155
+64_SUB4,SUB4,male,saya ingin makan salad,saya harap anda,59.0909,75.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,57.8589
+72_SUB4,SUB4,male,jadwal saya sangat padat,kapun,91.6667,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.5935
+75_SUB4,SUB4,male,terima kasih telah menghubungi kami mohon tunggu sebentar,dia anda silahanya,80.7018,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,31.7864
+83_SUB4,SUB4,male,terima kasih atas pengertian anda,dia selari,78.7879,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.601
+85_SUB4,SUB4,male,tentu saja boleh,kali,87.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,62.486
+87_SUB4,SUB4,male,berpamitan dengan teman di stasiun kereta,saya terikan ditu,73.1707,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.732
+88_SUB4,SUB4,male,ini terlalu sulit baginya,saya akan saya,76.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.1819
+92_SUB4,SUB4,male,berharap bisa bertemu kembali,seperti aya mencintai,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.067
+93_SUB4,SUB4,male,apakah ruang rapat sudah siap,dia adalah segera,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.6176

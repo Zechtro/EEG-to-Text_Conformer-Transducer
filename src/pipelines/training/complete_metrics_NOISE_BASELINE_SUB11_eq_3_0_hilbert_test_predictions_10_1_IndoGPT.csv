@@ -1,0 +1,18 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+3_SUB11,SUB11,female,berharap bisa bertemu lagi di masa depan,apakah kamu tahu,80.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.7803
+5_SUB11,SUB11,female,kapan anda biasanya tidur,apakah kamu tahu,64.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,62.1459
+23_SUB11,SUB11,female,kunci pintunya ayo kita berangkat,apakah kamu tahu,78.7879,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.0119
+30_SUB11,SUB11,female,dia sudah punya pacar,apakah kamu tahu,71.4286,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,59.512
+35_SUB11,SUB11,female,apakah perasaanmu sudah lebih baik,makan malam,76.4706,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.979
+39_SUB11,SUB11,female,saya ada janji temu mohon tunggu sebentar,apakah kamu tahu,75.6098,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.53
+51_SUB11,SUB11,female,dia adalah teman sekamar saya,apakah kamu tahu,65.5172,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.6984
+54_SUB11,SUB11,female,dia membuat kesabaran saya habis,makan malam,75.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.3996
+60_SUB11,SUB11,female,apa rencanamu untuk masa depan,apakah kamu tahu,70.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,54.929
+75_SUB11,SUB11,female,saya mau masakan tiongkok terima kasih,saya ada janji,73.6842,83.3333,12.2626,4.7493,4.4557,4.1799,33.3333,16.6667,22.2222,52.0415
+76_SUB11,SUB11,female,wasit sepertinya agak memihak,saya tidak tahu,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,58.8243
+83_SUB11,SUB11,female,dia akan merasa sangat senang,saya tidak tahu,75.8621,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.3947
+84_SUB11,SUB11,female,maaf telah mengganggu anda,apakah kamu tahu,73.0769,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.5929
+87_SUB11,SUB11,female,sebaiknya kita pergi sekarang,bagaimana kamu,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.058
+91_SUB11,SUB11,female,tidak usah terima kasih,saya tidak tahu,69.5652,100.0,23.8844,9.2504,8.6785,8.1414,33.3333,25.0,28.5714,64.1097
+95_SUB11,SUB11,female,kecewa dengan upaya anda,apakah kamu,83.3333,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.7074
+96_SUB11,SUB11,female,kita harus saling membantu,saya tidak tahu,76.9231,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.1073

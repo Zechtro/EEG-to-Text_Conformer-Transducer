@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer
+2_SUB7,SUB7,female,anda benar benar kakek yang murah hati,tapi kemang,0.8157894736842105
+3_SUB7,SUB7,female,cobalah besok pagi,saya kamu minta saya,0.8333333333333334
+15_SUB7,SUB7,female,sampaikan salam saya untuk mereka,jadla kamu baik,0.7575757575757576
+21_SUB7,SUB7,female,selamat sore ada yang bisa saya bantu,terima sebuat,0.7567567567567568
+22_SUB7,SUB7,female,apakah anda sudah makan siang,dia suda pergit,0.7241379310344828
+24_SUB7,SUB7,female,kita harus memberitahunya,kami benag,0.76
+30_SUB7,SUB7,female,saya sangat sibuk hari ini butuh bantuan,dia selarang,0.825
+38_SUB7,SUB7,female,kita akan bertemu lagi,dia senang,0.7727272727272727
+52_SUB7,SUB7,female,ide idemu sangat kreatif,dia menjadi bersalah,0.75
+53_SUB7,SUB7,female,saya punya nomornya di sini,tergima kami anda,0.8148148148148148
+61_SUB7,SUB7,female,dia memang benar benar pembuat masalah,berteng,0.868421052631579
+64_SUB7,SUB7,female,boleh saya minta tolong,dia senang,0.7391304347826086
+72_SUB7,SUB7,female,apa pekerjaan anda,kami sengat,0.7777777777777778
+75_SUB7,SUB7,female,ini surat undangan untuk anda,dia senang,0.7931034482758621
+83_SUB7,SUB7,female,mungkin kita akan mendapatkan inspirasi secara tidak sengaja,bertemu tenong,0.8833333333333333
+85_SUB7,SUB7,female,saya pikir anda sudah tahu,dia tukunglah,0.7692307692307693
+87_SUB7,SUB7,female,kurangi makan roti dan kentang,menurutku sebentar,0.7333333333333333
+88_SUB7,SUB7,female,apakah sepeda itu milikmu,terimu kapan saih,0.8
+92_SUB7,SUB7,female,kami berkenalan melalui internet,saya andat,0.8125
+93_SUB7,SUB7,female,kamu adalah teman sejatiku,dia bukan saya kami bisa,0.8076923076923077

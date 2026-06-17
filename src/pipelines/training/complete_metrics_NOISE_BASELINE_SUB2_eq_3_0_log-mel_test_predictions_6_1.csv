@@ -1,0 +1,11 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+8_SUB2,SUB2,male,saya ingin makan siang di kamar,dia sibuk anda,70.9677,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.6377
+11_SUB2,SUB2,male,tolong segera pergi dari sini,kuan diang mena,79.3103,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.9573
+15_SUB2,SUB2,male,sampaikan salam saya untuk mereka,saya mala,78.7879,80.0,11.1565,4.9893,3.8835,3.3366,50.0,20.0,28.5714,47.5046
+19_SUB2,SUB2,male,senang bisa membantu anda,saya sangat sibu,68.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,61.3694
+21_SUB2,SUB2,male,selamat sore ada yang bisa saya bantu,kanga ingi,83.7838,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.1241
+23_SUB2,SUB2,male,silakan tanya saya kapan saja,ala orang bai,79.3103,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.2767
+29_SUB2,SUB2,male,menurutku masakan tiongkok sangat lezat,kanda bisa kami la,74.359,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.6479
+39_SUB2,SUB2,male,menurutku sebaiknya kamu minta maaf,kani beri kami lai,68.5714,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.0788
+43_SUB2,SUB2,male,waktu berjalan begitu cepat,mari kami lama,77.7778,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.4257
+50_SUB2,SUB2,male,pekerjaan tidak selesai tepat waktu,dala,88.5714,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.2699

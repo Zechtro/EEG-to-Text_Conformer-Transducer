@@ -1,0 +1,11 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+8_SUB2,SUB2,male,saya ingin makan siang di kamar,anda benar,77.4194,100.0,0,0,0,0,0.0,0.0,0.0,40.2126
+11_SUB2,SUB2,male,tolong segera pergi dari sini,dia bukan orang yang penting,82.7586,100.0,0,0,0,0,0.0,0.0,0.0,50.8946
+15_SUB2,SUB2,male,sampaikan salam saya untuk mereka,dia bukan,84.8485,100.0,0,0,0,0,0.0,0.0,0.0,41.6523
+19_SUB2,SUB2,male,senang bisa membantu anda,dia,92.0,100.0,0,0,0,0,0.0,0.0,0.0,44.1237
+21_SUB2,SUB2,male,selamat sore ada yang bisa saya bantu,dia bukan,83.7838,100.0,0,0,0,0,0.0,0.0,0.0,19.0113
+23_SUB2,SUB2,male,silakan tanya saya kapan saja,anda benar,79.3103,100.0,0,0,0,0,0.0,0.0,0.0,42.1135
+29_SUB2,SUB2,male,menurutku masakan tiongkok sangat lezat,anda benar,84.6154,100.0,0,0,0,0,0.0,0.0,0.0,47.6415
+39_SUB2,SUB2,male,menurutku sebaiknya kamu minta maaf,anda benar,82.8571,100.0,0,0,0,0,0.0,0.0,0.0,51.5811
+43_SUB2,SUB2,male,waktu berjalan begitu cepat,anda benar,77.7778,100.0,0,0,0,0,0.0,0.0,0.0,55.2617
+50_SUB2,SUB2,male,pekerjaan tidak selesai tepat waktu,dia bukan,85.7143,100.0,0,0,0,0,0.0,0.0,0.0,37.1941

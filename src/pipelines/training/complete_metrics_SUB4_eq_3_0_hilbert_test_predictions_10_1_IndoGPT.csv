@@ -1,0 +1,21 @@
+id,subject,gender,sentence,prediction,cer,WER,BLEU-1,BLEU-2,BLEU-3,BLEU-4,ROUGE-1-P,ROUGE-1-R,ROUGE-1-F,BertScore
+2_SUB4,SUB4,male,tolong fotokopi laporan ini,kapan kita akan berangkat,77.7778,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.8309
+3_SUB4,SUB4,male,bagaimana kabarmu belakangan ini,anda terlihat sangat tertekan,87.5,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.282
+15_SUB4,SUB4,male,bagaimana kesehatanmu akhir akhir ini,mari makan sesuatu,75.6757,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,38.4158
+21_SUB4,SUB4,male,maaf apakah sekarang sedang luang,dia adalah orang yang berpengetahuan,63.6364,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.4112
+22_SUB4,SUB4,male,tersesat butuh bantuan,anda terlihat sangat kelelahan,95.4545,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.6347
+24_SUB4,SUB4,male,saya melewatkan momen yang luar biasa,kami akan segera mengantarkannya ke atas,81.0811,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.203
+30_SUB4,SUB4,male,melakukan panggilan internasional,dia adalah orang yang berpengetahuan,78.7879,166.6667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.179
+38_SUB4,SUB4,male,hidangan apa ini,saya suka mencoba,93.75,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.6715
+52_SUB4,SUB4,male,apakah anda membutuhkan bantuan,aku akan mencintaimu selamanya,74.1935,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.3249
+53_SUB4,SUB4,male,dia sangat ketat terhadap kami,aku mulai merasa lapar,70.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,53.6269
+61_SUB4,SUB4,male,saya tidak sengaja menumpahkan tinta,mari makan sesuatu,72.2222,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.1212
+64_SUB4,SUB4,male,saya ingin makan salad,selamat siang silakan duduk,68.1818,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.9176
+72_SUB4,SUB4,male,jadwal saya sangat padat,saya akan menantikan kedatangan anda,100.0,125.0,20.0,7.0711,5.6651,5.3728,20.0,25.0,22.2222,57.7878
+75_SUB4,SUB4,male,terima kasih telah menghubungi kami mohon tunggu sebentar,mari makan sesuatu,78.9474,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.4668
+83_SUB4,SUB4,male,terima kasih atas pengertian anda,mari kita makan sesuatu,72.7273,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.6113
+85_SUB4,SUB4,male,tentu saja boleh,anda bisa belajar banyak,106.25,133.3333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,56.2411
+87_SUB4,SUB4,male,berpamitan dengan teman di stasiun kereta,mari makan sesuatu,73.1707,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.5251
+88_SUB4,SUB4,male,ini terlalu sulit baginya,saya harap anda beruntung,84.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.1703
+92_SUB4,SUB4,male,berharap bisa bertemu kembali,pintunya sudah dibuka,82.7586,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.0875
+93_SUB4,SUB4,male,apakah ruang rapat sudah siap,anda bisa belajar banyak hal,72.4138,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.4781
