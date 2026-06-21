@@ -5,5 +5,5 @@ dataset/raw copy
 *.pt
 *.pkl
  __MACOSX/
- .DS_Store
+ *.DS_Store
  dataset/.DS_Store
