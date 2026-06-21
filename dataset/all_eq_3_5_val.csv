@@ -1,0 +1,70 @@
+id,subject,sentence,gender
+33_SUB1,SUB1,semoga anda menyukainya,male
+42_SUB1,SUB1,kami berjanji untuk bertemu di perpustakaan,male
+49_SUB1,SUB1,maaf saya lupa,male
+58_SUB1,SUB1,saya ingin makan siang di kamar,male
+59_SUB1,SUB1,dalam beberapa bulan anda akan membaik,male
+60_SUB1,SUB1,terima kasih telah berkata demikian,male
+76_SUB1,SUB1,saya merasa kasihan pada orang tua itu,male
+80_SUB1,SUB1,saya sangat sibuk hari ini butuh bantuan,male
+95_SUB1,SUB1,dukunglah dia untuk membuat keputusannya sendiri,male
+99_SUB1,SUB1,kita semua pernah melakukan kesalahan itulah hidup,male
+3_SUB2,SUB2,cobalah besok pagi,male
+24_SUB2,SUB2,kita harus memberitahunya,male
+36_SUB2,SUB2,senang bertemu dengan anda lagi,male
+41_SUB2,SUB2,kami akan segera sampai,male
+44_SUB2,SUB2,sekarang waktunya tidur,male
+3_SUB3,SUB3,saya punya nomornya di sini,male
+24_SUB3,SUB3,pesawat anda terlambat,male
+36_SUB3,SUB3,telepon saya kalau sudah sampai,male
+41_SUB3,SUB3,beberapa orang tidak suka sayur,male
+44_SUB3,SUB3,terima kasih atas informasi yang anda berikan,male
+33_SUB4,SUB4,manajer itu sangat penuh empati,male
+42_SUB4,SUB4,orang itu terjatuh,male
+49_SUB4,SUB4,kamu perlu mengambil liburan,male
+58_SUB4,SUB4,dia diculik di dalam mobil,male
+59_SUB4,SUB4,selamat pagi pak ada yang bisa saya bantu,male
+60_SUB4,SUB4,saya benar benar suka makanan di sana,male
+76_SUB4,SUB4,semoga anda lekas sembuh,male
+80_SUB4,SUB4,apakah anda baik baik saja pak,male
+95_SUB4,SUB4,saya yakin anda benar,male
+99_SUB4,SUB4,apakah kamu melihatnya,male
+3_SUB5,SUB5,boleh minta tolong,male
+24_SUB5,SUB5,mau tambah nasi lagi,male
+36_SUB5,SUB5,dia adalah pelari terbaik yang pernah saya temui,male
+41_SUB5,SUB5,matanya sangat indah,male
+44_SUB5,SUB5,berikan mikrofonnya kepada dia,male
+34_SUB6,SUB6,kudengar ada orang yang mendadak kaya raya,female
+43_SUB6,SUB6,saya ingin menanyakan waktu penerbangan,female
+50_SUB6,SUB6,saya harus pergi sampai jumpa,female
+59_SUB6,SUB6,bolehkah saya memesan makanan sekarang,female
+60_SUB6,SUB6,pidato di pemakaman itu sangat mengharukan,female
+80_SUB6,SUB6,jangan menyalahkannya lagi,female
+87_SUB6,SUB6,terima kasih banyak atas undangannya,female
+98_SUB6,SUB6,ini pasti hasil rekayasa seseorang,female
+99_SUB6,SUB6,senang bisa melayani anda,female
+19_SUB7,SUB7,senang bisa membantu anda,female
+39_SUB7,SUB7,menurutku sebaiknya kamu minta maaf,female
+49_SUB7,SUB7,kita semua pernah melakukan kesalahan itulah hidup,female
+56_SUB7,SUB7,dia dinyatakan tidak bersalah di pengadilan,female
+65_SUB7,SUB7,mari kita makan di kantin saja,female
+66_SUB7,SUB7,bisa bantu saya sebentar,female
+81_SUB7,SUB7,kami akan segera menyelesaikan masalahnya,female
+90_SUB7,SUB7,dulu kami sering mengobrol,female
+99_SUB7,SUB7,dia menangis terharu di hari pernikahannya,female
+38_SUB8,SUB8,tapi saya sarankan anda mengakui kesalahan,male
+47_SUB8,SUB8,sampai jumpa bulan depan,male
+54_SUB8,SUB8,dia membuat kesabaran saya habis,male
+63_SUB8,SUB8,bantu menyiapkan makan malam,male
+64_SUB8,SUB8,dia adalah laki laki yang pemalu,male
+81_SUB8,SUB8,bagaimana menurut anda,male
+94_SUB8,SUB8,kami akan menunggu anda,male
+95_SUB8,SUB8,kecewa dengan upaya anda,male
+99_SUB8,SUB8,saya sedang belajar memasak,male
+87_SUB10,SUB10,hari ini ingin makan apa,female
+31_SUB10,SUB10,apa yang anda lakukan di waktu luang,female
+37_SUB10,SUB10,kamu adalah pahlawanku,female
+25_SUB11,SUB11,kejujuran adalah dasar dari persahabatan,female
+77_SUB11,SUB11,kami akan mengabari anda secepatnya,female
+79_SUB11,SUB11,ukuran pancinya pas,female
+89_SUB11,SUB11,anda ingin bicara dengan siapa,female

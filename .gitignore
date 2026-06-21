@@ -1,5 +1,9 @@
 venv_conf
 __pycache__
-dataset
+dataset/raw
+dataset/raw copy
 *.pt
 *.pkl
+ __MACOSX/
+ .DS_Store
+ dataset/.DS_Store

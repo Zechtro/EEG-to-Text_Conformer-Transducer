@@ -1,0 +1,1051 @@
+id,subject,sentence,gender
+1_SUB2,SUB2,Siapa wanita itu?,male
+2_SUB2,SUB2,Anda benar-benar kakek yang murah hati,male
+3_SUB2,SUB2,Cobalah besok pagi,male
+4_SUB2,SUB2,"Selamat sore, Nona, ada yang bisa dibantu?",male
+5_SUB2,SUB2,Untung saja ada orang baik yang menolong,male
+6_SUB2,SUB2,Anda ingin menelepon siapa?,male
+7_SUB2,SUB2,"Kalau begitu, mari kita mulai",male
+8_SUB2,SUB2,Saya ingin makan siang di kamar,male
+9_SUB2,SUB2,Dalam beberapa bulan Anda akan membaik,male
+10_SUB2,SUB2,Terima kasih telah berkata demikian,male
+11_SUB2,SUB2,Tolong segera pergi dari sini,male
+12_SUB2,SUB2,"Selamat malam, ada yang bisa dibantu?",male
+13_SUB2,SUB2,Lagi sibuk apa belakangan ini?,male
+14_SUB2,SUB2,Silakan beri tahu saya nama lengkap Anda,male
+15_SUB2,SUB2,Sampaikan salam saya untuk mereka,male
+16_SUB2,SUB2,Kami semua sedang menunggumu,male
+17_SUB2,SUB2,Aku akan mengajarimu cara membuat omelet,male
+18_SUB2,SUB2,Biar saya bantu bukakan pintunya,male
+19_SUB2,SUB2,Senang bisa membantu Anda,male
+20_SUB2,SUB2,Mari kita makan di luar,male
+21_SUB2,SUB2,"Selamat sore, ada yang bisa saya bantu?",male
+22_SUB2,SUB2,Apakah Anda sudah makan siang?,male
+23_SUB2,SUB2,Silakan tanya saya kapan saja,male
+24_SUB2,SUB2,Kita harus memberitahunya,male
+25_SUB2,SUB2,Kamu benar-benar menjadi lebih sehat,male
+26_SUB2,SUB2,Saya merasa kasihan pada orang tua itu,male
+27_SUB2,SUB2,Dia terkena serangan jantung tadi malam,male
+28_SUB2,SUB2,Nafsu makan saya cukup baik,male
+29_SUB2,SUB2,Menurutku masakan Tiongkok sangat lezat,male
+30_SUB2,SUB2,"Saya sangat sibuk hari ini, butuh bantuan",male
+31_SUB2,SUB2,Aku akan telepon lagi nanti,male
+32_SUB2,SUB2,Saya sangat senang bertemu teman lama,male
+33_SUB2,SUB2,Saya tidak punya waktu luang sama sekali,male
+34_SUB2,SUB2,Kita bisa melakukannya besok,male
+35_SUB2,SUB2,Dia bukan orang yang penting,male
+36_SUB2,SUB2,Senang bertemu dengan Anda lagi,male
+37_SUB2,SUB2,Apa yang bisa kami lakukan untuk Anda?,male
+38_SUB2,SUB2,Kita akan bertemu lagi,male
+39_SUB2,SUB2,Menurutku sebaiknya kamu minta maaf,male
+40_SUB2,SUB2,Ada banyak hal yang ingin kami bicarakan,male
+41_SUB2,SUB2,Kami akan segera sampai,male
+42_SUB2,SUB2,Saya bukan seorang penjahat,male
+43_SUB2,SUB2,Waktu berjalan begitu cepat,male
+44_SUB2,SUB2,Sekarang waktunya tidur,male
+45_SUB2,SUB2,Dukunglah dia untuk membuat keputusannya sendiri,male
+46_SUB2,SUB2,Kamu adalah orang yang humoris,male
+47_SUB2,SUB2,Saya akan pergi berenang sore ini,male
+48_SUB2,SUB2,Hari ini harus bekerja,male
+49_SUB2,SUB2,"Kita semua pernah melakukan kesalahan, itulah hidup",male
+50_SUB2,SUB2,Pekerjaan tidak selesai tepat waktu,male
+1_SUB3,SUB3,Saya harap Anda bisa mengerti,male
+2_SUB3,SUB3,Ide-idemu sangat kreatif,male
+3_SUB3,SUB3,Saya punya nomornya di sini,male
+4_SUB3,SUB3,Mengapa kamu marah?,male
+5_SUB3,SUB3,Berapa suhu tubuhmu kemarin?,male
+6_SUB3,SUB3,Dia dinyatakan tidak bersalah di pengadilan,male
+7_SUB3,SUB3,Kami memiliki kepercayaan penuh padamu,male
+8_SUB3,SUB3,Mereka adalah teman baik,male
+9_SUB3,SUB3,Wajahmu terlihat sangat pucat,male
+10_SUB3,SUB3,Bumbu penyedap menambah cita rasa,male
+11_SUB3,SUB3,Dia memang benar-benar pembuat masalah,male
+12_SUB3,SUB3,Bos Anda masih tergolong cukup baik,male
+13_SUB3,SUB3,Perkataannya tidak perlu dianggap serius,male
+14_SUB3,SUB3,Boleh saya minta tolong?,male
+15_SUB3,SUB3,Mari kita makan di kantin saja,male
+16_SUB3,SUB3,Bisa bantu saya sebentar?,male
+17_SUB3,SUB3,Dia bekerja dengan sangat tidak hati-hati,male
+18_SUB3,SUB3,Silakan tanda tangan di sini,male
+19_SUB3,SUB3,Kapan kamu bisa datang?,male
+20_SUB3,SUB3,Besok tidak perlu sekolah,male
+21_SUB3,SUB3,Tapi semua hal baik pasti ada akhirnya,male
+22_SUB3,SUB3,Apa pekerjaan Anda?,male
+23_SUB3,SUB3,Kamu seharusnya bicara dengannya,male
+24_SUB3,SUB3,Pesawat Anda terlambat,male
+25_SUB3,SUB3,Ini surat undangan untuk Anda,male
+26_SUB3,SUB3,Dia selalu senang membantu orang lain,male
+27_SUB3,SUB3,Saya ingin makan sesuatu,male
+28_SUB3,SUB3,Bertemu teman baru sangat menyenangkan,male
+29_SUB3,SUB3,Saya sudah ada janji besok,male
+30_SUB3,SUB3,Berapa suhu tubuh Anda sekarang?,male
+31_SUB3,SUB3,Kami akan segera menyelesaikan masalahnya,male
+32_SUB3,SUB3,Dia selalu fokus pada uang,male
+33_SUB3,SUB3,Mungkin kita akan mendapatkan inspirasi secara tidak sengaja,male
+34_SUB3,SUB3,Bagaimana perkembangan bisnis Anda?,male
+35_SUB3,SUB3,Saya pikir Anda sudah tahu,male
+36_SUB3,SUB3,Telepon saya kalau sudah sampai,male
+37_SUB3,SUB3,Kurangi makan roti dan kentang,male
+38_SUB3,SUB3,Apakah sepeda itu milikmu?,male
+39_SUB3,SUB3,Kamu baik sekali,male
+40_SUB3,SUB3,Dulu kami sering mengobrol,male
+41_SUB3,SUB3,Beberapa orang tidak suka sayur,male
+42_SUB3,SUB3,Kami berkenalan melalui internet,male
+43_SUB3,SUB3,Kamu adalah teman sejatiku,male
+44_SUB3,SUB3,Terima kasih atas informasi yang Anda berikan,male
+45_SUB3,SUB3,Bagaimana kamu bisa tahu?,male
+46_SUB3,SUB3,"Tetap berkabar ya, sampai jumpa",male
+47_SUB3,SUB3,Kamu sedang mencari masalah,male
+48_SUB3,SUB3,Jadwal kita sangat ketat,male
+49_SUB3,SUB3,Dia menangis terharu di hari pernikahannya,male
+50_SUB3,SUB3,"Halo, apa kabar?",male
+1_SUB4,SUB4,Hasilnya sedikit mengejutkan,male
+2_SUB4,SUB4,Tolong fotokopi laporan ini,male
+3_SUB4,SUB4,Bagaimana kabarmu belakangan ini?,male
+4_SUB4,SUB4,Saya tidak berpikir demikian,male
+5_SUB4,SUB4,"Pekerjaan sangat sibuk, mohon pengertiannya",male
+6_SUB4,SUB4,"Aku merindukanmu, kawan",male
+7_SUB4,SUB4,"Jangan percaya padanya, dia seorang penipu",male
+8_SUB4,SUB4,Anda terlihat sangat tertekan,male
+9_SUB4,SUB4,Saya suka mencoba resep-resep baru,male
+10_SUB4,SUB4,Dia lupa bersiap-siap untuk pidatonya,male
+11_SUB4,SUB4,Perkataannya membingungkan,male
+12_SUB4,SUB4,"Saya tersesat, apakah Anda bisa membantu?",male
+13_SUB4,SUB4,Kamu adalah sahabat terbaikku,male
+14_SUB4,SUB4,Bisa tolong bantu siram bunga?,male
+15_SUB4,SUB4,Bagaimana kesehatanmu akhir-akhir ini?,male
+16_SUB4,SUB4,Terima kasih banyak atas bantuannya,male
+17_SUB4,SUB4,Maaf membuat semuanya menunggu lama,male
+18_SUB4,SUB4,Sungguh tak disangka bisa bertemu Anda di sini,male
+19_SUB4,SUB4,Pintunya sudah dibuka,male
+20_SUB4,SUB4,Kami akan segera mengantarkannya ke atas,male
+21_SUB4,SUB4,"Maaf, apakah sekarang sedang luang?",male
+22_SUB4,SUB4,"Tersesat, butuh bantuan",male
+23_SUB4,SUB4,"Selamat siang, silakan duduk",male
+24_SUB4,SUB4,Saya melewatkan momen yang luar biasa,male
+25_SUB4,SUB4,Apakah ada yang ingin Anda laporkan?,male
+26_SUB4,SUB4,Bolehkah saya berbicara dengan Anda?,male
+27_SUB4,SUB4,Dia adalah seorang ilmuwan yang luar biasa,male
+28_SUB4,SUB4,Mari makan di luar malam ini,male
+29_SUB4,SUB4,Dia sudah tidak bernapas,male
+30_SUB4,SUB4,Melakukan panggilan internasional,male
+31_SUB4,SUB4,Steak Anda tidak begitu segar,male
+32_SUB4,SUB4,Dia adalah orang yang berpengetahuan luas,male
+33_SUB4,SUB4,Manajer itu sangat penuh empati,male
+34_SUB4,SUB4,Saya akan datang agak telat nanti,male
+35_SUB4,SUB4,Dia hanya mencintai uangnya,male
+36_SUB4,SUB4,Aku akan mencintaimu selamanya,male
+37_SUB4,SUB4,Saya harap Anda beruntung,male
+38_SUB4,SUB4,Hidangan apa ini?,male
+39_SUB4,SUB4,Saya akan menantikan kedatangan Anda,male
+40_SUB4,SUB4,"Saya baik-baik saja, terima kasih",male
+41_SUB4,SUB4,Dia memiliki penggemar di seluruh dunia,male
+42_SUB4,SUB4,Orang itu terjatuh,male
+43_SUB4,SUB4,Kami berdua terlalu berbeda,male
+44_SUB4,SUB4,Apakah Anda tertarik dengan komputer?,male
+45_SUB4,SUB4,Museum tidak buka hari ini,male
+46_SUB4,SUB4,Dia sangat cantik,male
+47_SUB4,SUB4,Kapan kita akan berangkat?,male
+48_SUB4,SUB4,Anda bisa belajar banyak hal darinya,male
+49_SUB4,SUB4,Kamu perlu mengambil liburan,male
+50_SUB4,SUB4,Anda boleh pergi,male
+51_SUB4,SUB4,Saya tidak melakukan apa pun,male
+52_SUB4,SUB4,Apakah Anda membutuhkan bantuan?,male
+53_SUB4,SUB4,Dia sangat ketat terhadap kami,male
+54_SUB4,SUB4,Tolong kabari saya kapan saja,male
+55_SUB4,SUB4,Mohon maaf telah merepotkan Anda,male
+56_SUB4,SUB4,"Selamat pagi Pak, maaf mengganggu",male
+57_SUB4,SUB4,Apakah ada menu vegetarian?,male
+58_SUB4,SUB4,Dia diculik di dalam mobil,male
+59_SUB4,SUB4,"Selamat pagi, Pak, ada yang bisa saya bantu?",male
+60_SUB4,SUB4,Saya benar-benar suka makanan di sana,male
+61_SUB4,SUB4,Saya tidak sengaja menumpahkan tinta,male
+62_SUB4,SUB4,Selamat datang di kantor kami,male
+63_SUB4,SUB4,Aku mulai merasa lapar,male
+64_SUB4,SUB4,Saya ingin makan salad,male
+65_SUB4,SUB4,Anda berjalan ke arah yang salah,male
+66_SUB4,SUB4,Temanmu sangat cantik,male
+67_SUB4,SUB4,Mari kita bicara,male
+68_SUB4,SUB4,Anda bisa mencoba lagi nanti,male
+69_SUB4,SUB4,Anda terlihat sangat kelelahan,male
+70_SUB4,SUB4,Dia benar-benar menyalahkan saya,male
+71_SUB4,SUB4,Di mana saja kamu belakangan ini?,male
+72_SUB4,SUB4,Jadwal saya sangat padat,male
+73_SUB4,SUB4,Silakan duduk dan makan buah,male
+74_SUB4,SUB4,Setiap orang pasti punya masa-masa sulit,male
+75_SUB4,SUB4,"Terima kasih telah menghubungi kami, mohon tunggu sebentar",male
+76_SUB4,SUB4,Semoga Anda lekas sembuh,male
+77_SUB4,SUB4,Kelihatannya parah sekali,male
+78_SUB4,SUB4,Dia terlihat agak mabuk,male
+79_SUB4,SUB4,Dia adalah orang yang sangat serius,male
+80_SUB4,SUB4,"Apakah Anda baik-baik saja, Pak?",male
+81_SUB4,SUB4,Mari kita makan sesuatu yang enak,male
+82_SUB4,SUB4,"Aku lapar, ayo kita pergi makan sesuatu",male
+83_SUB4,SUB4,Terima kasih atas pengertian Anda,male
+84_SUB4,SUB4,Jam berapa perpustakaan tutup?,male
+85_SUB4,SUB4,Tentu saja boleh,male
+86_SUB4,SUB4,Mohon maaf karena harus bekerja lembur,male
+87_SUB4,SUB4,Berpamitan dengan teman di stasiun kereta,male
+88_SUB4,SUB4,Ini terlalu sulit baginya,male
+89_SUB4,SUB4,Akan segera saya telepon,male
+90_SUB4,SUB4,Saya bukan orang yang seperti itu,male
+91_SUB4,SUB4,Sepertinya kamu sedang flu,male
+92_SUB4,SUB4,Berharap bisa bertemu kembali,male
+93_SUB4,SUB4,Apakah ruang rapat sudah siap?,male
+94_SUB4,SUB4,Senang berkenalan dengan Anda,male
+95_SUB4,SUB4,Saya yakin Anda benar,male
+96_SUB4,SUB4,Seperti apa penampilannya?,male
+97_SUB4,SUB4,"Maaf, teman saya sedang sakit",male
+98_SUB4,SUB4,Siapa nama Anda?,male
+99_SUB4,SUB4,Apakah kamu melihatnya?,male
+100_SUB4,SUB4,Kedua belah pihak sama kuatnya,male
+1_SUB1,SUB1,Tolong beri saya lihat menunya,male
+2_SUB1,SUB1,Maaf saya terlambat,male
+3_SUB1,SUB1,Biar saya bantu ganti baterainya,male
+4_SUB1,SUB1,"Dia memakai topeng, wajahnya tidak terlihat",male
+5_SUB1,SUB1,"Halo, ada yang bisa saya bantu?",male
+6_SUB1,SUB1,Dia adalah pahlawan di kota ini,male
+7_SUB1,SUB1,"Selamat datang, silakan masuk",male
+8_SUB1,SUB1,Makan siang berikutnya aku yang traktir,male
+9_SUB1,SUB1,Kami menyukai hasil kerja Anda,male
+10_SUB1,SUB1,Anda salah sambung (salah tekan nomor),male
+11_SUB1,SUB1,"Sudah lama ya, bagaimana kabarmu?",male
+12_SUB1,SUB1,Saya punya rencana lain hari itu,male
+13_SUB1,SUB1,Apa yang kita makan untuk makan siang?,male
+14_SUB1,SUB1,Apakah kalian sudah selesai makan?,male
+15_SUB1,SUB1,Sebaiknya kita sarapan sekarang,male
+16_SUB1,SUB1,Semoga cara Anda berhasil,male
+17_SUB1,SUB1,Anda bisa mencetaknya,male
+18_SUB1,SUB1,Sayur-sayurannya sangat segar,male
+19_SUB1,SUB1,"Saya tidak akan minta maaf, itu bukan salah saya",male
+20_SUB1,SUB1,Kami akan bertanggung jawab atas kekeliruan ini,male
+21_SUB1,SUB1,Kamu tampak penuh energi hari ini,male
+22_SUB1,SUB1,"Setelah makan, saya merasa sangat kenyang",male
+23_SUB1,SUB1,Apakah ada yang menelepon?,male
+24_SUB1,SUB1,"Saya sedang terburu-buru, sampai jumpa",male
+25_SUB1,SUB1,Silakan nikmati perjalanan Anda,male
+26_SUB1,SUB1,Kamu pantas mendapatkan orang yang lebih baik,male
+27_SUB1,SUB1,Bagaimana kabar ibumu sekarang?,male
+28_SUB1,SUB1,"Maaf, saya telah menunda pekerjaan",male
+29_SUB1,SUB1,Tidurlah lebih awal malam ini,male
+30_SUB1,SUB1,Benar-benar tidak bisa dipercaya,male
+31_SUB1,SUB1,Saya rasa dia adalah seorang tukang pos,male
+32_SUB1,SUB1,Saya tidak sengaja menabrak saat sedang parkir,male
+33_SUB1,SUB1,Semoga Anda menyukainya,male
+34_SUB1,SUB1,Senang sekali Anda bisa datang,male
+35_SUB1,SUB1,Dia sudah tertidur,male
+36_SUB1,SUB1,Dia membuatku merinding,male
+37_SUB1,SUB1,Hari ini ingin makan apa?,male
+38_SUB1,SUB1,Bagaimana harimu hari ini?,male
+39_SUB1,SUB1,Kamu terlihat luar biasa hari ini,male
+40_SUB1,SUB1,Teroris tidak menghargai kehidupan,male
+41_SUB1,SUB1,Menurut saya dia sangat luar biasa,male
+42_SUB1,SUB1,Kami berjanji untuk bertemu di perpustakaan,male
+43_SUB1,SUB1,Dia tidak berani bertanya kepadanya,male
+44_SUB1,SUB1,Sepertinya saya tidak setuju dengan pendapat Anda,male
+45_SUB1,SUB1,Saya ingin lebih mengenalnya,male
+46_SUB1,SUB1,"Mohon tunggu sebentar, saya perlu menanyakan beberapa hal",male
+47_SUB1,SUB1,Saya benar-benar minta maaf,male
+48_SUB1,SUB1,Silakan datang kembali,male
+49_SUB1,SUB1,"Maaf, saya lupa",male
+50_SUB1,SUB1,Saya tidak bisa memotong pembicaraannya,male
+51_SUB1,SUB1,Siapa wanita itu?,male
+52_SUB1,SUB1,Anda benar-benar kakek yang murah hati,male
+53_SUB1,SUB1,Cobalah besok pagi,male
+54_SUB1,SUB1,"Selamat sore, Nona, ada yang bisa dibantu?",male
+55_SUB1,SUB1,Untung saja ada orang baik yang menolong,male
+56_SUB1,SUB1,Anda ingin menelepon siapa?,male
+57_SUB1,SUB1,"Kalau begitu, mari kita mulai",male
+58_SUB1,SUB1,Saya ingin makan siang di kamar,male
+59_SUB1,SUB1,Dalam beberapa bulan Anda akan membaik,male
+60_SUB1,SUB1,Terima kasih telah berkata demikian,male
+61_SUB1,SUB1,Tolong segera pergi dari sini,male
+62_SUB1,SUB1,"Selamat malam, ada yang bisa dibantu?",male
+63_SUB1,SUB1,Lagi sibuk apa belakangan ini?,male
+64_SUB1,SUB1,Silakan beri tahu saya nama lengkap Anda,male
+65_SUB1,SUB1,Sampaikan salam saya untuk mereka,male
+66_SUB1,SUB1,Kami semua sedang menunggumu,male
+67_SUB1,SUB1,Aku akan mengajarimu cara membuat omelet,male
+68_SUB1,SUB1,Biar saya bantu bukakan pintunya,male
+69_SUB1,SUB1,Senang bisa membantu Anda,male
+70_SUB1,SUB1,Mari kita makan di luar,male
+71_SUB1,SUB1,"Selamat sore, ada yang bisa saya bantu?",male
+72_SUB1,SUB1,Apakah Anda sudah makan siang?,male
+73_SUB1,SUB1,Silakan tanya saya kapan saja,male
+74_SUB1,SUB1,Kita harus memberitahunya,male
+75_SUB1,SUB1,Kamu benar-benar menjadi lebih sehat,male
+76_SUB1,SUB1,Saya merasa kasihan pada orang tua itu,male
+77_SUB1,SUB1,Dia terkena serangan jantung tadi malam,male
+78_SUB1,SUB1,Nafsu makan saya cukup baik,male
+79_SUB1,SUB1,Menurutku masakan Tiongkok sangat lezat,male
+80_SUB1,SUB1,"Saya sangat sibuk hari ini, butuh bantuan",male
+81_SUB1,SUB1,Aku akan telepon lagi nanti,male
+82_SUB1,SUB1,Saya sangat senang bertemu teman lama,male
+83_SUB1,SUB1,Saya tidak punya waktu luang sama sekali,male
+84_SUB1,SUB1,Kita bisa melakukannya besok,male
+85_SUB1,SUB1,Dia bukan orang yang penting,male
+86_SUB1,SUB1,Senang bertemu dengan Anda lagi,male
+87_SUB1,SUB1,Apa yang bisa kami lakukan untuk Anda?,male
+88_SUB1,SUB1,Kita akan bertemu lagi,male
+89_SUB1,SUB1,Menurutku sebaiknya kamu minta maaf,male
+90_SUB1,SUB1,Ada banyak hal yang ingin kami bicarakan,male
+91_SUB1,SUB1,Kami akan segera sampai,male
+92_SUB1,SUB1,Saya bukan seorang penjahat,male
+93_SUB1,SUB1,Waktu berjalan begitu cepat,male
+94_SUB1,SUB1,Sekarang waktunya tidur,male
+95_SUB1,SUB1,Dukunglah dia untuk membuat keputusannya sendiri,male
+96_SUB1,SUB1,Kamu adalah orang yang humoris,male
+97_SUB1,SUB1,Saya akan pergi berenang sore ini,male
+98_SUB1,SUB1,Hari ini harus bekerja,male
+99_SUB1,SUB1,"Kita semua pernah melakukan kesalahan, itulah hidup",male
+100_SUB1,SUB1,Pekerjaan tidak selesai tepat waktu,male
+1_SUB7,SUB7,Siapa wanita itu?,female
+2_SUB7,SUB7,Anda benar-benar kakek yang murah hati,female
+3_SUB7,SUB7,Cobalah besok pagi,female
+4_SUB7,SUB7,"Selamat sore, Nona, ada yang bisa dibantu?",female
+5_SUB7,SUB7,Untung saja ada orang baik yang menolong,female
+6_SUB7,SUB7,Anda ingin menelepon siapa?,female
+7_SUB7,SUB7,"Kalau begitu, mari kita mulai",female
+8_SUB7,SUB7,Saya ingin makan siang di kamar,female
+9_SUB7,SUB7,Dalam beberapa bulan Anda akan membaik,female
+10_SUB7,SUB7,Terima kasih telah berkata demikian,female
+11_SUB7,SUB7,Tolong segera pergi dari sini,female
+12_SUB7,SUB7,"Selamat malam, ada yang bisa dibantu?",female
+13_SUB7,SUB7,Lagi sibuk apa belakangan ini?,female
+14_SUB7,SUB7,Silakan beri tahu saya nama lengkap Anda,female
+15_SUB7,SUB7,Sampaikan salam saya untuk mereka,female
+16_SUB7,SUB7,Kami semua sedang menunggumu,female
+17_SUB7,SUB7,Aku akan mengajarimu cara membuat omelet,female
+18_SUB7,SUB7,Biar saya bantu bukakan pintunya,female
+19_SUB7,SUB7,Senang bisa membantu Anda,female
+20_SUB7,SUB7,Mari kita makan di luar,female
+21_SUB7,SUB7,"Selamat sore, ada yang bisa saya bantu?",female
+22_SUB7,SUB7,Apakah Anda sudah makan siang?,female
+23_SUB7,SUB7,Silakan tanya saya kapan saja,female
+24_SUB7,SUB7,Kita harus memberitahunya,female
+25_SUB7,SUB7,Kamu benar-benar menjadi lebih sehat,female
+26_SUB7,SUB7,Saya merasa kasihan pada orang tua itu,female
+27_SUB7,SUB7,Dia terkena serangan jantung tadi malam,female
+28_SUB7,SUB7,Nafsu makan saya cukup baik,female
+29_SUB7,SUB7,Menurutku masakan Tiongkok sangat lezat,female
+30_SUB7,SUB7,"Saya sangat sibuk hari ini, butuh bantuan",female
+31_SUB7,SUB7,Aku akan telepon lagi nanti,female
+32_SUB7,SUB7,Saya sangat senang bertemu teman lama,female
+33_SUB7,SUB7,Saya tidak punya waktu luang sama sekali,female
+34_SUB7,SUB7,Kita bisa melakukannya besok,female
+35_SUB7,SUB7,Dia bukan orang yang penting,female
+36_SUB7,SUB7,Senang bertemu dengan Anda lagi,female
+37_SUB7,SUB7,Apa yang bisa kami lakukan untuk Anda?,female
+38_SUB7,SUB7,Kita akan bertemu lagi,female
+39_SUB7,SUB7,Menurutku sebaiknya kamu minta maaf,female
+40_SUB7,SUB7,Ada banyak hal yang ingin kami bicarakan,female
+41_SUB7,SUB7,Kami akan segera sampai,female
+42_SUB7,SUB7,Saya bukan seorang penjahat,female
+43_SUB7,SUB7,Waktu berjalan begitu cepat,female
+44_SUB7,SUB7,Sekarang waktunya tidur,female
+45_SUB7,SUB7,Dukunglah dia untuk membuat keputusannya sendiri,female
+46_SUB7,SUB7,Kamu adalah orang yang humoris,female
+47_SUB7,SUB7,Saya akan pergi berenang sore ini,female
+48_SUB7,SUB7,Hari ini harus bekerja,female
+49_SUB7,SUB7,"Kita semua pernah melakukan kesalahan, itulah hidup",female
+50_SUB7,SUB7,Pekerjaan tidak selesai tepat waktu,female
+51_SUB7,SUB7,Saya harap Anda bisa mengerti,female
+52_SUB7,SUB7,Ide-idemu sangat kreatif,female
+53_SUB7,SUB7,Saya punya nomornya di sini,female
+54_SUB7,SUB7,Mengapa kamu marah?,female
+55_SUB7,SUB7,Berapa suhu tubuhmu kemarin?,female
+56_SUB7,SUB7,Dia dinyatakan tidak bersalah di pengadilan,female
+57_SUB7,SUB7,Kami memiliki kepercayaan penuh padamu,female
+58_SUB7,SUB7,Mereka adalah teman baik,female
+59_SUB7,SUB7,Wajahmu terlihat sangat pucat,female
+60_SUB7,SUB7,Bumbu penyedap menambah cita rasa,female
+61_SUB7,SUB7,Dia memang benar-benar pembuat masalah,female
+62_SUB7,SUB7,Bos Anda masih tergolong cukup baik,female
+63_SUB7,SUB7,Perkataannya tidak perlu dianggap serius,female
+64_SUB7,SUB7,Boleh saya minta tolong?,female
+65_SUB7,SUB7,Mari kita makan di kantin saja,female
+66_SUB7,SUB7,Bisa bantu saya sebentar?,female
+67_SUB7,SUB7,Dia bekerja dengan sangat tidak hati-hati,female
+68_SUB7,SUB7,Silakan tanda tangan di sini,female
+69_SUB7,SUB7,Kapan kamu bisa datang?,female
+70_SUB7,SUB7,Besok tidak perlu sekolah,female
+71_SUB7,SUB7,Tapi semua hal baik pasti ada akhirnya,female
+72_SUB7,SUB7,Apa pekerjaan Anda?,female
+73_SUB7,SUB7,Kamu seharusnya bicara dengannya,female
+74_SUB7,SUB7,Pesawat Anda terlambat,female
+75_SUB7,SUB7,Ini surat undangan untuk Anda,female
+76_SUB7,SUB7,Dia selalu senang membantu orang lain,female
+77_SUB7,SUB7,Saya ingin makan sesuatu,female
+78_SUB7,SUB7,Bertemu teman baru sangat menyenangkan,female
+79_SUB7,SUB7,Saya sudah ada janji besok,female
+80_SUB7,SUB7,Berapa suhu tubuh Anda sekarang?,female
+81_SUB7,SUB7,Kami akan segera menyelesaikan masalahnya,female
+82_SUB7,SUB7,Dia selalu fokus pada uang,female
+83_SUB7,SUB7,Mungkin kita akan mendapatkan inspirasi secara tidak sengaja,female
+84_SUB7,SUB7,Bagaimana perkembangan bisnis Anda?,female
+85_SUB7,SUB7,Saya pikir Anda sudah tahu,female
+86_SUB7,SUB7,Telepon saya kalau sudah sampai,female
+87_SUB7,SUB7,Kurangi makan roti dan kentang,female
+88_SUB7,SUB7,Apakah sepeda itu milikmu?,female
+89_SUB7,SUB7,Kamu baik sekali,female
+90_SUB7,SUB7,Dulu kami sering mengobrol,female
+91_SUB7,SUB7,Beberapa orang tidak suka sayur,female
+92_SUB7,SUB7,Kami berkenalan melalui internet,female
+93_SUB7,SUB7,Kamu adalah teman sejatiku,female
+94_SUB7,SUB7,Terima kasih atas informasi yang Anda berikan,female
+95_SUB7,SUB7,Bagaimana kamu bisa tahu?,female
+96_SUB7,SUB7,"Tetap berkabar ya, sampai jumpa",female
+97_SUB7,SUB7,Kamu sedang mencari masalah,female
+98_SUB7,SUB7,Jadwal kita sangat ketat,female
+99_SUB7,SUB7,Dia menangis terharu di hari pernikahannya,female
+100_SUB7,SUB7,"Halo, apa kabar?",female
+1_SUB9,SUB9,Hasilnya sedikit mengejutkan,female
+2_SUB9,SUB9,Tolong fotokopi laporan ini,female
+3_SUB9,SUB9,Bagaimana kabarmu belakangan ini?,female
+4_SUB9,SUB9,Saya tidak berpikir demikian,female
+5_SUB9,SUB9,"Pekerjaan sangat sibuk, mohon pengertiannya",female
+6_SUB9,SUB9,"Aku merindukanmu, kawan",female
+7_SUB9,SUB9,"Jangan percaya padanya, dia seorang penipu",female
+8_SUB9,SUB9,Anda terlihat sangat tertekan,female
+9_SUB9,SUB9,Saya suka mencoba resep-resep baru,female
+10_SUB9,SUB9,Dia lupa bersiap-siap untuk pidatonya,female
+11_SUB9,SUB9,Perkataannya membingungkan,female
+12_SUB9,SUB9,"Saya tersesat, apakah Anda bisa membantu?",female
+13_SUB9,SUB9,Kamu adalah sahabat terbaikku,female
+14_SUB9,SUB9,Bisa tolong bantu siram bunga?,female
+15_SUB9,SUB9,Bagaimana kesehatanmu akhir-akhir ini?,female
+16_SUB9,SUB9,Terima kasih banyak atas bantuannya,female
+17_SUB9,SUB9,Maaf membuat semuanya menunggu lama,female
+18_SUB9,SUB9,Sungguh tak disangka bisa bertemu Anda di sini,female
+19_SUB9,SUB9,Pintunya sudah dibuka,female
+20_SUB9,SUB9,Kami akan segera mengantarkannya ke atas,female
+21_SUB9,SUB9,"Maaf, apakah sekarang sedang luang?",female
+22_SUB9,SUB9,"Tersesat, butuh bantuan",female
+23_SUB9,SUB9,"Selamat siang, silakan duduk",female
+24_SUB9,SUB9,Saya melewatkan momen yang luar biasa,female
+25_SUB9,SUB9,Apakah ada yang ingin Anda laporkan?,female
+26_SUB9,SUB9,Bolehkah saya berbicara dengan Anda?,female
+27_SUB9,SUB9,Dia adalah seorang ilmuwan yang luar biasa,female
+28_SUB9,SUB9,Mari makan di luar malam ini,female
+29_SUB9,SUB9,Dia sudah tidak bernapas,female
+30_SUB9,SUB9,Melakukan panggilan internasional,female
+31_SUB9,SUB9,Steak Anda tidak begitu segar,female
+32_SUB9,SUB9,Dia adalah orang yang berpengetahuan luas,female
+33_SUB9,SUB9,Manajer itu sangat penuh empati,female
+34_SUB9,SUB9,Saya akan datang agak telat nanti,female
+35_SUB9,SUB9,Dia hanya mencintai uangnya,female
+36_SUB9,SUB9,Aku akan mencintaimu selamanya,female
+37_SUB9,SUB9,Saya harap Anda beruntung,female
+38_SUB9,SUB9,Hidangan apa ini?,female
+39_SUB9,SUB9,Saya akan menantikan kedatangan Anda,female
+40_SUB9,SUB9,"Saya baik-baik saja, terima kasih",female
+41_SUB9,SUB9,Dia memiliki penggemar di seluruh dunia,female
+42_SUB9,SUB9,Orang itu terjatuh,female
+43_SUB9,SUB9,Kami berdua terlalu berbeda,female
+44_SUB9,SUB9,Apakah Anda tertarik dengan komputer?,female
+45_SUB9,SUB9,Museum tidak buka hari ini,female
+46_SUB9,SUB9,Dia sangat cantik,female
+47_SUB9,SUB9,Kapan kita akan berangkat?,female
+48_SUB9,SUB9,Anda bisa belajar banyak hal darinya,female
+49_SUB9,SUB9,Kamu perlu mengambil liburan,female
+50_SUB9,SUB9,Anda boleh pergi,female
+51_SUB9,SUB9,Saya tidak melakukan apa pun,female
+52_SUB9,SUB9,Apakah Anda membutuhkan bantuan?,female
+53_SUB9,SUB9,Dia sangat ketat terhadap kami,female
+54_SUB9,SUB9,Tolong kabari saya kapan saja,female
+55_SUB9,SUB9,Mohon maaf telah merepotkan Anda,female
+56_SUB9,SUB9,"Selamat pagi Pak, maaf mengganggu",female
+57_SUB9,SUB9,Apakah ada menu vegetarian?,female
+58_SUB9,SUB9,Dia diculik di dalam mobil,female
+59_SUB9,SUB9,"Selamat pagi, Pak, ada yang bisa saya bantu?",female
+60_SUB9,SUB9,Saya benar-benar suka makanan di sana,female
+61_SUB9,SUB9,Saya tidak sengaja menumpahkan tinta,female
+62_SUB9,SUB9,Selamat datang di kantor kami,female
+63_SUB9,SUB9,Aku mulai merasa lapar,female
+64_SUB9,SUB9,Saya ingin makan salad,female
+65_SUB9,SUB9,Anda berjalan ke arah yang salah,female
+66_SUB9,SUB9,Temanmu sangat cantik,female
+67_SUB9,SUB9,Mari kita bicara,female
+68_SUB9,SUB9,Anda bisa mencoba lagi nanti,female
+69_SUB9,SUB9,Anda terlihat sangat kelelahan,female
+70_SUB9,SUB9,Dia benar-benar menyalahkan saya,female
+71_SUB9,SUB9,Di mana saja kamu belakangan ini?,female
+72_SUB9,SUB9,Jadwal saya sangat padat,female
+73_SUB9,SUB9,Silakan duduk dan makan buah,female
+74_SUB9,SUB9,Setiap orang pasti punya masa-masa sulit,female
+75_SUB9,SUB9,"Terima kasih telah menghubungi kami, mohon tunggu sebentar",female
+76_SUB9,SUB9,Semoga Anda lekas sembuh,female
+77_SUB9,SUB9,Kelihatannya parah sekali,female
+78_SUB9,SUB9,Dia terlihat agak mabuk,female
+79_SUB9,SUB9,Dia adalah orang yang sangat serius,female
+80_SUB9,SUB9,"Apakah Anda baik-baik saja, Pak?",female
+81_SUB9,SUB9,Mari kita makan sesuatu yang enak,female
+82_SUB9,SUB9,"Aku lapar, ayo kita pergi makan sesuatu",female
+83_SUB9,SUB9,Terima kasih atas pengertian Anda,female
+84_SUB9,SUB9,Jam berapa perpustakaan tutup?,female
+85_SUB9,SUB9,Tentu saja boleh,female
+86_SUB9,SUB9,Mohon maaf karena harus bekerja lembur,female
+87_SUB9,SUB9,Berpamitan dengan teman di stasiun kereta,female
+88_SUB9,SUB9,Ini terlalu sulit baginya,female
+89_SUB9,SUB9,Akan segera saya telepon,female
+90_SUB9,SUB9,Saya bukan orang yang seperti itu,female
+91_SUB9,SUB9,Sepertinya kamu sedang flu,female
+92_SUB9,SUB9,Berharap bisa bertemu kembali,female
+93_SUB9,SUB9,Apakah ruang rapat sudah siap?,female
+94_SUB9,SUB9,Senang berkenalan dengan Anda,female
+95_SUB9,SUB9,Saya yakin Anda benar,female
+96_SUB9,SUB9,Seperti apa penampilannya?,female
+97_SUB9,SUB9,"Maaf, teman saya sedang sakit",female
+98_SUB9,SUB9,Siapa nama Anda?,female
+99_SUB9,SUB9,Apakah kamu melihatnya?,female
+100_SUB9,SUB9,Kedua belah pihak sama kuatnya,female
+51_SUB10,SUB10,Tolong beri saya lihat menunya,female
+52_SUB10,SUB10,Maaf saya terlambat,female
+53_SUB10,SUB10,Biar saya bantu ganti baterainya,female
+54_SUB10,SUB10,"Dia memakai topeng, wajahnya tidak terlihat",female
+55_SUB10,SUB10,"Halo, ada yang bisa saya bantu?",female
+56_SUB10,SUB10,Dia adalah pahlawan di kota ini,female
+57_SUB10,SUB10,"Selamat datang, silakan masuk",female
+58_SUB10,SUB10,Makan siang berikutnya aku yang traktir,female
+59_SUB10,SUB10,Kami menyukai hasil kerja Anda,female
+60_SUB10,SUB10,Anda salah sambung (salah tekan nomor),female
+61_SUB10,SUB10,"Sudah lama ya, bagaimana kabarmu?",female
+62_SUB10,SUB10,Saya punya rencana lain hari itu,female
+63_SUB10,SUB10,Apa yang kita makan untuk makan siang?,female
+64_SUB10,SUB10,Apakah kalian sudah selesai makan?,female
+65_SUB10,SUB10,Sebaiknya kita sarapan sekarang,female
+66_SUB10,SUB10,Semoga cara Anda berhasil,female
+67_SUB10,SUB10,Anda bisa mencetaknya,female
+68_SUB10,SUB10,Sayur-sayurannya sangat segar,female
+69_SUB10,SUB10,"Saya tidak akan minta maaf, itu bukan salah saya",female
+70_SUB10,SUB10,Kami akan bertanggung jawab atas kekeliruan ini,female
+71_SUB10,SUB10,Kamu tampak penuh energi hari ini,female
+72_SUB10,SUB10,"Setelah makan, saya merasa sangat kenyang",female
+73_SUB10,SUB10,Apakah ada yang menelepon?,female
+74_SUB10,SUB10,"Saya sedang terburu-buru, sampai jumpa",female
+75_SUB10,SUB10,Silakan nikmati perjalanan Anda,female
+76_SUB10,SUB10,Kamu pantas mendapatkan orang yang lebih baik,female
+77_SUB10,SUB10,Bagaimana kabar ibumu sekarang?,female
+78_SUB10,SUB10,"Maaf, saya telah menunda pekerjaan",female
+79_SUB10,SUB10,Tidurlah lebih awal malam ini,female
+80_SUB10,SUB10,Benar-benar tidak bisa dipercaya,female
+81_SUB10,SUB10,Saya rasa dia adalah seorang tukang pos,female
+82_SUB10,SUB10,Saya tidak sengaja menabrak saat sedang parkir,female
+83_SUB10,SUB10,Semoga Anda menyukainya,female
+84_SUB10,SUB10,Senang sekali Anda bisa datang,female
+85_SUB10,SUB10,Dia sudah tertidur,female
+86_SUB10,SUB10,Dia membuatku merinding,female
+87_SUB10,SUB10,Hari ini ingin makan apa?,female
+88_SUB10,SUB10,Bagaimana harimu hari ini?,female
+89_SUB10,SUB10,Kamu terlihat luar biasa hari ini,female
+90_SUB10,SUB10,Teroris tidak menghargai kehidupan,female
+91_SUB10,SUB10,Menurut saya dia sangat luar biasa,female
+92_SUB10,SUB10,Kami berjanji untuk bertemu di perpustakaan,female
+93_SUB10,SUB10,Dia tidak berani bertanya kepadanya,female
+94_SUB10,SUB10,Sepertinya saya tidak setuju dengan pendapat Anda,female
+95_SUB10,SUB10,Saya ingin lebih mengenalnya,female
+96_SUB10,SUB10,"Mohon tunggu sebentar, saya perlu menanyakan beberapa hal",female
+97_SUB10,SUB10,Saya benar-benar minta maaf,female
+98_SUB10,SUB10,Silakan datang kembali,female
+99_SUB10,SUB10,"Maaf, saya lupa",female
+100_SUB10,SUB10,Saya tidak bisa memotong pembicaraannya,female
+1_SUB12,SUB12,Saya harap Anda bisa mengerti,female
+2_SUB12,SUB12,Ide-idemu sangat kreatif,female
+3_SUB12,SUB12,Saya punya nomornya di sini,female
+4_SUB12,SUB12,Mengapa kamu marah?,female
+5_SUB12,SUB12,Berapa suhu tubuhmu kemarin?,female
+6_SUB12,SUB12,Dia dinyatakan tidak bersalah di pengadilan,female
+7_SUB12,SUB12,Kami memiliki kepercayaan penuh padamu,female
+8_SUB12,SUB12,Mereka adalah teman baik,female
+9_SUB12,SUB12,Wajahmu terlihat sangat pucat,female
+10_SUB12,SUB12,Bumbu penyedap menambah cita rasa,female
+11_SUB12,SUB12,Dia memang benar-benar pembuat masalah,female
+12_SUB12,SUB12,Bos Anda masih tergolong cukup baik,female
+13_SUB12,SUB12,Perkataannya tidak perlu dianggap serius,female
+14_SUB12,SUB12,Boleh saya minta tolong?,female
+15_SUB12,SUB12,Mari kita makan di kantin saja,female
+16_SUB12,SUB12,Bisa bantu saya sebentar?,female
+17_SUB12,SUB12,Dia bekerja dengan sangat tidak hati-hati,female
+18_SUB12,SUB12,Silakan tanda tangan di sini,female
+19_SUB12,SUB12,Kapan kamu bisa datang?,female
+20_SUB12,SUB12,Besok tidak perlu sekolah,female
+21_SUB12,SUB12,Tapi semua hal baik pasti ada akhirnya,female
+22_SUB12,SUB12,Apa pekerjaan Anda?,female
+23_SUB12,SUB12,Kamu seharusnya bicara dengannya,female
+24_SUB12,SUB12,Pesawat Anda terlambat,female
+25_SUB12,SUB12,Ini surat undangan untuk Anda,female
+26_SUB12,SUB12,Dia selalu senang membantu orang lain,female
+27_SUB12,SUB12,Saya ingin makan sesuatu,female
+28_SUB12,SUB12,Bertemu teman baru sangat menyenangkan,female
+29_SUB12,SUB12,Saya sudah ada janji besok,female
+30_SUB12,SUB12,Berapa suhu tubuh Anda sekarang?,female
+31_SUB12,SUB12,Kami akan segera menyelesaikan masalahnya,female
+32_SUB12,SUB12,Dia selalu fokus pada uang,female
+33_SUB12,SUB12,Mungkin kita akan mendapatkan inspirasi secara tidak sengaja,female
+34_SUB12,SUB12,Bagaimana perkembangan bisnis Anda?,female
+35_SUB12,SUB12,Saya pikir Anda sudah tahu,female
+36_SUB12,SUB12,Telepon saya kalau sudah sampai,female
+37_SUB12,SUB12,Kurangi makan roti dan kentang,female
+38_SUB12,SUB12,Apakah sepeda itu milikmu?,female
+39_SUB12,SUB12,Kamu baik sekali,female
+40_SUB12,SUB12,Dulu kami sering mengobrol,female
+41_SUB12,SUB12,Beberapa orang tidak suka sayur,female
+42_SUB12,SUB12,Kami berkenalan melalui internet,female
+43_SUB12,SUB12,Kamu adalah teman sejatiku,female
+44_SUB12,SUB12,Terima kasih atas informasi yang Anda berikan,female
+45_SUB12,SUB12,Bagaimana kamu bisa tahu?,female
+46_SUB12,SUB12,"Tetap berkabar ya, sampai jumpa",female
+47_SUB12,SUB12,Kamu sedang mencari masalah,female
+48_SUB12,SUB12,Jadwal kita sangat ketat,female
+49_SUB12,SUB12,Dia menangis terharu di hari pernikahannya,female
+50_SUB12,SUB12,"Halo, apa kabar?",female
+51_SUB12,SUB12,Hasilnya sedikit mengejutkan,female
+52_SUB12,SUB12,Tolong fotokopi laporan ini,female
+53_SUB12,SUB12,Bagaimana kabarmu belakangan ini?,female
+54_SUB12,SUB12,Saya tidak berpikir demikian,female
+55_SUB12,SUB12,"Pekerjaan sangat sibuk, mohon pengertiannya",female
+56_SUB12,SUB12,"Aku merindukanmu, kawan",female
+57_SUB12,SUB12,"Jangan percaya padanya, dia seorang penipu",female
+58_SUB12,SUB12,Anda terlihat sangat tertekan,female
+59_SUB12,SUB12,Saya suka mencoba resep-resep baru,female
+60_SUB12,SUB12,Dia lupa bersiap-siap untuk pidatonya,female
+61_SUB12,SUB12,Perkataannya membingungkan,female
+62_SUB12,SUB12,"Saya tersesat, apakah Anda bisa membantu?",female
+63_SUB12,SUB12,Kamu adalah sahabat terbaikku,female
+64_SUB12,SUB12,Bisa tolong bantu siram bunga?,female
+65_SUB12,SUB12,Bagaimana kesehatanmu akhir-akhir ini?,female
+66_SUB12,SUB12,Terima kasih banyak atas bantuannya,female
+67_SUB12,SUB12,Maaf membuat semuanya menunggu lama,female
+68_SUB12,SUB12,Sungguh tak disangka bisa bertemu Anda di sini,female
+69_SUB12,SUB12,Pintunya sudah dibuka,female
+70_SUB12,SUB12,Kami akan segera mengantarkannya ke atas,female
+71_SUB12,SUB12,"Maaf, apakah sekarang sedang luang?",female
+72_SUB12,SUB12,"Tersesat, butuh bantuan",female
+73_SUB12,SUB12,"Selamat siang, silakan duduk",female
+74_SUB12,SUB12,Saya melewatkan momen yang luar biasa,female
+75_SUB12,SUB12,Apakah ada yang ingin Anda laporkan?,female
+76_SUB12,SUB12,Bolehkah saya berbicara dengan Anda?,female
+77_SUB12,SUB12,Dia adalah seorang ilmuwan yang luar biasa,female
+78_SUB12,SUB12,Mari makan di luar malam ini,female
+79_SUB12,SUB12,Dia sudah tidak bernapas,female
+80_SUB12,SUB12,Melakukan panggilan internasional,female
+81_SUB12,SUB12,Steak Anda tidak begitu segar,female
+82_SUB12,SUB12,Dia adalah orang yang berpengetahuan luas,female
+83_SUB12,SUB12,Manajer itu sangat penuh empati,female
+84_SUB12,SUB12,Saya akan datang agak telat nanti,female
+85_SUB12,SUB12,Dia hanya mencintai uangnya,female
+86_SUB12,SUB12,Aku akan mencintaimu selamanya,female
+87_SUB12,SUB12,Saya harap Anda beruntung,female
+88_SUB12,SUB12,Hidangan apa ini?,female
+89_SUB12,SUB12,Saya akan menantikan kedatangan Anda,female
+90_SUB12,SUB12,"Saya baik-baik saja, terima kasih",female
+91_SUB12,SUB12,Dia memiliki penggemar di seluruh dunia,female
+92_SUB12,SUB12,Orang itu terjatuh,female
+93_SUB12,SUB12,Kami berdua terlalu berbeda,female
+94_SUB12,SUB12,Apakah Anda tertarik dengan komputer?,female
+95_SUB12,SUB12,Museum tidak buka hari ini,female
+96_SUB12,SUB12,Dia sangat cantik,female
+97_SUB12,SUB12,Kapan kita akan berangkat?,female
+98_SUB12,SUB12,Anda bisa belajar banyak hal darinya,female
+99_SUB12,SUB12,Kamu perlu mengambil liburan,female
+100_SUB12,SUB12,Anda boleh pergi,female
+1_SUB5,SUB5,"Selamat pagi, ada yang bisa dibantu?",male
+2_SUB5,SUB5,"Selamat datang, ada yang bisa saya bantu?",male
+3_SUB5,SUB5,Boleh minta tolong?,male
+4_SUB5,SUB5,Kamu terlihat luar biasa,male
+5_SUB5,SUB5,Mari kita bicara di luar,male
+6_SUB5,SUB5,"Maaf, membuat Anda menunggu lama",male
+7_SUB5,SUB5,Saya ingin pergi makan sesuatu,male
+8_SUB5,SUB5,Sudah waktunya tidur,male
+9_SUB5,SUB5,Apakah Anda ingin mencoba hidangan lainnya?,male
+10_SUB5,SUB5,Kita pernah bertemu tahun lalu,male
+11_SUB5,SUB5,"Maaf, kemarin saya tidak masuk kelas",male
+12_SUB5,SUB5,Anda seharusnya merasa malu,male
+13_SUB5,SUB5,Dia bekerja paling rajin,male
+14_SUB5,SUB5,Penjelasan Anda tidak meyakinkan bagi saya,male
+15_SUB5,SUB5,Mari ikut saya ke kantor untuk bicara lebih lanjut,male
+16_SUB5,SUB5,Saya menikmati waktu yang menyenangkan,male
+17_SUB5,SUB5,Kucing itu sangat cantik dan lucu,male
+18_SUB5,SUB5,Anda terlihat sangat lelah,male
+19_SUB5,SUB5,Pilihan Anda banyak sekali ya,male
+20_SUB5,SUB5,Lain kali pasti akan lebih baik,male
+21_SUB5,SUB5,Dia sangat tidak bisa diandalkan,male
+22_SUB5,SUB5,Kita akan tetap saling berkabar,male
+23_SUB5,SUB5,Saya tidak percaya penjelasan Anda,male
+24_SUB5,SUB5,Mau tambah nasi lagi?,male
+25_SUB5,SUB5,Mengapa dia tidak menang?,male
+26_SUB5,SUB5,Mari kita akhiri rapatnya,male
+27_SUB5,SUB5,Profesor itu memberikan kesan yang mendalam,male
+28_SUB5,SUB5,Apakah sebelumnya kita pernah bertemu?,male
+29_SUB5,SUB5,Kami biasanya makan di kantin,male
+30_SUB5,SUB5,Layanan makanan tersedia di pesawat,male
+31_SUB5,SUB5,Apa yang Anda lakukan di waktu luang?,male
+32_SUB5,SUB5,Kapan pesawat akan tiba?,male
+33_SUB5,SUB5,Kamu adalah penyelamat hidupku,male
+34_SUB5,SUB5,Saya setuju dengan semua kebijakannya,male
+35_SUB5,SUB5,Kamu boleh mencobanya,male
+36_SUB5,SUB5,Dia adalah pelari terbaik yang pernah saya temui,male
+37_SUB5,SUB5,Kamu adalah pahlawanku,male
+38_SUB5,SUB5,Kita pergi nanti saja,male
+39_SUB5,SUB5,Semoga Anda bersenang-senang,male
+40_SUB5,SUB5,Apakah ada restoran Jepang di sekitar sini?,male
+41_SUB5,SUB5,Matanya sangat indah,male
+42_SUB5,SUB5,Apakah sarapan sudah siap?,male
+43_SUB5,SUB5,Aku sedang menelepon teman,male
+44_SUB5,SUB5,Berikan mikrofonnya kepada dia,male
+45_SUB5,SUB5,Kamu harus pergi melihatnya,male
+46_SUB5,SUB5,Kami akan merapikan dokumen besok,male
+47_SUB5,SUB5,Konsep lama sulit untuk diubah,male
+48_SUB5,SUB5,Apakah ada waktu luang sore ini?,male
+49_SUB5,SUB5,Dia sedang mencari tesisnya yang hilang,male
+50_SUB5,SUB5,Jangan percaya apa yang dia katakan,male
+1_SUB11,SUB11,Dia menolak semua undangan,female
+2_SUB11,SUB11,Saya butuh informasi Anda,female
+3_SUB11,SUB11,Berharap bisa bertemu lagi di masa depan,female
+4_SUB11,SUB11,Saya tidak ingin membuat Anda khawatir,female
+5_SUB11,SUB11,Kapan Anda biasanya tidur?,female
+6_SUB11,SUB11,Mari kita pergi lebih awal,female
+7_SUB11,SUB11,Hari ini hari apa?,female
+8_SUB11,SUB11,"Bagus sekali, terima kasih banyak",female
+9_SUB11,SUB11,Liburan musim dingin akan segera tiba,female
+10_SUB11,SUB11,Ingin membungkus sisa makanan,female
+11_SUB11,SUB11,Aku akan menjemputmu tepat waktu,female
+12_SUB11,SUB11,Saya tidak tahu harus bicara apa,female
+13_SUB11,SUB11,Turut berduka mendengar kabar tersebut,female
+14_SUB11,SUB11,Makan malam hampir siap,female
+15_SUB11,SUB11,Apakah kamu tahu di mana bisa membelinya?,female
+16_SUB11,SUB11,Makan malam sudah siap,female
+17_SUB11,SUB11,"Lama tidak jumpa, apa kabarmu?",female
+18_SUB11,SUB11,Semoga lain kali tidak terlewatkan lagi,female
+19_SUB11,SUB11,Inspirasi terkadang datang dari tempat-tempat yang aneh,female
+20_SUB11,SUB11,Apakah kamu ingin pergi ke restoran ini?,female
+21_SUB11,SUB11,Dia selalu meludah sembarangan,female
+22_SUB11,SUB11,Cinta terkadang benar-benar buta,female
+23_SUB11,SUB11,"Kunci pintunya, ayo kita berangkat",female
+24_SUB11,SUB11,"Sudah siap, mari kita mulai",female
+25_SUB11,SUB11,Kejujuran adalah dasar dari persahabatan,female
+26_SUB11,SUB11,Mari kita pulang,female
+27_SUB11,SUB11,Kucing itu terlalu kotor dan sangat malas,female
+28_SUB11,SUB11,Saya ingin tidur lebih awal,female
+29_SUB11,SUB11,Bagaimana kalau kita pergi menjenguk teman?,female
+30_SUB11,SUB11,Dia sudah punya pacar,female
+31_SUB11,SUB11,Bantuan Anda sangat tepat waktu,female
+32_SUB11,SUB11,Selamat datang di acara kami,female
+33_SUB11,SUB11,Anda terlihat kurang sehat,female
+34_SUB11,SUB11,Anda bebas untuk pergi,female
+35_SUB11,SUB11,Apakah perasaanmu sudah lebih baik?,female
+36_SUB11,SUB11,Keputusan Anda sangat bijaksana,female
+37_SUB11,SUB11,Saya tidak tahu ingin makan apa,female
+38_SUB11,SUB11,Tapi saya sarankan Anda mengakui kesalahan,female
+39_SUB11,SUB11,"Saya ada janji temu, mohon tunggu sebentar",female
+40_SUB11,SUB11,Saya akan bantu mengetikkan untuk Anda,female
+41_SUB11,SUB11,Bolehkah saya bantu?,female
+42_SUB11,SUB11,"Maaf, Anda menduduki kursi saya",female
+43_SUB11,SUB11,Akui kesalahan dan hadapi kenyataan,female
+44_SUB11,SUB11,Dia tidak mengatakannya di telepon,female
+45_SUB11,SUB11,"Sudah larut, saya harus mengejar kereta",female
+46_SUB11,SUB11,Minta jus tomat juga,female
+47_SUB11,SUB11,Sampai jumpa bulan depan,female
+48_SUB11,SUB11,Kamu harus bantu mencuci baju,female
+49_SUB11,SUB11,Kalian mau pergi makan siang di mana?,female
+50_SUB11,SUB11,Tolong awasi orang itu,female
+51_SUB11,SUB11,Dia adalah teman sekamar saya,female
+52_SUB11,SUB11,Saya tersesat di dekat rumah Anda,female
+53_SUB11,SUB11,Bisa tolong bantu saya menyiram bunga?,female
+54_SUB11,SUB11,Dia membuat kesabaran saya habis,female
+55_SUB11,SUB11,Apakah kamu sudah makan?,female
+56_SUB11,SUB11,"Jika Anda bersedia, tinggallah",female
+57_SUB11,SUB11,Sudahkah kamu bicara dengannya?,female
+58_SUB11,SUB11,Teman sejati terlihat di saat susah,female
+59_SUB11,SUB11,Boleh saya minta nomor telepon Anda?,female
+60_SUB11,SUB11,Apa rencanamu untuk masa depan?,female
+61_SUB11,SUB11,Semoga Anda cepat sembuh,female
+62_SUB11,SUB11,Kebetulan sekali bertemu Anda di sini,female
+63_SUB11,SUB11,Bantu menyiapkan makan malam,female
+64_SUB11,SUB11,Dia adalah laki-laki yang pemalu,female
+65_SUB11,SUB11,Bisakah Anda merekomendasikan beberapa hidangan?,female
+66_SUB11,SUB11,Saya benar-benar tidak sedang bercanda,female
+67_SUB11,SUB11,Saya rasa kita akan bekerja sama dengan baik,female
+68_SUB11,SUB11,Apakah kamu serius?,female
+69_SUB11,SUB11,Kamu benar-benar koki yang hebat,female
+70_SUB11,SUB11,Saya akan berusaha semaksimal mungkin membantu Anda,female
+71_SUB11,SUB11,"Halo, bisa minta tolong sebentar?",female
+72_SUB11,SUB11,Apakah Anda memerlukan bantuan?,female
+73_SUB11,SUB11,Penelitian Anda sangat luar biasa,female
+74_SUB11,SUB11,Saya ada janji temu malam ini,female
+75_SUB11,SUB11,"Saya mau masakan Tiongkok, terima kasih",female
+76_SUB11,SUB11,Wasit sepertinya agak memihak,female
+77_SUB11,SUB11,Kami akan mengabari Anda secepatnya,female
+78_SUB11,SUB11,Terkadang memang begitulah kenyataannya,female
+79_SUB11,SUB11,Ukuran pancinya pas,female
+80_SUB11,SUB11,Anda ada di mana?,female
+81_SUB11,SUB11,Bagaimana menurut Anda?,female
+82_SUB11,SUB11,Tidak sengaja menabrak orang lain,female
+83_SUB11,SUB11,Dia akan merasa sangat senang,female
+84_SUB11,SUB11,Maaf telah mengganggu Anda,female
+85_SUB11,SUB11,Tolong bantu ambilkan foto kami,female
+86_SUB11,SUB11,Sepertinya Anda berjalan ke arah yang berlawanan,female
+87_SUB11,SUB11,Sebaiknya kita pergi sekarang,female
+88_SUB11,SUB11,Saya menerima pujian ini dengan rendah hati,female
+89_SUB11,SUB11,Anda ingin bicara dengan siapa?,female
+90_SUB11,SUB11,Bolehkah saya meminjam mobilmu besok?,female
+91_SUB11,SUB11,"Tidak usah, terima kasih",female
+92_SUB11,SUB11,Kamu akan segera sembuh,female
+93_SUB11,SUB11,Saya akan tiba tepat waktu,female
+94_SUB11,SUB11,Kami akan menunggu Anda,female
+95_SUB11,SUB11,Kecewa dengan upaya Anda,female
+96_SUB11,SUB11,Kita harus saling membantu,female
+97_SUB11,SUB11,Semoga perjalanan Anda menyenangkan,female
+98_SUB11,SUB11,Bicaranya tidak ada habisnya,female
+99_SUB11,SUB11,Saya sedang belajar memasak,female
+100_SUB11,SUB11,Apakah kalian punya keju?,female
+1_SUB6,SUB6,Orang sukses juga melakukan kesalahan,female
+2_SUB6,SUB6,Kita harus melihat bagaimana keadaannya,female
+3_SUB6,SUB6,Mungkin keberuntungan akan membaik,female
+4_SUB6,SUB6,Aku ingin memasak makan malam sendiri,female
+5_SUB6,SUB6,Aku membawa keripik kentang,female
+6_SUB6,SUB6,Apa yang biasanya Anda makan?,female
+7_SUB6,SUB6,Apa rencanamu hari ini?,female
+8_SUB6,SUB6,Selamat datang di perusahaan kami,female
+9_SUB6,SUB6,Mengapa kamu menangis?,female
+10_SUB6,SUB6,Lagi sibuk apa akhir-akhir ini?,female
+11_SUB6,SUB6,Saya menantikan bimbingan Anda,female
+12_SUB6,SUB6,"Cepatlah, kita akan terlambat",female
+13_SUB6,SUB6,Semua orang sedang membicarakan hal ini,female
+14_SUB6,SUB6,Apakah kamu sudah siap?,female
+15_SUB6,SUB6,Anda ingin ayam atau daging sapi?,female
+16_SUB6,SUB6,Bercandaanmu sudah keterlaluan,female
+17_SUB6,SUB6,Terima kasih sudah membantu saya,female
+18_SUB6,SUB6,Saya ingin mencicipi hidangan khas lokal,female
+19_SUB6,SUB6,Tetangga baru itu sangat menyebalkan,female
+20_SUB6,SUB6,Saya ingin steak dengan tingkat kematangan medium,female
+21_SUB6,SUB6,Setiap hari hanyalah rutinitas biasa,female
+22_SUB6,SUB6,Tentu saja tidak masalah,female
+23_SUB6,SUB6,Kami baru saja bertengkar,female
+24_SUB6,SUB6,Butuh bantuan apa?,female
+25_SUB6,SUB6,Saya tidak ingin bekerja sama dengannya lagi,female
+26_SUB6,SUB6,Mohon berikan nomor telepon yang bisa dihubungi,female
+27_SUB6,SUB6,Deskripsi ciri-ciri perampok,female
+28_SUB6,SUB6,Terima kasih atas jamuannya,female
+29_SUB6,SUB6,Saya hanya ingin membantu,female
+30_SUB6,SUB6,Beberapa bulan terakhir ini kamu sangat sibuk,female
+31_SUB6,SUB6,Kue itu kelihatannya sangat enak,female
+32_SUB6,SUB6,"Sama-sama, senang bisa membantu",female
+33_SUB6,SUB6,Kamu membuatku sangat marah,female
+34_SUB6,SUB6,Kudengar ada orang yang mendadak kaya raya,female
+35_SUB6,SUB6,Sudah waktunya kita berpisah,female
+36_SUB6,SUB6,Menurutku dia sangat cerdas,female
+37_SUB6,SUB6,Semoga penerbangan Anda lancar,female
+38_SUB6,SUB6,Tolong bantu saya membersihkan dapur,female
+39_SUB6,SUB6,Saya tidak bisa mengabaikan sarannya,female
+40_SUB6,SUB6,Bisakah Anda tinggal beberapa hari lagi?,female
+41_SUB6,SUB6,Mari kita pergi makan sesuatu,female
+42_SUB6,SUB6,Mohon tunggu beberapa menit,female
+43_SUB6,SUB6,Saya ingin menanyakan waktu penerbangan,female
+44_SUB6,SUB6,Saya datang ke sini untuk menemui Anda,female
+45_SUB6,SUB6,Sikapnya benar-benar buruk,female
+46_SUB6,SUB6,Kamu terlalu ragu-ragu dalam bertindak,female
+47_SUB6,SUB6,"Maaf, kemarin saya yang salah",female
+48_SUB6,SUB6,"Masih pagi, tidak akan terlambat",female
+49_SUB6,SUB6,Besok saya berencana memotong rumput dan merapikan kebun,female
+50_SUB6,SUB6,"Saya harus pergi, sampai jumpa",female
+51_SUB6,SUB6,Apa yang ingin kamu lakukan sore ini?,female
+52_SUB6,SUB6,"Tolong isi penuh bensinnya, terima kasih",female
+53_SUB6,SUB6,Hubungi aku besok,female
+54_SUB6,SUB6,Sudah berapa lama Anda seperti ini?,female
+55_SUB6,SUB6,Bisa bantu saya mengatur komputer baru?,female
+56_SUB6,SUB6,Dia sudah berada di dalam penjara,female
+57_SUB6,SUB6,Membantu orang lain membawakan barang,female
+58_SUB6,SUB6,Maaf menelepon semalam ini,female
+59_SUB6,SUB6,Bolehkah saya memesan makanan sekarang?,female
+60_SUB6,SUB6,Pidato di pemakaman itu sangat mengharukan,female
+61_SUB6,SUB6,Makanan di sana lumayan enak,female
+62_SUB6,SUB6,Dia mungkin sudah salah paham,female
+63_SUB6,SUB6,Apakah Anda butuh bantuan mencari sesuatu?,female
+64_SUB6,SUB6,Apa yang bisa saya bantu?,female
+65_SUB6,SUB6,Banyak orang yang menghormatinya,female
+66_SUB6,SUB6,Aku ingin makan sesuatu yang manis,female
+67_SUB6,SUB6,Anda benar-benar sangat perhatian,female
+68_SUB6,SUB6,Boleh tahu nama dan nomor telepon Anda?,female
+69_SUB6,SUB6,Masa kegelapan akan segera berlalu,female
+70_SUB6,SUB6,Perilaku Anda benar-benar keterlaluan,female
+71_SUB6,SUB6,Bisakah kamu mengecilkan suaramu?,female
+72_SUB6,SUB6,Saya sangat menghargai saran Anda,female
+73_SUB6,SUB6,Apakah kamu bisa menggunakan sumpit?,female
+74_SUB6,SUB6,Teman saya adalah seorang pengacara,female
+75_SUB6,SUB6,Mengapa kamu melakukan hal itu?,female
+76_SUB6,SUB6,Kita mungkin telah salah paham padanya,female
+77_SUB6,SUB6,Dia adalah orang yang bijaksana,female
+78_SUB6,SUB6,Tolong jelaskan arti kata ini,female
+79_SUB6,SUB6,Saya ingin tahu jam buka perpustakaan,female
+80_SUB6,SUB6,Jangan menyalahkannya lagi,female
+81_SUB6,SUB6,"Kamu pergi duluan, kita bertemu di taman",female
+82_SUB6,SUB6,Saya tidak sengaja mengotori karpet,female
+83_SUB6,SUB6,Dia tidak tahu bagaimana menghadapi kenyataan,female
+84_SUB6,SUB6,Sudah lama tidak bertemu,female
+85_SUB6,SUB6,Guru filsafat saya sangat humoris,female
+86_SUB6,SUB6,Cukup sampai di sini untuk hari ini,female
+87_SUB6,SUB6,Terima kasih banyak atas undangannya,female
+88_SUB6,SUB6,Kita bisa pensiun lebih awal,female
+89_SUB6,SUB6,Kemampuan memasakmu sangat bagus,female
+90_SUB6,SUB6,Terima kasih atas kepercayaan Anda,female
+91_SUB6,SUB6,Aku tidak sengaja bertemu teman lama di jalan,female
+92_SUB6,SUB6,Saya akan membawakannya untuk Anda besok,female
+93_SUB6,SUB6,Di mana alamat Anda?,female
+94_SUB6,SUB6,Ada bau aneh di dapur,female
+95_SUB6,SUB6,Anda sepertinya kurang enak badan,female
+96_SUB6,SUB6,"Saya harus pergi, sampaikan salam saya untuk keluarga",female
+97_SUB6,SUB6,Apa yang sedang kamu lakukan sekarang?,female
+98_SUB6,SUB6,Ini pasti hasil rekayasa seseorang,female
+99_SUB6,SUB6,Senang bisa melayani Anda,female
+100_SUB6,SUB6,Kami sudah tidak bertemu selama beberapa tahun,female
+1_SUB8,SUB8,Dia menolak semua undangan,male
+2_SUB8,SUB8,Saya butuh informasi Anda,male
+3_SUB8,SUB8,Berharap bisa bertemu lagi di masa depan,male
+4_SUB8,SUB8,Saya tidak ingin membuat Anda khawatir,male
+5_SUB8,SUB8,Kapan Anda biasanya tidur?,male
+6_SUB8,SUB8,Mari kita pergi lebih awal,male
+7_SUB8,SUB8,Hari ini hari apa?,male
+8_SUB8,SUB8,"Bagus sekali, terima kasih banyak",male
+9_SUB8,SUB8,Liburan musim dingin akan segera tiba,male
+10_SUB8,SUB8,Ingin membungkus sisa makanan,male
+11_SUB8,SUB8,Aku akan menjemputmu tepat waktu,male
+12_SUB8,SUB8,Saya tidak tahu harus bicara apa,male
+13_SUB8,SUB8,Turut berduka mendengar kabar tersebut,male
+14_SUB8,SUB8,Makan malam hampir siap,male
+15_SUB8,SUB8,Apakah kamu tahu di mana bisa membelinya?,male
+16_SUB8,SUB8,Makan malam sudah siap,male
+17_SUB8,SUB8,"Lama tidak jumpa, apa kabarmu?",male
+18_SUB8,SUB8,Semoga lain kali tidak terlewatkan lagi,male
+19_SUB8,SUB8,Inspirasi terkadang datang dari tempat-tempat yang aneh,male
+20_SUB8,SUB8,Apakah kamu ingin pergi ke restoran ini?,male
+21_SUB8,SUB8,Dia selalu meludah sembarangan,male
+22_SUB8,SUB8,Cinta terkadang benar-benar buta,male
+23_SUB8,SUB8,"Kunci pintunya, ayo kita berangkat",male
+24_SUB8,SUB8,"Sudah siap, mari kita mulai",male
+25_SUB8,SUB8,Kejujuran adalah dasar dari persahabatan,male
+26_SUB8,SUB8,Mari kita pulang,male
+27_SUB8,SUB8,Kucing itu terlalu kotor dan sangat malas,male
+28_SUB8,SUB8,Saya ingin tidur lebih awal,male
+29_SUB8,SUB8,Bagaimana kalau kita pergi menjenguk teman?,male
+30_SUB8,SUB8,Dia sudah punya pacar,male
+31_SUB8,SUB8,Bantuan Anda sangat tepat waktu,male
+32_SUB8,SUB8,Selamat datang di acara kami,male
+33_SUB8,SUB8,Anda terlihat kurang sehat,male
+34_SUB8,SUB8,Anda bebas untuk pergi,male
+35_SUB8,SUB8,Apakah perasaanmu sudah lebih baik?,male
+36_SUB8,SUB8,Keputusan Anda sangat bijaksana,male
+37_SUB8,SUB8,Saya tidak tahu ingin makan apa,male
+38_SUB8,SUB8,Tapi saya sarankan Anda mengakui kesalahan,male
+39_SUB8,SUB8,"Saya ada janji temu, mohon tunggu sebentar",male
+40_SUB8,SUB8,Saya akan bantu mengetikkan untuk Anda,male
+41_SUB8,SUB8,Bolehkah saya bantu?,male
+42_SUB8,SUB8,"Maaf, Anda menduduki kursi saya",male
+43_SUB8,SUB8,Akui kesalahan dan hadapi kenyataan,male
+44_SUB8,SUB8,Dia tidak mengatakannya di telepon,male
+45_SUB8,SUB8,"Sudah larut, saya harus mengejar kereta",male
+46_SUB8,SUB8,Minta jus tomat juga,male
+47_SUB8,SUB8,Sampai jumpa bulan depan,male
+48_SUB8,SUB8,Kamu harus bantu mencuci baju,male
+49_SUB8,SUB8,Kalian mau pergi makan siang di mana?,male
+50_SUB8,SUB8,Tolong awasi orang itu,male
+51_SUB8,SUB8,Dia adalah teman sekamar saya,male
+52_SUB8,SUB8,Saya tersesat di dekat rumah Anda,male
+53_SUB8,SUB8,Bisa tolong bantu saya menyiram bunga?,male
+54_SUB8,SUB8,Dia membuat kesabaran saya habis,male
+55_SUB8,SUB8,Apakah kamu sudah makan?,male
+56_SUB8,SUB8,"Jika Anda bersedia, tinggallah",male
+57_SUB8,SUB8,Sudahkah kamu bicara dengannya?,male
+58_SUB8,SUB8,Teman sejati terlihat di saat susah,male
+59_SUB8,SUB8,Boleh saya minta nomor telepon Anda?,male
+60_SUB8,SUB8,Apa rencanamu untuk masa depan?,male
+61_SUB8,SUB8,Semoga Anda cepat sembuh,male
+62_SUB8,SUB8,Kebetulan sekali bertemu Anda di sini,male
+63_SUB8,SUB8,Bantu menyiapkan makan malam,male
+64_SUB8,SUB8,Dia adalah laki-laki yang pemalu,male
+65_SUB8,SUB8,Bisakah Anda merekomendasikan beberapa hidangan?,male
+66_SUB8,SUB8,Saya benar-benar tidak sedang bercanda,male
+67_SUB8,SUB8,Saya rasa kita akan bekerja sama dengan baik,male
+68_SUB8,SUB8,Apakah kamu serius?,male
+69_SUB8,SUB8,Kamu benar-benar koki yang hebat,male
+70_SUB8,SUB8,Saya akan berusaha semaksimal mungkin membantu Anda,male
+71_SUB8,SUB8,"Halo, bisa minta tolong sebentar?",male
+72_SUB8,SUB8,Apakah Anda memerlukan bantuan?,male
+73_SUB8,SUB8,Penelitian Anda sangat luar biasa,male
+74_SUB8,SUB8,Saya ada janji temu malam ini,male
+75_SUB8,SUB8,"Saya mau masakan Tiongkok, terima kasih",male
+76_SUB8,SUB8,Wasit sepertinya agak memihak,male
+77_SUB8,SUB8,Kami akan mengabari Anda secepatnya,male
+78_SUB8,SUB8,Terkadang memang begitulah kenyataannya,male
+79_SUB8,SUB8,Ukuran pancinya pas,male
+80_SUB8,SUB8,Anda ada di mana?,male
+81_SUB8,SUB8,Bagaimana menurut Anda?,male
+82_SUB8,SUB8,Tidak sengaja menabrak orang lain,male
+83_SUB8,SUB8,Dia akan merasa sangat senang,male
+84_SUB8,SUB8,Maaf telah mengganggu Anda,male
+85_SUB8,SUB8,Tolong bantu ambilkan foto kami,male
+86_SUB8,SUB8,Sepertinya Anda berjalan ke arah yang berlawanan,male
+87_SUB8,SUB8,Sebaiknya kita pergi sekarang,male
+88_SUB8,SUB8,Saya menerima pujian ini dengan rendah hati,male
+89_SUB8,SUB8,Anda ingin bicara dengan siapa?,male
+90_SUB8,SUB8,Bolehkah saya meminjam mobilmu besok?,male
+91_SUB8,SUB8,"Tidak usah, terima kasih",male
+92_SUB8,SUB8,Kamu akan segera sembuh,male
+93_SUB8,SUB8,Saya akan tiba tepat waktu,male
+94_SUB8,SUB8,Kami akan menunggu Anda,male
+95_SUB8,SUB8,Kecewa dengan upaya Anda,male
+96_SUB8,SUB8,Kita harus saling membantu,male
+97_SUB8,SUB8,Semoga perjalanan Anda menyenangkan,male
+98_SUB8,SUB8,Bicaranya tidak ada habisnya,male
+99_SUB8,SUB8,Saya sedang belajar memasak,male
+100_SUB8,SUB8,Apakah kalian punya keju?,male
+1_SUB10,SUB10,"Selamat pagi, ada yang bisa dibantu?",female
+2_SUB10,SUB10,"Selamat datang, ada yang bisa saya bantu?",female
+3_SUB10,SUB10,Boleh minta tolong?,female
+4_SUB10,SUB10,Kamu terlihat luar biasa,female
+5_SUB10,SUB10,Mari kita bicara di luar,female
+6_SUB10,SUB10,"Maaf, membuat Anda menunggu lama",female
+7_SUB10,SUB10,Saya ingin pergi makan sesuatu,female
+8_SUB10,SUB10,Sudah waktunya tidur,female
+9_SUB10,SUB10,Apakah Anda ingin mencoba hidangan lainnya?,female
+10_SUB10,SUB10,Kita pernah bertemu tahun lalu,female
+11_SUB10,SUB10,"Maaf, kemarin saya tidak masuk kelas",female
+12_SUB10,SUB10,Anda seharusnya merasa malu,female
+13_SUB10,SUB10,Dia bekerja paling rajin,female
+14_SUB10,SUB10,Penjelasan Anda tidak meyakinkan bagi saya,female
+15_SUB10,SUB10,Mari ikut saya ke kantor untuk bicara lebih lanjut,female
+16_SUB10,SUB10,Saya menikmati waktu yang menyenangkan,female
+17_SUB10,SUB10,Kucing itu sangat cantik dan lucu,female
+18_SUB10,SUB10,Anda terlihat sangat lelah,female
+19_SUB10,SUB10,Pilihan Anda banyak sekali ya,female
+20_SUB10,SUB10,Lain kali pasti akan lebih baik,female
+21_SUB10,SUB10,Dia sangat tidak bisa diandalkan,female
+22_SUB10,SUB10,Kita akan tetap saling berkabar,female
+23_SUB10,SUB10,Saya tidak percaya penjelasan Anda,female
+24_SUB10,SUB10,Mau tambah nasi lagi?,female
+25_SUB10,SUB10,Mengapa dia tidak menang?,female
+26_SUB10,SUB10,Mari kita akhiri rapatnya,female
+27_SUB10,SUB10,Profesor itu memberikan kesan yang mendalam,female
+28_SUB10,SUB10,Apakah sebelumnya kita pernah bertemu?,female
+29_SUB10,SUB10,Kami biasanya makan di kantin,female
+30_SUB10,SUB10,Layanan makanan tersedia di pesawat,female
+31_SUB10,SUB10,Apa yang Anda lakukan di waktu luang?,female
+32_SUB10,SUB10,Kapan pesawat akan tiba?,female
+33_SUB10,SUB10,Kamu adalah penyelamat hidupku,female
+34_SUB10,SUB10,Saya setuju dengan semua kebijakannya,female
+35_SUB10,SUB10,Kamu boleh mencobanya,female
+36_SUB10,SUB10,Dia adalah pelari terbaik yang pernah saya temui,female
+37_SUB10,SUB10,Kamu adalah pahlawanku,female
+38_SUB10,SUB10,Kita pergi nanti saja,female
+39_SUB10,SUB10,Semoga Anda bersenang-senang,female
+40_SUB10,SUB10,Apakah ada restoran Jepang di sekitar sini?,female
+41_SUB10,SUB10,Matanya sangat indah,female
+42_SUB10,SUB10,Apakah sarapan sudah siap?,female
+43_SUB10,SUB10,Aku sedang menelepon teman,female
+44_SUB10,SUB10,Berikan mikrofonnya kepada dia,female
+45_SUB10,SUB10,Kamu harus pergi melihatnya,female
+46_SUB10,SUB10,Kami akan merapikan dokumen besok,female
+47_SUB10,SUB10,Konsep lama sulit untuk diubah,female
+48_SUB10,SUB10,Apakah ada waktu luang sore ini?,female
+49_SUB10,SUB10,Dia sedang mencari tesisnya yang hilang,female
+50_SUB10,SUB10,Jangan percaya apa yang dia katakan,female
