@@ -1,35 +1,0 @@
-[INFO] Using device: cpu
-================================================================================
-EEG-to-Text Conformer-Transducer Training Pipeline
-================================================================================
-
-[STEP 1] Load dataset CSV...
-Total records: 1050
-[STEP 2] Split dataset (70% train, 10% val, 20% test)...
-split
-train    742
-test     205
-val      103
-Name: count, dtype: int64
-
-[STEP 3] Load & process EEG signals, compute Log Mel Spectrograms...
-Processing:   0%|          | 0/1050 [00:00<?, ?it/s]Processing:   0%|          | 1/1050 [00:00<07:57,  2.20it/s]Processing:   1%|          | 13/1050 [00:00<00:34, 29.94it/s]Processing:   2%|▏         | 23/1050 [00:00<00:21, 47.29it/s]Processing:   3%|▎         | 36/1050 [00:00<00:14, 68.21it/s]Processing:   5%|▍         | 49/1050 [00:00<00:11, 83.65it/s]Processing:   6%|▌         | 62/1050 [00:00<00:10, 96.18it/s]Processing:   7%|▋         | 75/1050 [00:01<00:09, 105.24it/s]Processing:   8%|▊         | 88/1050 [00:01<00:08, 110.68it/s]Processing:  10%|▉         | 102/1050 [00:01<00:08, 117.01it/s]Processing:  11%|█         | 115/1050 [00:01<00:07, 120.29it/s]Processing:  12%|█▏        | 128/1050 [00:01<00:07, 122.66it/s]Processing:  14%|█▎        | 142/1050 [00:01<00:07, 125.52it/s]Processing:  15%|█▍        | 156/1050 [00:01<00:06, 128.15it/s]Processing:  16%|█▌        | 170/1050 [00:01<00:06, 129.87it/s]Processing:  18%|█▊        | 184/1050 [00:01<00:06, 131.18it/s]Processing:  19%|█▉        | 198/1050 [00:02<00:06, 132.92it/s]Processing:  20%|██        | 212/1050 [00:02<00:06, 131.55it/s]Processing:  22%|██▏       | 226/1050 [00:02<00:06, 131.11it/s]Processing:  23%|██▎       | 240/1050 [00:02<00:06, 131.67it/s]Processing:  24%|██▍       | 254/1050 [00:02<00:06, 130.61it/s]Processing:  26%|██▌       | 268/1050 [00:02<00:06, 123.54it/s]Processing:  27%|██▋       | 282/1050 [00:02<00:06, 125.90it/s]Processing:  28%|██▊       | 296/1050 [00:02<00:05, 127.57it/s]Processing:  29%|██▉       | 309/1050 [00:02<00:05, 127.47it/s]Processing:  31%|███       | 322/1050 [00:02<00:05, 127.39it/s]Processing:  32%|███▏      | 335/1050 [00:03<00:05, 126.64it/s]Processing:  33%|███▎      | 349/1050 [00:03<00:05, 127.90it/s]Processing:  34%|███▍      | 362/1050 [00:03<00:05, 127.31it/s]Processing:  36%|███▌      | 375/1050 [00:03<00:05, 126.15it/s]Processing:  37%|███▋      | 388/1050 [00:03<00:05, 125.93it/s]Processing:  38%|███▊      | 401/1050 [00:03<00:05, 125.23it/s]Processing:  39%|███▉      | 414/1050 [00:03<00:05, 125.01it/s]Processing:  41%|████      | 427/1050 [00:03<00:04, 124.63it/s]Processing:  42%|████▏     | 441/1050 [00:03<00:04, 126.94it/s]Processing:  43%|████▎     | 456/1050 [00:04<00:04, 131.18it/s]Processing:  45%|████▍     | 470/1050 [00:04<00:04, 133.44it/s]Processing:  46%|████▌     | 484/1050 [00:04<00:04, 134.93it/s]Processing:  48%|████▊     | 499/1050 [00:04<00:04, 137.66it/s]Processing:  49%|████▉     | 513/1050 [00:04<00:04, 128.15it/s]Processing:  50%|█████     | 527/1050 [00:04<00:04, 129.57it/s]Processing:  52%|█████▏    | 541/1050 [00:04<00:03, 130.38it/s]Processing:  53%|█████▎    | 555/1050 [00:04<00:03, 132.47it/s]Processing:  54%|█████▍    | 569/1050 [00:04<00:03, 134.61it/s]Processing:  56%|█████▌    | 583/1050 [00:04<00:03, 135.77it/s]Processing:  57%|█████▋    | 597/1050 [00:05<00:03, 136.34it/s]Processing:  58%|█████▊    | 612/1050 [00:05<00:03, 137.86it/s]Processing:  60%|█████▉    | 626/1050 [00:05<00:03, 137.85it/s]Processing:  61%|██████    | 641/1050 [00:05<00:02, 138.62it/s]Processing:  62%|██████▏   | 656/1050 [00:05<00:02, 139.81it/s]Processing:  64%|██████▍   | 670/1050 [00:05<00:02, 138.79it/s]Processing:  65%|██████▌   | 684/1050 [00:05<00:02, 138.20it/s]Processing:  66%|██████▋   | 698/1050 [00:05<00:02, 135.00it/s]Processing:  68%|██████▊   | 712/1050 [00:05<00:02, 133.91it/s]Processing:  69%|██████▉   | 726/1050 [00:06<00:02, 134.00it/s]Processing:  70%|███████   | 740/1050 [00:06<00:02, 124.32it/s]Processing:  72%|███████▏  | 754/1050 [00:06<00:02, 127.07it/s]Processing:  73%|███████▎  | 768/1050 [00:06<00:02, 129.95it/s]Processing:  74%|███████▍  | 782/1050 [00:06<00:02, 132.07it/s]Processing:  76%|███████▌  | 796/1050 [00:06<00:01, 133.93it/s]Processing:  77%|███████▋  | 810/1050 [00:06<00:01, 134.54it/s]Processing:  78%|███████▊  | 824/1050 [00:06<00:01, 135.01it/s]Processing:  80%|███████▉  | 838/1050 [00:06<00:01, 135.18it/s]Processing:  81%|████████  | 852/1050 [00:06<00:01, 133.96it/s]Processing:  82%|████████▏ | 866/1050 [00:07<00:01, 132.76it/s]Processing:  84%|████████▍ | 880/1050 [00:07<00:01, 132.42it/s]Processing:  85%|████████▌ | 894/1050 [00:07<00:01, 132.80it/s]Processing:  86%|████████▋ | 908/1050 [00:07<00:01, 132.97it/s]Processing:  88%|████████▊ | 922/1050 [00:07<00:00, 133.41it/s]Processing:  89%|████████▉ | 936/1050 [00:07<00:00, 133.00it/s]Processing:  90%|█████████ | 950/1050 [00:07<00:00, 132.72it/s]Processing:  92%|█████████▏| 964/1050 [00:07<00:00, 133.40it/s]Processing:  93%|█████████▎| 978/1050 [00:07<00:00, 132.76it/s]Processing:  94%|█████████▍| 992/1050 [00:08<00:00, 133.11it/s]Processing:  96%|█████████▌| 1006/1050 [00:08<00:00, 124.54it/s]Processing:  97%|█████████▋| 1020/1050 [00:08<00:00, 127.53it/s]Processing:  98%|█████████▊| 1034/1050 [00:08<00:00, 130.14it/s]Processing: 100%|█████████▉| 1048/1050 [00:08<00:00, 131.33it/s]Processing: 100%|██████████| 1050/1050 [00:08<00:00, 123.56it/s]
-
-[SUMMARY] Loaded 742 train, 103 val, 205 test samples
-
-[STEP 4] Build Character Tokenizer...
-Traceback (most recent call last):
-  File "/Users/steven/Documents/Github Repositories/EEG-to-Text_Conformer-Transducer/src/pipelines/training/all0.py", line 818, in <module>
-    main()
-    ~~~~^^
-  File "/Users/steven/Documents/Github Repositories/EEG-to-Text_Conformer-Transducer/src/pipelines/training/all0.py", line 737, in main
-    all_texts = pd.concat([data['train']['targets'],
-                           data['val']['targets'],
-                           data['test']['targets']],
-                          ignore_index=True)
-  File "/Users/steven/Documents/Github Repositories/EEG-to-Text_Conformer-Transducer/venv_conf/lib/python3.14/site-packages/pandas/core/reshape/concat.py", line 407, in concat
-    objs, keys, ndims = _clean_keys_and_objs(objs, keys)
-                        ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
-  File "/Users/steven/Documents/Github Repositories/EEG-to-Text_Conformer-Transducer/venv_conf/lib/python3.14/site-packages/pandas/core/reshape/concat.py", line 836, in _clean_keys_and_objs
-    raise TypeError(msg)
-TypeError: cannot concatenate object of type '<class 'list'>'; only Series and DataFrame objs are valid

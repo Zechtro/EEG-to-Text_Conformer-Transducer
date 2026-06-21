@@ -1,1 +1,0 @@
-1. Post-processing: .strip() buat ngilangin spasi di awal.
