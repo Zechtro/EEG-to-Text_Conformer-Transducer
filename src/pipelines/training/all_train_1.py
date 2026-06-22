@@ -1,16 +1,3 @@
-"""
-Full Training Pipeline for EEG-to-Text Conformer-Transducer (ALL SUBJECTS)
-============================================================================
-
-Fitur:
-1. Menggunakan data dari SEMUA subjek di dalam dataset.
-2. Split dataset berdasarkan kalimat secara global (Semua sampel dengan 
-   label kalimat yang sama akan masuk ke split yang sama: Train/Val/Test).
-3. Ekstraksi fitur menggunakan Hilbert Spectrum (CEEMDAN + HHT Binning 14x65).
-4. Ocular Artifact Removal menggunakan FastICA.
-5. Menyimpan model terbaik dan riwayat metrik secara dinamis.
-"""
-
 import os
 import sys
 import pandas as pd
@@ -27,17 +14,12 @@ import matplotlib
 matplotlib.use('Agg')
 import torchaudio.functional as F
 
-# Import library untuk Hilbert Spectrum
 from PyEMD import CEEMDAN
 from scipy.signal import hilbert
 from sklearn.decomposition import FastICA
 from scipy.stats import pearsonr
 
 warnings.filterwarnings('ignore')
-
-# ============================================================================
-# KONFIGURASI PATH & PARAMETER
-# ============================================================================
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../'))
 DATASET_CSV = os.path.join(PROJECT_ROOT, 'dataset/cleaned_transcript_mapping.csv')
@@ -51,7 +33,6 @@ from misc.tokenizer import CharTokenizer
 import misc.beam_decoder_char as beam_decoder_char
 from model import ConformerTransducer
 
-# Definisi Channel Global agar bisa dibaca oleh ICA
 EEG_CHANNELS = ['EEG.AF3', 'EEG.F7', 'EEG.F3', 'EEG.FC5', 'EEG.T7', 
                 'EEG.P7', 'EEG.O1', 'EEG.O2', 'EEG.P8', 'EEG.T8', 
                 'EEG.FC6', 'EEG.F4', 'EEG.F8', 'EEG.AF4']
@@ -80,7 +61,6 @@ CONFIG = {
     'remove_eye_artifacts': True,
     'ica_threshold': 0.8,  
     
-    # Parameter CEEMDAN & Hilbert Spectrum
     'num_imfs': 4,         
     'ceemdan_trials': 15,  
     'n_freq_bins': 65,     
@@ -91,10 +71,6 @@ CONFIG = {
 }
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-# ============================================================================
-# UTILITY FUNCTIONS & FEATURE EXTRACTION (HILBERT SPECTRUM)
-# ============================================================================
 
 def remove_ocular_artifacts_ica(eeg_signal, ch_names, threshold=0.6):
     frontal_indices = [i for i, ch in enumerate(ch_names) if 'AF3' in ch or 'AF4' in ch]
@@ -224,10 +200,6 @@ def compute_hilbert_spectrum(eeg_signal, config):
     
     return features_flat.astype(np.float32)
 
-# ============================================================================
-# DATA SPLIT & PREPROCESSING
-# ============================================================================
-
 def split_dataset_by_sentence(df, train_ratio=0.7, val_ratio=0.1, test_ratio=0.2, seed=42):
     """
     Split sentences into globally consistent categories.
@@ -255,7 +227,6 @@ def load_and_preprocess_dataset(config):
     print(f"\n[STEP 1] Load dataset CSV for ALL subjects...")
     df = pd.read_csv(DATASET_CSV)
     
-    # Filter subject target dihapus, menggunakan seluruh dataset.
     print(f"Total records found: {len(df)}")
     
     print("[STEP 2] Split dataset (70% train, 10% val, 20% test) by sentence...")
@@ -270,7 +241,6 @@ def load_and_preprocess_dataset(config):
     for idx, row in tqdm(df.iterrows(), total=len(df), desc="Processing Hilbert Spectrum"):
         id_val, subject, gender, sentence, split = row['id'], row['subject'], row['gender'], row['sentence'], row['split']
         
-        # Load signal yang akan mengeksekusi ICA per recording
         eeg_signal = load_eeg_signal(id_val, subject, gender, config)
         
         if eeg_signal is None or eeg_signal.shape[0] < config['hop_length']:
@@ -285,10 +255,6 @@ def load_and_preprocess_dataset(config):
     print(f"\n[SUMMARY] Loaded {len(data['train']['features'])} train, "
           f"{len(data['val']['features'])} val, {len(data['test']['features'])} test")
     return data
-
-# ============================================================================
-# DATASET & DATALOADER
-# ============================================================================
 
 class EEGDataset(Dataset):
     def __init__(self, features, targets, tokenizer, metadata=None):
@@ -324,10 +290,6 @@ def collate_batch(batch):
         'metadata': [item['metadata'] for item in batch]
     }
 
-# ============================================================================
-# EVALUATION METRIC (CER)
-# ============================================================================
-
 def compute_cer(reference, hypothesis):
     if len(reference) == 0: return 1.0 if len(hypothesis) > 0 else 0.0
     d = np.zeros((len(reference) + 1, len(hypothesis) + 1))
@@ -339,17 +301,12 @@ def compute_cer(reference, hypothesis):
             d[i][j] = min(d[i-1][j] + 1, d[i][j-1] + 1, d[i-1][j-1] + cost)
     return d[len(reference)][len(hypothesis)] / len(reference)
 
-# ============================================================================
-# TRAINING PIPELINE
-# ============================================================================
-
 def train_epoch(model, train_loader, optimizer, tokenizer, device, beam_decoder=None):
     total_loss, total_cer, num_batches, count = 0, 0, 0, 0
     
     for batch in tqdm(train_loader, desc="Training"):
         model.train()
         
-        # Workaround bug inheritance CuDNN
         if hasattr(model, 'decoder'):
             model.decoder.train()
             if hasattr(model.decoder, 'lstm'):
@@ -444,7 +401,6 @@ def train(model, train_loader, val_loader, tokenizer, config, device):
     
     history = {'train_loss': [], 'train_cer': [], 'val_loss': [], 'val_cer': []}
     
-    # Simpan model untuk semua subjek
     best_model_path = os.path.join(OUTPUT_DIR, 'all_subjects_hilbert_best_model_1_0.pt')
     best_cer = float('inf')
     
@@ -502,10 +458,6 @@ def predict_and_save_csv(model, test_loader, tokenizer, output_dir, device, beam
     print(f"Average Test CER: {predictions_df['cer'].mean():.4f}")
     return predictions_df
 
-# ============================================================================
-# PLOTTING
-# ============================================================================
-
 def plot_training_history(history, output_dir):
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
     epochs = range(1, len(history['train_loss']) + 1)
@@ -530,17 +482,12 @@ def plot_training_history(history, output_dir):
     plt.savefig(os.path.join(output_dir, 'all_subjects_hilbert_training_history_1_0.png'), dpi=300)
     plt.close()
 
-# ============================================================================
-# MAIN EXECUTOR
-# ============================================================================
-
 def main():
     print("=" * 80)
     print("EEG-to-Text Training Pipeline (All Subjects | Hilbert Spectrum Features)")
     print(f"[INFO] Using device: {DEVICE}")
     print("=" * 80)
     
-    # Load and preprocess tanpa batasan subjek
     data = load_and_preprocess_dataset(CONFIG)
     
     print("\n[STEP 4] Build Character Tokenizer...")

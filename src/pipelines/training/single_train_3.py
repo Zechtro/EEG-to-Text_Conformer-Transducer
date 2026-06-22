@@ -1,16 +1,3 @@
-"""
-Full Training Pipeline for EEG-to-Text Conformer-Transducer (Single Subject)
-============================================================================
-
-Fitur:
-1. Filter dataset berdasarkan satu subjek spesifik
-2. Split dataset berdasarkan kalimat (70% Train, 10% Val, 20% Test)
-3. Ekstraksi fitur menggunakan Hilbert Spectrum (CEEMDAN + HHT Binning 14x65)
-4. Training menggunakan RNN-T loss dengan evaluasi CER (BeamDecoder)
-5. Menyimpan model terbaik dan hasil dengan penamaan dinamis per subjek
-6. Bebas spam log multiprocessing
-"""
-
 import os
 import sys
 import pandas as pd
@@ -27,15 +14,10 @@ import matplotlib
 matplotlib.use('Agg')
 import torchaudio.functional as F
 
-# Import library untuk Hilbert Spectrum
 from PyEMD import CEEMDAN
 from scipy.signal import hilbert
 
 warnings.filterwarnings('ignore')
-
-# ============================================================================
-# KONFIGURASI PATH & PARAMETER
-# ============================================================================
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../'))
 DATASET_CSV = os.path.join(PROJECT_ROOT, 'dataset/cleaned_transcript_mapping.csv')
@@ -59,32 +41,26 @@ CONFIG = {
     'batch_size': 7,
     'num_epochs': 100, 
     'learning_rate': 1e-3,
-    'weight_decay': 1e-4,  # Ditingkatkan untuk mengurangi overfit
+    'weight_decay': 1e-4,
     
-    'encoder_dropout': 0.2, # Ditingkatkan untuk mengurangi overfit
-    'decoder_dropout': 0.2, # Ditingkatkan untuk mengurangi overfit
+    'encoder_dropout': 0.2,
+    'decoder_dropout': 0.2,
     
     'sample_rate': 256,
-    'hop_length': 32,      # Ukuran window downsampling waktu
+    'hop_length': 32,
     'f_min': 0.2,
     'f_max': 45.0,
     
-    # Parameter CEEMDAN & Hilbert Spectrum
-    'num_imfs': 4,         # Jumlah IMF yang diekstrak per channel
-    'ceemdan_trials': 15,  # Jumlah ensemble trial CEEMDAN
-    'n_freq_bins': 65,     # Resolusi pita frekuensi
+    'num_imfs': 4,
+    'ceemdan_trials': 15,
+    'n_freq_bins': 65,
     
     'train_ratio': 0.7,
     'val_ratio': 0.1,
     'test_ratio': 0.2,
 }
 
-# Inisialisasi Device HANYA sebagai variabel (Print dipindah ke fungsi main)
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-# ============================================================================
-# UTILITY FUNCTIONS & FEATURE EXTRACTION (HILBERT SPECTRUM)
-# ============================================================================
 
 def extract_eeg_channels(eeg_df):
     eeg_channels = ['EEG.AF3', 'EEG.F7', 'EEG.F3', 'EEG.FC5', 'EEG.T7', 
@@ -124,7 +100,6 @@ def compute_hilbert_spectrum(eeg_signal, config):
     hop_length = config['hop_length']
     num_imfs = config['num_imfs']
     
-    # 1. Buat batas keranjang (bins) frekuensi
     freq_edges = np.linspace(f_min, f_max, n_bins + 1)
     
     ceemdan = CEEMDAN(trials=config['ceemdan_trials'], noise_scale=0.2, parallel=False)
@@ -133,13 +108,11 @@ def compute_hilbert_spectrum(eeg_signal, config):
     for ch_idx in range(n_channels):
         signal = eeg_signal[:, ch_idx].astype(np.float64)
         
-        # Ekstrak IMFs
         imfs = ceemdan(signal, max_imf=num_imfs)
         actual_imfs = imfs.shape[0]
         if actual_imfs > num_imfs:
             imfs = imfs[:num_imfs, :]
             
-        # Matriks kosong untuk Hilbert Spectrum per channel
         hilbert_spec = np.zeros((n_bins, n_samples))
         
         for i in range(imfs.shape[0]):
@@ -150,16 +123,13 @@ def compute_hilbert_spectrum(eeg_signal, config):
             freq = (np.diff(phase) / (2.0*np.pi) * fs)
             freq = np.insert(freq, 0, freq[0])
             
-            # 2. Binning frekuensi
             bin_indices = np.digitize(freq, freq_edges) - 1
             
-            # 3. Akumulasi Energi
             for t in range(n_samples):
                 b = bin_indices[t]
                 if 0 <= b < n_bins:
                     hilbert_spec[b, t] += (amp[t] ** 2) 
         
-        # 4. Downsampling waktu
         n_frames = n_samples // hop_length
         framed_spec = np.zeros((n_bins, n_frames))
         for t_idx in range(n_frames):
@@ -171,26 +141,17 @@ def compute_hilbert_spectrum(eeg_signal, config):
         
     all_channel_spectra = np.array(all_channel_spectra)
     
-    # Transpose & Flatten
     features_transposed = all_channel_spectra.transpose(2, 0, 1)
     features_flat = features_transposed.reshape(features_transposed.shape[0], -1)
     
-    # Log transform stabilitas
     features_flat = np.log(features_flat + 1e-9)
     
-    # Normalisasi z-score per kalimat
-    # Menghitung mean dan standar deviasi sepanjang sumbu waktu (axis=0)
     mean_val = np.mean(features_flat, axis=0)
     std_val = np.std(features_flat, axis=0)
     
-    # Mencegah error pembagian dengan nol menggunakan 1e-6
     features_flat = (features_flat - mean_val) / (std_val + 1e-6)
     
     return features_flat.astype(np.float32)
-
-# ============================================================================
-# DATA SPLIT & PREPROCESSING
-# ============================================================================
 
 def split_dataset_by_sentence(df, train_ratio=0.7, val_ratio=0.1, test_ratio=0.2, seed=42):
     np.random.seed(seed)
@@ -245,10 +206,6 @@ def load_and_preprocess_dataset(config, target_subject):
           f"{len(data['val']['features'])} val, {len(data['test']['features'])} test")
     return data
 
-# ============================================================================
-# DATASET & DATALOADER
-# ============================================================================
-
 class EEGDataset(Dataset):
     def __init__(self, features, targets, tokenizer, metadata=None):
         self.features = features
@@ -283,10 +240,6 @@ def collate_batch(batch):
         'metadata': [item['metadata'] for item in batch]
     }
 
-# ============================================================================
-# EVALUATION METRIC (CER)
-# ============================================================================
-
 def compute_cer(reference, hypothesis):
     if len(reference) == 0: return 1.0 if len(hypothesis) > 0 else 0.0
     d = np.zeros((len(reference) + 1, len(hypothesis) + 1))
@@ -298,18 +251,13 @@ def compute_cer(reference, hypothesis):
             d[i][j] = min(d[i-1][j] + 1, d[i][j-1] + 1, d[i-1][j-1] + cost)
     return d[len(reference)][len(hypothesis)] / len(reference)
 
-# ============================================================================
-# TRAINING PIPELINE
-# ============================================================================
-
 def train_epoch(model, train_loader, optimizer, tokenizer, device, beam_decoder=None):
     total_loss, total_cer, num_batches, count = 0, 0, 0, 0
     
     for batch in tqdm(train_loader, desc="Training"):
-        # 1. Reset model ke mode train
+
         model.train()
         
-        # 2. Paksa eksplisit LSTM masuk ke mode train (Workaround bug inheritance CuDNN)
         if hasattr(model, 'decoder'):
             model.decoder.train()
             if hasattr(model.decoder, 'lstm'):
@@ -404,7 +352,6 @@ def train(model, train_loader, val_loader, tokenizer, config, device, target_sub
     
     history = {'train_loss': [], 'train_cer': [], 'val_loss': [], 'val_cer': []}
     
-    # Simpan model dengan nama subjek
     best_model_path = os.path.join(OUTPUT_DIR, f'{target_subject}_hilbert_best_model_3_0.pt')
     best_cer = float('inf')
     
@@ -462,10 +409,6 @@ def predict_and_save_csv(model, test_loader, tokenizer, output_dir, device, beam
     print(f"Average Test CER: {predictions_df['cer'].mean():.4f}")
     return predictions_df
 
-# ============================================================================
-# PLOTTING
-# ============================================================================
-
 def plot_training_history(history, output_dir, target_subject):
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
     epochs = range(1, len(history['train_loss']) + 1)
@@ -490,19 +433,13 @@ def plot_training_history(history, output_dir, target_subject):
     plt.savefig(os.path.join(output_dir, f'{target_subject}_hilbert_training_history_3_0.png'), dpi=300)
     plt.close()
 
-# ============================================================================
-# MAIN EXECUTOR
-# ============================================================================
-
 def main():
-    # ---------------------------------------------------------
-    # TENTUKAN SUBJEK DI SINI
-    # ---------------------------------------------------------
+
     TARGET_SUBJECT = 'SUB1' 
     
     print("=" * 80)
     print(f"EEG-to-Text Training Pipeline (Subject: {TARGET_SUBJECT} | Hilbert Spectrum Features)")
-    print(f"[INFO] Using device: {DEVICE}") # <--- Pindah ke sini agar bebas spam
+    print(f"[INFO] Using device: {DEVICE}")
     print("=" * 80)
     
     data = load_and_preprocess_dataset(CONFIG, TARGET_SUBJECT)

@@ -1,15 +1,3 @@
-"""
-Full Training Pipeline for EEG-to-Text Conformer-Transducer
-===========================================================
-
-Fitur:
-1. Split dataset berdasarkan kalimat (70% Train, 10% Val, 20% Test)
-2. Ekstraksi fitur menggunakan STFT magnitude spectrogram
-3. Training menggunakan RNN-T loss dengan evaluasi CER (BeamDecoder)
-4. Menyimpan model terbaik berdasarkan Validation CER
-5. Prediksi pada Test Set dan plotting hasil training
-"""
-
 import os
 import sys
 import pandas as pd
@@ -29,49 +17,39 @@ import torchaudio.functional as F
 
 warnings.filterwarnings('ignore')
 
-# ============================================================================
-# KONFIGURASI PATH & PARAMETER
-# ============================================================================
-
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../'))
 DATASET_CSV = os.path.join(PROJECT_ROOT, 'dataset/cleaned_transcript_mapping.csv')
 RAW_DATA_PATH = os.path.join(PROJECT_ROOT, 'dataset/raw')
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'src/pipelines/training')
 
-# Buat folder output jika belum ada
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# Model imports
 sys.path.insert(0, os.path.join(PROJECT_ROOT, 'src/model'))
 from misc.tokenizer import CharTokenizer
 import misc.beam_decoder_char as beam_decoder_char
 from model import ConformerTransducer
 
 CONFIG = {
-    'input_dim': 14 * 65,  # 14 channels * (n_fft//2 + 1) untuk STFT
+    'input_dim': 14 * 65,
     'encoder_dim': 256,
     'decoder_dim': 512,
     'joint_dim': 512,
     'vocab_size': None,
     
-    # Training
     'batch_size': 8,
-    'num_epochs': 20, # Sesuaikan jumlah epoch untuk full training
+    'num_epochs': 20,
     'learning_rate': 1e-3,
     'weight_decay': 1e-5,
     
-    # Dropout (diaktifkan untuk full training agar tidak overfit)
     'encoder_dropout': 0.1,
     'decoder_dropout': 0.1,
     
-    # Audio processing (STFT Parameters)
     'sample_rate': 256,
     'n_fft': 128,      
     'hop_length': 32,
     'f_min': 0.5,
     'f_max': 50.0,
     
-    # Data split ratios
     'train_ratio': 0.7,
     'val_ratio': 0.1,
     'test_ratio': 0.2,
@@ -79,10 +57,6 @@ CONFIG = {
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"[INFO] Using device: {DEVICE}")
-
-# ============================================================================
-# UTILITY FUNCTIONS & FEATURE EXTRACTION (Dari Kode 1)
-# ============================================================================
 
 def extract_eeg_channels(eeg_df):
     eeg_channels = ['EEG.AF3', 'EEG.F7', 'EEG.F3', 'EEG.FC5', 'EEG.T7', 
@@ -124,10 +98,6 @@ def compute_stft_features(eeg_signal, config):
     stft_transposed = stft_stacked.transpose(2, 0, 1)
     stft_flat = stft_transposed.reshape(stft_transposed.shape[0], -1)
     return stft_flat
-
-# ============================================================================
-# DATA SPLIT & PREPROCESSING (Dari Kode 2)
-# ============================================================================
 
 def split_dataset_by_sentence(df, train_ratio=0.7, val_ratio=0.1, test_ratio=0.2, seed=42):
     np.random.seed(seed)
@@ -177,10 +147,6 @@ def load_and_preprocess_dataset(config):
           f"{len(data['val']['features'])} val, {len(data['test']['features'])} test")
     return data
 
-# ============================================================================
-# DATASET & DATALOADER
-# ============================================================================
-
 class EEGDataset(Dataset):
     def __init__(self, features, targets, tokenizer, metadata=None):
         self.features = features
@@ -215,10 +181,6 @@ def collate_batch(batch):
         'metadata': [item['metadata'] for item in batch]
     }
 
-# ============================================================================
-# EVALUATION METRIC (CER)
-# ============================================================================
-
 def compute_cer(reference, hypothesis):
     if len(reference) == 0: return 1.0 if len(hypothesis) > 0 else 0.0
     d = np.zeros((len(reference) + 1, len(hypothesis) + 1))
@@ -230,10 +192,6 @@ def compute_cer(reference, hypothesis):
             d[i][j] = min(d[i-1][j] + 1, d[i][j-1] + 1, d[i-1][j-1] + cost)
     return d[len(reference)][len(hypothesis)] / len(reference)
 
-# ============================================================================
-# TRAINING PIPELINE (Kode 1 Logic + Validation Split)
-# ============================================================================
-
 def train_epoch(model, train_loader, optimizer, tokenizer, device, beam_decoder=None):
     """Train satu epoch menggunakan RNN-T loss dan compute CER."""
     total_loss = 0
@@ -242,15 +200,12 @@ def train_epoch(model, train_loader, optimizer, tokenizer, device, beam_decoder=
     count = 0
     
     for batch in tqdm(train_loader, desc="Training"):
-        # 1. PINDAHKAN model.train() KE DALAM LOOP
-        # Karena jika beam_decoder memanggil model.eval() di batch sebelumnya,
-        # kita harus meresetnya kembali ke mode train untuk batch ini.
+
         model.train()
         
-        # 2. PAKSA EKSPLISIT LSTM MASUK KE MODE TRAIN (Workaround untuk bug inheritance)
         if hasattr(model, 'decoder'):
             model.decoder.train()
-            # Sesuaikan dengan nama variabel LSTM di class decoder Anda (biasanya 'lstm' atau 'rnn')
+
             if hasattr(model.decoder, 'lstm'):
                 model.decoder.lstm.train()
             elif hasattr(model.decoder, 'rnn'):
@@ -263,17 +218,14 @@ def train_epoch(model, train_loader, optimizer, tokenizer, device, beam_decoder=
         
         optimizer.zero_grad()
         
-        # Encoder forward
         encoder_out = model.encoder(features) 
         
-        # Decoder forward 
         batch_size = targets.shape[0]
         blank_col = torch.zeros((batch_size, 1), dtype=torch.long, device=device)
         decoder_input = torch.cat([blank_col, targets], dim=1) 
         hidden_state = model.decoder.init_hidden(batch_size, device)
         decoder_out, _ = model.decoder(decoder_input, hidden_state) 
         
-        # Joiner forward
         enc_proj = model.joiner.encoder_proj(encoder_out) 
         dec_proj = model.joiner.decoder_proj(decoder_out) 
         joint = enc_proj.unsqueeze(2) + dec_proj.unsqueeze(1) 
@@ -289,14 +241,12 @@ def train_epoch(model, train_loader, optimizer, tokenizer, device, beam_decoder=
             blank=0
         )
         
-        # Backward & optimize
         loss.backward()
         torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
         optimizer.step()
         
-        # Compute CER 
         # (Jika fungsi ini merubah model menjadi .eval(), maka loop selanjutnya
-        # akan diselamatkan oleh model.train() yang sudah kita pindahkan ke atas)
+
         if beam_decoder is not None:
             for i in range(features.shape[0]):
                 sample_eeg = features[i:i+1]
@@ -382,7 +332,6 @@ def train(model, train_loader, val_loader, tokenizer, config, device):
                        best_model_path)
             print(f"  --> [SAVE] New Best Validation CER: {best_cer:.4f}. Model saved.")
 
-    # Load best model for testing
     if os.path.exists(best_model_path):
         print("\n[FINAL] Loading best model for testing...")
         model.load_state_dict(torch.load(best_model_path, weights_only=False)['model_state_dict'])
@@ -416,10 +365,6 @@ def predict_and_save_csv(model, test_loader, tokenizer, output_dir, device, beam
     print(f"Average Test CER: {predictions_df['cer'].mean():.4f}")
     return predictions_df
 
-# ============================================================================
-# PLOTTING
-# ============================================================================
-
 def plot_training_history(history, output_dir):
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
     epochs = range(1, len(history['train_loss']) + 1)
@@ -444,10 +389,6 @@ def plot_training_history(history, output_dir):
     plt.savefig(os.path.join(output_dir, 'all_stft_training_history_0.png'), dpi=300)
     plt.close()
 
-# ============================================================================
-# MAIN EXECUTOR
-# ============================================================================
-
 def main():
     print("=" * 80)
     print("EEG-to-Text Training Pipeline (STFT Features & Sentence Split)")
@@ -467,7 +408,7 @@ def main():
     
     train_loader = DataLoader(train_dataset, batch_size=CONFIG['batch_size'], shuffle=True, collate_fn=collate_batch)
     val_loader = DataLoader(val_dataset, batch_size=CONFIG['batch_size'], shuffle=False, collate_fn=collate_batch)
-    test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False, collate_fn=collate_batch) # Batch size 1 for test
+    test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False, collate_fn=collate_batch)
     
     model = ConformerTransducer(CONFIG).to(DEVICE)
     

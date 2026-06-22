@@ -1,18 +1,3 @@
-"""
-Training pipeline untuk EEG-to-Text Conformer-Transducer model.
-
-Langkah-langkah:
-1. Load dataset CSV dengan EEG signals
-2. Proses sinyal EEG (ekstraksi 14 channel)
-3. Split dataset (70% train, 10% val, 20% test)
-4. Ekstraksi fitur Log Mel Spectrogram
-5. Build Dataset class
-6. Build Character Tokenizer
-7. Training dengan CER tracking
-8. Prediksi pada test set
-9. Simpan hasil dalam CSV
-"""
-
 import os
 import sys
 import pandas as pd
@@ -35,23 +20,16 @@ import torchaudio.functional as F
 
 warnings.filterwarnings('ignore')
 
-# ============================================================================
-# KONFIGURASI
-# ============================================================================
-
-# Setup paths
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../'))
 DATASET_CSV = os.path.join(PROJECT_ROOT, 'dataset/cleaned_transcript_mapping.csv')
 RAW_DATA_PATH = os.path.join(PROJECT_ROOT, 'dataset/raw')
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'src/pipelines/training')
 
-# Model imports
 sys.path.insert(0, os.path.join(PROJECT_ROOT, 'src/model'))
 from misc.tokenizer import CharTokenizer
 from misc.beam_decoder import BeamDecoder
 from model import ConformerTransducer
 
-# Training config
 CONFIG = {
     'input_dim': 14 * 80,  # 14 channels x 80 mel frequency bins
     'encoder_dim': 256,
@@ -59,13 +37,11 @@ CONFIG = {
     'joint_dim': 512,
     'vocab_size': None,  # Akan diupdate setelah tokenizer dibuat
     
-    # Training
     'batch_size': 8,
     'num_epochs': 5,
     'learning_rate': 1e-3,
     'weight_decay': 1e-5,
     
-    # Audio processing
     'sample_rate': 256,  # EEG sampling rate
     'n_mels': 80,
     'n_fft': 32,          # ~125ms window at 256 Hz
@@ -73,19 +49,13 @@ CONFIG = {
     'f_min': 0.5,
     'f_max': 50.0,  # Bandpass sudah dilakukan
     
-    # Data split
     'train_ratio': 0.7,
     'val_ratio': 0.1,
     'test_ratio': 0.2,
 }
 
-# Device
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"[INFO] Using device: {DEVICE}")
-
-# ============================================================================
-# UTILITY FUNCTIONS
-# ============================================================================
 
 def extract_eeg_channels(eeg_df):
     """
@@ -97,7 +67,7 @@ def extract_eeg_channels(eeg_df):
                     'EEG.FC6', 'EEG.F4', 'EEG.F8', 'EEG.AF4']
     
     if all(ch in eeg_df.columns for ch in eeg_channels):
-        return eeg_df[eeg_channels].values  # Shape: (n_samples, 14)
+        return eeg_df[eeg_channels].values
     else:
         raise ValueError(f"Tidak semua channel ditemukan di CSV")
 
@@ -121,7 +91,7 @@ def load_eeg_signal(id_val, subject, gender):
     file_path = os.path.join(csv_folder, matching_files[0])
     
     try:
-        # Baca CSV skip baris pertama (metadata)
+
         df = pd.read_csv(file_path, skiprows=1)
         eeg_data = extract_eeg_channels(df)
         return eeg_data
@@ -142,13 +112,11 @@ def compute_log_mel_spectrogram(eeg_signal, config):
     """
     n_samples, n_channels = eeg_signal.shape
     
-    # Hitung Mel Spectrogram untuk setiap channel
     mel_specs = []
     
     for ch_idx in range(n_channels):
         signal = eeg_signal[:, ch_idx].astype(np.float32)
         
-        # Compute Mel Spectrogram
         mel_spec = librosa.feature.melspectrogram(
             y=signal,
             sr=config['sample_rate'],
@@ -159,7 +127,6 @@ def compute_log_mel_spectrogram(eeg_signal, config):
             fmax=config['f_max']
         )
         
-        # Convert to log scale
         mel_spec = np.log(mel_spec + 1e-9)
         mel_specs.append(mel_spec)
     
@@ -179,22 +146,18 @@ def split_dataset_by_sentence(df, train_ratio=0.7, val_ratio=0.1, test_ratio=0.2
     """
     np.random.seed(seed)
     
-    # Group unique sentences
     unique_sentences = df['sentence'].unique()
     n_unique = len(unique_sentences)
     
-    # Calculate split indices
     train_count = int(n_unique * train_ratio)
     val_count = int(n_unique * val_ratio)
     
-    # Shuffle sentences
     shuffled_sentences = np.random.permutation(unique_sentences)
     
     train_sentences = set(shuffled_sentences[:train_count])
     val_sentences = set(shuffled_sentences[train_count:train_count+val_count])
     test_sentences = set(shuffled_sentences[train_count+val_count:])
     
-    # Split dataframe
     df['split'] = df['sentence'].apply(
         lambda x: 'train' if x in train_sentences 
                   else ('val' if x in val_sentences else 'test')
@@ -219,7 +182,6 @@ def load_and_preprocess_dataset(config):
     
     print(df['split'].value_counts())
     
-    # Load EEG signals dan extract features
     print("\n[STEP 3] Load & process EEG signals, compute Log Mel Spectrograms...")
     
     data = {'train': {'features': [], 'targets': [], 'metadata': []},
@@ -233,7 +195,6 @@ def load_and_preprocess_dataset(config):
         sentence = row['sentence']
         split = row['split']
         
-        # Load EEG signal
         eeg_signal = load_eeg_signal(id_val, subject, gender)
         
         if eeg_signal is None:
@@ -244,7 +205,6 @@ def load_and_preprocess_dataset(config):
             print(f"[WARN] Skip {id_val} - signal too short")
             continue
         
-        # Compute features
         mel_spec = compute_log_mel_spectrogram(eeg_signal, config)
         
         data[split]['features'].append(mel_spec)
@@ -262,20 +222,7 @@ def load_and_preprocess_dataset(config):
     
     return data
 
-# ============================================================================
-# TOKENIZER (imported from /src/model/misc/tokenizer)
-# ============================================================================
-# Note: CharTokenizer is imported at the top from src.model.misc.tokenizer
-
-# ============================================================================
-# MODEL CLASSES (imported from /src/model/)
-# ============================================================================
-# Note: ConformerTransducer, Conformer, LSTMDecoder, JointNetwork are imported
 # from /src/model/model.py which uses Encoder, Decoder, Joiner, and misc modules
-
-# ============================================================================
-# DATASET CLASS
-# ============================================================================
 
 class EEGDataset(Dataset):
     """PyTorch Dataset untuk EEG-to-Text."""
@@ -314,7 +261,6 @@ def collate_batch(batch):
     targets = [item['target'] for item in batch]
     metadata = [item['metadata'] for item in batch]
     
-    # Pad features
     max_feature_len = max(f.shape[0] for f in features)
     padded_features = []
     feature_lengths = []
@@ -328,7 +274,6 @@ def collate_batch(batch):
     features = torch.stack(padded_features)
     feature_lengths = torch.LongTensor(feature_lengths)
     
-    # Pad targets
     max_target_len = max(len(t) for t in targets)
     padded_targets = []
     target_lengths = []
@@ -349,20 +294,6 @@ def collate_batch(batch):
         'target_length': target_lengths,
         'metadata': metadata
     }
-
-# ============================================================================
-# CHARACTER ERROR RATE (CER)
-# ============================================================================
-
-# ============================================================================
-# LOSS FUNCTION
-# ============================================================================
-# Note: Using torchaudio.functional.rnnt_loss for consistency with test files
-# All test files in /src/model/test/ use torchaudio.functional.rnnt_loss
-
-# ============================================================================
-# CHARACTER ERROR RATE (CER)
-# ============================================================================
 
 def compute_cer(reference, hypothesis):
     """
@@ -387,10 +318,6 @@ def compute_cer(reference, hypothesis):
     
     return d[len(reference)][len(hypothesis)] / len(reference)
 
-# ============================================================================
-# TRAINING
-# ============================================================================
-
 def train_epoch(model, train_loader, optimizer, tokenizer, device, beam_decoder=None):
     """Train satu epoch menggunakan RNN-T loss dan compute CER."""
     model.train()
@@ -407,30 +334,24 @@ def train_epoch(model, train_loader, optimizer, tokenizer, device, beam_decoder=
         
         optimizer.zero_grad()
         
-        # Encoder forward
         encoder_out = model.encoder(features)  # (batch, enc_time, encoder_dim)
         
-        # Decoder forward dengan targets
-        # RNN-T requires prepending blank token to targets
         batch_size = targets.shape[0]
         blank_col = torch.zeros((batch_size, 1), dtype=torch.long, device=device)
         decoder_input = torch.cat([blank_col, targets], dim=1)  # (batch, target_len+1)
         hidden_state = model.decoder.init_hidden(batch_size, device)
         decoder_out, _ = model.decoder(decoder_input, hidden_state)  # (batch, target_len+1, decoder_dim)
         
-        # Joiner forward - compute untuk setiap (encoder_time, decoder_time) pair
         # encoder_out: (batch, enc_time, encoder_dim)
         # decoder_out: (batch, dec_time, decoder_dim)
         enc_proj = model.joiner.encoder_proj(encoder_out)  # (batch, enc_time, joint_dim)
         dec_proj = model.joiner.decoder_proj(decoder_out)  # (batch, dec_time, joint_dim)
         
-        # Broadcast untuk semua pairs
         # (batch, enc_time, 1, joint_dim) + (batch, 1, dec_time, joint_dim)
         joint = enc_proj.unsqueeze(2) + dec_proj.unsqueeze(1)  # (batch, enc_time, dec_time, joint_dim)
         joint = model.joiner.activation(joint)
         logits = model.joiner.output_proj(joint)  # (batch, enc_time, dec_time, vocab_size)
         
-        # Compute RNN-T loss using torchaudio.functional
         # IMPORTANT: Use encoder output lengths (after subsampling), not input feature lengths
         enc_out_lengths = model.get_encoder_out_lengths(feature_length)
         loss = F.rnnt_loss(
@@ -441,12 +362,10 @@ def train_epoch(model, train_loader, optimizer, tokenizer, device, beam_decoder=
             blank=0
         )
         
-        # Backward & optimize
         loss.backward()
         torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
         optimizer.step()
         
-        # Compute CER using BeamDecoder
         if beam_decoder is not None:
             for i in range(features.shape[0]):
                 sample_eeg = features[i:i+1]
@@ -481,17 +400,14 @@ def evaluate(model, val_loader, tokenizer, device, beam_decoder=None):
             targets = batch['target'].to(device)     # (batch, target_len)
             target_length = batch['target_length'].to(device)
             
-            # Encoder forward
             encoder_out = model.encoder(features)
             
-            # Decoder forward with blank token prepended
             batch_size = targets.shape[0]
             blank_col = torch.zeros((batch_size, 1), dtype=torch.long, device=device)
             decoder_input = torch.cat([blank_col, targets], dim=1)
             hidden_state = model.decoder.init_hidden(batch_size, device)
             decoder_out, _ = model.decoder(decoder_input, hidden_state)
             
-            # Joiner forward
             enc_proj = model.joiner.encoder_proj(encoder_out)
             dec_proj = model.joiner.decoder_proj(decoder_out)
             joint = enc_proj.unsqueeze(2) + dec_proj.unsqueeze(1)
@@ -510,7 +426,6 @@ def evaluate(model, val_loader, tokenizer, device, beam_decoder=None):
             )
             total_loss += loss.item()
             
-            # CER using BeamDecoder
             if beam_decoder is not None:
                 for i in range(features.shape[0]):
                     sample_eeg = features[i:i+1]
@@ -535,7 +450,6 @@ def train(model, train_loader, val_loader, tokenizer, config, device):
                           lr=config['learning_rate'],
                           weight_decay=config['weight_decay'])
     
-    # Create BeamDecoder for CER computation during training
     beam_decoder = BeamDecoder(model, tokenizer, beam_size=3)
     
     history = {'train_loss': [], 'train_cer': [], 'val_loss': [], 'val_cer': []}
@@ -548,34 +462,26 @@ def train(model, train_loader, val_loader, tokenizer, config, device):
     for epoch in range(config['num_epochs']):
         print(f"\n[Epoch {epoch+1}/{config['num_epochs']}]")
         
-        # Train
         train_loss, train_cer = train_epoch(model, train_loader, optimizer, tokenizer, device, beam_decoder)
         history['train_loss'].append(train_loss)
         history['train_cer'].append(train_cer)
         print(f"Train Loss: {train_loss:.4f} | Train CER: {train_cer:.4f}")
         
-        # Validate
         val_loss, val_cer = evaluate(model, val_loader, tokenizer, device, beam_decoder)
         history['val_loss'].append(val_loss)
         history['val_cer'].append(val_cer)
         print(f"Val Loss: {val_loss:.4f} | Val CER: {val_cer:.4f}")
         
-        # Save best model
         if val_cer < best_cer:
             best_cer = val_cer
             best_model = model.state_dict()
             print("[SAVE] Best model saved")
     
-    # Load best model
     if best_model is not None:
         model.load_state_dict(best_model)
     
     print("\n" + "=" * 80)
     return history
-
-# ============================================================================
-# PREDICTION
-# ============================================================================
 
 def predict(model, test_loader, tokenizer, device, max_steps=500):
     """
@@ -591,26 +497,20 @@ def predict(model, test_loader, tokenizer, device, max_steps=500):
             features = batch['feature'].to(device)  # (1, time, features) untuk batch_size=1
             metadata = batch['metadata']
             
-            # Encoder forward
             encoder_out = model.encoder(features)  # (1, enc_time, encoder_dim)
             enc_time = encoder_out.shape[1]
             
-            # Greedy RNN-T decoding
-            # Start dengan empty target sequence
             pred_tokens = []
             
             for enc_step in range(enc_time):
-                # Current encoder output
+
                 enc_current = encoder_out[:, enc_step:enc_step+1, :]  # (1, 1, encoder_dim)
                 
-                # Build decoder input dari predicted tokens so far (plus blank at start)
                 decoder_input_ids = [tokenizer.blank_id] + pred_tokens
                 decoder_input = torch.LongTensor([decoder_input_ids]).to(device)  # (1, dec_len)
                 
-                # Decoder forward
                 decoder_out, _ = model.decoder(decoder_input, None)  # (1, dec_len, decoder_dim)
                 
-                # Consider last decoder output (prediksi berikutnya)
                 decoder_last = decoder_out[:, -1:, :]  # (1, 1, decoder_dim)
                 
                 # Joiner: compute logits untuk current encoder step
@@ -651,7 +551,6 @@ def plot_training_history(history, output_dir):
     
     epochs = range(1, len(history['train_loss']) + 1)
     
-    # Plot 1: Training Loss vs Validation Loss
     axes[0, 0].plot(epochs, history['train_loss'], 'b-', linewidth=2, marker='o', markersize=4, label='Train Loss')
     axes[0, 0].plot(epochs, history['val_loss'], 'r-', linewidth=2, marker='s', markersize=4, label='Val Loss')
     axes[0, 0].fill_between(epochs, history['train_loss'], history['val_loss'], alpha=0.2)
@@ -661,7 +560,6 @@ def plot_training_history(history, output_dir):
     axes[0, 0].legend(fontsize=10)
     axes[0, 0].grid(True, alpha=0.3)
     
-    # Plot 2: Training CER vs Validation CER
     axes[0, 1].plot(epochs, history['train_cer'], 'g-', linewidth=2, marker='^', markersize=4, label='Train CER')
     axes[0, 1].plot(epochs, history['val_cer'], 'm-', linewidth=2, marker='v', markersize=4, label='Val CER')
     axes[0, 1].fill_between(epochs, history['train_cer'], history['val_cer'], alpha=0.2, color='cyan')
@@ -671,7 +569,6 @@ def plot_training_history(history, output_dir):
     axes[0, 1].legend(fontsize=10)
     axes[0, 1].grid(True, alpha=0.3)
     
-    # Plot 3: Loss Convergence (Log Scale)
     axes[1, 0].semilogy(epochs, history['train_loss'], 'b-', linewidth=2, marker='o', label='Train Loss')
     axes[1, 0].semilogy(epochs, history['val_loss'], 'r-', linewidth=2, marker='s', label='Val Loss')
     axes[1, 0].set_xlabel('Epoch', fontsize=11)
@@ -680,7 +577,6 @@ def plot_training_history(history, output_dir):
     axes[1, 0].legend(fontsize=10)
     axes[1, 0].grid(True, alpha=0.3, which='both')
     
-    # Plot 4: CER Improvement Over Epochs
     train_cer_improvement = 100 * (history['train_cer'][0] - history['train_cer'][-1]) / (history['train_cer'][0] + 1e-9)
     val_cer_improvement = 100 * (history['val_cer'][0] - history['val_cer'][-1]) / (history['val_cer'][0] + 1e-9)
     
@@ -707,25 +603,18 @@ Best Val CER: {min(history['val_cer']):.4f} (Epoch {history['val_cer'].index(min
     
     plt.tight_layout()
     
-    # Save figure
     plot_path = os.path.join(output_dir, 'training_history.png')
     plt.savefig(plot_path, dpi=300, bbox_inches='tight')
     print(f"[SAVE] Training history plot saved to {plot_path}")
     plt.close()
-
-# ============================================================================
-# MAIN PIPELINE
-# ============================================================================
 
 def main():
     print("=" * 80)
     print("EEG-to-Text Conformer-Transducer Training Pipeline")
     print("=" * 80)
     
-    # Load & preprocess data
     data = load_and_preprocess_dataset(CONFIG)
     
-    # Build tokenizer
     print("\n[STEP 4] Build Character Tokenizer...")
     # Use ALL texts (train+val+test) so all characters are captured
     all_texts = data['train']['targets'] + data['val']['targets'] + data['test']['targets']
@@ -734,12 +623,10 @@ def main():
     
     CONFIG['vocab_size'] = tokenizer.vocab_size()
     
-    # Save tokenizer
     tokenizer_path = os.path.join(OUTPUT_DIR, 'tokenizer.json')
     tokenizer.save(tokenizer_path)
     print(f"[SAVE] Tokenizer saved to {tokenizer_path}")
     
-    # Create datasets
     print("\n[STEP 5] Create PyTorch Datasets...")
     train_dataset = EEGDataset(data['train']['features'], 
                                data['train']['targets'],
@@ -754,7 +641,6 @@ def main():
                              tokenizer,
                              data['test']['metadata'])
     
-    # Create dataloaders
     train_loader = DataLoader(train_dataset, batch_size=CONFIG['batch_size'],
                              shuffle=True, collate_fn=collate_batch)
     val_loader = DataLoader(val_dataset, batch_size=CONFIG['batch_size'],
@@ -762,34 +648,27 @@ def main():
     test_loader = DataLoader(test_dataset, batch_size=1,
                             shuffle=False, collate_fn=collate_batch)
     
-    # Build model
     print("\n[STEP 5b] Build model...")
     model = ConformerTransducer(CONFIG)
     model.tokenizer = tokenizer
     model = model.to(DEVICE)
     print(model)
     
-    # Train
     history = train(model, train_loader, val_loader, tokenizer, CONFIG, DEVICE)
     
-    # Save history
     history_path = os.path.join(OUTPUT_DIR, 'training_history.json')
     with open(history_path, 'w') as f:
         json.dump(history, f, indent=2)
     print(f"\n[SAVE] Training history saved to {history_path}")
     
-    # Plot training history
     plot_training_history(history, OUTPUT_DIR)
     
-    # Save model
     model_path = os.path.join(OUTPUT_DIR, 'model.pt')
     torch.save(model.state_dict(), model_path)
     print(f"[SAVE] Model saved to {model_path}")
     
-    # Predict on test set
     predictions = predict(model, test_loader, tokenizer, DEVICE)
     
-    # Save results to CSV
     print("\n[STEP 9] Save results...")
     if predictions:
         results_df = pd.DataFrame(predictions)
@@ -797,7 +676,6 @@ def main():
         results_df.to_csv(results_csv, index=False)
         print(f"[SAVE] Results saved to {results_csv}")
         
-        # Print summary
         avg_test_cer = results_df['cer'].mean()
         print(f"[SUMMARY] Average Test CER: {avg_test_cer:.4f}")
     

@@ -1,15 +1,3 @@
-"""
-Full Training Pipeline for EEG-to-Text Conformer-Transducer (Cross-Subject)
-============================================================================
-
-Fitur:
-1. Membaca dataset Train, Val, dan Test yang sudah displit dari file CSV masing-masing
-2. Mengekstraksi seluruh subjek (All Subjects)
-3. Ekstraksi fitur menggunakan Hilbert Spectrum (CEEMDAN + HHT Binning 14x65)
-4. Training menggunakan RNN-T loss dengan evaluasi CER (BeamDecoder)
-5. Bebas spam log multiprocessing
-"""
-
 import os
 import sys
 import pandas as pd
@@ -26,7 +14,6 @@ import matplotlib
 matplotlib.use('Agg')
 import torchaudio.functional as F
 
-# Import library untuk Hilbert Spectrum
 from PyEMD import CEEMDAN
 from scipy.signal import hilbert
 from sklearn.decomposition import FastICA
@@ -35,14 +22,10 @@ import pickle
 
 warnings.filterwarnings('ignore')
 
-# ============================================================================
-# KONFIGURASI PATH & PARAMETER
-# ============================================================================
-
-SUBJECT = 'SUB2'  # Kalau seluruh subjek gunakan ALL
+SUBJECT = 'SUB2'
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../'))
-# PATH BARU: Mengarah ke 3 file CSV yang terpisah
+
 TRAIN_CSV = os.path.join(PROJECT_ROOT, 'dataset/SUB2_eq_3_0_train.csv')
 VAL_CSV = os.path.join(PROJECT_ROOT, 'dataset/SUB2_eq_3_0_val.csv')
 TEST_CSV = os.path.join(PROJECT_ROOT, 'dataset/SUB2_eq_3_0_test.csv')
@@ -57,7 +40,6 @@ from misc.tokenizer import CharTokenizer
 import misc.beam_decoder_char as beam_decoder_char
 from model import ConformerTransducer
 
-# Definisi Channel Global agar bisa dibaca oleh ICA
 EEG_CHANNELS = ['EEG.AF3', 'EEG.F7', 'EEG.F3', 'EEG.FC5', 'EEG.T7', 
                 'EEG.P7', 'EEG.O1', 'EEG.O2', 'EEG.P8', 'EEG.T8', 
                 'EEG.FC6', 'EEG.F4', 'EEG.F8', 'EEG.AF4']
@@ -86,18 +68,12 @@ CONFIG = {
     'remove_eye_artifacts': True,
     'ica_threshold': 0.8,  
     
-    # Parameter CEEMDAN & Hilbert Spectrum
     'start_imf': 2,
     'ceemdan_trials': 15,  
     'n_freq_bins': 65,     
 }
 
-# Inisialisasi Device HANYA sebagai variabel (Print dipindah ke fungsi main)
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-# ============================================================================
-# UTILITY FUNCTIONS & FEATURE EXTRACTION (HILBERT SPECTRUM)
-# ============================================================================
 
 def remove_ocular_artifacts_ica(eeg_signal, ch_names, threshold=0.6):
     frontal_indices = [i for i, ch in enumerate(ch_names) if 'AF3' in ch or 'AF4' in ch]
@@ -229,10 +205,6 @@ def compute_hilbert_spectrum(eeg_signal, config):
     
     return features_flat.astype(np.float32)
 
-# ============================================================================
-# DATA LOADING & PREPROCESSING (DIUBAH UNTUK MULTI-CSV)
-# ============================================================================
-
 def process_split_df(df, split_name, config):
     """Fungsi pembantu untuk memproses setiap dataframe split"""
     features = []
@@ -273,10 +245,6 @@ def load_and_preprocess_dataset(config):
           f"{len(data['val']['features'])} val, {len(data['test']['features'])} test")
     return data
 
-# ============================================================================
-# DATASET & DATALOADER
-# ============================================================================
-
 class EEGDataset(Dataset):
     def __init__(self, features, targets, tokenizer, metadata=None):
         self.features = features
@@ -311,10 +279,6 @@ def collate_batch(batch):
         'metadata': [item['metadata'] for item in batch]
     }
 
-# ============================================================================
-# EVALUATION METRIC (CER)
-# ============================================================================
-
 def compute_cer(reference, hypothesis):
     if len(reference) == 0: return 1.0 if len(hypothesis) > 0 else 0.0
     d = np.zeros((len(reference) + 1, len(hypothesis) + 1))
@@ -325,10 +289,6 @@ def compute_cer(reference, hypothesis):
             cost = 0 if reference[i-1] == hypothesis[j-1] else 1
             d[i][j] = min(d[i-1][j] + 1, d[i][j-1] + 1, d[i-1][j-1] + cost)
     return d[len(reference)][len(hypothesis)] / len(reference)
-
-# ============================================================================
-# TRAINING PIPELINE
-# ============================================================================
 
 def train_epoch(model, train_loader, optimizer, tokenizer, device, beam_decoder=None):
     total_loss, total_cer, num_batches, count = 0, 0, 0, 0
@@ -487,10 +447,6 @@ def predict_and_save_csv(model, test_loader, tokenizer, output_dir, device, beam
     print(f"Average Test CER: {predictions_df['cer'].mean():.4f}")
     return predictions_df
 
-# ============================================================================
-# PLOTTING
-# ============================================================================
-
 def plot_training_history(history, output_dir):
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
     epochs = range(1, len(history['train_loss']) + 1)
@@ -514,10 +470,6 @@ def plot_training_history(history, output_dir):
     plt.tight_layout()
     plt.savefig(os.path.join(output_dir, f'{SUBJECT}_eq_3_0_fixed_hilbert_training_history_6_1.png'), dpi=300)
     plt.close()
-
-# ============================================================================
-# MAIN EXECUTOR
-# ============================================================================
 
 def main():
     print("=" * 80)

@@ -1,8 +1,3 @@
-"""
-Noise-Baseline Evaluation Script for Hilbert Spectrum + Char-Transducer
-Sesuai dengan eksperimen: single_train_6_1_fixed_hilbert_SUB2.py
-"""
-
 import os
 import sys
 import pandas as pd
@@ -13,17 +8,12 @@ from tqdm import tqdm
 import warnings
 import pickle
 
-# Import library untuk Fitur Hilbert & Artefak
 from PyEMD import CEEMDAN
 from scipy.signal import hilbert
 from sklearn.decomposition import FastICA
 from scipy.stats import pearsonr
 
 warnings.filterwarnings('ignore')
-
-# ============================================================================
-# KONFIGURASI PATH & PARAMETER (Harus sama persis dengan script training)
-# ============================================================================
 
 SUBJECT = 'SUB2'
 
@@ -46,7 +36,7 @@ CONFIG = {
     'encoder_dim': 128,
     'decoder_dim': 128,
     'joint_dim': 128,
-    'vocab_size': None, # Akan diisi setelah memuat tokenizer
+    'vocab_size': None,
     
     'batch_size': 7,
     
@@ -59,7 +49,6 @@ CONFIG = {
     'remove_eye_artifacts': True,
     'ica_threshold': 0.8,  
     
-    # Parameter CEEMDAN & Hilbert Spectrum
     'start_imf': 2,
     'ceemdan_trials': 15,  
     'n_freq_bins': 65,     
@@ -67,14 +56,9 @@ CONFIG = {
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# File-file yang akan dimuat dan dihasilkan
 TOKENIZER_PATH = os.path.join(OUTPUT_DIR, f'{SUBJECT}_eq_3_0_fixed_hilbert_char_tokenizer_6_1.pkl')
 BEST_MODEL_PATH = os.path.join(OUTPUT_DIR, f'{SUBJECT}_eq_3_0_fixed_hilbert_best_model_6_1.pt')
 OUTPUT_CSV_NAME = f'NOISE_BASELINE_{SUBJECT}_eq_3_0_fixed_hilbert_test_predictions_6_1.csv'
-
-# ============================================================================
-# FUNGSI EKSTRAKSI FITUR HILBERT SPECTRUM
-# ============================================================================
 
 def remove_ocular_artifacts_ica(eeg_signal, ch_names, threshold=0.6):
     frontal_indices = [i for i, ch in enumerate(ch_names) if 'AF3' in ch or 'AF4' in ch]
@@ -180,10 +164,6 @@ def process_test_df(df, config):
         metadata.append({'id': id_val, 'subject': subject, 'gender': gender, 'sentence': sentence})
     return features, targets, metadata
 
-# ============================================================================
-# DATASET & DATALOADER
-# ============================================================================
-
 class EEGDataset(Dataset):
     def __init__(self, features, targets, tokenizer, metadata=None):
         self.features = features
@@ -224,10 +204,6 @@ def compute_cer(reference, hypothesis):
             d[i][j] = min(d[i-1][j] + 1, d[i][j-1] + 1, d[i-1][j-1] + cost)
     return d[len(reference)][len(hypothesis)] / len(reference)
 
-# ============================================================================
-# FUNGSI INFERENSI PADA NOISE (INTI PENGUJIAN JO ET AL.)
-# ============================================================================
-
 def predict_on_noise_and_save(model, test_loader, tokenizer, output_dir, device, beam_decoder):
     model.eval()
     predictions_list = []
@@ -238,20 +214,17 @@ def predict_on_noise_and_save(model, test_loader, tokenizer, output_dir, device,
     
     with torch.no_grad():
         for batch in tqdm(test_loader, desc="Testing with Noise"):
-            # 1. Ambil matriks fitur Hilbert Spectrum asli
+
             real_features = batch['feature'].to(device)
             metadata_batch = batch['metadata']
             
-            # 2. GANTI DENGAN GAUSSIAN NOISE MURNI
             noise_features = torch.randn_like(real_features)
             
-            # Timpa fitur yang masuk ke model menjadi acak
             features = noise_features
             
             for i, meta in enumerate(metadata_batch):
                 ground_truth = meta['sentence']
                 
-                # Decode noise murni menjadi teks
                 pred_text = beam_decoder.decode(features[i:i+1]) if beam_decoder else ""
                 cer = compute_cer(ground_truth, pred_text)
                 
@@ -269,17 +242,12 @@ def predict_on_noise_and_save(model, test_loader, tokenizer, output_dir, device,
     
     return predictions_df
 
-# ============================================================================
-# MAIN EXECUTOR
-# ============================================================================
-
 def main():
     print("=" * 80)
     print(f"NOISE-BASELINE DIAGNOSTIC ({SUBJECT} | Hilbert Spectrum | Char-Transducer)")
     print(f"[INFO] Using device: {DEVICE}") 
     print("=" * 80)
     
-    # 1. Load Tokenizer dari file Pickle (CharTokenizer)
     print("\n[STEP 1] Memuat Tokenizer...")
     if not os.path.exists(TOKENIZER_PATH):
         print(f"❌ [ERROR] Tokenizer tidak ditemukan di {TOKENIZER_PATH}")
@@ -291,14 +259,12 @@ def main():
     CONFIG['vocab_size'] = tokenizer.vocab_size()
     print(f"✓ Tokenizer berhasil dimuat. Vocab size: {CONFIG['vocab_size']}")
     
-    # 2. Load HANYA Test Set (karena ini hanya inference)
     print(f"\n[STEP 2] Memuat Test Set (Ekstraksi fitur Hilbert)...")
     df_test = pd.read_csv(TEST_CSV)
     features_test, targets_test, metadata_test = process_test_df(df_test, CONFIG)
     test_dataset = EEGDataset(features_test, targets_test, tokenizer, metadata_test)
     test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False, collate_fn=collate_batch)
     
-    # 3. Bangun Model (ConformerTransducer murni) & Load Weights
     print("\n[STEP 3] Membangun model dan memuat bobot terbaik (Best Weights)...")
     model = ConformerTransducer(CONFIG).to(DEVICE)
     
@@ -310,10 +276,8 @@ def main():
         print(f"❌ [ERROR] File model {BEST_MODEL_PATH} tidak ditemukan!")
         return
         
-    # Inisialisasi Beam Decoder Khusus Karakter
     beam_decoder = beam_decoder_char.BeamDecoderChar(model, tokenizer, beam_size=3, max_sym_per_frame=15)
     
-    # 4. Uji dengan Noise
     predict_on_noise_and_save(model, test_loader, tokenizer, OUTPUT_DIR, DEVICE, beam_decoder)
 
 if __name__ == '__main__':

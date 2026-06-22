@@ -1,9 +1,3 @@
-"""
-Script Prediksi/Inferensi EEG-to-Text Conformer-Transducer
-==========================================================
-Lokasi eksekusi: /src/pipelines/training/
-"""
-
 import os
 import sys
 import pandas as pd
@@ -14,7 +8,6 @@ from tqdm import tqdm
 import warnings
 import pickle
 
-# Import library untuk Hilbert Spectrum
 from PyEMD import CEEMDAN
 from scipy.signal import hilbert
 from sklearn.decomposition import FastICA
@@ -22,22 +15,15 @@ from scipy.stats import pearsonr
 
 warnings.filterwarnings('ignore')
 
-# ============================================================================
-# 1. PENGATURAN NAMA FILE INPUT & OUTPUT (UBAH DI SINI)
-# ============================================================================
-# Asumsi: script ini dijalankan di /src/pipelines/training/
 CURRENT_DIR = os.path.dirname(__file__)
 PROJECT_ROOT = os.path.abspath(os.path.join(CURRENT_DIR, '../../../'))
 
-# --- SILAKAN UBAH 3 VARIABEL INI SESUAI NAMA FILE ANDA ---
 TOKENIZER_FILE = "SUB1_fixed_hilbert_char_tokenizer_6_1.pkl"
 MODEL_FILE = "SUB1_fixed_hilbert_best_model_6_1.pt"
 TEST_CSV_FILE = "all_eq_3_0_test.csv" # Berada di folder /dataset
 
-# Path Output
 OUTPUT_CSV_FILE = f"SUB1_fixed_hilbert_test_predictions_6_1_all_eq_3.csv"
 
-# Absolute Paths
 PATH_TOKENIZER = os.path.join(CURRENT_DIR, TOKENIZER_FILE)
 PATH_MODEL = os.path.join(CURRENT_DIR, MODEL_FILE)
 PATH_TEST_CSV = os.path.join(PROJECT_ROOT, 'dataset', TEST_CSV_FILE)
@@ -46,7 +32,6 @@ PATH_OUTPUT = os.path.join(CURRENT_DIR, OUTPUT_CSV_FILE)
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# Import Model
 sys.path.insert(0, os.path.join(PROJECT_ROOT, 'src/model'))
 import misc.beam_decoder_char as beam_decoder_char
 from model import ConformerTransducer
@@ -54,10 +39,6 @@ from model import ConformerTransducer
 EEG_CHANNELS = ['EEG.AF3', 'EEG.F7', 'EEG.F3', 'EEG.FC5', 'EEG.T7', 
                 'EEG.P7', 'EEG.O1', 'EEG.O2', 'EEG.P8', 'EEG.T8', 
                 'EEG.FC6', 'EEG.F4', 'EEG.F8', 'EEG.AF4']
-
-# ============================================================================
-# 2. UTILITY FUNCTIONS & FEATURE EXTRACTION (HILBERT SPECTRUM)
-# ============================================================================
 
 def remove_ocular_artifacts_ica(eeg_signal, ch_names, threshold=0.6):
     frontal_indices = [i for i, ch in enumerate(ch_names) if 'AF3' in ch or 'AF4' in ch]
@@ -168,50 +149,38 @@ def compute_cer(reference, hypothesis):
             d[i][j] = min(d[i-1][j] + 1, d[i][j-1] + 1, d[i-1][j-1] + cost)
     return d[len(reference)][len(hypothesis)] / len(reference)
 
-# ============================================================================
-# 3. PREDICTION PIPELINE
-# ============================================================================
-
 def main():
     print("=" * 80)
     print("EEG-to-Text Prediction/Inference Script")
     print(f"[INFO] Using device: {DEVICE}")
     print("=" * 80)
     
-    # 1. LOAD TOKENIZER
     if not os.path.exists(PATH_TOKENIZER):
         raise FileNotFoundError(f"Tokenizer tidak ditemukan di: {PATH_TOKENIZER}")
     print(f"Loading Tokenizer dari: {TOKENIZER_FILE}")
     with open(PATH_TOKENIZER, 'rb') as f:
         tokenizer = pickle.load(f)
         
-    # 2. LOAD MODEL & CONFIG
     if not os.path.exists(PATH_MODEL):
         raise FileNotFoundError(f"Model file tidak ditemukan di: {PATH_MODEL}")
     print(f"Loading Model & Config dari: {MODEL_FILE}")
     
-    # Memuat file checkpoint (.pt)
     checkpoint = torch.load(PATH_MODEL, map_location=DEVICE, weights_only=False)
     
-    # Otomatis mengekstrak CONFIG yang disimpan saat training
     config = checkpoint['config']
     print(f"Config berhasil diekstrak (Vocab size: {config.get('vocab_size')})")
     
-    # Inisiasi arsitektur model dan muat bobot (weights)
     model = ConformerTransducer(config).to(DEVICE)
     model.load_state_dict(checkpoint['model_state_dict'])
     model.eval() # PENTING: Set model ke mode evaluasi
     
-    # Inisiasi Beam Decoder
     beam_decoder = beam_decoder_char.BeamDecoderChar(model, tokenizer, beam_size=3, max_sym_per_frame=15)
     
-    # 3. LOAD TEST DATA
     if not os.path.exists(PATH_TEST_CSV):
         raise FileNotFoundError(f"File Test CSV tidak ditemukan di: {PATH_TEST_CSV}")
     print(f"Loading Test Dataset dari: {TEST_CSV_FILE}")
     df_test = pd.read_csv(PATH_TEST_CSV)
     
-    # 4. INFERENCE LOOP
     predictions_list = []
     
     print("\nMengeksekusi Ekstraksi Fitur & Prediksi Model...")
@@ -219,7 +188,6 @@ def main():
         for idx, row in tqdm(df_test.iterrows(), total=len(df_test), desc="Predicting"):
             id_val, subject, gender, ground_truth = row['id'], row['subject'], row['gender'], row['sentence']
             
-            # Load & Ekstrak Fitur
             eeg_signal = load_eeg_signal(id_val, subject, gender, config)
             if eeg_signal is None or eeg_signal.shape[0] < config['hop_length']:
                 print(f"[WARNING] Skipping ID {id_val}: Sinyal tidak valid/terlalu pendek.")
@@ -230,10 +198,8 @@ def main():
             # Ubah ke tensor dan tambahkan dimensi batch (1, T_frames, Features)
             features_tensor = torch.FloatTensor(features).unsqueeze(0).to(DEVICE)
             
-            # Decode dengan Beam Search
             pred_text = beam_decoder.decode(features_tensor)
             
-            # Hitung Character Error Rate (CER)
             cer = compute_cer(ground_truth, pred_text)
             
             predictions_list.append({
@@ -245,7 +211,6 @@ def main():
                 'cer': cer
             })
             
-    # 5. SIMPAN HASIL PREDIKSI
     df_result = pd.DataFrame(predictions_list)
     df_result.to_csv(PATH_OUTPUT, index=False)
     

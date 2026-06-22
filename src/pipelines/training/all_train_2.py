@@ -1,16 +1,3 @@
-"""
-Full Training Pipeline for EEG-to-Text Conformer-IndoGPT Transducer (ALL SUBJECTS)
-============================================================================
-
-Fitur Utama:
-1. Menggunakan data dari SEMUA subjek di dalam dataset.
-2. Split dataset berdasarkan kalimat secara global (Train/Val/Test).
-3. Menggunakan Pre-trained IndoNLGTokenizer (Sub-word).
-4. Menggunakan Decoder berbasis IndoGPT.
-5. Ekstraksi fitur Hilbert Spectrum (Overlap 50% & CMVN).
-6. FastICA untuk Ocular Artifact Removal.
-"""
-
 import os
 import sys
 import pandas as pd
@@ -27,21 +14,17 @@ import matplotlib
 matplotlib.use('Agg')
 import torchaudio.functional as F
 
-# Import library untuk Fitur & Artefak
 from PyEMD import CEEMDAN
 from scipy.signal import hilbert
 from sklearn.decomposition import FastICA
 from scipy.stats import pearsonr
 
-# Import Tokenizer
 import transformers.utils
 import transformers.utils.generic
 
-# 1. Bypass pengecekan TensorFlow
 if not hasattr(transformers.utils, 'is_tf_available'):
     transformers.utils.is_tf_available = lambda: False
 
-# 2. Bypass pengecekan tipe data internal
 if not hasattr(transformers.utils.generic, '_is_jax'):
     transformers.utils.generic._is_jax = lambda x: False
 if not hasattr(transformers.utils.generic, '_is_tensorflow'):
@@ -53,14 +36,9 @@ if not hasattr(transformers.utils.generic, '_is_torch'):
 if not hasattr(transformers.utils.generic, '_is_torch_device'):
     transformers.utils.generic._is_torch_device = lambda x: isinstance(x, torch.device)
 
-# 3. Sekarang aman untuk memanggil IndoBenchmark!
 from indobenchmark import IndoNLGTokenizer
 
 warnings.filterwarnings('ignore')
-
-# ============================================================================
-# KONFIGURASI PATH & PARAMETER
-# ============================================================================
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../'))
 DATASET_CSV = os.path.join(PROJECT_ROOT, 'dataset/cleaned_transcript_mapping.csv')
@@ -71,7 +49,6 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 sys.path.insert(0, os.path.join(PROJECT_ROOT, 'src'))
 
-# GANTI import berikut sesuai dengan letak file Anda
 from model.model import ConformerIndoGPTTransducer
 from model.misc.beam_decoder import BeamDecoder
 
@@ -88,7 +65,6 @@ CONFIG = {
     'num_layers': 4,
     'vocab_size': None,
     
-    # Gunakan batch_size yang lebih besar jika VRAM mencukupi
     'batch_size': 16, 
     'num_epochs': 150, 
     'learning_rate': 1e-4, 
@@ -116,10 +92,6 @@ CONFIG = {
 }
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-# ============================================================================
-# UTILITY FUNCTIONS & FEATURE EXTRACTION
-# ============================================================================
 
 def remove_ocular_artifacts_ica(eeg_signal, ch_names, threshold=0.6):
     frontal_indices = [i for i, ch in enumerate(ch_names) if 'AF3' in ch or 'AF4' in ch]
@@ -205,7 +177,6 @@ def compute_hilbert_spectrum(eeg_signal, config):
                 b = bin_indices[t]
                 if 0 <= b < n_bins: hilbert_spec[b, t] += (amp[t] ** 2) 
         
-        # PADDING & WINDOWING
         if current_n_samples > win_length:
             remainder = (current_n_samples - win_length) % hop_length
             if remainder > 0:
@@ -235,10 +206,6 @@ def compute_hilbert_spectrum(eeg_signal, config):
     std_val = np.std(features_flat, axis=0)
     features_flat = (features_flat - mean_val) / (std_val + 1e-6)
     return features_flat.astype(np.float32)
-
-# ============================================================================
-# DATA SPLIT & PREPROCESSING
-# ============================================================================
 
 def split_dataset_by_sentence(df, train_ratio=0.7, val_ratio=0.1, test_ratio=0.2, seed=42):
     np.random.seed(seed)
@@ -275,7 +242,6 @@ def load_and_preprocess_dataset(config):
     for idx, row in tqdm(df.iterrows(), total=len(df), desc="Processing Hilbert Spectrum"):
         id_val, subject, gender, sentence, split = row['id'], row['subject'], row['gender'], row['sentence'], row['split']
         
-        # Load signal tanpa filter subjek tertentu
         eeg_signal = load_eeg_signal(id_val, subject, gender, config)
         
         if eeg_signal is None or eeg_signal.shape[0] < config['hop_length']:
@@ -288,10 +254,6 @@ def load_and_preprocess_dataset(config):
     
     print(f"\n[SUMMARY] Loaded {len(data['train']['features'])} train, {len(data['val']['features'])} val, {len(data['test']['features'])} test")
     return data
-
-# ============================================================================
-# DATASET & DATALOADER
-# ============================================================================
 
 class EEGDataset(Dataset):
     def __init__(self, features, targets, tokenizer, metadata=None):
@@ -330,10 +292,6 @@ def collate_batch(batch):
         'metadata': [item['metadata'] for item in batch]
     }
 
-# ============================================================================
-# EVALUATION METRIC (CER)
-# ============================================================================
-
 def compute_cer(reference, hypothesis):
     if len(reference) == 0: return 1.0 if len(hypothesis) > 0 else 0.0
     d = np.zeros((len(reference) + 1, len(hypothesis) + 1))
@@ -344,10 +302,6 @@ def compute_cer(reference, hypothesis):
             cost = 0 if reference[i-1] == hypothesis[j-1] else 1
             d[i][j] = min(d[i-1][j] + 1, d[i][j-1] + 1, d[i-1][j-1] + cost)
     return d[len(reference)][len(hypothesis)] / len(reference)
-
-# ============================================================================
-# TRAINING PIPELINE
-# ============================================================================
 
 def train_epoch(model, train_loader, optimizer, tokenizer, device, beam_decoder=None):
     total_loss, total_cer, num_batches, count = 0, 0, 0, 0
@@ -382,7 +336,6 @@ def train_epoch(model, train_loader, optimizer, tokenizer, device, beam_decoder=
                 sample_eeg = features[i:i+1]
                 pred_text = beam_decoder.decode(sample_eeg)
                 
-                # Un-shift target dan hiraukan token padding 0
                 unshifted_target = [t.item() - 1 for t in targets[i] if t.item() > 0]
                 target_text = tokenizer.decode(unshifted_target)
                 
@@ -436,7 +389,6 @@ def train(model, train_loader, val_loader, tokenizer, config, device):
     beam_decoder = BeamDecoder(model, tokenizer, beam_size=3)
     history = {'train_loss': [], 'train_cer': [], 'val_loss': [], 'val_cer': []}
     
-    # Penamaan file output kini tanpa nama subjek spesifik
     best_model_path = os.path.join(OUTPUT_DIR, 'all_subjects_hilbert_best_model_2_IndoGPT.pt')
     best_cer = float('inf')
     
@@ -494,10 +446,6 @@ def predict_and_save_csv(model, test_loader, tokenizer, output_dir, device, beam
     print(f"Average Test CER: {predictions_df['cer'].mean():.4f}")
     return predictions_df
 
-# ============================================================================
-# PLOTTING
-# ============================================================================
-
 def plot_training_history(history, output_dir):
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
     epochs = range(1, len(history['train_loss']) + 1)
@@ -522,17 +470,12 @@ def plot_training_history(history, output_dir):
     plt.savefig(os.path.join(output_dir, 'all_subjects_hilbert_training_history_2_IndoGPT.png'), dpi=300)
     plt.close()
 
-# ============================================================================
-# MAIN EXECUTOR
-# ============================================================================
-
 def main():
     print("=" * 80)
     print("EEG-to-Text Training Pipeline (All Subjects | IndoGPT Decoder)")
     print(f"[INFO] Using device: {DEVICE}") 
     print("=" * 80)
     
-    # 1. INIT TOKENIZER PERTAMA KALI
     print("\n[STEP 0] Loading Pre-trained IndoNLGTokenizer...")
     tokenizer = IndoNLGTokenizer.from_pretrained("indobenchmark/indogpt")
     
@@ -546,7 +489,6 @@ def main():
     CONFIG['vocab_size'] = tokenizer.vocab_size + 1
     print(f"Vocab size (including blank): {CONFIG['vocab_size']}")
     
-    # 2. LOAD DATA (Hapus parameter target_subject)
     data = load_and_preprocess_dataset(CONFIG)
     
     train_dataset = EEGDataset(data['train']['features'], data['train']['targets'], tokenizer, data['train']['metadata'])
@@ -558,10 +500,8 @@ def main():
     val_loader = DataLoader(val_dataset, batch_size=CONFIG['batch_size'], shuffle=False, collate_fn=collate_batch)
     test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False, collate_fn=collate_batch) 
     
-    # 3. BUILD MODEL
     model = ConformerIndoGPTTransducer(CONFIG).to(DEVICE)
     
-    # 4. TRAINING & EVALUATION (Hapus argumen target_subject dari list parameter)
     history, beam_decoder = train(model, train_loader, val_loader, tokenizer, CONFIG, DEVICE)
     
     with open(os.path.join(OUTPUT_DIR, 'all_subjects_hilbert_training_history_2_IndoGPT.json'), 'w') as f:

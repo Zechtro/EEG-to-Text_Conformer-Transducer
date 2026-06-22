@@ -1,16 +1,3 @@
-"""
-SOTA Training Pipeline for EEG-to-Text Conformer-Transducer (Cross-Subject)
-============================================================================
-
-Fitur Utama:
-1. Membaca dataset Train, Val, dan Test yang sudah displit dari file CSV masing-masing
-2. Target Subject spesifik (SUB1)
-3. SOTA Preprocessing: Notch 50Hz -> Rename Channel -> Interpolasi -> CAR -> Extended Infomax ICA + ICLabel
-4. Ekstraksi fitur menggunakan Hilbert Spectrum (CEEMDAN + HHT Binning 14x65)
-5. Training menggunakan RNN-T loss dengan evaluasi CER (CharTokenizer kustom)
-6. Optimasi performa cuDNN Benchmark khusus untuk Windows + NVIDIA CUDA
-"""
-
 import os
 import sys
 import pandas as pd
@@ -27,7 +14,6 @@ import matplotlib
 matplotlib.use('Agg')
 import torchaudio.functional as F
 
-# Import library untuk Pemrosesan Sinyal & Fitur
 from PyEMD import CEEMDAN
 from scipy.signal import hilbert
 import mne
@@ -36,10 +22,6 @@ from mne_icalabel import label_components
 import pickle
 
 warnings.filterwarnings('ignore')
-
-# ============================================================================
-# KONFIGURASI PATH & PARAMETER
-# ============================================================================
 
 SUBJECT = 'SUB1'
 
@@ -82,7 +64,6 @@ CONFIG = {
     'f_min': 0.2,
     'f_max': 45.0,
     
-    # ICLabel Configuration
     'remove_eye_artifacts': True,
     'ica_threshold': 0.7,  
     
@@ -91,23 +72,16 @@ CONFIG = {
     'n_freq_bins': 65,     
 }
 
-# ============================================================================
-# OPTIMASI HARDWARE (WINDOWS + CUDA)
-# ============================================================================
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 if DEVICE.type == 'cuda':
     torch.backends.cudnn.benchmark = True 
     print(f"[INFO] CUDA Active! GPU: {torch.cuda.get_device_name(0)}")
 
-# ============================================================================
-# SOTA SIGNAL PREPROCESSING (MNE + ICLABEL)
-# ============================================================================
-
 def preprocess_eeg_advanced(signal, ch_names, config):
     """Pipeline prapemrosesan SOTA: Notch -> Interpolasi -> CAR -> Extended Infomax + ICLabel"""
     try:
-        # 1. Inisialisasi MNE Raw Array
+
         info = mne.create_info(ch_names=ch_names, sfreq=config['sample_rate'], ch_types='eeg')
         raw = mne.io.RawArray(signal.T, info, verbose=False)
         
@@ -115,17 +89,13 @@ def preprocess_eeg_advanced(signal, ch_names, config):
         rename_mapping = {ch: ch.replace('EEG.', '') for ch in ch_names}
         raw.rename_channels(rename_mapping)
         
-        # Pasang montase standar
         raw.set_montage('standard_1020', match_case=False)
         
-        # Ambil kembali nama channel yang sudah di-rename untuk dipakai di bawah
         current_ch_names = raw.info['ch_names']
         
-        # 2. Notch Filter 50Hz
         raw.notch_filter(freqs=50.0, verbose=False)
         temp_signal = raw.get_data().T
         
-        # 3. Deteksi & Interpolasi Bad Channel (Variansi Z-Score)
         std_devs = np.std(temp_signal, axis=0)
         z_scores_std = (std_devs - np.mean(std_devs)) / (np.std(std_devs) + 1e-6)
         bad_channels_idx = [i for i, z in enumerate(z_scores_std) if z > 3.0 or z < -2.0]
@@ -134,10 +104,8 @@ def preprocess_eeg_advanced(signal, ch_names, config):
             raw.info['bads'] = [current_ch_names[i] for i in bad_channels_idx]
             raw.interpolate_bads(reset_bads=True, verbose=False)
             
-        # 4. Common Average Reference (CAR)
         raw.set_eeg_reference('average', projection=False, verbose=False)
         
-        # 5. Extended Infomax ICA + ICLabel
         if config.get('remove_eye_artifacts', True):
             ica = ICA(n_components=len(current_ch_names), method='infomax', 
                       fit_params=dict(extended=True), random_state=42, max_iter=800)
@@ -156,7 +124,6 @@ def preprocess_eeg_advanced(signal, ch_names, config):
                 ica.exclude = exclude_idx
                 ica.apply(raw, verbose=False)
         
-        # Kembalikan ke format NumPy (Waktu x Channel)
         signal = raw.get_data().T
         
     except Exception as e:
@@ -192,10 +159,6 @@ def load_eeg_signal(id_val, subject, gender, config):
     except Exception as e:
         print(f"[ERROR] Failed to load {file_path}: {e}")
         return None
-
-# ============================================================================
-# HILBERT SPECTRUM FEATURE EXTRACTION
-# ============================================================================
 
 def compute_hilbert_spectrum(eeg_signal, config):
     n_samples, n_channels = eeg_signal.shape
@@ -259,10 +222,6 @@ def compute_hilbert_spectrum(eeg_signal, config):
     
     return features_flat.astype(np.float32)
 
-# ============================================================================
-# DATA LOADING (MULTI-CSV)
-# ============================================================================
-
 def process_split_df(df, split_name, config):
     features, targets, metadata = [], [], []
     for idx, row in tqdm(df.iterrows(), total=len(df), desc=f"Processing {split_name} Hilbert Spectrum"):
@@ -292,10 +251,6 @@ def load_and_preprocess_dataset(config):
     print(f"\n[SUMMARY] Berhasil load {len(data['train']['features'])} train, "
           f"{len(data['val']['features'])} val, {len(data['test']['features'])} test")
     return data
-
-# ============================================================================
-# DATASET & DATALOADER
-# ============================================================================
 
 class EEGDataset(Dataset):
     def __init__(self, features, targets, tokenizer, metadata=None):
@@ -330,10 +285,6 @@ def collate_batch(batch):
         'metadata': [item['metadata'] for item in batch]
     }
 
-# ============================================================================
-# EVALUATION METRIC (CER)
-# ============================================================================
-
 def compute_cer(reference, hypothesis):
     if len(reference) == 0: return 1.0 if len(hypothesis) > 0 else 0.0
     d = np.zeros((len(reference) + 1, len(hypothesis) + 1))
@@ -344,10 +295,6 @@ def compute_cer(reference, hypothesis):
             cost = 0 if reference[i-1] == hypothesis[j-1] else 1
             d[i][j] = min(d[i-1][j] + 1, d[i][j-1] + 1, d[i-1][j-1] + cost)
     return d[len(reference)][len(hypothesis)] / len(reference)
-
-# ============================================================================
-# TRAINING PIPELINE
-# ============================================================================
 
 def train_epoch(model, train_loader, optimizer, tokenizer, device, beam_decoder=None):
     total_loss, total_cer, num_batches, count = 0, 0, 0, 0
@@ -494,10 +441,6 @@ def predict_and_save_csv(model, test_loader, tokenizer, output_dir, device, beam
     print(f"Average Test CER: {predictions_df['cer'].mean():.4f}")
     return predictions_df
 
-# ============================================================================
-# PLOTTING
-# ============================================================================
-
 def plot_training_history(history, output_dir):
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
     epochs = range(1, len(history['train_loss']) + 1)
@@ -521,10 +464,6 @@ def plot_training_history(history, output_dir):
     plt.tight_layout()
     plt.savefig(os.path.join(output_dir, f'{SUBJECT}_eq_3_0_final_icalabel_training_history.png'), dpi=300)
     plt.close()
-
-# ============================================================================
-# MAIN EXECUTOR
-# ============================================================================
 
 def main():
     print("=" * 80)

@@ -1,15 +1,3 @@
-"""
-Full Training Pipeline for EEG-to-Text Conformer-Transducer (Cross-Subject)
-============================================================================
-
-Fitur:
-1. Membaca dataset Train, Val, dan Test yang sudah displit dari file CSV masing-masing
-2. Mengekstraksi seluruh subjek (All Subjects) atau spesifik
-3. Ekstraksi fitur menggunakan LOG-MEL SPECTROGRAM (SOTA ASR adaptation)
-4. Training menggunakan RNN-T loss dengan evaluasi CER (BeamDecoder)
-5. Bebas spam log multiprocessing
-"""
-
 import os
 import sys
 import pandas as pd
@@ -26,17 +14,12 @@ import matplotlib
 matplotlib.use('Agg')
 import torchaudio.functional as F
 
-# Import library untuk Fitur Log-Mel Spectrogram
 import torchaudio.transforms as T
 from sklearn.decomposition import FastICA
 from scipy.stats import pearsonr
 import pickle
 
 warnings.filterwarnings('ignore')
-
-# ============================================================================
-# KONFIGURASI PATH & PARAMETER
-# ============================================================================
 
 SUBJECT = 'SUB10'
 
@@ -60,7 +43,7 @@ EEG_CHANNELS = ['EEG.AF3', 'EEG.F7', 'EEG.F3', 'EEG.FC5', 'EEG.T7',
                 'EEG.FC6', 'EEG.F4', 'EEG.F8', 'EEG.AF4']
 
 CONFIG = {
-    # input_dim sekarang = 14 channels * 64 n_mels
+
     'input_dim': 14 * 64,
     'encoder_dim': 128,
     'decoder_dim': 128,
@@ -78,21 +61,16 @@ CONFIG = {
     'remove_eye_artifacts': True,
     'ica_threshold': 0.8,  
     
-    # Parameter SOTA Log-Mel Spectrogram untuk EEG
     'sample_rate': 256,
-    'n_fft': 128,          # Ukuran window 0.5 detik (menangkap low freq)
+    'n_fft': 128,
     'win_length': 128,
-    'hop_length': 16,      # Overlap pergeseran 62.5 ms
-    'n_mels': 64,          # Resolusi filterbank frekuensi
-    'f_min': 0.5,          # Membuang offset DC (0 Hz)
-    'f_max': 45.0,         # Memotong frekuensi di bawah 50Hz (Listrik)
+    'hop_length': 16,
+    'n_mels': 64,
+    'f_min': 0.5,
+    'f_max': 45.0,
 }
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-# ============================================================================
-# UTILITY FUNCTIONS & ARTIFACT REMOVAL
-# ============================================================================
 
 def remove_ocular_artifacts_ica(eeg_signal, ch_names, threshold=0.6):
     frontal_indices = [i for i, ch in enumerate(ch_names) if 'AF3' in ch or 'AF4' in ch]
@@ -148,18 +126,13 @@ def load_eeg_signal(id_val, subject, gender, config):
         print(f"[ERROR] Failed to load {file_path}: {e}")
         return None
 
-# ============================================================================
-# FEATURE EXTRACTION (LOG-MEL SPECTROGRAM)
-# ============================================================================
-
 def compute_logmel_spectrogram(eeg_signal, config):
     """
     Ekstraksi fitur Log-Mel Spectrogram yang menggantikan Hilbert Spectrum.
     Menggunakan torchaudio agar komputasi di CPU/GPU jauh lebih cepat.
     """
-    # Torchaudio mengekspektasikan format (Time) atau (Channel, Time)
-    # Shape awal eeg_signal: (n_samples, n_channels)
-    signal_tensor = torch.FloatTensor(eeg_signal.T) # Shape: (n_channels, n_samples)
+
+    signal_tensor = torch.FloatTensor(eeg_signal.T)
     
     mel_transform = T.MelSpectrogram(
         sample_rate=config['sample_rate'],
@@ -169,36 +142,27 @@ def compute_logmel_spectrogram(eeg_signal, config):
         f_min=config['f_min'],
         f_max=config['f_max'],
         n_mels=config['n_mels'],
-        power=2.0 # Power Spectrogram
+        power=2.0
     )
     
-    # Konversi amplitudo ke skala Decibel (Log)
     db_transform = T.AmplitudeToDB(stype='power', top_db=80)
     
-    # 1. Hitung Mel Spectrogram
-    mel_spec = mel_transform(signal_tensor) # Shape: (n_channels, n_mels, n_frames)
+    mel_spec = mel_transform(signal_tensor)
     
-    # 2. Konversi ke Log-Mel (Decibel)
     log_mel = db_transform(mel_spec)
     
-    # 3. Reformat matriks agar cocok dengan ekspektasi model (n_frames, n_channels * n_mels)
     log_mel_np = log_mel.numpy()
-    # Ubah menjadi (n_frames, n_channels, n_mels)
+
     log_mel_np = log_mel_np.transpose(2, 0, 1) 
     
     n_frames = log_mel_np.shape[0]
     features_flat = log_mel_np.reshape(n_frames, -1)
     
-    # 4. CMVN (Cepstral Mean and Variance Normalization) per kalimat
     mean_val = np.mean(features_flat, axis=0)
     std_val = np.std(features_flat, axis=0)
     features_flat = (features_flat - mean_val) / (std_val + 1e-6)
     
     return features_flat.astype(np.float32)
-
-# ============================================================================
-# DATA LOADING (MULTI-CSV)
-# ============================================================================
 
 def process_split_df(df, split_name, config):
     """Fungsi pembantu untuk memproses setiap dataframe split"""
@@ -213,7 +177,6 @@ def process_split_df(df, split_name, config):
         if eeg_signal is None or eeg_signal.shape[0] < config['n_fft']:
             continue
             
-        # Panggil fungsi ekstraksi Log-Mel
         logmel_features = compute_logmel_spectrogram(eeg_signal, config)
         
         features.append(logmel_features)
@@ -240,10 +203,6 @@ def load_and_preprocess_dataset(config):
     print(f"\n[SUMMARY] Berhasil load {len(data['train']['features'])} train, "
           f"{len(data['val']['features'])} val, {len(data['test']['features'])} test")
     return data
-
-# ============================================================================
-# DATASET & DATALOADER
-# ============================================================================
 
 class EEGDataset(Dataset):
     def __init__(self, features, targets, tokenizer, metadata=None):
@@ -279,10 +238,6 @@ def collate_batch(batch):
         'metadata': [item['metadata'] for item in batch]
     }
 
-# ============================================================================
-# EVALUATION METRIC (CER)
-# ============================================================================
-
 def compute_cer(reference, hypothesis):
     if len(reference) == 0: return 1.0 if len(hypothesis) > 0 else 0.0
     d = np.zeros((len(reference) + 1, len(hypothesis) + 1))
@@ -293,10 +248,6 @@ def compute_cer(reference, hypothesis):
             cost = 0 if reference[i-1] == hypothesis[j-1] else 1
             d[i][j] = min(d[i-1][j] + 1, d[i][j-1] + 1, d[i-1][j-1] + cost)
     return d[len(reference)][len(hypothesis)] / len(reference)
-
-# ============================================================================
-# TRAINING PIPELINE
-# ============================================================================
 
 def train_epoch(model, train_loader, optimizer, tokenizer, device, beam_decoder=None):
     total_loss, total_cer, num_batches, count = 0, 0, 0, 0
@@ -455,10 +406,6 @@ def predict_and_save_csv(model, test_loader, tokenizer, output_dir, device, beam
     print(f"Average Test CER: {predictions_df['cer'].mean():.4f}")
     return predictions_df
 
-# ============================================================================
-# PLOTTING
-# ============================================================================
-
 def plot_training_history(history, output_dir):
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
     epochs = range(1, len(history['train_loss']) + 1)
@@ -482,10 +429,6 @@ def plot_training_history(history, output_dir):
     plt.tight_layout()
     plt.savefig(os.path.join(output_dir, f'{SUBJECT}_eq_3_0_log-mel_training_history_6_1.png'), dpi=300)
     plt.close()
-
-# ============================================================================
-# MAIN EXECUTOR
-# ============================================================================
 
 def main():
     print("=" * 80)

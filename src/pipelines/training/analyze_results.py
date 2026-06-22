@@ -11,7 +11,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Setup
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 HISTORY_FILE = os.path.join(PROJECT_ROOT, 'training_history.json')
 RESULTS_FILE = os.path.join(PROJECT_ROOT, 'test_results.csv')
@@ -19,14 +18,12 @@ RESULTS_FILE = os.path.join(PROJECT_ROOT, 'test_results.csv')
 def plot_detailed_history(history_data, output_dir):
     """Create detailed visualization of training history"""
     
-    # Extract data
     epochs = range(1, len(history_data['train_loss']) + 1)
     train_loss = history_data['train_loss']
     val_loss = history_data['val_loss']
     train_cer = history_data.get('train_cer', [0] * len(train_loss))  # backward compatibility
     val_cer = history_data['val_cer']
     
-    # Create figure with subplots
     fig = plt.figure(figsize=(16, 12))
     gs = fig.add_gridspec(3, 3, hspace=0.35, wspace=0.3)
     
@@ -75,7 +72,6 @@ def plot_detailed_history(history_data, output_dir):
     # ===== Plot 5: Loss Improvement Stats =====
     ax5 = fig.add_subplot(gs[1, 2])
     
-    # Calculate improvements
     train_loss_improv = 100 * (train_loss[0] - train_loss[-1]) / (train_loss[0] + 1e-9)
     val_loss_improv = 100 * (val_loss[0] - val_loss[-1]) / (val_loss[0] + 1e-9)
     train_cer_improv = 100 * (train_cer[0] - train_cer[-1]) / (train_cer[0] + 1e-9) if train_cer[0] > 0 else 0
@@ -92,7 +88,6 @@ def plot_detailed_history(history_data, output_dir):
     ax5.set_title('Training Improvements', fontsize=12, fontweight='bold')
     ax5.grid(True, alpha=0.3, axis='y')
     
-    # Add value labels on bars
     for bar, val in zip(bars, metrics_values):
         height = bar.get_height()
         ax5.text(bar.get_x() + bar.get_width()/2., height,
@@ -102,7 +97,6 @@ def plot_detailed_history(history_data, output_dir):
     ax6 = fig.add_subplot(gs[2, :])
     ax6.axis('off')
     
-    # Calculate stats
     best_train_cer_epoch = train_cer.index(min(train_cer)) + 1 if train_cer else 1
     best_val_loss_epoch = val_loss.index(min(val_loss)) + 1
     best_val_cer_epoch = val_cer.index(min(val_cer)) + 1
@@ -137,7 +131,6 @@ DETAILED TRAINING STATISTICS
             fontsize=9.5, verticalalignment='top', fontfamily='monospace',
             bbox=dict(boxstyle='round', facecolor='lightblue', alpha=0.6))
     
-    # Save figure
     plot_path = os.path.join(output_dir, 'training_analysis.png')
     plt.savefig(plot_path, dpi=300, bbox_inches='tight')
     print(f"✓ Detailed training analysis saved to: {plot_path}")
@@ -154,7 +147,6 @@ def plot_test_results_stats(results_file, output_dir):
     
     fig, axes = plt.subplots(2, 2, figsize=(14, 10))
     
-    # Plot 1: CER Distribution
     axes[0, 0].hist(df['cer'], bins=30, color='skyblue', edgecolor='black', alpha=0.7)
     axes[0, 0].axvline(df['cer'].mean(), color='red', linestyle='--', linewidth=2, label=f'Mean: {df["cer"].mean():.3f}')
     axes[0, 0].axvline(df['cer'].median(), color='green', linestyle='--', linewidth=2, label=f'Median: {df["cer"].median():.3f}')
@@ -164,7 +156,6 @@ def plot_test_results_stats(results_file, output_dir):
     axes[0, 0].legend(fontsize=10)
     axes[0, 0].grid(True, alpha=0.3, axis='y')
     
-    # Plot 2: CER by Gender
     if 'gender' in df.columns:
         df.boxplot(column='cer', by='gender', ax=axes[0, 1])
         axes[0, 1].set_xlabel('Gender', fontsize=11, fontweight='bold')
@@ -172,7 +163,6 @@ def plot_test_results_stats(results_file, output_dir):
         axes[0, 1].set_title('CER by Gender', fontsize=12, fontweight='bold')
         axes[0, 1].get_figure().suptitle('')  # Remove default title
     
-    # Plot 3: CER by Subject (top 10)
     if 'subject' in df.columns:
         subject_stats = df.groupby('subject')['cer'].agg(['mean', 'count']).sort_values('mean').head(10)
         axes[1, 0].barh(range(len(subject_stats)), subject_stats['mean'], color='coral', edgecolor='black')
@@ -182,7 +172,6 @@ def plot_test_results_stats(results_file, output_dir):
         axes[1, 0].set_title('Top 10 Subjects by Average CER', fontsize=12, fontweight='bold')
         axes[1, 0].grid(True, alpha=0.3, axis='x')
     
-    # Plot 4: Test Results Statistics
     axes[1, 1].axis('off')
     
     stats_text = f"""
@@ -224,7 +213,6 @@ def main():
     print("Training History & Test Results Visualization")
     print("=" * 70)
     
-    # Load training history
     if os.path.exists(HISTORY_FILE):
         print(f"\n📂 Loading training history from: {HISTORY_FILE}")
         with open(HISTORY_FILE, 'r') as f:
@@ -234,12 +222,10 @@ def main():
         print(f"   Best Val Loss: {min(history_data['val_loss']):.6f}")
         print(f"   Best Val CER: {min(history_data['val_cer']):.4f}")
         
-        # Create plots
         plot_detailed_history(history_data, PROJECT_ROOT)
     else:
         print(f"✗ Training history file not found: {HISTORY_FILE}")
     
-    # Load test results
     if os.path.exists(RESULTS_FILE):
         print(f"\n📂 Loading test results from: {RESULTS_FILE}")
         plot_test_results_stats(RESULTS_FILE, PROJECT_ROOT)

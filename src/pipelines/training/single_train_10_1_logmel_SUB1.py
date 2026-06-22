@@ -1,15 +1,3 @@
-"""
-Full Training Pipeline for EEG-to-Text Conformer-IndoGPT Transducer
-============================================================================
-
-Fitur Utama:
-1. Menggunakan Pre-trained IndoNLGTokenizer (Sub-word)
-2. Menggunakan Decoder berbasis IndoGPT (Frozen Parameters)
-3. Ekstraksi fitur menggunakan LOG-MEL SPECTROGRAM (SOTA ASR adaptation)
-4. FastICA untuk Ocular Artifact Removal
-5. Membaca dataset Train, Val, dan Test yang sudah displit (Multi-CSV)
-"""
-
 import os
 import sys
 import pandas as pd
@@ -26,20 +14,16 @@ import matplotlib
 matplotlib.use('Agg')
 import torchaudio.functional as F
 
-# Import library untuk Fitur & Artefak
 import torchaudio.transforms as T
 from sklearn.decomposition import FastICA
 from scipy.stats import pearsonr
 
-# Import Tokenizer
 import transformers.utils
 import transformers.utils.generic
 
-# 1. Bypass pengecekan TensorFlow
 if not hasattr(transformers.utils, 'is_tf_available'):
     transformers.utils.is_tf_available = lambda: False
 
-# 2. Bypass pengecekan tipe data internal yang sudah dihapus oleh HuggingFace
 if not hasattr(transformers.utils.generic, '_is_jax'):
     transformers.utils.generic._is_jax = lambda x: False
 if not hasattr(transformers.utils.generic, '_is_tensorflow'):
@@ -51,20 +35,14 @@ if not hasattr(transformers.utils.generic, '_is_torch'):
 if not hasattr(transformers.utils.generic, '_is_torch_device'):
     transformers.utils.generic._is_torch_device = lambda x: isinstance(x, torch.device)
 
-# 3. Sekarang aman untuk memanggil IndoBenchmark!
 from indobenchmark import IndoNLGTokenizer
 
 warnings.filterwarnings('ignore')
 
-# ============================================================================
-# KONFIGURASI PATH & PARAMETER
-# ============================================================================
-
-SUBJECT = 'SUB1'  # Ganti subjek di sini
+SUBJECT = 'SUB1'
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../'))
 
-# PATH BARU: Dinamis mengikuti variabel SUBJECT
 TRAIN_CSV = os.path.join(PROJECT_ROOT, f'dataset/{SUBJECT}_eq_3_0_train.csv')
 VAL_CSV = os.path.join(PROJECT_ROOT, f'dataset/{SUBJECT}_eq_3_0_val.csv')
 TEST_CSV = os.path.join(PROJECT_ROOT, f'dataset/{SUBJECT}_eq_3_0_test.csv')
@@ -76,7 +54,6 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 sys.path.insert(0, os.path.join(PROJECT_ROOT, 'src'))
 
-# GANTI import berikut sesuai dengan letak file Anda
 from model.model import ConformerIndoGPTTransducer
 from model.misc.beam_decoder import BeamDecoder
 
@@ -85,10 +62,9 @@ EEG_CHANNELS = ['EEG.AF3', 'EEG.F7', 'EEG.F3', 'EEG.FC5', 'EEG.T7',
                 'EEG.FC6', 'EEG.F4', 'EEG.F8', 'EEG.AF4']
 
 CONFIG = {
-    # input_dim sekarang = 14 channels * 64 n_mels
+
     'input_dim': 14 * 64,  
     
-    # Dimensi disesuaikan untuk IndoGPT
     'encoder_dim': 356,
     'decoder_dim': 768,
     'joint_dim': 768,
@@ -97,7 +73,7 @@ CONFIG = {
     
     'batch_size': 7,
     'num_epochs': 150, 
-    'learning_rate': 1e-4, # Diturunkan sedikit karena GPT sangat sensitif
+    'learning_rate': 1e-4,
     'weight_decay': 1e-3,  
     
     'encoder_dropout': 0.2, 
@@ -106,21 +82,16 @@ CONFIG = {
     'remove_eye_artifacts': True,
     'ica_threshold': 0.8,  
     
-    # Parameter SOTA Log-Mel Spectrogram untuk EEG
     'sample_rate': 256,
-    'n_fft': 128,          # Ukuran window 0.5 detik
+    'n_fft': 128,
     'win_length': 128,
-    'hop_length': 16,      # Overlap pergeseran 62.5 ms
-    'n_mels': 64,          # Resolusi filterbank frekuensi
+    'hop_length': 16,
+    'n_mels': 64,
     'f_min': 0.5,          
     'f_max': 45.0,         
 }
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-# ============================================================================
-# UTILITY FUNCTIONS & ARTIFACT REMOVAL
-# ============================================================================
 
 def remove_ocular_artifacts_ica(eeg_signal, ch_names, threshold=0.6):
     frontal_indices = [i for i, ch in enumerate(ch_names) if 'AF3' in ch or 'AF4' in ch]
@@ -171,16 +142,12 @@ def load_eeg_signal(id_val, subject, gender, config):
         print(f"[ERROR] Failed to load {file_path}: {e}")
         return None
 
-# ============================================================================
-# FEATURE EXTRACTION (LOG-MEL SPECTROGRAM)
-# ============================================================================
-
 def compute_logmel_spectrogram(eeg_signal, config):
     """
     Ekstraksi fitur Log-Mel Spectrogram yang menggantikan Hilbert Spectrum.
     Menggunakan torchaudio agar komputasi di CPU/GPU jauh lebih cepat.
     """
-    # Torchaudio mengekspektasikan format (Channel, Time)
+
     signal_tensor = torch.FloatTensor(eeg_signal.T) 
     
     mel_transform = T.MelSpectrogram(
@@ -194,31 +161,22 @@ def compute_logmel_spectrogram(eeg_signal, config):
         power=2.0
     )
     
-    # Konversi amplitudo ke skala Decibel (Log)
     db_transform = T.AmplitudeToDB(stype='power', top_db=80)
     
-    # Hitung Mel Spectrogram
-    mel_spec = mel_transform(signal_tensor) # Shape: (n_channels, n_mels, n_frames)
+    mel_spec = mel_transform(signal_tensor)
     
-    # Konversi ke Log-Mel
     log_mel = db_transform(mel_spec)
     
-    # Reformat matriks: transpose menjadi (n_frames, n_channels, n_mels)
     log_mel_np = log_mel.numpy().transpose(2, 0, 1) 
     
     n_frames = log_mel_np.shape[0]
     features_flat = log_mel_np.reshape(n_frames, -1)
     
-    # CMVN (Cepstral Mean and Variance Normalization) per kalimat
     mean_val = np.mean(features_flat, axis=0)
     std_val = np.std(features_flat, axis=0)
     features_flat = (features_flat - mean_val) / (std_val + 1e-6)
     
     return features_flat.astype(np.float32)
-
-# ============================================================================
-# DATA LOADING & PREPROCESSING (MULTI-CSV)
-# ============================================================================
 
 def process_split_df(df, split_name, config):
     features = []
@@ -260,10 +218,6 @@ def load_and_preprocess_dataset(config):
           f"{len(data['val']['features'])} val, {len(data['test']['features'])} test")
     return data
 
-# ============================================================================
-# DATASET & DATALOADER
-# ============================================================================
-
 class EEGDataset(Dataset):
     def __init__(self, features, targets, tokenizer, metadata=None):
         self.features = features
@@ -274,10 +228,9 @@ class EEGDataset(Dataset):
     def __len__(self): return len(self.features)
     
     def __getitem__(self, idx):
-        # Gunakan fungsi encode milik HuggingFace
+
         encoded_tokens = self.tokenizer.encode(self.targets[idx])
         
-        # SHIFTING: Geser semua token +1 untuk menyediakan ruang bagi <blank> di index 0
         shifted_tokens = [t + 1 for t in encoded_tokens]
         
         return {
@@ -304,10 +257,6 @@ def collate_batch(batch):
         'metadata': [item['metadata'] for item in batch]
     }
 
-# ============================================================================
-# EVALUATION METRIC (CER)
-# ============================================================================
-
 def compute_cer(reference, hypothesis):
     if len(reference) == 0: return 1.0 if len(hypothesis) > 0 else 0.0
     d = np.zeros((len(reference) + 1, len(hypothesis) + 1))
@@ -318,10 +267,6 @@ def compute_cer(reference, hypothesis):
             cost = 0 if reference[i-1] == hypothesis[j-1] else 1
             d[i][j] = min(d[i-1][j] + 1, d[i][j-1] + 1, d[i-1][j-1] + cost)
     return d[len(reference)][len(hypothesis)] / len(reference)
-
-# ============================================================================
-# TRAINING PIPELINE
-# ============================================================================
 
 def train_epoch(model, train_loader, optimizer, tokenizer, device, beam_decoder=None):
     total_loss, total_cer, num_batches, count = 0, 0, 0, 0
@@ -338,7 +283,6 @@ def train_epoch(model, train_loader, optimizer, tokenizer, device, beam_decoder=
         blank_col = torch.zeros((batch_size, 1), dtype=torch.long, device=device)
         decoder_input = torch.cat([blank_col, targets], dim=1) 
         
-        # FORWARD PASS
         logits = model(features, decoder_input)
         
         enc_out_lengths = model.get_encoder_out_lengths(feature_length)
@@ -357,7 +301,6 @@ def train_epoch(model, train_loader, optimizer, tokenizer, device, beam_decoder=
                 sample_eeg = features[i:i+1]
                 pred_text = beam_decoder.decode(sample_eeg)
                 
-                # Un-shift target asli kembali ke format HuggingFace (-1) lalu decode
                 unshifted_target = [t.item() - 1 for t in targets[i] if t.item() > 0]
                 target_text = tokenizer.decode(unshifted_target)
                 
@@ -382,7 +325,6 @@ def evaluate(model, loader, tokenizer, device, beam_decoder=None, desc="Evaluati
             blank_col = torch.zeros((batch_size, 1), dtype=torch.long, device=device)
             decoder_input = torch.cat([blank_col, targets], dim=1)
             
-            # FORWARD PASS
             logits = model(features, decoder_input)
             
             enc_out_lengths = model.get_encoder_out_lengths(feature_length)
@@ -397,7 +339,6 @@ def evaluate(model, loader, tokenizer, device, beam_decoder=None, desc="Evaluati
                 for i in range(features.shape[0]):
                     pred_text = beam_decoder.decode(features[i:i+1])
                     
-                    # Un-shift target
                     unshifted_target = [t.item() - 1 for t in targets[i] if t.item() > 0]
                     target_text = tokenizer.decode(unshifted_target)
                     
@@ -407,7 +348,7 @@ def evaluate(model, loader, tokenizer, device, beam_decoder=None, desc="Evaluati
     return (total_loss / len(loader)) if len(loader) > 0 else 0, (total_cer / count) if count > 0 else 1.0
 
 def train(model, train_loader, val_loader, tokenizer, config, device):
-    # Hanya latih parameter yang membutuhkan gradien (Karena GPT di-freeze)
+
     trainable_params = [p for p in model.parameters() if p.requires_grad]
     optimizer = optim.Adam(trainable_params, lr=config['learning_rate'], weight_decay=config['weight_decay'])
     
@@ -474,10 +415,6 @@ def predict_and_save_csv(model, test_loader, tokenizer, output_dir, device, beam
     print(f"Average Test CER: {predictions_df['cer'].mean():.4f}")
     return predictions_df
 
-# ============================================================================
-# PLOTTING
-# ============================================================================
-
 def plot_training_history(history, output_dir):
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
     epochs = range(1, len(history['train_loss']) + 1)
@@ -502,17 +439,12 @@ def plot_training_history(history, output_dir):
     plt.savefig(os.path.join(output_dir, f'{SUBJECT}_eq_3_0_logmel_training_history_10_1_IndoGPT.png'), dpi=300)
     plt.close()
 
-# ============================================================================
-# MAIN EXECUTOR
-# ============================================================================
-
 def main():
     print("=" * 80)
     print(f"EEG-to-Text Training Pipeline (Subject: {SUBJECT} | IndoGPT | Log-Mel Spectrogram)")
     print(f"[INFO] Using device: {DEVICE}") 
     print("=" * 80)
     
-    # 1. INIT TOKENIZER PERTAMA KALI
     print("\n[STEP 0] Loading Pre-trained IndoNLGTokenizer...")
     tokenizer = IndoNLGTokenizer.from_pretrained("indobenchmark/indogpt")
     
@@ -520,14 +452,12 @@ def main():
         return encoded_inputs
     tokenizer.pad = dummy_pad
     
-    # Patch fungsi int_to_text agar otomatis memanggil fungsi decode milik HuggingFace
     if not hasattr(tokenizer, 'int_to_text'):
         tokenizer.int_to_text = tokenizer.decode
         
     CONFIG['vocab_size'] = tokenizer.vocab_size + 1
     print(f"Vocab size (including blank): {CONFIG['vocab_size']}")
     
-    # 2. LOAD DATA
     data = load_and_preprocess_dataset(CONFIG)
     
     train_dataset = EEGDataset(data['train']['features'], data['train']['targets'], tokenizer, data['train']['metadata'])
@@ -538,10 +468,8 @@ def main():
     val_loader = DataLoader(val_dataset, batch_size=CONFIG['batch_size'], shuffle=False, collate_fn=collate_batch)
     test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False, collate_fn=collate_batch) 
     
-    # 3. BUILD MODEL
     model = ConformerIndoGPTTransducer(CONFIG).to(DEVICE)
     
-    # 4. TRAINING & EVALUATION
     history, beam_decoder = train(model, train_loader, val_loader, tokenizer, CONFIG, DEVICE)
     
     with open(os.path.join(OUTPUT_DIR, f'{SUBJECT}_eq_3_0_logmel_training_history_10_1_IndoGPT.json'), 'w') as f:

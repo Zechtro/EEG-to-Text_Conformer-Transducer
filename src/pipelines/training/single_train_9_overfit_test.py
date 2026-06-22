@@ -1,8 +1,3 @@
-"""
-OVERFIT TEST PIPELINE (7 SAMPLES)
-Untuk debugging Decoding & Tokenizer IndoGPT Transducer
-"""
-
 import os
 import sys
 import pandas as pd
@@ -27,7 +22,6 @@ from scipy.stats import pearsonr
 import transformers.utils
 import transformers.utils.generic
 
-# Monkey Patch
 if not hasattr(transformers.utils, 'is_tf_available'):
     transformers.utils.is_tf_available = lambda: False
 if not hasattr(transformers.utils.generic, '_is_jax'):
@@ -283,7 +277,6 @@ def evaluate(model, loader, tokenizer, device, beam_decoder, epoch):
     total_cer = 0
     count = 0
     
-    # KITA INTIP APA YANG DIHASILKAN MODEL
     print(f"\n--- HASIL DECODING EPOCH {epoch} ---")
     with torch.no_grad():
         for batch in loader:

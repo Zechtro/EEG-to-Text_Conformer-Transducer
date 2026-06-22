@@ -1,10 +1,3 @@
-"""
-Noise-Baseline Evaluation Script (Log-Mel Spectrogram + Char-Transducer)
-=====================================================================
-Metodologi: "Are EEG-to-Text Models Working?" (Jo et al., 2024)
-Diperbarui dengan Pre-Flight Check untuk memvalidasi kelengkapan file di awal.
-"""
-
 import os
 import sys
 import pandas as pd
@@ -15,16 +8,11 @@ from tqdm import tqdm
 import warnings
 import pickle
 
-# Import library untuk Fitur Log-Mel Spectrogram & Artefak
 import torchaudio.transforms as T
 from sklearn.decomposition import FastICA
 from scipy.stats import pearsonr
 
 warnings.filterwarnings('ignore')
-
-# ============================================================================
-# KONFIGURASI PATH GLOBAL & PARAMETER
-# ============================================================================
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../'))
 RAW_DATA_PATH = os.path.join(PROJECT_ROOT, 'dataset/raw')
@@ -62,10 +50,6 @@ CONFIG = {
 }
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-# ============================================================================
-# FUNGSI EKSTRAKSI FITUR LOG-MEL SPECTROGRAM
-# ============================================================================
 
 def remove_ocular_artifacts_ica(eeg_signal, ch_names, threshold=0.6):
     frontal_indices = [i for i, ch in enumerate(ch_names) if 'AF3' in ch or 'AF4' in ch]
@@ -138,10 +122,6 @@ def process_test_df(df, config):
         metadata.append({'id': id_val, 'subject': subject, 'gender': gender, 'sentence': sentence})
     return features, targets, metadata
 
-# ============================================================================
-# DATASET & DATALOADER
-# ============================================================================
-
 class EEGDataset(Dataset):
     def __init__(self, features, targets, tokenizer, metadata=None):
         self.features = features
@@ -182,10 +162,6 @@ def compute_cer(reference, hypothesis):
             d[i][j] = min(d[i-1][j] + 1, d[i][j-1] + 1, d[i-1][j-1] + cost)
     return d[len(reference)][len(hypothesis)] / len(reference)
 
-# ============================================================================
-# FUNGSI INFERENSI PADA NOISE
-# ============================================================================
-
 def predict_on_noise_and_save(model, test_loader, tokenizer, output_dir, device, beam_decoder, output_csv_name):
     model.eval()
     predictions_list = []
@@ -195,7 +171,6 @@ def predict_on_noise_and_save(model, test_loader, tokenizer, output_dir, device,
             real_features = batch['feature'].to(device)
             metadata_batch = batch['metadata']
             
-            # GANTI DENGAN GAUSSIAN NOISE MURNI
             noise_features = torch.randn_like(real_features)
             features = noise_features
             
@@ -218,10 +193,6 @@ def predict_on_noise_and_save(model, test_loader, tokenizer, output_dir, device,
     
     return predictions_df
 
-# ============================================================================
-# MAIN EXECUTOR (PRE-FLIGHT CHECK & LOOP)
-# ============================================================================
-
 def main():
     SUBJECTS = [f"SUB{i}" for i in range(1, 13)] + ['all']
     
@@ -232,7 +203,6 @@ def main():
     valid_subjects = []
     missing_reports = []
     
-    # 1. Pengecekan Cepat (Dry-Run)
     for subject in SUBJECTS:
         test_csv_path = os.path.join(PROJECT_ROOT, f'dataset/{subject}_eq_3_0_test.csv')
         tokenizer_path = os.path.join(OUTPUT_DIR, f'{subject}_eq_3_0_log-mel_char_tokenizer_6_1.pkl')
@@ -249,7 +219,6 @@ def main():
             valid_subjects.append(subject)
             print(f"  ✓ {subject.upper()}: Siap dievaluasi")
             
-    # Tampilkan Peringatan Jika Ada yang Kurang
     if missing_reports:
         print("\n[WARNING] Beberapa subjek akan DILOMPATI karena file belum lengkap:")
         for report in missing_reports:
@@ -262,7 +231,6 @@ def main():
         
     print(f"\n[INFO] Melanjutkan proses evaluasi untuk {len(valid_subjects)} subjek valid menggunakan {DEVICE}...")
     
-    # 2. Eksekusi Utama hanya untuk subjek yang valid
     for subject in valid_subjects:
         print(f"\n" + "=" * 60)
         print(f"Memproses Noise-Baseline untuk Subjek: {subject.upper()}")
@@ -273,24 +241,20 @@ def main():
         best_model_path = os.path.join(OUTPUT_DIR, f'{subject}_eq_3_0_log-mel_best_model_6_1.pt')
         output_csv_name = f'NOISE_BASELINE_{subject}_eq_3_0_log-mel_test_predictions_6_1.csv'
         
-        # Load Tokenizer
         with open(tokenizer_path, 'rb') as f:
             tokenizer = pickle.load(f)
             
         CONFIG['vocab_size'] = tokenizer.vocab_size()
         
-        # Load Test Set & Ekstraksi
         df_test = pd.read_csv(test_csv_path)
         features_test, targets_test, metadata_test = process_test_df(df_test, CONFIG)
         test_dataset = EEGDataset(features_test, targets_test, tokenizer, metadata_test)
         test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False, collate_fn=collate_batch)
         
-        # Bangun Model & Load Weights
         model = ConformerTransducer(CONFIG).to(DEVICE)
         saved_data = torch.load(best_model_path, map_location=DEVICE, weights_only=False)
         model.load_state_dict(saved_data['model_state_dict'], strict=False)
         
-        # Evaluasi Noise
         beam_decoder = beam_decoder_char.BeamDecoderChar(model, tokenizer, beam_size=3, max_sym_per_frame=15)
         predict_on_noise_and_save(model, test_loader, tokenizer, OUTPUT_DIR, DEVICE, beam_decoder, output_csv_name)
         

@@ -1,15 +1,3 @@
-"""
-Full Training Pipeline for EEG-to-Text Conformer-Transducer (Single Subject)
-============================================================================
-
-Fitur:
-1. Filter dataset berdasarkan satu subjek spesifik
-2. Split dataset berdasarkan kalimat (70% Train, 10% Val, 20% Test)
-3. Ekstraksi fitur menggunakan STFT magnitude spectrogram
-4. Training menggunakan RNN-T loss dengan evaluasi CER (BeamDecoder)
-5. Menyimpan model terbaik dan hasil dengan penamaan dinamis per subjek
-"""
-
 import os
 import sys
 import pandas as pd
@@ -28,10 +16,6 @@ matplotlib.use('Agg')
 import torchaudio.functional as F
 
 warnings.filterwarnings('ignore')
-
-# ============================================================================
-# KONFIGURASI PATH & PARAMETER
-# ============================================================================
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../'))
 DATASET_CSV = os.path.join(PROJECT_ROOT, 'dataset/cleaned_transcript_mapping.csv')
@@ -74,10 +58,6 @@ CONFIG = {
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"[INFO] Using device: {DEVICE}")
 
-# ============================================================================
-# UTILITY FUNCTIONS & FEATURE EXTRACTION
-# ============================================================================
-
 def extract_eeg_channels(eeg_df):
     eeg_channels = ['EEG.AF3', 'EEG.F7', 'EEG.F3', 'EEG.FC5', 'EEG.T7', 
                     'EEG.P7', 'EEG.O1', 'EEG.O2', 'EEG.P8', 'EEG.T8', 
@@ -119,10 +99,6 @@ def compute_stft_features(eeg_signal, config):
     stft_flat = stft_transposed.reshape(stft_transposed.shape[0], -1)
     return stft_flat
 
-# ============================================================================
-# DATA SPLIT & PREPROCESSING
-# ============================================================================
-
 def split_dataset_by_sentence(df, train_ratio=0.7, val_ratio=0.1, test_ratio=0.2, seed=42):
     np.random.seed(seed)
     unique_sentences = df['sentence'].unique()
@@ -145,9 +121,6 @@ def load_and_preprocess_dataset(config, target_subject):
     print(f"\n[STEP 1] Load dataset CSV for subject: {target_subject}...")
     df = pd.read_csv(DATASET_CSV)
     
-    # ---------------------------------------------------------
-    # FILTER BERDASARKAN SUBJEK
-    # ---------------------------------------------------------
     df = df[df['subject'] == target_subject].copy()
     if len(df) == 0:
         raise ValueError(f"Tidak ada data ditemukan untuk subject: {target_subject}")
@@ -178,10 +151,6 @@ def load_and_preprocess_dataset(config, target_subject):
     print(f"\n[SUMMARY] Loaded {len(data['train']['features'])} train, "
           f"{len(data['val']['features'])} val, {len(data['test']['features'])} test")
     return data
-
-# ============================================================================
-# DATASET & DATALOADER
-# ============================================================================
 
 class EEGDataset(Dataset):
     def __init__(self, features, targets, tokenizer, metadata=None):
@@ -217,10 +186,6 @@ def collate_batch(batch):
         'metadata': [item['metadata'] for item in batch]
     }
 
-# ============================================================================
-# EVALUATION METRIC (CER)
-# ============================================================================
-
 def compute_cer(reference, hypothesis):
     if len(reference) == 0: return 1.0 if len(hypothesis) > 0 else 0.0
     d = np.zeros((len(reference) + 1, len(hypothesis) + 1))
@@ -231,10 +196,6 @@ def compute_cer(reference, hypothesis):
             cost = 0 if reference[i-1] == hypothesis[j-1] else 1
             d[i][j] = min(d[i-1][j] + 1, d[i][j-1] + 1, d[i-1][j-1] + cost)
     return d[len(reference)][len(hypothesis)] / len(reference)
-
-# ============================================================================
-# TRAINING PIPELINE
-# ============================================================================
 
 def train_epoch(model, train_loader, optimizer, tokenizer, device, beam_decoder=None):
     total_loss, total_cer, num_batches, count = 0, 0, 0, 0
@@ -335,7 +296,6 @@ def train(model, train_loader, val_loader, tokenizer, config, device, target_sub
     
     history = {'train_loss': [], 'train_cer': [], 'val_loss': [], 'val_cer': []}
     
-    # Simpan model dengan nama subjek
     best_model_path = os.path.join(OUTPUT_DIR, f'{target_subject}_stft_best_model_0.pt')
     best_cer = float('inf')
     
@@ -393,10 +353,6 @@ def predict_and_save_csv(model, test_loader, tokenizer, output_dir, device, beam
     print(f"Average Test CER: {predictions_df['cer'].mean():.4f}")
     return predictions_df
 
-# ============================================================================
-# PLOTTING
-# ============================================================================
-
 def plot_training_history(history, output_dir, target_subject):
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
     epochs = range(1, len(history['train_loss']) + 1)
@@ -421,21 +377,14 @@ def plot_training_history(history, output_dir, target_subject):
     plt.savefig(os.path.join(output_dir, f'{target_subject}_stft_training_history_0.png'), dpi=300)
     plt.close()
 
-# ============================================================================
-# MAIN EXECUTOR
-# ============================================================================
-
 def main():
-    # ---------------------------------------------------------
-    # TENTUKAN SUBJEK DI SINI
-    # ---------------------------------------------------------
+
     TARGET_SUBJECT = 'NAU' 
     
     print("=" * 80)
     print(f"EEG-to-Text Training Pipeline (Subject: {TARGET_SUBJECT} | STFT Features)")
     print("=" * 80)
     
-    # Memasukkan target_subject sebagai argumen
     data = load_and_preprocess_dataset(CONFIG, TARGET_SUBJECT)
     
     print("\n[STEP 4] Build Character Tokenizer...")
@@ -454,10 +403,8 @@ def main():
     
     model = ConformerTransducer(CONFIG).to(DEVICE)
     
-    # Teruskan target_subject ke fungsi training
     history, beam_decoder = train(model, train_loader, val_loader, tokenizer, CONFIG, DEVICE, TARGET_SUBJECT)
     
-    # Menyimpan history berformat JSON dengan awalan nama subjek
     with open(os.path.join(OUTPUT_DIR, f'{TARGET_SUBJECT}_stft_training_history_0.json'), 'w') as f:
         json.dump(history, f, indent=2)
         

@@ -1,10 +1,3 @@
-"""
-Noise-Baseline Evaluation Script (Log-Mel Spectrogram + IndoGPT Decoder)
-=====================================================================
-Metodologi: "Are EEG-to-Text Models Working?" (Jo et al., 2024)
-Diperbarui dengan Pre-Flight Check dan Looping (SUB1-SUB12, all).
-"""
-
 import os
 import sys
 import pandas as pd
@@ -14,16 +7,13 @@ from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
 import warnings
 
-# Import library untuk Fitur Log-Mel Spectrogram & Artefak
 import torchaudio.transforms as T
 from sklearn.decomposition import FastICA
 from scipy.stats import pearsonr
 
-# Import Tokenizer Bypass
 import transformers.utils
 import transformers.utils.generic
 
-# Bypass HuggingFace internal checks
 if not hasattr(transformers.utils, 'is_tf_available'): transformers.utils.is_tf_available = lambda: False
 if not hasattr(transformers.utils.generic, '_is_jax'): transformers.utils.generic._is_jax = lambda x: False
 if not hasattr(transformers.utils.generic, '_is_tensorflow'): transformers.utils.generic._is_tensorflow = lambda x: False
@@ -35,17 +25,12 @@ from indobenchmark import IndoNLGTokenizer
 
 warnings.filterwarnings('ignore')
 
-# ============================================================================
-# KONFIGURASI PATH GLOBAL & PARAMETER
-# ============================================================================
-
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../'))
 RAW_DATA_PATH = os.path.join(PROJECT_ROOT, 'dataset/raw')
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'src/pipelines/training')
 
 sys.path.insert(0, os.path.join(PROJECT_ROOT, 'src'))
 
-# Import arsitektur model dan decoder IndoGPT
 from model.model import ConformerIndoGPTTransducer
 from model.misc.beam_decoder import BeamDecoder
 
@@ -76,10 +61,6 @@ CONFIG = {
 }
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-# ============================================================================
-# FUNGSI EKSTRAKSI FITUR LOG-MEL SPECTROGRAM
-# ============================================================================
 
 def remove_ocular_artifacts_ica(eeg_signal, ch_names, threshold=0.6):
     frontal_indices = [i for i, ch in enumerate(ch_names) if 'AF3' in ch or 'AF4' in ch]
@@ -152,10 +133,6 @@ def process_test_df(df, config):
         metadata.append({'id': id_val, 'subject': subject, 'gender': gender, 'sentence': sentence})
     return features, targets, metadata
 
-# ============================================================================
-# DATASET & DATALOADER
-# ============================================================================
-
 class EEGDataset(Dataset):
     def __init__(self, features, targets, tokenizer, metadata=None):
         self.features = features
@@ -164,10 +141,9 @@ class EEGDataset(Dataset):
         self.metadata = metadata or [{}] * len(features)
     def __len__(self): return len(self.features)
     def __getitem__(self, idx):
-        # Gunakan fungsi encode milik HuggingFace
+
         encoded_tokens = self.tokenizer.encode(self.targets[idx])
         
-        # SHIFTING: Geser semua token +1 untuk ruang <blank>
         shifted_tokens = [t + 1 for t in encoded_tokens]
         
         return {
@@ -202,30 +178,23 @@ def compute_cer(reference, hypothesis):
             d[i][j] = min(d[i-1][j] + 1, d[i][j-1] + 1, d[i-1][j-1] + cost)
     return d[len(reference)][len(hypothesis)] / len(reference)
 
-# ============================================================================
-# FUNGSI INFERENSI PADA NOISE
-# ============================================================================
-
 def predict_on_noise_and_save(model, test_loader, tokenizer, output_dir, device, beam_decoder, output_csv_name):
     model.eval()
     predictions_list = []
     
     with torch.no_grad():
         for batch in tqdm(test_loader, desc="  -> Prediksi Noise"):
-            # 1. Ambil matriks fitur Log-Mel Spectrogram asli
+
             real_features = batch['feature'].to(device)
             metadata_batch = batch['metadata']
             
-            # 2. GANTI DENGAN GAUSSIAN NOISE MURNI
             noise_features = torch.randn_like(real_features)
             
-            # Timpa fitur yang masuk ke model menjadi acak
             features = noise_features
             
             for i, meta in enumerate(metadata_batch):
                 ground_truth = meta['sentence']
                 
-                # Decode noise murni menjadi teks
                 pred_text = beam_decoder.decode(features[i:i+1]) if beam_decoder else ""
                 cer = compute_cer(ground_truth, pred_text)
                 
@@ -243,10 +212,6 @@ def predict_on_noise_and_save(model, test_loader, tokenizer, output_dir, device,
     
     return predictions_df
 
-# ============================================================================
-# MAIN EXECUTOR (PRE-FLIGHT CHECK & LOOP)
-# ============================================================================
-
 def main():
     SUBJECTS = [f"SUB{i}" for i in range(1, 13)] + ['all']
     
@@ -254,7 +219,6 @@ def main():
     print("PRE-FLIGHT CHECK: MEMERIKSA KELENGKAPAN FILE MODEL & DATA (IndoGPT)")
     print("=" * 80)
     
-    # Init Tokenizer sekali saja di luar loop (Karena IndoGPT universal)
     print("\n[STEP 0] Loading Universal IndoNLGTokenizer...")
     tokenizer = IndoNLGTokenizer.from_pretrained("indobenchmark/indogpt")
     
@@ -268,10 +232,9 @@ def main():
     valid_subjects = []
     missing_reports = []
     
-    # 1. Pengecekan Cepat (Dry-Run)
     for subject in SUBJECTS:
         test_csv_path = os.path.join(PROJECT_ROOT, f'dataset/{subject}_eq_3_0_test.csv')
-        # Model khusus LogMel + IndoGPT
+
         best_model_path = os.path.join(OUTPUT_DIR, f'{subject}_eq_3_0_logmel_best_model_10_1_IndoGPT.pt')
         
         missing = []
@@ -284,7 +247,6 @@ def main():
             valid_subjects.append(subject)
             print(f"  ✓ {subject.upper()}: Siap dievaluasi")
             
-    # Tampilkan Peringatan Jika Ada yang Kurang
     if missing_reports:
         print("\n[WARNING] Beberapa subjek akan DILOMPATI karena file belum lengkap:")
         for report in missing_reports:
@@ -297,7 +259,6 @@ def main():
         
     print(f"\n[INFO] Melanjutkan proses evaluasi untuk {len(valid_subjects)} subjek valid menggunakan {DEVICE}...")
     
-    # 2. Eksekusi Utama hanya untuk subjek yang valid
     for subject in valid_subjects:
         print(f"\n" + "=" * 60)
         print(f"Memproses Noise-Baseline untuk Subjek: {subject.upper()} (IndoGPT)")
@@ -307,18 +268,15 @@ def main():
         best_model_path = os.path.join(OUTPUT_DIR, f'{subject}_eq_3_0_logmel_best_model_10_1_IndoGPT.pt')
         output_csv_name = f'NOISE_BASELINE_{subject}_eq_3_0_logmel_test_predictions_10_1_IndoGPT.csv'
         
-        # Load Test Set & Ekstraksi
         df_test = pd.read_csv(test_csv_path)
         features_test, targets_test, metadata_test = process_test_df(df_test, CONFIG)
         test_dataset = EEGDataset(features_test, targets_test, tokenizer, metadata_test)
         test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False, collate_fn=collate_batch)
         
-        # Bangun Model & Load Weights
         model = ConformerIndoGPTTransducer(CONFIG).to(DEVICE)
         saved_data = torch.load(best_model_path, map_location=DEVICE, weights_only=False)
         model.load_state_dict(saved_data['model_state_dict'], strict=False)
         
-        # Evaluasi Noise menggunakan BeamDecoder standar (Bukan Char-Decoder)
         beam_decoder = BeamDecoder(model, tokenizer, beam_size=3)
         predict_on_noise_and_save(model, test_loader, tokenizer, OUTPUT_DIR, DEVICE, beam_decoder, output_csv_name)
         

@@ -1,11 +1,3 @@
-"""
-Noise-Baseline Evaluation Script (Hilbert Spectrum + IndoGPT Decoder)
-=====================================================================
-Metodologi: "Are EEG-to-Text Models Working?" (Jo et al., 2024)
-Menguji seberapa besar bias Language Model dari IndoGPT saat fitur 
-otak/EEG dihancurkan (diganti dengan Random Gaussian Noise).
-"""
-
 import os
 import sys
 import pandas as pd
@@ -15,17 +7,14 @@ from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
 import warnings
 
-# Import library untuk Fitur Hilbert & Artefak
 from PyEMD import CEEMDAN
 from scipy.signal import hilbert
 from sklearn.decomposition import FastICA
 from scipy.stats import pearsonr
 
-# Import Tokenizer Bypass (Sesuai dengan script asli)
 import transformers.utils
 import transformers.utils.generic
 
-# Bypass HuggingFace internal checks
 if not hasattr(transformers.utils, 'is_tf_available'): transformers.utils.is_tf_available = lambda: False
 if not hasattr(transformers.utils.generic, '_is_jax'): transformers.utils.generic._is_jax = lambda x: False
 if not hasattr(transformers.utils.generic, '_is_tensorflow'): transformers.utils.generic._is_tensorflow = lambda x: False
@@ -37,10 +26,6 @@ from indobenchmark import IndoNLGTokenizer
 
 warnings.filterwarnings('ignore')
 
-# ============================================================================
-# KONFIGURASI PATH & PARAMETER (Sama persis dengan script training)
-# ============================================================================
-
 SUBJECT = 'SUB4'
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../'))
@@ -50,7 +35,6 @@ OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'src/pipelines/training')
 
 sys.path.insert(0, os.path.join(PROJECT_ROOT, 'src'))
 
-# Import arsitektur model dan decoder IndoGPT
 from model.model import ConformerIndoGPTTransducer
 from model.misc.beam_decoder import BeamDecoder
 
@@ -64,7 +48,7 @@ CONFIG = {
     'decoder_dim': 768,
     'joint_dim': 768,
     'num_layers': 4,
-    'vocab_size': None, # Akan diisi setelah meload IndoNLGTokenizer
+    'vocab_size': None,
     
     'batch_size': 7,
     
@@ -84,13 +68,8 @@ CONFIG = {
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# Nama file model yang akan dimuat
 BEST_MODEL_PATH = os.path.join(OUTPUT_DIR, f'{SUBJECT}_eq_3_0_hilbert_best_model_10_1_IndoGPT.pt')
 OUTPUT_CSV_NAME = f'NOISE_BASELINE_{SUBJECT}_eq_3_0_hilbert_test_predictions_10_1_IndoGPT.csv'
-
-# ============================================================================
-# FUNGSI EKSTRAKSI FITUR HILBERT SPECTRUM
-# ============================================================================
 
 def remove_ocular_artifacts_ica(eeg_signal, ch_names, threshold=0.6):
     frontal_indices = [i for i, ch in enumerate(ch_names) if 'AF3' in ch or 'AF4' in ch]
@@ -196,10 +175,6 @@ def process_test_df(df, config):
         metadata.append({'id': id_val, 'subject': subject, 'gender': gender, 'sentence': sentence})
     return features, targets, metadata
 
-# ============================================================================
-# DATASET & DATALOADER
-# ============================================================================
-
 class EEGDataset(Dataset):
     def __init__(self, features, targets, tokenizer, metadata=None):
         self.features = features
@@ -208,9 +183,9 @@ class EEGDataset(Dataset):
         self.metadata = metadata or [{}] * len(features)
     def __len__(self): return len(self.features)
     def __getitem__(self, idx):
-        # Gunakan fungsi encode milik HuggingFace
+
         encoded_tokens = self.tokenizer.encode(self.targets[idx])
-        # SHIFTING untuk ruang <blank>
+
         shifted_tokens = [t + 1 for t in encoded_tokens]
         return {
             'feature': torch.FloatTensor(self.features[idx]),
@@ -244,10 +219,6 @@ def compute_cer(reference, hypothesis):
             d[i][j] = min(d[i-1][j] + 1, d[i][j-1] + 1, d[i-1][j-1] + cost)
     return d[len(reference)][len(hypothesis)] / len(reference)
 
-# ============================================================================
-# FUNGSI INFERENSI PADA NOISE (INTI PENGUJIAN)
-# ============================================================================
-
 def predict_on_noise_and_save(model, test_loader, tokenizer, output_dir, device, beam_decoder):
     model.eval()
     predictions_list = []
@@ -258,21 +229,17 @@ def predict_on_noise_and_save(model, test_loader, tokenizer, output_dir, device,
     
     with torch.no_grad():
         for batch in tqdm(test_loader, desc="Testing with Noise"):
-            # 1. Ambil matriks fitur Hilbert Spectrum asli
+
             real_features = batch['feature'].to(device)
             metadata_batch = batch['metadata']
             
-            # 2. GANTI DENGAN GAUSSIAN NOISE MURNI
-            # Mengganti data EEG dengan angka acak dari distribusi normal standar (Mean 0, Std 1)
             noise_features = torch.randn_like(real_features)
             
-            # Timpa fitur yang akan dimasukkan ke model
             features = noise_features
             
             for i, meta in enumerate(metadata_batch):
                 ground_truth = meta['sentence']
                 
-                # Model dipaksa melakukan decoding berbekal noise acak
                 pred_text = beam_decoder.decode(features[i:i+1]) if beam_decoder else ""
                 cer = compute_cer(ground_truth, pred_text)
                 
@@ -290,17 +257,12 @@ def predict_on_noise_and_save(model, test_loader, tokenizer, output_dir, device,
     
     return predictions_df
 
-# ============================================================================
-# MAIN EXECUTOR
-# ============================================================================
-
 def main():
     print("=" * 80)
     print(f"NOISE-BASELINE DIAGNOSTIC ({SUBJECT} | Hilbert Spectrum | IndoGPT Decoder)")
     print(f"[INFO] Using device: {DEVICE}") 
     print("=" * 80)
     
-    # 1. Load Pre-trained IndoNLGTokenizer
     print("\n[STEP 1] Loading Pre-trained IndoNLGTokenizer...")
     tokenizer = IndoNLGTokenizer.from_pretrained("indobenchmark/indogpt")
     
@@ -312,14 +274,12 @@ def main():
     CONFIG['vocab_size'] = tokenizer.vocab_size + 1
     print(f"Vocab size (including blank): {CONFIG['vocab_size']}")
     
-    # 2. Load HANYA Test Set (Ekstraksi fitur Hilbert)
     print(f"\n[STEP 2] Memuat Test Set (Ekstraksi fitur Hilbert)...")
     df_test = pd.read_csv(TEST_CSV)
     features_test, targets_test, metadata_test = process_test_df(df_test, CONFIG)
     test_dataset = EEGDataset(features_test, targets_test, tokenizer, metadata_test)
     test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False, collate_fn=collate_batch)
     
-    # 3. Bangun Model (ConformerIndoGPTTransducer) & Load Weights
     print("\n[STEP 3] Membangun model dan memuat bobot terbaik (Best Weights)...")
     model = ConformerIndoGPTTransducer(CONFIG).to(DEVICE)
     
@@ -334,7 +294,6 @@ def main():
         
     beam_decoder = BeamDecoder(model, tokenizer, beam_size=3)
     
-    # 4. Uji dengan Noise
     predict_on_noise_and_save(model, test_loader, tokenizer, OUTPUT_DIR, DEVICE, beam_decoder)
 
 if __name__ == '__main__':
